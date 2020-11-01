@@ -117,7 +117,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-#   
+
+include:
+  - _redirects
 
 # this means to ignore newlines until "baseurl:"
 # >-
