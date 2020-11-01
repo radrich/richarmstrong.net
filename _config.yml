@@ -20,13 +20,29 @@
 
 title: TapTapKaboom
 email: rich@taptapkaboom.com
-description: >- # this means to ignore newlines until "baseurl:"
-  I&#039;m Rich Armstrong. And I Want You To Have Fun Creating. Because my eyes light up when I create. And I want to pass that on. I want creating to be easy and fun. I want you to love it as much as I do. And I believe you can.
+tagline: Develop Your Creative Super Powers
+description: "I&#039;m Rich Armstrong. And I Want You To Have Fun Creating. Because my eyes light up when I create. And I want to pass that on. I want creating to be easy and fun. I want you to love it as much as I do. And I believe you can."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://taptapkaboom.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: taptapkaboom
 github_username: taptapkaboom
 fathom_analytics: WBBMJNFH
+logo: /img/favicon-72.png
+
+social:
+  links:
+    - https://twitter.com/TapTapKaboom
+    - https://www.linkedin.com/in/mrrichardarmstrong
+    - https://github.com/taptapkaboom
+    - https://instagram.com/taptapkaboom
+    - https://dribbble.com/taptapkaboom
+    - https://ello.com/taptapkaboom
+    - https://behance.com/taptapkaboom
+    - https://youtube.com/taptapkaboom
+
+twitter:
+  username: taptapkaboom
+  card: summary
 
 permalink: /:slug/
 
@@ -34,10 +50,16 @@ defaults:
   -
     scope:
       path: ""
+      type: ""
+    values:
+      author: "taptapkaboom"
+  -
+    scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
-      author: "rich"
+      author: "taptapkaboom"
       auto_related: true
   -
     scope:
@@ -45,7 +67,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      author: "rich"
+      author: "taptapkaboom"
 
 collections:
   classes:
@@ -95,3 +117,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#   
+
+# this means to ignore newlines until "baseurl:"
+# >-

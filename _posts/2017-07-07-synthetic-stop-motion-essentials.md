@@ -4,7 +4,7 @@ subtitle: "Some theory on rocking stop motion in After Effects"
 desc: "Here’s some principles, tips, issues, and expressions used in the synthetic stop motion class."
 background_color: "#2a0e4f"
 color: "white"
-img: 'img/synth-sm-icon.png'
+image: 'img/synth-sm-icon.png'
 categories: ['Animation', 'Coding']
 tags: ['After Effects', 'Expressions', 'Stop Motion']
 related:

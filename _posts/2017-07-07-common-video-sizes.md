@@ -4,7 +4,7 @@ subtitle: "Common videos dimensions"
 desc: "A short post on what size your documents and compositions should be when it comes to making videos."
 updated: 2020-10-20
 background_color: "#0077ff"
-img: 'img/common-video-sizes-icon.png'
+image: 'img/common-video-sizes-icon.png'
 categories: ['Animation']
 tags: ['After Effects', 'Info']
 related:

@@ -2,8 +2,8 @@
 title: "The Random Word Doodle"
 subtitle: "An Exercise to Boost Your Creativity"
 description: "The Random Word Doodle is a creative technique for making your brain sweat. There are plenty of sweet benefits that come with doodling for 10-15 minutes everyday. Discover what they are and where to get your random words from."
-img: 'img/rwd-thumb.png'
-header_img: 'img/rwd-hero.png'
+image: 'img/rwd-thumb.png'
+header_image: 'img/rwd-hero.png'
 background_color: white
 color: white
 categories: ['Creativity']

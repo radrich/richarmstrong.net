@@ -2,7 +2,7 @@
 title: The Story of TapTapKaboom
 subtitle: An Origin Story
 permalink: /story/
-img: 'img/rich-doodle-thumb.jpg'
+image: 'img/rich-doodle-thumb.jpg'
 background_color: black
 color: white
 related:

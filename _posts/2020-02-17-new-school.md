@@ -4,8 +4,8 @@ subtitle: "Solo classes and new learning experiences"
 desc: "All classes since the beginning of 2019 are up for sale on TapTapKaboom School. And there will be different types of learning content available in the future."
 background_color: "#111111"
 color: "white"
-img: 'img/school-is-live.jpg'
-header_img: 'img/school-is-live-banner.jpg'
+image: 'img/school-is-live.jpg'
+header_image: 'img/school-is-live-banner.jpg'
 categories: ['News And Updates', 'Teaching']
 tags: ['TapTapKaboom School']
 related:

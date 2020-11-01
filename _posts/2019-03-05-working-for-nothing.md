@@ -3,9 +3,9 @@ title: "Should I Work For Free?"
 subtitle: "And When Do I Charge?"
 desc: "Should you work for free? Should you charge? Great questions. The answer is yes."
 background_color: "#edbd05"
-header_img: 'img/working-for-nothing-header.jpg'
+header_image: 'img/working-for-nothing-header.jpg'
 color: "white"
-img: 'img/working-for-nothing.jpg'
+image: 'img/working-for-nothing.jpg'
 categories: ['Success']
 tags: ['Client Work', 'Money']
 ---

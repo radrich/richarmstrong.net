@@ -1,17 +1,17 @@
 - title: 'The Creativity Mini Course: 5 Days of Creativity'
   subtitle: 'Enrol for free!'
   url: https://ttkb.me/cmc
-  img: 'img/cmc-web-thumbnail.jpg'
+  image: 'img/cmc-web-thumbnail.jpg'
   color: '#ffd400'
   
 - title: 'The Perfect 100 Day Project: Over 25K students. Only 30 mins. Explosive creative growth!'
   subtitle: 'Check it out'
   url: https://ttkb.me/100-day-project
-  img: 'img/perfect-100-day-project-thumb.jpg'
+  image: 'img/perfect-100-day-project-thumb.jpg'
   color: '#d6d6d6'
 
 - title: 'Want Individual Attention + Feedback?'
   subtitle: 'Let’s Chat 1:1 on Superpeer'
   url: https://ttkb.me/superpeer
-  img: 'img/superpeer.png'
+  image: 'img/superpeer.png'
   color: '#d6d6d6'

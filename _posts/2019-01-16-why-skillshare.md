@@ -4,7 +4,7 @@ subtitle: "The No.1 Reason is Community"
 desc: "You need a community. You need people who are on the same journey as you. People who understand you. I realised that this is the biggest thing that Skillshare actually offers."
 background_color: "#111111"
 color: white
-img: 'img/why-skillshare-thumb.png'
+image: 'img/why-skillshare-thumb.png'
 categories: ['Creativity', 'Success']
 tags: ['Community', 'Skillshare']
 ---

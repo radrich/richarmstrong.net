@@ -4,8 +4,8 @@ subtitle: "From Idea to App Stores"
 desc: "Here’s my experience of creating my first React Native app, The Random Word Doodle."
 background_color: "#111111"
 color: "white"
-img: 'img/first-rn-app-thumb.jpg'
-header_img: 'img/rwd-react-native-process.png'
+image: 'img/first-rn-app-thumb.jpg'
+header_image: 'img/rwd-react-native-process.png'
 categories: ['Coding']
 tags: ['Products', 'React Native', 'Behind The Scenes', 'Experiences', 'UX']
 ---

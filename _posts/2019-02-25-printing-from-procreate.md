@@ -3,9 +3,9 @@ title: "Printing from Procreate"
 subtitle: "A few things you should know"
 desc: "When you want to print (because who wouldn't want to print a marbling piece?) here's a few things I do. And a few things you should think about."
 background_color: "#2a0e4f"
-header_img: 'img/printing-procreate-header.jpg'
+header_image: 'img/printing-procreate-header.jpg'
 color: "white"
-img: 'img/printing-procreate.jpg'
+image: 'img/printing-procreate.jpg'
 categories: ['Art', 'Illustration']
 tags: ['Procreate', 'iPad', 'Info']
 related:

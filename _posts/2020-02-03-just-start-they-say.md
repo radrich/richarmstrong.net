@@ -4,7 +4,7 @@ subtitle: "This advice doesn't help unless you know what it looks like"
 desc: "I know you have a project you want to complete, a skill you want to learn, or a habit you want to nail down. Maybe you have a few on this list. But for some reason it’s still on your list. You’ve made no progress. So just start. But what does that look like?"
 background_color: "#5426e8"
 color: "white"
-img: 'img/just-start-they-say-thumb.jpg'
+image: 'img/just-start-they-say-thumb.jpg'
 categories: ['Success']
 tags: ['Effectivity', 'Exercises']
 related:

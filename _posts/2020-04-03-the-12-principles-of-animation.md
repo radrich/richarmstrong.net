@@ -6,7 +6,7 @@ categories: ['Animation']
 tags: ['Theory']
 background_color: "#00dcbe"
 color: "white"
-img: 'img/12-principles-thumb.png'
+image: 'img/12-principles-thumb.png'
 related:
   - /classes/intro-to-looom
   - /classes/procreate-animation

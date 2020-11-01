@@ -1,7 +1,8 @@
-- id: rich
+- id: taptapkaboom
   name: Rich Armstrong
   instagram: ''
   website: https://taptapkaboom.com
-  img: '' #get there—like an avatar
+  twitter: taptapkaboom
+  picture: /img/rich.png
   title: 'Founder of TapTapKaboom'
   desc: 'Rich is a compulsive creator and maker, and spends his time helping other creatives achieve success.'

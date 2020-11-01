@@ -2,7 +2,7 @@
 title: "100 Web Characters"
 subtitle: "A book of 100 illustrated characters and their stories"
 description: "The 100 Web Characters Book is a collection of 100 illustrated characters and their stories. Each illustrated character is based on a web or technology term, and is accompanied by a hand-written story of who they are, and what they get up to."
-img: 'img/100-web-chars-thumbnail.jpg'
+image: 'img/100-web-chars-thumbnail.jpg'
 background_color: '#f0c810'
 color: black
 categories: ['Projects', 'Illustration']

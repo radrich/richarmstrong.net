@@ -5,7 +5,7 @@ desc: "This mini-course covers what creativity is, how it works, and how you can
 external_url: https://ttkb.me/cmc
 date: "2020-09-09"
 priority: 2
-img: "img/cmc-thumbnail.jpg"
+image: "img/cmc-thumbnail.jpg"
 background_color: "#ffd400"
 categories: ['Creativity']
 tags: ['exercises', 'free']

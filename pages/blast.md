@@ -2,7 +2,7 @@
 title: The Newsletter
 subtitle: A.K.A. The Blast
 permalink: /blast/
-img: "img/blast-thumb.jpg"
+image: "img/blast-thumb.jpg"
 index: true
 ---
 # {{ page.title | widont }}

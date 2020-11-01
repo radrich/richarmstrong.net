@@ -2,7 +2,7 @@
 title: Classes
 subtitle: Level up. Get your learning on.
 permalink: /classes/
-img: 'img/classes-thumb.jpg'
+image: 'img/classes-thumb.jpg'
 background_color: '#FEBFE7'
 color: black
 index: true
