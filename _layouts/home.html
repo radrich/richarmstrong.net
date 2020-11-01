@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% assign latest_classes = site.classes | sort: "date" | reverse | slice: 0, 6 %}
+{% assign latest_posts = site.posts | sort: "date" | reverse | slice: 0, 6 %}
+
+
+<div class="content">
+	{{ content | widont }}
+
+	<div id="links"></div>
+	<h2>Latest &amp; Greatest</h2>
+	{%- include grid.html items=site.data.links list=true -%}
+
+	<h2>Recent Classes <a href="{% link pages/classes.md %}" class="cta">View All Classes</a></h2>
+	{%- include grid.html items=latest_classes -%}
+
+	{%- if site.posts.size > 0 -%}
+	<h2>Recent Posts <a href="{% link pages/posts.md %}" class="cta">View All Posts</a></h2>
+	{%- include grid.html items=latest_posts -%}
+	{%- endif -%}
+
+	{%- include signup.html -%}
+</div>

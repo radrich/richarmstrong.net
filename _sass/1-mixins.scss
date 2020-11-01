@@ -1,0 +1,19 @@
+// responsive
+
+@mixin hide-tablet{
+	@media (max-width: $tabletMax) {
+		display: none;
+	}
+}
+
+@mixin hide-mobile{
+	@media (max-width: $mobileMax) {
+		display: none;
+	}
+}
+
+@mixin show-mobile{
+	@media (min-width: $tabletMin) {
+		display: none;
+	}
+}

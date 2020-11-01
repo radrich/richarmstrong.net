@@ -1,0 +1,30 @@
+{% if include.items.size > 0 %}
+  <div class="grid {% if include.list %}list{% endif %}">
+    <ul>
+    {% for item in include.items %}
+      <li>
+        <a href="{% if item.external_url %}{{ item.external_url }}{% else %}{{ item.url }}{% endif %}">
+          <div class="img-thumb" style="background-color:{{ item.background_color }};">
+            <img style="background-color:{{ entry.background_color }}" src="{{ site.baseurl | append: 'assets/blank.png' | relative_url }}" alt="{{ item.title }}">
+          {% if item.img %}
+            <span class="thumb" style="background-image: url('{{ item.img | relative_url }}');"></span>
+          {% else %}
+            <span class="thumb" style="color: {{ item.color }};">
+              {% if item.letter %}
+                {{ item.letter | slice: 0 }}
+              {% else %}
+                {{ item.title | replace: 'The ': '' | replace: 'the ': '' | strip | slice: 0 }}
+              {% endif %}
+            </span>
+          {% endif %}
+          </div>
+          <span class="info">
+            <span class="title">{{ item.title | widont }}</span>
+            {% if item.subtitle %}<span class="subtitle">{{ item.subtitle | widont }}</span>{% endif %}
+          </span>
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+{% endif %}

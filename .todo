@@ -1,0 +1,133 @@
+Next:
+------------------------
+[] Page title – check if SEO plugin does it or not
+
+Post-launch:
+------------------------
+[] check out the following
+	[] https://github.com/jekyll/jekyll-sitemap
+	[] https://github.com/jekyll/jekyll-feed
+	[] https://github.com/jekyll/jekyll-seo-tag
+	[] https://github.com/planetjekyll/awesome-jekyll-plugins
+[] check all posts and pages with a fine-tooth comb (subtitle, categories, tags, content, images)
+[] typography. line width is NB!!
+[] Banners on mobile need some work
+[] Get Chantelle (and others) to read privacy policy
+[] on hover of grid-items, rotate them different amounts in different directions
+[] Highlight tag and category title (rather than quote marks)
+[] line-height on thumb letters
+[] Update privacy policy on ttk school
+[] Behance icon in social links
+[] new nav bar
+[] meta information (meta data, favicons, meta images, social images, etc.)
+[] classes to have their own page
+[] order most related posts by tag match
+[] footer betterment
+[] dynamic mailing list things (which list, and if mailing list)
+[] Get rid of _layouts/ttkb-extras.html
+[] Style the 404 page
+[] Continual integration
+[] Posts page to show "view by cateogry or tag" button, or a filter button
+[] change classes to posts with a category of class (this requires exluding from other pages etc.)
+[] Include all classes and tell users where it goes
+[] Tell students that it something is an external link
+[] Auto related to include classes
+[] Subscribe box button on mobile is UGLY
+[] footer notes with stars *
+[] classes into categories
+[] what class should I take next post
+[] 'More posts' instead of 'Related posts'?
+[] 'News' and 'updated' tags on classes and posts etc.
+
+Jekyll options:
+------------------------
+bundle exec jekyll serve --livereload --host 0.0.0.0 --trace
+JEKYLL_ENV=production bundle exec jekyll build
+
+Liquid Cheats:
+------------------------
+# {{ page.title | widont }}
+
+Front-matter data:
+------------------------
+title: "Abstract Art"
+subtitle: "Easy Ways to Express Yourself With Adobe Fresco"
+desc: "Here’s some principles, tips, issues, and expressions used in the synthetic stop-motion class." #for meta
+external_url: https://ttkb.me/fresco-abstract-art #use this to link to external url instead of url on taptapkaboom.com
+header_img: 'img/rwd-react-native-process.png' #for the post
+img: "img/abstract-art-site-thumbnail.jpg" #thumbnail
+background_color: "#ffdfd8" #styles thumbnail background color
+color: "white" #for CSS, so can be hex. Styles the thumb text color if there’s no img
+categories: ['class additions', 'animation']
+tags: ['after effects', 'code', 'expressions', 'stop-motion', 'animation']
+related: #add the folder and slug (no date)
+  - /posts/common-video-sizes
+  - /classes/procreate-animation
+  - /classes/just-start
+
+# optional
+permalink: /say-what/ #if it’s different to the slug
+hide_headings: true #if you want a layout without headings (so you can do somethign special)
+
+# posts
+updated: 2020-10-20 #include if has been updated
+layout: post #include it if it’s different than post
+auto_related: false #add false if you want to remove related posts (shows random 3 based on tag relation)
+
+#pages
+permalink: /slug/ #INCLUDE! Otherwise it defaults to /pages/slug
+layout: post #include it if it’s different than post
+
+# classes
+date: "2019-09-26"
+priority: 1 #1 is high, go lower for less, leave out if priority doesn’t matter
+
+
+Categories:
+------------------------
+'Animation', 
+'Creativity', 
+'Success', 
+'Illustration', 
+'Art', 
+'Design', 
+'News', 
+'Coding', 
+
+Tags:
+------------------------
+'Animation',
+'Theory',
+'Projects',
+'The100DayProject',
+'Effectivity',
+'Exercises', 
+'After Effects',
+'Stop Motion',
+'Play', 
+'Exploration', 
+'Abstract', 
+'iPad', 
+'Procreate', 
+'Adobe Fresco', 
+'Theory', 
+'Picture Books', 
+'Products', 
+'Teaching', 
+'Client Work', 
+'Money', 
+'Community', 
+'Skillshare', 
+'React Native', 
+'Behind The Scenes', 
+'Experiences', 
+'Sublime Text', 
+'Tools', 
+'Expressions', 
+
+Great Jekyll resources:
+------------------------
+https://shopify.github.io/liquid/
+https://jekyllrb.com/docs/
+https://blog.webjeda.com/jekyll-related-posts/
+

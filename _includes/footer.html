@@ -1,0 +1,23 @@
+<footer>
+<div class="social">
+  {% for account in site.data.social %}
+    <a href="{{ account.url }}" class="icon" target="_blank" title="{{ account.title }}">
+      {% assign icon = 'svg/' | append: account.icon %}
+      {% include {{ icon }} %}
+    </a>
+  {% endfor %}
+</div>
+<div class="links">
+  <a class="logo" href="{{ site.url }}">
+    {%include svg/shades.svg %}
+    <span class="title">{{ site.title }}</span>
+  </a>
+  {%- include links-footer.html -%}
+</div>
+<div class="info">
+  <p>&copy; {{ site.title }} {{ "now" | date: '%Y' }}</p>
+  <div class="ams-logo">{%- include svg/amsterdam.svg -%}</div>
+</div>
+</footer>
+
+<script src="{{ 'assets/script.js?v=' | append: site.asset_version | relative_url }}"></script>

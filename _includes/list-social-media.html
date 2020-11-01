@@ -1,0 +1,10 @@
+{% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
+<ul class="list-social-media">
+  {% for account in site.data.social %}
+    <li><a href="{{ account.url }}" target="_blank" title="{{ account.title }}">
+      {% assign icon = 'svg/' | append: account.icon %}
+      <span class="icon">{% include {{ icon }} %}</span>
+      <span class="name">{{ account.title }}</span>
+    </a></li>
+  {% endfor %}
+</ul>

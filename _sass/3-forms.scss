@@ -1,0 +1,83 @@
+form{
+	margin: 20px 0;
+	padding: 20px;
+	background-color: $black05;
+	border-radius: 8px;
+	box-shadow: inset 0 0 0 1px transparentize(black, .9);
+	
+	button, input[type="submit"]{
+		height: 60px;
+		background-color: black;
+		color: white;
+		font-size: 20px;
+		font-weight: bold;
+		font-family: $ff1;
+		padding: 0 20px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		
+		@media (max-width: $mobileMax) {
+			height: 50px;
+			font-size: 20px;
+		}
+		
+		&:hover, &:active{
+			background-color: $accentColor1;
+		}
+	}
+
+	input[type="email"],
+	input[type="text"],
+	input[type="tel"]{
+		font-family: $ff2;
+		width: 100%;
+		height: 60px;
+		font-size: 26px;
+		box-sizing: border-box;
+		padding: 15px;
+		border: none;
+		appearance: none;
+		outline: none;
+		border-radius: 0;
+		box-shadow: inset 0 0 0 1px transparentize(black, .9);
+		
+		@media (max-width: $mobileMax) {
+			height: 50px;
+			font-size: 20px;
+		}
+	}
+	
+	&.subscribe{
+		h2{
+			margin: 0 0 14px;
+		}
+		
+		.inputs{
+			display: flex;
+		}
+		
+		input[type="email"]{
+			border-top-left-radius: 8px;
+			border-bottom-left-radius: 8px;
+		}
+		input[type="submit"]{
+			border-top-right-radius: 8px;
+			border-bottom-right-radius: 8px;
+		}
+		
+		@media (max-width: $mobileMax) {
+			h2{ color: white; }
+			
+			.inputs{flex-direction: column;}
+			
+			input[type="email"]{
+				border-radius: 8px;
+			}
+			
+			input[type="submit"]{
+				margin-top: 12px;
+				border-radius: 8px;
+			}
+		}
+	}
+}

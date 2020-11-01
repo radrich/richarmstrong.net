@@ -1,0 +1,271 @@
+::selection {
+  background-color: transparentize(black, .95);
+}
+
+html, body{
+	padding: 0; margin: 0;
+	font-family: $ff2;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.3em;
+	background-color: $black05;
+	color: #111;
+}
+
+body{
+	padding-top: $navHeightDesktop - 1;
+	@media (max-width: 599px){padding-top: 49px;}
+	&.menu-open{overflow: hidden;}
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: $ff1;
+	padding: 0;
+	margin: 1.5em 0 .5em;
+	font-weight: bold;
+	line-height: 1em;
+	position: relative;
+}
+
+h1{
+	font-size: 56px;
+	margin: 40px 0;
+	
+	& + h2{
+		margin-top: -.5em;
+	}
+	
+	@media (max-width: $tabletMax) {
+		margin: 10px 0 20px 0;
+	}
+	
+	@media (max-width: $mobileMax) {
+		font-size: 40px;
+	}
+}
+
+h2{
+	font-size: 40px;
+	font-weight: bold;
+	
+	& + h1{
+		margin-top: 0em;
+	}
+	
+	& + h2{
+		margin-top: 1em;
+	}
+	
+	@media (max-width: $mobileMax) {
+		font-size: 32px;
+	}
+}
+
+h3{
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	
+	@media (max-width: $mobileMax) {
+		font-size: 20px;
+	}
+}
+
+h4{
+	font-size: 24px;
+	
+	@media (max-width: $mobileMax) {
+		font-size: 20px;
+	}
+}
+
+h5{
+	font-size: 20px;
+	text-transform: uppercase;
+	
+	@media (max-width: $mobileMax) {
+		font-size: 16px;
+	}
+}
+
+h6{
+	font-size: 20px;
+	
+	@media (max-width: $mobileMax) {
+		font-size: 16px;
+	}
+}
+
+a{
+	color: black;
+	text-decoration: underline;
+	
+	&:hover, &:active{
+		color: $accentColor1;
+	}
+}
+
+a, button, input[type="submit"]{
+	transition: all 150ms;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparentize($accentColor1, .9);
+	//user-select: none;
+	
+	> span{
+		transition: all 150ms;
+	}
+	
+	svg {
+	  fill: currentColor;
+	}
+}
+
+a.cta{
+	background-color: transparentize(black, .95);
+	font-size: 16px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	box-sizing: border-box;
+	line-height: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	position: relative;
+	font-family: $ff1;
+	font-weight: bold;
+	padding: 12px 20px;
+	min-height: 40px;
+	border-radius: 24px;
+	color: black;
+	
+	&:hover, &:active{ background-color: transparentize(black, .9); }
+	
+	&.bg-light{
+		color: white;
+		background-color: transparentize(white, .8);
+		
+		&:hover, &:active{ background-color: transparentize(white, .7); }
+	}
+	&.bg-dark{}
+	
+	h2 &{
+		position: absolute;
+		right: 0;
+		margin: 2px 0 0 12px;
+		
+		@media (max-width: $mobileMax){
+			display: none;
+		}
+	}
+	
+	&.show-mobile-max{
+		display: none;
+		
+		@media (max-width: $mobileMax){
+			display: flex;
+			width: 50%;
+			margin: 0 auto;
+		}
+		@media (max-width: $mobileMin){
+			display: flex;
+			width: 100%;
+		}
+	}
+}
+
+button, input[type="submit"]{
+	font-size: 12px;
+	appearance: none;
+	border: none;
+	outline: none;
+	border-radius: 0;
+}
+
+button{
+	background-color: white
+}
+
+p{
+	font-size: 20px;
+	margin: 1.5em 0;
+	line-height: 1.75em;
+	
+	@media (max-width: $tabletMax) {
+		margin: 1em 0;
+	}
+	
+	a{
+		color: black;
+		&:hover, &:active{
+			color: $accentColor1;
+		}
+	}
+	
+	strong{ font-weight: 700; }
+	b{ font-weight: bold; }
+}
+
+ul, ol{
+	padding: 0 0 0 40px;
+	margin: 1.5em 0;
+	
+	li{
+		margin-top: 12px;
+		line-height: 1.75em;
+		
+		&:first-child{
+			margin-top: 0;
+		}
+	}
+	
+	@media (max-width: $mobileMin) {
+		padding-left: 30px;
+	}
+}
+
+img{
+	display: block;
+}
+
+hr{
+	border: none;
+	height: 1px;
+	background: transparentize(black, .9);
+	margin: 40px auto;
+}
+
+iframe{
+	border: none;
+	display: block;
+}
+
+.caption{
+	display: block;
+	margin: -12px 0 20px;
+	color: mix(black, white, 50%);
+	font-size: .8em;
+}
+
+.wrapper{
+	padding-bottom: 20px;
+	background-color: $black02;
+}
+
+.meta{
+	margin: 40px 0 62px;
+	
+	p{
+		color: mix(white, black, 50%);
+		font-size: .8em;
+		
+		a:not(:hover):not(:active){
+			color: mix(white, black, 50%);
+		}
+	}
+	
+	.tags{
+		display: block;
+	}
+}

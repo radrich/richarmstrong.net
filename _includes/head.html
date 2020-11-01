@@ -1,0 +1,18 @@
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0">
+	
+	<link href='{{ "/img/favicon-32.png?v=" | append: site.asset_version | absolute_url  }}' rel='icon' type='image/png'>
+	<link href='{{ "/img/favicon-72.png?v=" | append: site.asset_version | absolute_url  }}' rel='apple-touch-icon' type='image/png'>
+	
+	{%- seo -%}
+	{%- feed_meta -%}
+	
+	<link rel="stylesheet" href="{{ "/assets/style.css?v=" | append: site.asset_version | relative_url  }}">
+	
+	{%- if jekyll.environment == 'production' and site.fathom_analytics -%}
+    <script src="https://cdn.usefathom.com/script.js" site="{{ site.fathom_analytics }}" defer></script>
+  {%- endif -%}
+
+</head>

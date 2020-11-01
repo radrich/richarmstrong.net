@@ -1,0 +1,30 @@
+<nav id="nav">
+	<div class="nav-content">
+		<div class="top-bar">
+			<h1>
+				<a href="{{ site.url }}">{{ site.title }}</a>
+			</h1>
+			<a class="logo" href="{{ site.url }}">
+				{%- include svg/shades.svg -%}
+			</a>
+			<a class="menu-btn" id="menuBtn">
+				<span class="menu-icon"></span>
+			</a>
+		</div>
+		<div class="menu">
+			<div class="content">
+				<div class="links">
+					{%- include links-nav.html -%}
+				</div>
+				<div class="social">
+					{% for account in site.data.social %}
+					  <a href="{{ account.url }}" class="icon" target="_blank" title="{{ account.title }}">
+					  	{% assign icon = 'svg/' | append: account.icon %}
+					  	{% include {{ icon }} %}
+					  </a>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>

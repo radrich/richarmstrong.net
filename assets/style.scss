@@ -1,0 +1,53 @@
+---
+---
+// fonts
+@font-face {
+  font-family: 'greycliff';
+  src: url('GreycliffCF-Bold.eot'); /* IE9 Compat Modes */
+  src: url('GreycliffCF-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('GreycliffCF-Bold.woff') format('woff'); /* Pretty Modern Browsers */
+  font-weight: 700;
+  font-style: normal;
+}
+$ff1: 'greycliff', Futura, system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+$ff2: system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+// colors
+$black02: mix(black, white, 2%);
+$black05: mix(black, white, 5%);
+$black07: mix(black, white, 7%);
+$black10: mix(black, white, 10%);
+
+$accentColor1: #8A2BE2;
+$accentColor1_90: mix($accentColor1, white, 90%);
+$accentColor2: #30ffa2;
+$accentColor2_90: mix($accentColor2, white, 90%);
+$accentColor3: #007FFF;
+
+
+// measurements
+$mobileMin: 499px;
+$mobileMax: 767px;
+$tabletMin: 768px;
+$tabletMax: 1079px;
+$desktopMin: 1080px;
+
+$wrapperHorizontalMarginDesktop: 60px;
+$wrapperHorizontalMarginMobile: 16px;
+$navHeightDesktop: 80px;
+$navHeightMobile: 48px;
+
+
+@import '1-mixins';
+@import '2-defaults';
+@import '3-forms';
+@import 'hero';
+@import 'content';
+@import 'grid';
+@import 'list-social-media';
+@import 'banner';
+@import 'banner-cookies';
+@import 'nav';
+@import 'footer';
+@import 'code-highlight';

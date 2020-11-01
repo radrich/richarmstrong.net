@@ -1,0 +1,64 @@
+.hero{
+  padding: 80px 60px;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 60vh;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+  &.cover-without-title{background-size: cover;}
+  &.cover-with-title{background-size: cover;}
+  &.contain-without-title{background-size: contain;}
+  &.contain-with-title{background-size: contain;}
+  &.center-image-without-title{background-size: auto 60%;}
+  &.center-image-with-title{background-size: auto 60%;}
+  &.pattern-or-color-only{background-size: 50%; background-repeat: repeat;}
+  
+  &:after{
+    content: "";
+    position: absolute;
+    left: 0; bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: transparentize(black, .9);
+  }
+  
+  h1{
+    margin: 0;
+  }
+  h3{
+    margin: 12px 0 0 0;
+    line-height: 1.5em;
+  }
+  
+  @media (max-width: $tabletMax) {
+    width: 100vw;
+    padding: 60px 30px;
+    h2{font-size: 40px;}
+    a.cta{margin-top: 30px;}
+  }
+  
+  @media (max-width: $mobileMax) {
+    min-height: 240px;
+    height: 50vh;
+    padding: 45px 20px;
+    h2{font-size: 30px;}
+    a.cta{margin-top: 30px;}
+    
+    &.center-image-without-title{background-size: 75% auto;}
+    &.center-image-with-title{background-size: 75% auto;}
+  }
+  
+  @media (max-width: 399px) {
+    height: 50vw;
+  }
+}

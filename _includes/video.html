@@ -1,0 +1,5 @@
+<div class="video">
+  <img src="{{ 'assets/blank-video.png' | relative_url }}" alt="">
+  <iframe src="https://www.youtube.com/embed/{{ include.id }}"></iframe>
+</div>
+{% if include.caption %}<em class="caption">{{ include.caption }}</em>{% endif %}

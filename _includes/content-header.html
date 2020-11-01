@@ -1,0 +1,5 @@
+{% if page.header_img %}
+  <div class="img-content" style="{% if page.background_color %}background-color: {{ page.background_color }};{% endif %}">
+    <img src="{{ page.header_img | relative_url }}" alt="">
+  </div>
+{% endif %}

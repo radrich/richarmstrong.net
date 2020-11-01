@@ -1,0 +1,22 @@
+ul.list-social-media{
+	list-style-type: none;
+	padding-left: 20px;
+	
+	li{
+		a{
+			display: flex;
+			//justify-content: center;
+			align-items: center;
+			
+			.icon{
+				display: block;
+				width: 28px;
+				height: 28px;
+				margin-right: 16px;
+			}
+			.name{
+				
+			}
+		}
+	}
+}

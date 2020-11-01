@@ -1,0 +1,19 @@
+<!-- type: cover, contain, center, pattern -->
+<!-- align:
+	top-left, top-center, top-right
+	middle-left, middle-center, middle-right
+	bottom-left, bottom-center, bottom-right
+-->
+<!-- btn_background_color: light, dark -->
+<div class="banner bg-type-{{ include.type }} align-{{ include.align }}" style="
+background-color: {{ include.background_color }};
+background-image: url('{{ include.img | relative_url }}');
+color: {{ include.color }};">
+  {% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
+  {% if include.subtitle %}<h3>{{ include.subtitle }}</h3>{% endif %}
+  {% if include.cta %}
+    <a class="cta bg-{{ include.btn_background }}" href="{{ include.url | relative_url }}" style="
+    color:{{ include.btn_text_color }}
+    ">{{ include.cta }}</a>
+  {% endif %}
+</div>
