@@ -8,6 +8,7 @@ Post-launch:
 	[] https://github.com/jekyll/jekyll-sitemap
 	[] https://github.com/jekyll/jekyll-feed
 	[] https://github.com/jekyll/jekyll-seo-tag but a proper look
+		[] https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md
 	[] https://github.com/planetjekyll/awesome-jekyll-plugins
 [] check all posts and pages with a fine-tooth comb (subtitle, categories, tags, content, images)
 [] typography. line width is NB!!
