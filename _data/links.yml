@@ -1,17 +1,29 @@
+- title: 'Art Giveaway With Mimi Chao'
+  subtitle: 'Win 1 of 3 Prints & A One-Year Skillshare Membership. Enter Before November 9th'
+  url: https://ttkb.me/win
+  image: 'img/mimi-collab-comp-thumb.gif'
+  color: '#bdacac'
+
+- title: 'New Art Prints Available'
+  subtitle: 'Available at 46% off for the next few days'
+  url: https://ttkb.me/prints
+  image: 'img/art-prints-thumb.jpg'
+  color: '#a9737e'
+  
 - title: 'The Creativity Mini Course: 5 Days of Creativity'
   subtitle: 'Enrol for free!'
   url: https://ttkb.me/cmc
   image: 'img/cmc-web-thumbnail.jpg'
   color: '#ffd400'
   
-- title: 'The Perfect 100 Day Project: Over 25K students. Only 30 mins. Explosive creative growth!'
-  subtitle: 'Check it out'
-  url: https://ttkb.me/100-day-project
-  image: 'img/perfect-100-day-project-thumb.jpg'
-  color: '#d6d6d6'
+# - title: 'The Perfect 100 Day Project: Over 25K students. Only 30 mins. Explosive creative growth!'
+#   subtitle: 'Check it out'
+#   url: https://ttkb.me/100-day-project
+#   image: 'img/perfect-100-day-project-thumb.jpg'
+#   color: '#d6d6d6'
 
-- title: 'Want Individual Attention + Feedback?'
-  subtitle: 'Let’s Chat 1:1 on Superpeer'
-  url: https://ttkb.me/superpeer
-  image: 'img/superpeer.png'
-  color: '#d6d6d6'
+# - title: 'Want Individual Attention + Feedback?'
+#   subtitle: 'Let’s Chat 1:1 on Superpeer'
+#   url: https://ttkb.me/superpeer
+#   image: 'img/superpeer.png'
+#   color: '#d6d6d6'
