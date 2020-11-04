@@ -9,4 +9,5 @@ background_color: "#421ccb"
 categories: success
 categories: ['Success']
 tags: ['Effectivity', 'Exercises']
+priority: 1
 ---

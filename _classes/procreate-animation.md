@@ -8,4 +8,5 @@ image: "img/procreate-animation-thumb.jpg"
 background_color: "#009bfe"
 categories: ['Animation']
 tags: ['iPad', 'Procreate']
+priority: 2
 ---
