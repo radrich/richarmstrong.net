@@ -1,14 +1,14 @@
-- title: 'Art Giveaway With Mimi Chao'
-  subtitle: 'Win 1 of 3 prints & a one-year Skillshare Membership. Enter before November 9th'
-  url: https://ttkb.me/win
-  image: 'img/mimi-collab-comp-thumb.gif'
-  color: '#bdacac'
-
 - title: 'New Art Prints Available'
   subtitle: 'Available at 46% off for the next few days'
   url: https://ttkb.me/prints
   image: 'img/art-prints-thumb.jpg'
   color: '#a9737e'
+  
+- title: 'How Do I Make My First Skillshare Class?'
+  subtitle: '20 minutes of awesome class-making tips'
+  url: /how-to-make-your-first-skillshare-class
+  image: 'img/how-to-make-your-first-skillshare-class-thumb.png'
+  color: '#002333'
   
 - title: 'The Creativity Mini Course: 5 Days of Creativity'
   subtitle: 'Enrol for free!'
