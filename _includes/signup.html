@@ -6,12 +6,6 @@
 			<h2>Subscribe to The TapTapKaboom Blast</h2>
 		{% endif %}
 	{% endif %}
-
-	<form action="//taptapkaboom.us2.list-manage.com/subscribe/post?u=7063935afe61a77c6ceddf3d2&amp;id=844aa7333e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="subscribe" target="_blank">
-		<div class="inputs">
-			<input type="email" required placeholder="Your Email Address" name="EMAIL">
-			<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7063935afe61a77c6ceddf3d2_844aa7333e" tabindex="-1" value=""></div>
-			<input type="submit" value="Subscribe" name="subscribe">
-		</div>
-	</form>
+	
+	{% include mailing-list.html type="blast" %}
 {% endif %}

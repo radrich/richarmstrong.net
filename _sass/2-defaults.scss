@@ -21,31 +21,41 @@ body{
 h1,h2,h3,h4,h5,h6{
 	font-family: $ff1;
 	padding: 0;
-	margin: 1.5em 0 .5em;
+	margin: 1.5em 0 1em;
 	font-weight: bold;
-	line-height: 1em;
+	line-height: 1.5em;
 	position: relative;
+	
+	& + p{
+		margin-top: -.5em;
+	}
 }
 
 h1{
-	font-size: 56px;
+	font-size: 48px;
 	margin: 40px 0;
+	line-height: 1.25em;
 	
 	& + h2{
-		margin-top: -.5em;
+		margin-top: -1em;
+		font-size: 30px;
 	}
 	
 	@media (max-width: $tabletMax) {
 		margin: 10px 0 20px 0;
+		& + h2{
+			margin-top: -.5em;
+			font-size: 24px;
+		}
 	}
 	
 	@media (max-width: $mobileMax) {
-		font-size: 40px;
+		font-size: 36px;
 	}
 }
 
 h2{
-	font-size: 40px;
+	font-size: 36px;
 	font-weight: bold;
 	
 	& + h1{
@@ -57,17 +67,15 @@ h2{
 	}
 	
 	@media (max-width: $mobileMax) {
-		font-size: 32px;
+		font-size: 30px;
 	}
 }
 
 h3{
-	font-size: 24px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+	font-size: 30px;
 	
 	@media (max-width: $mobileMax) {
-		font-size: 20px;
+		font-size: 24px;
 	}
 }
 
@@ -118,6 +126,12 @@ a, button, input[type="submit"]{
 	svg {
 	  fill: currentColor;
 	}
+}
+
+input[type="submit"]{
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
 }
 
 a.cta{
@@ -241,11 +255,32 @@ iframe{
 	display: block;
 }
 
+blockquote{
+	margin: 0;
+	padding-left: 1em;
+	border-left: 4px solid $accentColor3;
+	
+	p{
+		font-style: oblique;
+	}
+	
+	p:last-child{
+		font-style: inherit;
+		margin-top: -1em;
+		font-weight: bold;
+		
+		@media (max-width: $tabletMax) {
+			margin-top: -.5em;
+		}
+	}
+}
+
 .caption{
 	display: block;
 	margin: -12px 0 20px;
 	color: mix(black, white, 50%);
 	font-size: .8em;
+	line-height: 1.75em; // new
 }
 
 .wrapper{
