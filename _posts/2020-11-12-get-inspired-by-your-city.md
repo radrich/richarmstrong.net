@@ -17,7 +17,7 @@ related:
 ## {{ page.subtitle | widont }}
 {% include img.html img="img/get-inspired-explore-your-city-pins1.jpg" caption="Some inspiration from Amsterdam." %}
 
-We all want to produce better work. We want to create something meaningful stuff that makes a difference. And we want to do it in our ways and styles. For this we need creativity. And for that we need inspiration. And good quality inspiration. But too often we go after convenient inspiration, rather than effective inspiration.
+**We all want to produce better work.** We want to create something meaningful that makes a difference. And we want to do it in our ways and in our style. For this we need creativity. And for that we need inspiration. And good quality inspiration. But too often we go after convenient inspiration, rather than effective inspiration.
 
 Creativity works best when it has things to work with. It combines one thing (normally something you’re working on) with a bunch of *other things,* that are continually shaken and stirred together, to produce something new and different. I call the place where we keep all these *other things* “the well of inspiration.”
 
