@@ -4,9 +4,15 @@
   image: 'img/art-prints-thumb.jpg'
   color: '#a9737e'
   
+- title: 'Get Inspired By Your City!'
+  subtitle: 'Why your city is a Mecca for inspiration'
+  url: /get-inspired-by-your-city/
+  image: 'img/get-inspired-explore-your-city-thumb.jpg'
+  color: '#a4b7be'
+  
 - title: 'How Do I Make My First Skillshare Class?'
   subtitle: '20 minutes of awesome class-making tips'
-  url: /how-to-make-your-first-skillshare-class
+  url: /how-to-make-your-first-skillshare-class/
   image: 'img/how-to-make-your-first-skillshare-class-thumb.png'
   color: '#002333'
   
