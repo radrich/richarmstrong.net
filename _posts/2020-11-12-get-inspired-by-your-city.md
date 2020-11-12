@@ -42,12 +42,12 @@ I love this quote. Because getting outside, exploring my city, and absorbing ins
 ## {{ "Want to know more about exploring your city and getting inspired? Take the online class." | widont }}
 You may be convinced that it’s time explore your city. To absorb inspiration. To refuel your creative well. To relax. That’s the point of this post. If you want a guide on how to best make that happen, then take my online class **Get Inspired: Explore Your City.** The class is about getting inspired by the city you live in, or nearby. You’ll learn why getting away from your desk and devices, and planning a day exploring your city, will inspire you in a deeper, truer, and more authentic way. The class covers where to go, what to bring, how to explore, and a bunch of other tips.
 
-### Want to know when it launches? Sign up below!
+### Be the first to know when it launches—sign up below.
 
 {% include mailing-list.html type="classes" %}
 
 ### Class resources
-If you’re looking class PDFs, here they are!
+If you’re looking class PDFs, here they are! The class, however, is currently in production.
 
 - [Inspiration Day Variations](https://www.dropbox.com/s/qka766be1w9uzwk/inspiration-day-variations.pdf?dl=0)
 - [Possible Place Ideas](https://www.dropbox.com/s/7l853ykknve0bl3/possible-place-ideas.pdf?dl=0)
