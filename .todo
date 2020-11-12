@@ -27,7 +27,6 @@ Post-launch:
 [] classes to have their own page
 [] order most related posts by tag match
 [] footer betterment
-[] dynamic mailing list things (which list, and if mailing list)
 [] Get rid of _layouts/ttkb-extras.html
 [] Style the 404 page
 [] Continual integration

@@ -37,10 +37,10 @@ Exploring a city is a combination of being outside, people, movement, exercise, 
 I love this quote. Because getting outside, exploring my city, and absorbing inspiration is what sharpening my axe looks like to me. And I’m pretty sure it will have the same effect on you.
 
 {% include img.html img="img/get-inspired-explore-your-city-pins2.jpg" %}
-{% include img.html img="img/get-inspired-explore-your-city-pins3.jpg" caption="Tried sardines for the first time—and snagged a nice tin because of it." %}
+{% include img.html img="img/get-inspired-explore-your-city-pins3.jpg" caption="Tried sardines for the first time. Much preferred the tin to the taste." %}
 
-## {{ "Want to know more about exploring your city and getting inspired? Take the online class!" | widont }}
-You may be convinced that it’s time to get out into your city and explore. To absorb inspiration. To refuel your creative well. To relax. If you want a guide on how to best make this happen, then take my online class **Get Inspired: Explore Your City.** The class is about getting inspired by the city you live in, or nearby. You’ll learn why getting away from your desk and devices, and planning a day exploring your city, will inspire you in a deeper, truer, and more authentic way. The class covers where to go, what to bring, how to explore, and a bunch of other tips.
+## {{ "Want to know more about exploring your city and getting inspired? Take the online class." | widont }}
+You may be convinced that it’s time explore your city. To absorb inspiration. To refuel your creative well. To relax. That’s the point of this post. If you want a guide on how to best make that happen, then take my online class **Get Inspired: Explore Your City.** The class is about getting inspired by the city you live in, or nearby. You’ll learn why getting away from your desk and devices, and planning a day exploring your city, will inspire you in a deeper, truer, and more authentic way. The class covers where to go, what to bring, how to explore, and a bunch of other tips.
 
 ### Want to know when it launches? Sign up below!
 
