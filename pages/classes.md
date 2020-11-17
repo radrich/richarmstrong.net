@@ -16,4 +16,6 @@ index: true
 
 <p>Below are classes that thousands students have taken and given amazing reviews on. Hope you enjoy. I can't wait to see what you create.</p>
 
-{%- include grid.html items=site.classes -%}
+{%- assign classes = site.classes | sort: 'date' | sort: 'priority' | reverse -%}
+
+{%- include grid.html items=classes -%}

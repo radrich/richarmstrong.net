@@ -8,5 +8,5 @@ image: "img/digital-marbling-thumb.jpg"
 background_color: "#111111"
 categories: ['Illustration', 'Art']
 tags: ['Abstract', 'iPad', 'Procreate']
-priority: 2
+priority: 8
 ---

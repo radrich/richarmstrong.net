@@ -6,8 +6,7 @@ external_url: https://ttkb.me/juststart
 date: "2020-02-03"
 image: "img/just-start-class-thumb.jpg"
 background_color: "#421ccb"
-categories: success
 categories: ['Success']
 tags: ['Effectivity', 'Exercises']
-priority: 1
+priority: 10
 ---

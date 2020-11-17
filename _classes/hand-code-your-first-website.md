@@ -8,5 +8,5 @@ image: "img/hand-code-thumb.jpg"
 background_color: "#007fff"
 categories: ['Coding']
 tags: ['HTML', 'CSS']
-priority: 2
+priority: 8
 ---

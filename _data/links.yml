@@ -1,3 +1,9 @@
+- title: 'Listen to My New Audio Class on Skillshare'
+  subtitle: 'Where I Answer <strong>YOUR</strong> Questions!'
+  url: https://ttkb.me/sk-audio
+  image: 'img/sk-audio-thumb1.png'
+  color: '#3819d6'
+  
 - title: 'New Art Prints Available'
   subtitle: 'Available at 46% off for the next few days'
   url: https://ttkb.me/prints
@@ -9,12 +15,6 @@
   url: /get-inspired-by-your-city/
   image: 'img/get-inspired-explore-your-city-thumb.jpg'
   color: '#a4b7be'
-  
-- title: 'How Do I Make My First Skillshare Class?'
-  subtitle: '20 minutes of awesome class-making tips'
-  url: /how-to-make-your-first-skillshare-class/
-  image: 'img/how-to-make-your-first-skillshare-class-thumb.png'
-  color: '#002333'
   
 - title: 'The Creativity Mini Course: 5 Days of Creativity'
   subtitle: 'Enrol for free!'
