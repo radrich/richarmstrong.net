@@ -1,23 +1,23 @@
-- title: 'A Class Where I Answer YOUR Questions'
-  subtitle: 'Listen to My New Audio Class on Skillshare!'
+- title: 'Get Inspired: Explore Your City'
+  subtitle: 'Watch or Listen to My Latest Class'
+  url: /get-inspired-explore-your-city
+  image: 'img/get-inspired-link-thumb.jpg'
+  color: '#366c62'
+  
+- title: 'YOUR Questions Answered!'
+  subtitle: 'Listen to My Audio Class on Skillshare'
   url: https://ttkb.me/sk-audio
   image: 'img/sk-audio-thumb1.png'
   color: '#3819d6'
   
-- title: 'New Art Prints Available'
-  subtitle: 'Available at 46% off for the next few days'
+- title: 'Giclée Art Prints'
+  subtitle: 'Available at Various Sizes'
   url: https://ttkb.me/prints
   image: 'img/art-prints-thumb.jpg'
   color: '#a9737e'
   
-- title: 'Get Inspired By Your City!'
-  subtitle: 'Why your city is a Mecca for inspiration'
-  url: /get-inspired-by-your-city/
-  image: 'img/get-inspired-explore-your-city-thumb.jpg'
-  color: '#a4b7be'
-  
 - title: 'The Creativity Mini Course: 5 Days of Creativity'
-  subtitle: 'Enrol for free!'
+  subtitle: 'Enrol For Free!'
   url: https://ttkb.me/cmc
   image: 'img/cmc-web-thumbnail.jpg'
   color: '#ffd400'

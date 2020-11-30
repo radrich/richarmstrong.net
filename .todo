@@ -44,6 +44,7 @@ Post-launch:
 [] 'News' and 'updated' tags on classes and posts etc.
 	- date_modified
 [] Github icon in social links
+[] Look at manual ordering of colletions instead of using priority https://jekyllrb.com/docs/collections/#manually-ordering-documents
 
 Jekyll options:
 ------------------------
@@ -86,7 +87,7 @@ layout: post #include it if it’s different than post
 
 # classes
 date: "2019-09-26"
-priority: 1 #1 is high, go lower for less, leave out if priority doesn’t matter
+priority: 99 #higher is higher—leave out if priority doesn’t matter
 
 
 Categories:

@@ -68,12 +68,18 @@ defaults:
     values:
       layout: "page"
       author: "taptapkaboom"
+  -
+    scope:
+      path: ""
+      type: "classes"
+    values:
+      layout: "post"
 
 collections:
   classes:
-    output: false
+    output: true
     sort_by: priority
-    permalink: /:name  
+    permalink: /:name
 
 sass:
   sass_dir: _sass
