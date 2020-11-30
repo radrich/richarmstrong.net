@@ -26,7 +26,7 @@ This class is about getting inspired in a deeper, truer, and more authentic way�
 
 - **TapTapKaboom School:** [The video class](https://ttkb.me/get-inspired) (which includes the audio class) and [the audio-only class](https://ttkb.me/get-inspired-audio) are available as once-off purchases.
 - **Skillshare:** [The video class.](https://ttkb.me/get-inspired-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before you, use [this link](https://ttkb.me/get-inspired-sk) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
-- **Listenable:** [The audio class.](https://ttkb.me/get-inspired-listenable) Listenable has some amazing audio-only content. It’s also a memebership service. Use [this link](https://ttkb.me/get-inspired-listenable) to get a 7-day free trial. You’ll be able to listen to this class and a whole bunch more for free during that time.
+- **Listenable:** [The audio class.](https://ttkb.me/get-inspired-listenable) Listenable has some amazing audio-only content. It’s also a membership service. Use [this link](https://ttkb.me/get-inspired-listenable) to get a 7-day free trial. You’ll be able to listen to this class and a whole bunch more for free during that time.
 
 ### What The Class Covers
 - Why your city is a Mecca for inspiration.
@@ -34,7 +34,7 @@ This class is about getting inspired in a deeper, truer, and more authentic way�
 - What to bring.
 - Who to bring.
 - How to explore.
-- A bunch more!
+- And a whole bunch more!
 
 {%- include banner.html
 	title='Want to Get Inspired?'
