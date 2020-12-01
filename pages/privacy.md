@@ -20,7 +20,7 @@ We collect and store, via third-party software and platforms, the following info
 - Your postal address
 - Your birthday
 - Your purchase history
-- Your progress for classes you’re enrolled in
+- Your progress and behavious for classes you’re enrolled in on TapTapKaboom School
 - Your possible interests
 
 We collect this information from you only if you voluntarily sign up to, purchase, use, and participate in our events, products, or services.
@@ -67,7 +67,7 @@ On taptapkaboom.com we do not track individual behaviour. We use [Fathom Analyti
 - Country
 - Pages visited
 
-On [TapTapKaboom School](school.taptapkaboom.com) your individual user behaviour **is tracked.** This is to provide you with a personalised learning experience. Without tracking your individual user behaviour, TapTapKaboom School may not function properly.
+On [TapTapKaboom School](school.taptapkaboom.com) your individual user behaviour and class progress **is tracked.** This is to provide you with a personalised learning experience. Without tracking your individual user behaviour, TapTapKaboom School would not function properly.
 
 ## Do we use ‘cookies’?
 Yes we do, but **not on taptapkaboom.com.** Your web browser places cookies on your hard drive for record-keeping purposes and sometimes to track information about you. You may choose to set your web browser to refuse cookies, or to alert you when cookies are being used. If you do so, some parts of [TapTapKaboom School](school.taptapkaboom.com) may not function properly (see above). You can read [Teachable’s cookie policy](https://teachable.com/cookies-policy) for more information.
@@ -118,4 +118,4 @@ The Netherlands
 
 ## Last update
 
-This privacy policy was last updated on **15 October 2020**
+This privacy policy was last updated on **01 December 2020**
