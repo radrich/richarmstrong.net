@@ -4,17 +4,17 @@
   image: 'img/get-inspired-link-thumb.jpg'
   color: '#366c62'
   
+- title: 'Experimental ‘Hot Mess’ Posters: A Month of Exploration'
+  subtitle: 'Check It Out on Bēhance'
+  url: https://www.behance.net/gallery/107659817/Experimental-October-Hot-Mess-Posters
+  image: 'img/art-prints-thumb.jpg'
+  color: '#a9737e'
+  
 - title: 'YOUR Questions Answered!'
   subtitle: 'Listen to My Audio Class on Skillshare'
   url: https://ttkb.me/sk-audio
   image: 'img/sk-audio-thumb1.png'
   color: '#3819d6'
-
-- title: 'Experimental ‘Hot Mess’ Posters: A Month of Exploration'
-  subtitle: 'Check out the project on Beēhance'
-  url: https://www.behance.net/gallery/107659817/Experimental-October-Hot-Mess-Posters
-  image: 'img/art-prints-thumb.jpg'
-  color: '#a9737e'
     
 # - title: 'Giclée Art Prints'
 #   subtitle: 'Available at Various Sizes'
