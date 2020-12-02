@@ -9,12 +9,18 @@
   url: https://ttkb.me/sk-audio
   image: 'img/sk-audio-thumb1.png'
   color: '#3819d6'
-  
-- title: 'Giclée Art Prints'
-  subtitle: 'Available at Various Sizes'
-  url: https://ttkb.me/prints
+
+- title: 'Experimental ‘Hot Mess’ Posters: A Month of Exploration'
+  subtitle: 'Check out the project on Beēhance'
+  url: https://www.behance.net/gallery/107659817/Experimental-October-Hot-Mess-Posters
   image: 'img/art-prints-thumb.jpg'
   color: '#a9737e'
+    
+# - title: 'Giclée Art Prints'
+#   subtitle: 'Available at Various Sizes'
+#   url: https://ttkb.me/prints
+#   image: 'img/art-prints-thumb.jpg'
+#   color: '#a9737e'
   
 - title: 'The Creativity Mini Course: 5 Days of Creativity'
   subtitle: 'Enrol For Free!'
