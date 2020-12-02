@@ -74,18 +74,27 @@ defaults:
       type: "classes"
     values:
       layout: "post"
+  -
+    scope:
+      path: ""
+      type: "prompts"
+    values:
+      layout: "prompt"
 
 collections:
   classes:
     output: true
     sort_by: priority
-    permalink: /:name
+    permalink: /:name/
+  prompts:
+    output: true
+    permalink: /prompts/:name/
 
 sass:
   sass_dir: _sass
   style: compressed
 
-asset_version: 4
+asset_version: 7
 
 jekyll-archives:
   enabled:

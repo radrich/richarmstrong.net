@@ -1,4 +1,4 @@
-console.log('TapTapKaboom 👊👊💥');
+console.log('TapTapKaboom me 👊👊💥');
 
 //returns if a url is internal
 var _isInternalURL = function (url) {
@@ -25,3 +25,6 @@ document.getElementById('menuBtn').addEventListener('click', function (e) {
 	document.body.classList.toggle('open');
 	return false;
 });
+
+// prompts
+var data = JSON.parse(document.querySelector('#_json').dataset.json);
