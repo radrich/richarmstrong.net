@@ -44,6 +44,8 @@ Post-launch:
 	- date_modified
 [] Github icon in social links
 [] Look at manual ordering of colletions instead of using priority https://jekyllrb.com/docs/collections/#manually-ordering-documents
+[] ask me a question netlify form
+[] an animation/coding/design journey
 
 Jekyll options:
 ------------------------

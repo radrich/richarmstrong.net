@@ -31,7 +31,7 @@ logo: /img/favicon-72.png
 
 social:
   links:
-    - https://twitter.com/TapTapKaboom
+    - https://twitter.com/taptapkaboom
     - https://www.linkedin.com/in/mrrichardarmstrong
     - https://github.com/taptapkaboom
     - https://instagram.com/taptapkaboom
@@ -68,6 +68,14 @@ defaults:
     values:
       layout: "page"
       author: "taptapkaboom"
+  -
+    scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "page"
+      author: "taptapkaboom"
+      permalink: /:basename/
   -
     scope:
       path: ""
