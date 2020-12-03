@@ -16,17 +16,20 @@ related:
   - /classes/the-perfect-100-day-project
 ---
 
-{% include video.html type="youtube" id='tCjVmv3yjMQ' caption="The introduction to **Get Inspired: Explore Your City**" %}
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
+Do you want to take this class **right now?** [Tap here](#options) for options.
+
+{% include video.html type="youtube" id='tCjVmv3yjMQ' caption="The introduction to **Get Inspired: Explore Your City**" %}
+
 This class is about getting inspired in a deeper, truer, and more authentic way—by *your* city. In the real world. Where you can absorb the unique inspiration offered to you by your city. You’ll learn why stepping outside and exploring your city inspires you—and how it leads to more meaningful and creative work.
 
-**Take the class in video *or* audio format in the following places:**
+### Where Can I Take the Class? {#options}
 
-- **TapTapKaboom School:** [The video class](https://ttkb.me/get-inspired) (which includes the audio class) and [the audio-only class](https://ttkb.me/get-inspired-audio) are available as once-off purchases.
-- **Skillshare:** [The video class.](https://ttkb.me/get-inspired-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before you, use [this link](https://ttkb.me/get-inspired-sk) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
-- **Listenable:** [The audio class.](https://ttkb.me/get-inspired-listenable) Listenable has some amazing audio-only content. It’s also a membership service. Use [this link](https://ttkb.me/get-inspired-listenable) to get a 7-day free trial. You’ll be able to listen to this class and a whole bunch more for free during that time.
+- [**On TapTapKaboom School.**](https://ttkb.me/get-inspired) This includes the video *and* audio class. These are once-off purchases and don’t require a membership—they’ll be yours for eveeeeeer! You can also get the [the audio-only class](https://ttkb.me/get-inspired-audio) if you want. 
+- [**On Skillshare.**](https://ttkb.me/get-inspired-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before you, use [this link](https://ttkb.me/get-inspired-sk) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
+- [**On Listenable.**](https://ttkb.me/get-inspired-listenable) Listenable is an *audio-only* membership service with some super-helpful content. Use [this link](https://ttkb.me/get-inspired-listenable) to get a 7-day free trial. You’ll be able to listen to this class and a whole bunch more for free during that time.
 
 ### What The Class Covers
 - Why your city is a Mecca for inspiration.

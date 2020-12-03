@@ -19,27 +19,26 @@ Post-launch:
 [] check all posts and pages with a fine-tooth comb (subtitle, categories, tags, content, images)
 [] typography. line width is NB!!
 [] Banners on mobile need some work
-[] Get Chantelle (and others) to read privacy policy
+[] Get others to read privacy policy
+[] Update privacy policy on ttk school
 [] on hover of grid-items, rotate them different amounts in different directions
 [] Highlight tag and category title (rather than quote marks)
 [] line-height on thumb letters
-[] Update privacy policy on ttk school
 [] new nav bar
 [] meta information (meta data, favicons, meta images, social images, etc.)
-[] classes to have their own page
+[] classes to have their own page—for all the ones on Teachable and Skillshare
+[] put classes into categories
 [] order most related posts by tag match
 [] footer betterment
 [] Get rid of _layouts/ttkb-extras.html
 [] Style the 404 page
-[] Continual integration
 [] Posts page to show "view by cateogry or tag" button, or a filter button
 [] change classes to posts with a category of class (this requires exluding from other pages etc.)
 [] Include all classes and tell users where it goes
-[] Tell students that it something is an external link
+[] Tell students when something is an external link
 [] Auto related to include classes
 [] Subscribe box button on mobile is UGLY
 [] footer notes with stars *
-[] classes into categories
 [] what class should I take next post
 [] 'News' and 'updated' tags on classes and posts etc.
 	- date_modified
