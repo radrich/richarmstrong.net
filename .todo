@@ -50,9 +50,13 @@ Jekyll options:
 bundle exec jekyll serve --livereload --host 0.0.0.0 --trace
 JEKYLL_ENV=production bundle exec jekyll build
 
-Liquid Cheats:
+Markdown/Liquid Cheats:
 ------------------------
+# widont something
 # {{ page.title | widont }}
+
+# custom id
+# Hello {#id}
 
 Front-matter data:
 ------------------------
