@@ -4,7 +4,7 @@
   image: 'img/get-inspired-link-thumb.jpg'
   color: '#366c62'
 
-- title: 'The Creativity Mini Course: 5 Days of Creativity'
+- title: 'The 5 Day Creativity Mini Course'
   subtitle: 'Enrol For Free!'
   url: https://ttkb.me/cmc
   image: 'img/cmc-web-thumbnail.jpg'
@@ -13,10 +13,10 @@
 - title: 'Classes & Courses'
   subtitle: 'Browse the Catalogue'
   url: /classes
-  image: 'img/classes-thumb.jpg'
+  image: 'img/class-catalogue-thumb.jpg'
   color: 'black'
   
-- title: 'Experimental ‘Hot Mess’ Poster'
+- title: 'Experimental ‘Hot Mess’ Posters'
   subtitle: 'Check Out the Project on Bēhance'
   url: https://www.behance.net/gallery/107659817/Experimental-October-Hot-Mess-Posters
   image: 'img/art-prints-thumb.jpg'
@@ -25,7 +25,7 @@
 - title: 'Join The Newsletter'
   subtitle: 'A.K.A. The TapTapKaboom Blast'
   url: https://ttkb.me/blast
-  image: 'img/blast-thumb.jpg'
+  image: 'img/newsletter-thumb.png'
   color: 'white'
   
 - title: 'Get The Random Word Doodle App'
