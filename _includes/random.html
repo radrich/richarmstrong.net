@@ -26,14 +26,28 @@
   {%- assign type = 'inline' -%}
 {%- endif -%}
 
+{%- if include.template -%}
+  {%- assign template = include.template -%}
+{%- else -%}
+  {%- assign template = '' -%}
+{%- endif -%}
+
 {{ include.prepend }}
 
 {%- if type == 'list' -%}
-  <ul class="_random random-list" data-type='{{ type }}' data-set='{{ sets }}' data-amount='{{ amount }}'>
+  <ul class="_random random-list"
+    data-type='{{ type }}'
+    data-sets='{{ sets }}'
+    data-amount='{{ amount }}'
+    data-template='{{ template }}'>
     <li>Loading {{ sets }}...</li>
   </ul>
 {%- else -%}
-  <span class="_random random-inline" data-type='{{ type }}' data-sets='{{ sets }}' data-amount='{{ amount }}'>
+  <span class="_random random-inline"
+    data-type='{{ type }}'
+    data-sets='{{ sets }}'
+    data-amount='{{ amount }}'
+    data-template='{{ template }}'>
     Loading {{ sets }}...
   </span>
 {%- endif -%}

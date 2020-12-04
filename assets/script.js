@@ -1,4 +1,4 @@
-console.log('TapTapKaboom er! 👊👊💥');
+console.log('TapTapKaboom! 👊👊💥');
 
 //returns if a url is internal
 var _isInternalURL = function (url) {
@@ -47,31 +47,33 @@ var shuffle = function (o) {
 
 
 var loadRandomItems = function () {
+	// for each random item
 	$('._random').each(function(index) {
   	var $this = $(this),
+  			$temp = $('<div>'),
   			items = [],
   			elements = [],
-  			sets = $this.data('sets').split(','),
+  			// trim values in sets array
+  			sets = $.map($this.data('sets').split(','), function(val, i) {
+					return val.trim();
+			  }),
   			type = $this.data('type'),
   			amount = $this.data('amount'),
+  			template = $this.data('template'),
+  			matches = template ? template.match(/\${}/g).length : 0,
+  			collections = [],
+				collectionsGot = 0,
   			populate = function (childElem, joiner) {
   				$.each(items, function(key, val) {
   					if (!childElem) childElem = 'li';
   					if (!joiner) joiner = '';
   					
   					if (key >= amount) return false;
-  			    elements.push('<'+childElem+'>'+val+'</'+childElem+'>');
+  					elements.push('<'+childElem+'>'+val+'</'+childElem+'>');
   			  });
+  			  
   			  $this.html(elements.join(joiner));
-  			};
-  	
-  	// trim values in sets array
-  	sets = $.map(sets, function(val, i) {
-			return val.trim();
-	  });
-	  
-		var collections = [],
-				collectionsGot = 0,
+  			},
 				populateCombo = function () {
 					collectionsGot ++;
 					
@@ -83,7 +85,18 @@ var loadRandomItems = function () {
 							for (var k=0; k<collectionsGot; k++) {
 								comboItem[k] = collections[k][i];
 							}
-							comboItems.push(comboItem.join(' '));
+							
+							// create single item with a template
+							if (matches) {
+	  			    	var phrase = template;
+	  			    	for (var m=0; m<matches; m++) {
+	  			    		phrase = phrase.replace('${}',comboItem[m]);
+	  			    	}
+	  			    	comboItems.push(phrase);
+	  			    // or create single item without template
+	  			    } else {
+	  			    	comboItems.push(comboItem.join(' '));
+	  			    }
 						}
 						
 						items = comboItems;
@@ -93,8 +106,6 @@ var loadRandomItems = function () {
 		
 		// get each set
 		$.each(sets, function(key, set) {
-			console.log('get set', set)
-			
 	  	if (set == 'test') {
 		  	$.getJSON('/assets/json/test.json', function(data) {
 	  		  if (data.status == 'success') {

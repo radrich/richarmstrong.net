@@ -15,4 +15,6 @@ background_color: "#ffdfd8"
 
 {%- include random.html sets="test" amount="3" type="inline" -%}
 
-{%- include random.html sets="colors, test" amount="3" type="inline" -%}
+{%- include random.html sets="test, test" template="${} ontop of a ${}" amount="3" type="inline" -%}
+
+{%- include random.html template="{{ test }} ontop of a {{ test }}" amount="3" type="inline" -%}
