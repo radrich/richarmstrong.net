@@ -44,15 +44,18 @@ var shuffle = function (o) {
 	return o;
 }
 
+var randomBetweenMinAndMax = function (min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
 var indexesOf = function (string, regex) {
-    var match,
-        indexes = {};
+    var match, indexes = {};
 
     regex = new RegExp(regex);
-
+    
     while (match = regex.exec(string)) {
-        if (!indexes[match[0]]) indexes[match[0]] = [];
-        indexes[match[0]].push(match.index);
+      if (!indexes[match[0]]) indexes[match[0]] = [];
+      indexes[match[0]].push(match.index);
     }
 
     return indexes;
@@ -70,6 +73,8 @@ var loadCollection = function (collection, callback) {
 		  	callback(breeds);
 		  }
 		});
+	} if (collection == 'number') {
+		callback([]);
 	} else {
   	$.getJSON('/assets/json/'+collection+'.json', function(data) {
 		  if (data.status == 'success') {
@@ -82,17 +87,20 @@ var loadCollection = function (collection, callback) {
 /*
 - could have an identifier. So a place to put the words.
 - keep collections loaded outside of each random items element.
-- random number between, min, max
 - random amount bwteen min and max
+- set loading... text intially
  */
 
 var loadRandomItems = function () {
 	$('._random').each(function(index) {
 		var $this = $(this),
 		tmp = $this.data('template'),
-		child = $this.data('template') || 'span',
+		child = $this.data('child') || 'span',
   	amount = $this.data('amount') || 1,
+  	params = $this.data('params') || {},
   	delimeter = $this.data('delimeter') || '';
+  	
+  	console.log('params', params);
 		
 		//gets the words inbetween the [[ ]], trims them and adds them to an array
 		var indices = indexesOf(tmp, /\[\[|\]\]/g);
@@ -105,7 +113,7 @@ var loadRandomItems = function () {
 		  wordsToReplace.push(tmp.substring(indicesStart[i] + 2, indicesEnd[i]).trim());
 		}
 		
-		var availableCollections = ['color', 'test', 'dog'];
+		var availableCollections = ['color', 'test', 'dog', 'number'];
 		var loadedCollections = {};
 		
 		// if it is loaded, use it
@@ -117,7 +125,6 @@ var loadRandomItems = function () {
 			if (replacedStrings.length < amount) return false;
 			
 			var elements = [];
-			
 			$.each(replacedStrings, function(key, str) {
 				elements.push('<'+child+'>'+str+'</'+child+'>');
 		  });
@@ -129,7 +136,14 @@ var loadRandomItems = function () {
 			var indexTo = str.indexOf(']]') + 2;
 			var strStart = str.substring(0, indexFrom);
 			var strEnd = str.substring(indexTo);
-			var replacement = shuffle(loadedCollections[collection])[0];
+			var replacement;
+			
+			if (collection == 'number') {
+				console.log(str, '------ is number :', collection);
+				replacement = randomBetweenMinAndMax(params.min, params.max);
+			} else {
+				replacement = shuffle(loadedCollections[collection])[0];
+			}
 			
 			return strStart + replacement + strEnd;
 		}
@@ -140,7 +154,7 @@ var loadRandomItems = function () {
 			numWordsReadyForReplacing ++;
 			if (numWordsReadyForReplacing < numReplacementsNeeded) return false;
 			
-			// replace the string between first index of [[ and first index of ]] + 2 with a random loadedCollections[wordsToReplace]
+			// replace the [[ word ]] with random items
 			for (var k=0; k<amount; k++) {
 				var replacedStr = tmp;
 				for (var i=0; i<numReplacementsNeeded; i++) {
