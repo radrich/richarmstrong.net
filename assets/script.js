@@ -49,6 +49,7 @@ var shuffle = function (o) {
 --gets the template
 --gets the words inbetween the [[ ]], trims them and adds them to an array
 - loops through array, getting data
+- if has data already, use it, otherwise get
 - once all data has been got, create items from template multipled by amount param, adds to item array
 - insert item array, wrapped with element param, and deliminated with space or comma
  */
@@ -69,10 +70,34 @@ function indexesOf(string, regex) {
     return indexes;
 }
 
+function loadCollection (collection, callback) {
+	 if (collection == 'dog') {
+		$.getJSON('https://dog.ceo/api/breeds/list/all', function(data) {
+		  if (data.status == 'success') {
+		  	var breeds = [];
+		  	$.each(data.message, function(key, val) {
+		  	  breeds.push(key);
+		  	});
+		  	
+		  	callback(breeds);
+		  }
+		});
+	} else {
+  	$.getJSON('/assets/json/'+collection+'.json', function(data) {
+		  if (data.status == 'success') {
+		  	callback(data.items);
+		  }
+		});
+	}
+}
+
 var loadRandomItems = function () {
 	$('._random').each(function(index) {
 		var $this = $(this),
-		template = $this.data('template');
+		template = $this.data('template'),
+		type = $this.data('type'),
+  	amount = $this.data('amount'),
+  	delimeter = $this.data('delimeter');
 		
 		console.log(index, template);
 		
@@ -81,135 +106,78 @@ var loadRandomItems = function () {
 		var indices = indexesOf(tmp, /\[\[|\]\]/g);
 		var indicesStart = indices['[['];
 		var indicesEnd = indices[']]'];
-		var replacementsNeeded = Math.min(indicesStart.length, indicesEnd.length);
+		var numReplacementsNeeded = Math.min(indicesStart.length, indicesEnd.length);
 		var wordsToReplace = [];
 		
-		for(var i=0; i<replacementsNeeded; i++) {
+		for(var i=0; i<numReplacementsNeeded; i++) {
 		  wordsToReplace.push(tmp.substring(indicesStart[i] + 2, indicesEnd[i]).trim());
 		}
 		
+		var availableCollections = ['color', 'test', 'dog'];
+		var loadedCollections = {};
+		
+		// if it is loaded, use it
+		// if isn’t loaded, load collection
+		// when a collection is loaded check again
+		var replacedStrings = [];
+		
+		var insertWords = function () {
+			if (replacedStrings.length < amount) return false;
+			
+			var elements = [];
+			var childElem = 'span';
+			
+			$.each(replacedStrings, function(key, str) {
+				if (type == 'ul' || type == 'ol') {
+					elements.push('<li>'+str+'</li>');
+				} else {
+					elements.push('<span>'+str+'</span>');
+				}
+		  });
+		  $this.html(elements.join(delimeter));
+		}
+		
+		var replaceFirstWord = function (str, collection) {
+			var indexFrom = str.indexOf('[[');
+			var indexTo = str.indexOf(']]') + 2;
+			var strStart = str.substring(0, indexFrom);
+			var strEnd = str.substring(indexTo);
+			var replacement = shuffle(loadedCollections[collection])[0];
+			
+			return strStart + replacement + strEnd;
+		}
+		
+		
+		var numWordsReadyForReplacing = 0;
+		var replaceWords = function () {
+			numWordsReadyForReplacing ++;
+			if (numWordsReadyForReplacing < numReplacementsNeeded) return false;
+			
+			// replace the string between first index of [[ and first index of ]] + 2 with a random loadedCollections[wordsToReplace]
+			for (var k=0; k<amount; k++) {
+				var replacedStr = tmp;
+				for (var i=0; i<numReplacementsNeeded; i++) {
+					replacedStr = replaceFirstWord(replacedStr, wordsToReplace[i]);
+				}
+				replacedStrings.push(replacedStr);
+			}
+		}
+		
 		// loop through array, getting data
-		$.each(wordsToReplace, function(key, collection) {
-	  	if (collection == 'test') {
-		  	$.getJSON('/assets/json/test.json', function(data) {
-	  		  if (data.status == 'success') {
-	  		  	collections[key] = shuffle(data.items);
-	  		  	populateCombo();
-	  		  }
-	  		});
-	  	} else if (collection == 'color') {
-	  		$.getJSON('/assets/json/colors.json', function(data) {
-	  		  if (data.status == 'success') {
-	  		  	collections[key] = shuffle(data.items);
-	  		  	populateCombo();
-	  		  }
-	  		});
-	  	} else if (collection == 'dog') {
-	  		$.getJSON('https://dog.ceo/api/breeds/list/all', function(data) {
-	  		  if (data.status == 'success') {
-	  		  	var breeds = [];
-	  		  	$.each(data.message, function(key, val) {
-	  		  	  breeds.push(key);
-	  		  	});
-	  		  	
-	  		  	collections[key] = shuffle(breeds);
-	  		  	populateCombo();
-	  		  }
-	  		});
-	  	}
-	  });
-	  
-		console.log('indicesStart', indicesStart);
-		
-		console.log('wordsToReplace', wordsToReplace);
-	});
-}
-
-var oldloadRandomItems = function () {
-	// for each random item
-	$('._random').each(function(index) {
-  	var $this = $(this),
-  			items = [],
-  			elements = [],
-  			// trim values in sets array
-  			sets = $.map($this.data('sets').split(','), function(val, i) {
-					return val.trim();
-			  }),
-  			type = $this.data('type'),
-  			amount = $this.data('amount'),
-  			template = $this.data('template'),
-  			matches = template ? template.match(/\${}/g).length : 0,
-  			collections = [],
-				collectionsGot = 0,
-  			populate = function (childElem, joiner) {
-  				$.each(items, function(key, val) {
-  					if (!childElem) childElem = 'li';
-  					if (!joiner) joiner = '';
-  					
-  					if (key >= amount) return false;
-  					elements.push('<'+childElem+'>'+val+'</'+childElem+'>');
-  			  });
-  			  
-  			  $this.html(elements.join(joiner));
-  			},
-				populateCombo = function () {
-					collectionsGot ++;
-					
-					// if loaded all the collections, create a combo array and populate
-					if (collectionsGot == sets.length) {
-						var comboItems = [];
-						for (var i=0; i<amount; i++) {
-							var comboItem = [];
-							for (var k=0; k<collectionsGot; k++) {
-								comboItem[k] = collections[k][i];
-							}
-							
-							// create single item with a template
-							if (matches) {
-	  			    	var phrase = template;
-	  			    	for (var m=0; m<matches; m++) {
-	  			    		phrase = phrase.replace('${}',comboItem[m]);
-	  			    	}
-	  			    	comboItems.push(phrase);
-	  			    // or create single item without template
-	  			    } else {
-	  			    	comboItems.push(comboItem.join(' '));
-	  			    }
-						}
-						
-						items = comboItems;
-						populate('span', ', ');
-					}
-				};
-		
-		// get each set
-		$.each(sets, function(key, set) {
-	  	if (set == 'test') {
-		  	$.getJSON('/assets/json/test.json', function(data) {
-	  		  if (data.status == 'success') {
-	  		  	collections[key] = shuffle(data.items);
-	  		  	populateCombo();
-	  		  }
-	  		});
-	  	} else if (set == 'colors') {
-	  		$.getJSON('/assets/json/colors.json', function(data) {
-	  		  if (data.status == 'success') {
-	  		  	collections[key] = shuffle(data.items);
-	  		  	populateCombo();
-	  		  }
-	  		});
-	  	} else if (set == 'dogs') {
-	  		$.getJSON('https://dog.ceo/api/breeds/list/all', function(data) {
-	  		  if (data.status == 'success') {
-	  		  	var breeds = [];
-	  		  	$.each(data.message, function(key, val) {
-	  		  	  breeds.push(key);
-	  		  	});
-	  		  	
-	  		  	collections[key] = shuffle(breeds);
-	  		  	populateCombo();
-	  		  }
-	  		});
+		$.each(wordsToReplace, function(key, word) {
+	  	if (availableCollections.includes(word)) {
+	  		if (loadedCollections[word]) {
+	  			replaceWords();
+	  			insertWords();
+	  		} else {
+	  			loadCollection(word, function (data) {
+	  				loadedCollections[word] = data;
+	  				replaceWords();
+	  				insertWords();
+	  			});
+	  		}
+	  	} else {
+	  		throw word + ' is not an available collection';
 	  	}
 	  });
 	});
