@@ -1,4 +1,4 @@
-console.log('TapTapKaboom! 👊👊💥');
+console.log('TapTapKaboom yo! 👊👊💥');
 
 //returns if a url is internal
 var _isInternalURL = function (url) {
@@ -45,12 +45,90 @@ var shuffle = function (o) {
 }
 
 
+/*
+--gets the template
+--gets the words inbetween the [[ ]], trims them and adds them to an array
+- loops through array, getting data
+- once all data has been got, create items from template multipled by amount param, adds to item array
+- insert item array, wrapped with element param, and deliminated with space or comma
+ */
+
+/* caching (getting dataset only once rather than 10 times) */
+
+function indexesOf(string, regex) {
+    var match,
+        indexes = {};
+
+    regex = new RegExp(regex);
+
+    while (match = regex.exec(string)) {
+        if (!indexes[match[0]]) indexes[match[0]] = [];
+        indexes[match[0]].push(match.index);
+    }
+
+    return indexes;
+}
 
 var loadRandomItems = function () {
+	$('._random').each(function(index) {
+		var $this = $(this),
+		template = $this.data('template');
+		
+		console.log(index, template);
+		
+		//gets the words inbetween the [[ ]], trims them and adds them to an array
+		var tmp = template;
+		var indices = indexesOf(tmp, /\[\[|\]\]/g);
+		var indicesStart = indices['[['];
+		var indicesEnd = indices[']]'];
+		var replacementsNeeded = Math.min(indicesStart.length, indicesEnd.length);
+		var wordsToReplace = [];
+		
+		for(var i=0; i<replacementsNeeded; i++) {
+		  wordsToReplace.push(tmp.substring(indicesStart[i] + 2, indicesEnd[i]).trim());
+		}
+		
+		// loop through array, getting data
+		$.each(wordsToReplace, function(key, collection) {
+	  	if (collection == 'test') {
+		  	$.getJSON('/assets/json/test.json', function(data) {
+	  		  if (data.status == 'success') {
+	  		  	collections[key] = shuffle(data.items);
+	  		  	populateCombo();
+	  		  }
+	  		});
+	  	} else if (collection == 'color') {
+	  		$.getJSON('/assets/json/colors.json', function(data) {
+	  		  if (data.status == 'success') {
+	  		  	collections[key] = shuffle(data.items);
+	  		  	populateCombo();
+	  		  }
+	  		});
+	  	} else if (collection == 'dog') {
+	  		$.getJSON('https://dog.ceo/api/breeds/list/all', function(data) {
+	  		  if (data.status == 'success') {
+	  		  	var breeds = [];
+	  		  	$.each(data.message, function(key, val) {
+	  		  	  breeds.push(key);
+	  		  	});
+	  		  	
+	  		  	collections[key] = shuffle(breeds);
+	  		  	populateCombo();
+	  		  }
+	  		});
+	  	}
+	  });
+	  
+		console.log('indicesStart', indicesStart);
+		
+		console.log('wordsToReplace', wordsToReplace);
+	});
+}
+
+var oldloadRandomItems = function () {
 	// for each random item
 	$('._random').each(function(index) {
   	var $this = $(this),
-  			$temp = $('<div>'),
   			items = [],
   			elements = [],
   			// trim values in sets array
