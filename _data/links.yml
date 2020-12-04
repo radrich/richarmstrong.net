@@ -16,11 +16,11 @@
   image: 'img/sk-audio-thumb1.png'
   color: '#3819d6'
 
-- title: 'Mimi Chao Collab Art Prints Available'
-  subtitle: 'The Perfect Holiday Gift'
-  url: https://ttkb.me/prints
-  image: 'img/mimi-collab-thumb.gif'
-  color: '#bbaaaa'
+# - title: 'Mimi Chao Collab Art Prints Available'
+#   subtitle: 'The Perfect Holiday Gift'
+#   url: https://ttkb.me/prints
+#   image: 'img/mimi-collab-thumb.gif'
+#   color: '#bbaaaa'
     
 # - title: 'Giclée Art Prints'
 #   subtitle: 'Available at Various Sizes'
@@ -28,11 +28,11 @@
 #   image: 'img/art-prints-thumb.jpg'
 #   color: '#a9737e'
   
-# - title: 'The Creativity Mini Course: 5 Days of Creativity'
-#   subtitle: 'Enrol For Free!'
-#   url: https://ttkb.me/cmc
-#   image: 'img/cmc-web-thumbnail.jpg'
-#   color: '#ffd400'
+- title: 'The Creativity Mini Course: 5 Days of Creativity'
+  subtitle: 'Enrol For Free!'
+  url: https://ttkb.me/cmc
+  image: 'img/cmc-web-thumbnail.jpg'
+  color: '#ffd400'
   
 # - title: 'The Perfect 100 Day Project: Over 25K students. Only 30 mins. Explosive creative growth!'
 #   subtitle: 'Check it out'
