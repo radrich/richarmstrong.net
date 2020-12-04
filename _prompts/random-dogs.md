@@ -7,6 +7,4 @@ background_color: "#ffdfd8"
 ---
 # {{ page.title | widont }}
 
-You guys should totally try this!
-
-{%- include random.html template="[[ color ]] [[ test ]] ontop of a [[color]] [[ test ]]" amount="10" delimeter="" type="ol" -%}
+You guys should totally try this! Try a random <span class="_random random" data-child="span" data-delimeter=", " data-template="[[ color ]] [[ test ]] ontop of a [[color]] [[ test ]]">color!</span>. Cool huh!?

@@ -32,14 +32,14 @@
   {%- assign delimeter = '' -%}
 {%- endif -%}
 
-{{ include.prepend }}
-
 {%- if type == 'ul' -%}
   <ul class="_random random"
     data-type='{{ type }}'
     data-delimeter='{{ delimeter }}'
     data-amount='{{ amount }}'
-    data-template='{{ template }}'>
+    data-template='{{ template }}'
+    data-prepend='{{ include.prepend }}'
+    data-append='{{ include.append }}'>
     <li>Loading items...</li>
   </ul>
 {%- elsif type == 'ol' -%}
@@ -47,7 +47,9 @@
     data-type='{{ type }}'
     data-delimeter='{{ delimeter }}'
     data-amount='{{ amount }}'
-    data-template='{{ template }}'>
+    data-template='{{ template }}'
+    data-prepend='{{ include.prepend }}'
+    data-append='{{ include.append }}'>
     <li>Loading items...</li>
   </ol>
 {%- elsif type == 'span' -%}
@@ -55,7 +57,9 @@
     data-type='{{ type }}'
     data-delimeter='{{ delimeter }}'
     data-amount='{{ amount }}'
-    data-template='{{ template }}'>
+    data-template='{{ template }}'
+    data-prepend='{{ include.prepend }}'
+    data-append='{{ include.append }}'>
     <span>Loading items...</span>
   </span>
 {%- else -%}
@@ -63,9 +67,9 @@
     data-type='{{ type }}'
     data-delimeter='{{ delimeter }}'
     data-amount='{{ amount }}'
-    data-template='{{ template }}'>
+    data-template='{{ template }}'
+    data-prepend='{{ include.prepend }}'
+    data-append='{{ include.append }}'>
     <span>Loading items...</span>
   </div>
 {%- endif -%}
-
-{{ include.append }}

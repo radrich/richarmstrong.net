@@ -44,19 +44,7 @@ var shuffle = function (o) {
 	return o;
 }
 
-
-/*
---gets the template
---gets the words inbetween the [[ ]], trims them and adds them to an array
-- loops through array, getting data
-- if has data already, use it, otherwise get
-- once all data has been got, create items from template multipled by amount param, adds to item array
-- insert item array, wrapped with element param, and deliminated with space or comma
- */
-
-/* caching (getting dataset only once rather than 10 times) */
-
-function indexesOf(string, regex) {
+var indexesOf = function (string, regex) {
     var match,
         indexes = {};
 
@@ -70,7 +58,7 @@ function indexesOf(string, regex) {
     return indexes;
 }
 
-function loadCollection (collection, callback) {
+var loadCollection = function (collection, callback) {
 	 if (collection == 'dog') {
 		$.getJSON('https://dog.ceo/api/breeds/list/all', function(data) {
 		  if (data.status == 'success') {
@@ -91,18 +79,22 @@ function loadCollection (collection, callback) {
 	}
 }
 
+/*
+- could have an identifier. So a place to put the words.
+- keep collections loaded outside of each random items element.
+- random number between, min, max
+- random amount bwteen min and max
+ */
+
 var loadRandomItems = function () {
 	$('._random').each(function(index) {
 		var $this = $(this),
-		template = $this.data('template'),
-		type = $this.data('type'),
-  	amount = $this.data('amount'),
-  	delimeter = $this.data('delimeter');
-		
-		console.log(index, template);
+		tmp = $this.data('template'),
+		child = $this.data('template') || 'span',
+  	amount = $this.data('amount') || 1,
+  	delimeter = $this.data('delimeter') || '';
 		
 		//gets the words inbetween the [[ ]], trims them and adds them to an array
-		var tmp = template;
 		var indices = indexesOf(tmp, /\[\[|\]\]/g);
 		var indicesStart = indices['[['];
 		var indicesEnd = indices[']]'];
@@ -125,14 +117,9 @@ var loadRandomItems = function () {
 			if (replacedStrings.length < amount) return false;
 			
 			var elements = [];
-			var childElem = 'span';
 			
 			$.each(replacedStrings, function(key, str) {
-				if (type == 'ul' || type == 'ol') {
-					elements.push('<li>'+str+'</li>');
-				} else {
-					elements.push('<span>'+str+'</span>');
-				}
+				elements.push('<'+child+'>'+str+'</'+child+'>');
 		  });
 		  $this.html(elements.join(delimeter));
 		}
