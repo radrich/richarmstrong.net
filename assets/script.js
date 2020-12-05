@@ -27,17 +27,6 @@ document.getElementById('menuBtn').addEventListener('click', function (e) {
 });
 
 // prompts
-// var data = JSON.parse(document.querySelector('#_json').dataset.json);
-// var words = document.querySelector('#_words');
-// data.words.forEach(function(word) {
-// 	console.log('words', words);
-// 	var elem = document.createElement('li');
-// 	elem.innerHTML = word;
-// 	words.appendChild(elem);
-//   console.log('word: ', word);
-// })
-
-
 
 var shuffle = function (o) {
 	for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
