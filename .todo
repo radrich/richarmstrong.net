@@ -2,7 +2,22 @@ Next:
 ------------------------
 [] 'More posts' instead of 'Related posts'?
 
-Post-launch:
+Prompts:
+------------------------
+[] Static items
+[] Add timer to page with callback
+[] Add buttons to page that refresh/reload (change words, start timer again), stop (stop countdown and maybe hide hidden stuff), and start (start countdown and show hidden stuff)
+[] amount min and max
+[] images
+[] custom random data added at element level
+[] style it
+	[] columns
+	[] inline
+	[] lists
+	[] related
+	[] browse all
+
+Coming up:
 ------------------------
 [] Change projects to ttk projects
 [] You are now subscribed page
