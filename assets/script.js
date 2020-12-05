@@ -89,6 +89,7 @@ var loadCollection = function (collection, callback) {
 - keep collections loaded outside of each random items element.
 - random amount bwteen min and max
 - set loading... text intially
+- put in your own words [[ custom ]]
  */
 
 var loadRandomItems = function () {
