@@ -1,19 +1,14 @@
-# - title: 'Mimi Chao Collab Art Prints Available'
-#   subtitle: 'The Perfect Holiday Gift'
-#   url: https://ttkb.me/prints
-#   image: 'img/mimi-collab-thumb.gif'
-#   color: '#bbaaaa'
-- title: 'The Perfect 100 Day Project'
-  subtitle: 'Join 25k+ students & pick your topic before 31 Jan 2021'
-  url: /the-perfect-100-day-project/
-  image: 'img/perfect-100-day-project-thumb.jpg'
-  color: '#d6d6d6'
-
 - title: 'The Essential Productivity Bundle (Expires Jan 16)'
   subtitle: '$700 worth of workbooks, courses & printables for $59'
   url: https://ttkb.me/c0835
   image: 'img/explosion1.png'
   color: '#ff5500'
+  
+- title: 'The Perfect 100 Day Project'
+  subtitle: 'Join 25k+ students & pick your topic before 31 Jan 2021'
+  url: /the-perfect-100-day-project/
+  image: 'img/perfect-100-day-project-thumb.jpg'
+  color: '#d6d6d6'
   
 - title: 'Get Inspired: Explore Your City'
   subtitle: 'Watch or Listen to My Latest Class'
