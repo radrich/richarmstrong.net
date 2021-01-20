@@ -51,7 +51,7 @@ var indexesOf = function (string, regex) {
 }
 
 var loadCollection = function (collection, callback) {
-	 if (collection == 'dog') {
+	 if (collection == 'dogs') {
 		$.getJSON('https://dog.ceo/api/breeds/list/all', function(data) {
 		  if (data.status == 'success') {
 		  	var breeds = [];
@@ -62,14 +62,18 @@ var loadCollection = function (collection, callback) {
 		  	callback(breeds);
 		  }
 		});
-	} if (collection == 'number') {
+	} if (collection == 'numbers') {
 		callback([]);
 	} else {
-  	$.getJSON('/assets/json/'+collection+'.json', function(data) {
+  	console.log('load', collection)
+  	$.getJSON('/assets/json/'+collection+'.json?v=2', function(data) {
 		  if (data.status == 'success') {
+		  	console.log('loaded', collection, data)
 		  	callback(data.items);
 		  }
-		});
+		}).fail(function(data) {
+	    console.log('--- issue', data)
+	  });
 	}
 }
 
@@ -103,8 +107,20 @@ var loadRandomItems = function () {
 		  wordsToReplace.push(tmp.substring(indicesStart[i] + 2, indicesEnd[i]).trim());
 		}
 		
-		var availableCollections = ['color', 'test', 'dog', 'number'];
+		var availableCollections = [
+			'colors',
+			'test',
+			'dogs',
+			'numbers',
+			'adjectives',
+			'fruits',
+			'nouns',
+			'animals',
+			'animals-basic',
+			'animals-all'
+		];
 		var loadedCollections = {};
+		
 		
 		// if it is loaded, use it
 		// if isn’t loaded, load collection
