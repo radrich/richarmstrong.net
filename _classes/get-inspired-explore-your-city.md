@@ -8,7 +8,6 @@ background_color: "#366c62"
 categories: ['Inspiration', 'Creativity']
 tags: ['Cities', 'IRL']
 priority: 100
-image: 'img/get-inspired-thumb.jpg'
 subscribe: false
 related:
   - /posts/get-inspired-by-your-city
@@ -28,7 +27,7 @@ This class is about getting inspired in a deeper, truer, and more authentic way�
 ### Where Can I Take the Class? {#options}
 
 - [**On TapTapKaboom School.**](https://ttkb.me/get-inspired) This includes the video *and* audio class. These are once-off purchases and don’t require a membership—they’ll be yours for eveeeeeer! You can also get the [the audio-only class](https://ttkb.me/get-inspired-audio) if you want. 
-- [**On Skillshare.**](https://ttkb.me/get-inspired-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before you, use [this link](https://ttkb.me/get-inspired-sk) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
+- [**On Skillshare.**](https://ttkb.me/get-inspired-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://ttkb.me/get-inspired-sk) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
 - [**On Listenable.**](https://ttkb.me/get-inspired-listenable) Listenable is an *audio-only* membership service with some super-helpful content. Use [this link](https://ttkb.me/get-inspired-listenable) to get a 7-day free trial. You’ll be able to listen to this class and a whole bunch more for free during that time.
 
 ### What The Class Covers

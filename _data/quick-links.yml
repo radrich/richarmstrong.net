@@ -1,14 +1,8 @@
-- title: 'The Perfect 100 Day Project'
-  subtitle: 'Join 25k+ students & pick your topic before 31 Jan 2021'
-  url: /the-perfect-100-day-project/
-  image: 'img/perfect-100-day-project-thumb.jpg'
-  color: '#d6d6d6'
-  
-- title: 'Get Inspired: Explore Your City'
-  subtitle: 'Watch or Listen to My Latest Class'
-  url: /get-inspired-explore-your-city
-  image: 'img/get-inspired-link-thumb.jpg'
-  color: '#366c62'
+- title: 'Productivity with Purpose: Your Foundation for Success'
+  subtitle: 'Check Out My Latest Class!'
+  url: /productivity-with-purpose/
+  image: 'img/pwp-thumb.jpg'
+  color: '#ff5500'
 
 - title: 'The 5 Day Creativity Mini Course'
   subtitle: 'Enrol For Free!'
@@ -22,11 +16,11 @@
   image: 'img/class-catalogue-thumb.jpg'
   color: 'black'
   
-- title: 'Experimental ‘Hot Mess’ Posters'
-  subtitle: 'Check Out the Project on Bēhance'
-  url: https://www.behance.net/gallery/107659817/Experimental-October-Hot-Mess-Posters
-  image: 'img/art-prints-thumb.jpg'
-  color: '#a9737e'
+# - title: 'Experimental ‘Hot Mess’ Posters'
+#   subtitle: 'Check Out the Project on Bēhance'
+#   url: https://www.behance.net/gallery/107659817/Experimental-October-Hot-Mess-Posters
+#   image: 'img/art-prints-thumb.jpg'
+#   color: '#a9737e'
 
 - title: 'Join The Newsletter'
   subtitle: 'A.K.A. The TapTapKaboom Blast'

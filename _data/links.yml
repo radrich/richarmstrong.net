@@ -1,14 +1,14 @@
+- title: 'Productivity with Purpose: Your Foundation for Success'
+  subtitle: 'Check Out My Latest Class!'
+  url: /productivity-with-purpose/
+  image: 'img/pwp-thumb.jpg'
+  color: '#ff5500'
+  
 - title: 'The Perfect 100 Day Project'
-  subtitle: 'Join 25k+ students & pick your topic before 31 Jan 2021'
+  subtitle: 'Join 27k+ students on this epic journey.'
   url: /the-perfect-100-day-project/
   image: 'img/perfect-100-day-project-thumb.jpg'
   color: '#d6d6d6'
-  
-- title: 'Get Inspired: Explore Your City'
-  subtitle: 'Watch or Listen to My Latest Class'
-  url: /get-inspired-explore-your-city
-  image: 'img/get-inspired-link-thumb.jpg'
-  color: '#366c62'
   
 # - title: 'Experimental ‘Hot Mess’ Posters: A Month of Exploration'
 #   subtitle: 'Check It Out on Bēhance'
@@ -16,11 +16,11 @@
 #   image: 'img/art-prints-thumb.jpg'
 #   color: '#a9737e'
   
-- title: 'YOUR Questions Answered!'
-  subtitle: 'Listen to My Audio Class on Skillshare'
-  url: https://ttkb.me/sk-audio
-  image: 'img/sk-audio-thumb1.png'
-  color: '#3819d6'
+# - title: 'YOUR Questions Answered!'
+#   subtitle: 'Listen to My Audio Class on Skillshare'
+#   url: https://ttkb.me/sk-audio
+#   image: 'img/sk-audio-thumb1.png'
+#   color: '#3819d6'
 
 # - title: 'Mimi Chao Collab Art Prints Available'
 #   subtitle: 'The Perfect Holiday Gift'

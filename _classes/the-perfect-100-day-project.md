@@ -26,7 +26,7 @@ This class focuses on coming up with a 100 Day Project of your own. One that's p
 ### Where Can I Take the Class? {#options}
 
 - [**On TapTapKaboom School.**](https://ttkb.me/100-day-project) This is a once-off purchases and doesn’t require a membership—they’ll be yours for eveeeeeer!
-- [**On Skillshare.**](https://ttkb.me/perfect-100-day-proj) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before you, use [this link](https://ttkb.me/perfect-100-day-proj) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
+- [**On Skillshare.**](https://ttkb.me/perfect-100-day-proj) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://ttkb.me/perfect-100-day-proj) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
 
 ### What The Class Covers
 Choosing your project is where majority of the 30 minutes class is spent, but it also covers often asked questions, some inspirational projects and ideas, and a bunch of hints and tips for starting and completing an awesome 100 Day Project.
