@@ -113,6 +113,7 @@ var loadRandomItems = function () {
 			'dogs',
 			'numbers',
 			'adjectives',
+			'verbs',
 			'fruits',
 			'nouns',
 			'animals',

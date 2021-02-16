@@ -9,6 +9,9 @@ background_color: "#ffdfd8"
 
 You guys should totally try this! Try a random <span class="_random random" data-child="span" data-delimeter=", " data-template="[[ colors ]] [[ test ]] ontop of a [[colors]] [[ test ]]">color!</span>. Cool huh!?
 
+Check out these verbs:
+<ul class="_random random" data-child="li" data-amount="20" data-template="[[ verbs ]]"></ul>
+
 Check out these adjectives:
 <ul class="_random random" data-child="li" data-amount="20" data-template="[[ adjectives ]]"></ul>
 
