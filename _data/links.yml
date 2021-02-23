@@ -3,12 +3,18 @@
   url: /productivity-with-purpose/
   image: 'img/pwp-thumb.jpg'
   color: '#ff5500'
+
+- title: 'Design the Map of Your Future'
+  subtitle: 'Live Skillshare Session: March 18'
+  url: https://ttkb.me/live
+  image: 'img/live-2.jpg'
+  color: '#ff4141'
   
-- title: 'The Perfect 100 Day Project'
-  subtitle: 'Join 27k+ students on this epic journey.'
-  url: /the-perfect-100-day-project/
-  image: 'img/perfect-100-day-project-thumb.jpg'
-  color: '#d6d6d6'
+# - title: 'The Perfect 100 Day Project'
+#   subtitle: 'Join 27k+ students on this epic journey.'
+#   url: /the-perfect-100-day-project/
+#   image: 'img/perfect-100-day-project-thumb.jpg'
+#   color: '#d6d6d6'
   
 # - title: 'Experimental ‘Hot Mess’ Posters: A Month of Exploration'
 #   subtitle: 'Check It Out on Bēhance'
