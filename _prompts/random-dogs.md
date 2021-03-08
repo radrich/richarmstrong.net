@@ -15,8 +15,8 @@ Check out these verbs:
 Check out these adjectives:
 <ul class="_random random" data-child="li" data-amount="20" data-template="[[ adjectives ]]"></ul>
 
-Check out these nouns:
-<ul class="_random random" data-child="li" data-amount="20" data-template="[[ nouns ]]"></ul>
+Check out these objects:
+<ul class="_random random" data-child="li" data-amount="20" data-template="[[ objects ]]"></ul>
 
 Check out these fruits:
 <ul class="_random random" data-child="li" data-amount="20" data-template="[[ fruits ]]"></ul>

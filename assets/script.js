@@ -110,6 +110,7 @@ var loadRandomItems = function () {
 		var availableCollections = [
 			'colors',
 			'test',
+			'objects',
 			'dogs',
 			'numbers',
 			'adjectives',
