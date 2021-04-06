@@ -7,7 +7,12 @@ background_color: "#ffdfd8"
 ---
 # {{ page.title | widont }}
 
-You guys should totally try this! Try a random <span class="_random random" data-child="span" data-delimeter=", " data-template="[[ colors ]] [[ test ]] ontop of a [[colors]] [[ test ]]">color!</span>. Cool huh!?
+You guys should totally try this! Try <span class="_random random" data-child="span" data-delimeter=", or " data-template="[[ numbers ]] [[ objects-plural ]] ontop of a [[ animals-singular ]]" data-amount="2" data-params='{"min":2,"max":12}'></span>. Cool huh!?
+
+How about some random numbers? <span class="_random random" data-amount="5" data-template="[[ numbers ]]" data-params='{"min":1,"max":100}' data-delimeter=", "></span>.
+
+Check out these objects:
+<ul class="_random random" data-child="li" data-amount="20" data-template="[[ objects-singular ]]"></ul>
 
 Check out these verbs:
 <ul class="_random random" data-child="li" data-amount="20" data-template="[[ verbs ]]"></ul>
@@ -16,18 +21,16 @@ Check out these adjectives:
 <ul class="_random random" data-child="li" data-amount="20" data-template="[[ adjectives ]]"></ul>
 
 Check out these nouns:
-<ul class="_random random" data-child="li" data-amount="20" data-template="[[ nouns ]]"></ul>
+<ul class="_random random" data-child="li" data-amount="20" data-template="[[ nouns-singular ]]"></ul>
 
 Check out these fruits:
-<ul class="_random random" data-child="li" data-amount="20" data-template="[[ fruits ]]"></ul>
+<ul class="_random random" data-child="li" data-amount="20" data-template="[[ fruits-singular ]]"></ul>
 
 Check out these animals:
-<ul class="_random random" data-child="li" data-amount="10" data-template="[[ animals ]]"></ul>
+<ul class="_random random" data-child="li" data-amount="10" data-template="[[ animals-singular ]]"></ul>
 
 Check out these basic animals:
-<ul class="_random random" data-child="li" data-amount="10" data-template="[[ animals-basic ]]"></ul>
+<ul class="_random random" data-child="li" data-amount="10" data-template="[[ animals-singular ]]"></ul>
 
-Check out these colors:
-<ul class="_random random" data-child="li" data-amount="10" data-template="[[ colors ]]"></ul>
-
-How about some random numbers? <span class="_random random" data-amount="5" data-template="[[ numbers ]]" data-params='{"min":90,"max":100}' data-delimeter=", "></span>.
+Check out these colors-basic:
+<ul class="_random random" data-child="li" data-amount="10" data-template="[[ colors-basic ]]"></ul>

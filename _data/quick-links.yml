@@ -4,11 +4,11 @@
   image: 'img/pwp-thumb.jpg'
   color: '#ff5500'
 
-- title: 'Design the Map of Your Future'
-  subtitle: 'Live Skillshare Session: March 18'
-  url: https://ttkb.me/live
-  image: 'img/live-2.jpg'
-  color: '#ff4141'
+# - title: 'Design the Map of Your Future'
+#   subtitle: 'Live Skillshare Session: March 18'
+#   url: https://ttkb.me/live
+#   image: 'img/live-2.jpg'
+#   color: '#ff4141'
 
 - title: 'The 5 Day Creativity Mini Course'
   subtitle: 'Enrol For Free!'

@@ -65,10 +65,10 @@ var loadCollection = function (collection, callback) {
 	} if (collection == 'numbers') {
 		callback([]);
 	} else {
-  	console.log('load', collection)
+  	//console.log('load', collection)
   	$.getJSON('/assets/json/'+collection+'.json?v=2', function(data) {
 		  if (data.status == 'success') {
-		  	console.log('loaded', collection, data)
+		  	//console.log('loaded', collection, data)
 		  	callback(data.items);
 		  }
 		}).fail(function(data) {
@@ -91,10 +91,11 @@ var loadRandomItems = function () {
 		tmp = $this.data('template'),
 		child = $this.data('child') || 'span',
   	amount = $this.data('amount') || 1,
-  	params = $this.data('params') || {},
+  	params = $this.data('params') || {min: 1, max: 10},
   	delimeter = $this.data('delimeter') || '';
   	
-  	console.log('params', params);
+  	//console.log('amount', amount);
+  	//console.log('params', params);
 		
 		//gets the words inbetween the [[ ]], trims them and adds them to an array
 		var indices = indexesOf(tmp, /\[\[|\]\]/g);
@@ -108,17 +109,25 @@ var loadRandomItems = function () {
 		}
 		
 		var availableCollections = [
-			'colors',
-			'test',
-			'dogs',
-			'numbers',
 			'adjectives',
+			'adverbs',
+			'animals-plural',
+			'animals-singular',
+			'food-plural',
+			'food-singular',
+			'fruits-plural',
+			'fruits-singular',
+			'nouns-plural',
+			'nouns-singular',
+			'objects-plural',
+			'objects-singular',
+			'verbs-past',
+			'verbs-present',
 			'verbs',
-			'fruits',
-			'nouns',
-			'animals',
-			'animals-basic',
-			'animals-all'
+			'vegetables-plural',
+			'vegetables-singular',
+			'colors-basic',
+			'numbers', // treat differntly
 		];
 		var loadedCollections = {};
 		
@@ -145,8 +154,8 @@ var loadRandomItems = function () {
 			var strEnd = str.substring(indexTo);
 			var replacement;
 			
-			if (collection == 'number') {
-				console.log(str, '------ is number :', collection);
+			if (collection == 'numbers') {
+				//console.log(str, '------ is number :', collection);
 				replacement = randomBetweenMinAndMax(params.min, params.max);
 			} else {
 				replacement = shuffle(loadedCollections[collection])[0];
