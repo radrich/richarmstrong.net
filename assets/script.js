@@ -37,6 +37,20 @@ var randomBetweenMinAndMax = function (min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
+var randomAcronym = function (min, max) {
+  var len = randomBetweenMinAndMax(min, max);
+  var letters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+  var ranLetters = shuffle(letters);
+  var acronym = '';
+  
+  for (var i=0; i<len; i++) {
+		acronym += ranLetters[i];
+		if (i+1 < len) {acronym += '.';}
+	}
+  
+  return acronym;
+}
+
 var indexesOf = function (string, regex) {
     var match, indexes = {};
 
@@ -51,7 +65,11 @@ var indexesOf = function (string, regex) {
 }
 
 var loadCollection = function (collection, callback) {
-	 if (collection == 'dogs') {
+	 if (collection == 'numbers') {
+		callback([]);
+	} else if (collection == 'acronyms') {
+		callback([]);
+	} else if (collection == 'dogs') {
 		$.getJSON('https://dog.ceo/api/breeds/list/all', function(data) {
 		  if (data.status == 'success') {
 		  	var breeds = [];
@@ -62,8 +80,6 @@ var loadCollection = function (collection, callback) {
 		  	callback(breeds);
 		  }
 		});
-	} if (collection == 'numbers') {
-		callback([]);
 	} else {
   	//console.log('load', collection)
   	$.getJSON('/assets/json/'+collection+'.json?v=2', function(data) {
@@ -109,6 +125,7 @@ var loadRandomItems = function () {
 		}
 		
 		var availableCollections = [
+			'acronyms',
 			'adjectives',
 			'adverbs',
 			'animals-plural',
@@ -157,6 +174,8 @@ var loadRandomItems = function () {
 			if (collection == 'numbers') {
 				//console.log(str, '------ is number :', collection);
 				replacement = randomBetweenMinAndMax(params.min, params.max);
+			} else if (collection == 'acronyms') {
+				replacement = randomAcronym(params.min, params.max);
 			} else {
 				replacement = shuffle(loadedCollections[collection])[0];
 			}
