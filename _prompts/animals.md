@@ -1,0 +1,11 @@
+---
+title: "Random Animals"
+subtitle: "Your Fix of Random Animals"
+desc: "Use these words to work on your creativity!"
+image: "img/abstract-art-site-thumbnail.jpg"
+background_color: "#ffdfd8"
+---
+# {{ page.title | widont }}
+## {{ page.subtitle | widont }}
+
+<ul class="_random random" data-child="li" data-amount="20" data-template="[[ animals-singular ]]"></ul>
