@@ -1,3 +1,15 @@
+- title: 'Build an Exquisite Corpse with Me!'
+  subtitle: 'Upload Your File by Friday April 23'
+  url: /exquisite-corpse/
+  image: 'img/exquisite-corpse-thumb.jpg'
+  color: '#ff5500'
+  
+- title: 'The 5 Day Creativity Mini Course'
+  subtitle: 'Enrol For Free!'
+  url: https://ttkb.me/cmc
+  image: 'img/cmc-web-thumbnail.jpg'
+  color: '#ffd400'
+  
 - title: 'Productivity with Purpose: Your Foundation for Success'
   subtitle: 'Check Out My Latest Class!'
   url: /productivity-with-purpose/
@@ -9,12 +21,6 @@
 #   url: https://ttkb.me/live
 #   image: 'img/live-2.jpg'
 #   color: '#ff4141'
-
-- title: 'The 5 Day Creativity Mini Course'
-  subtitle: 'Enrol For Free!'
-  url: https://ttkb.me/cmc
-  image: 'img/cmc-web-thumbnail.jpg'
-  color: '#ffd400'
 
 - title: 'Classes & Courses'
   subtitle: 'Browse the Catalogue'
