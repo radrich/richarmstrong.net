@@ -24,4 +24,6 @@ Because we’ve been in some form of COVID lockdown for over a year!
 4. [Upload your final piece here on Dropbox](https://ttkb.me/corpse-submit) by Friday April 23.
 5. I’ll be combining it into one large body!
 
+I’m pumped to see how this turns out!
+
 {% include img.html img="img/exquisite-corpse-template.jpg" caption="Here’s what the template looks like." %}
