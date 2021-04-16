@@ -12,11 +12,11 @@ index: true
 
 But with this project **there’s going to be more than 3 of us.** We’re going to be create a super duper long Exquisite Corpse!
 
-## Why this project?
+## Why This Project?
 Because we’ve been in some form of COVID lockdown for over a year!  
 **Let’s connect with each other!**
 
-## Want to participate?
+## Want To Participate?
 
 1. Download the [template file.](https://ttkb.me/corpse-template)
 2. Start and end your illustration within the lines on the right and left.
