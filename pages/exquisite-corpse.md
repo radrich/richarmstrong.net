@@ -20,7 +20,7 @@ Because we’ve been in some form of COVID lockdown for over a year!
 
 1. Download the [template file.](https://ttkb.me/corpse-template)
 2. Start and end your illustration within the lines on the right and left.
-3. Illustrate the rest of page however you like.
+3. Illustrate/design the rest of page however you like.
 4. [Upload your final piece here on Dropbox](https://ttkb.me/corpse-submit) by Friday April 23.
 5. I’ll be combining it into one large body!
 
