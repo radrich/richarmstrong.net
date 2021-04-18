@@ -5,28 +5,6 @@ layout: default
   <article>
     {%- include content-header.html -%}
     {{ content  }}
-    <div class="meta">
-      <p>
-        <a href="{% link pages/posts.md %}">Posted</a> on {{ page.date | date_to_string }} in 
-        {% for cat in page.categories %}
-          {% assign cat_slug = cat | slugify %}
-          {% if forloop.last and forloop.first != true %}and {% endif %} <a href="{{ '/categories/' | append: cat_slug }}">{{ cat }}</a>
-        {% endfor %}
-        {% if page.updated %}
-          <span class="tags">
-            Updated on {{ page.updated | date_to_string }}
-          </span>
-        {% endif %}
-        {% if page.tags %}
-          <span class="tags">
-            {% for tag in page.tags %}
-              {% assign tag_slug = tag | slugify %}
-              <a href="{{ '/tags/' | append: tag_slug }}">#{{ tag | slugify }}</a>
-            {% endfor %}
-          </span>
-        {% endif %}
-      </p>
-    </div>
   </article>
   <hr>
   {%- include signup.html -%}
