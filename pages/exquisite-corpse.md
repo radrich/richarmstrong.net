@@ -10,7 +10,7 @@ index: true
 
 **You want to collaborate on something fun?** You’ve heard of Exquisite Corpse right? It’s where a few people contribute toward a ‘body’. Typically someone draws the head, someone else the body, and someone else the legs.
 
-But with this project **there’s going to be more than 3 of us.** We’re going to be create a super duper long Exquisite Corpse!
+But with this project **there’s going to be more than 3 of us.** We’re going to be creating a super duper long Exquisite Corpse!
 
 ## Why This Project?
 Because we’ve been in some form of COVID lockdown for over a year!  
