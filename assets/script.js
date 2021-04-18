@@ -159,7 +159,7 @@ var loadRandomItems = function () {
 			
 			var elements = [];
 			$.each(replacedStrings, function(key, str) {
-				elements.push('<'+child+'>'+str+'</'+child+'>');
+				elements.push('<'+child+' class="item">'+str+'</'+child+'>');
 		  });
 		  $this.html(elements.join(delimeter));
 		}
@@ -179,6 +179,8 @@ var loadRandomItems = function () {
 			} else {
 				replacement = shuffle(loadedCollections[collection])[0];
 			}
+			
+			replacement = '<span class="word">'+replacement+'</span>'; 
 			
 			return strStart + replacement + strEnd;
 		}
