@@ -12,5 +12,12 @@
 		padding: 2px 10px 9px;
 		background-color: #FEBFE7;
 		color: black;
+		display: inline-block;
+		margin: 0 2px 10px;
+		
+		@media (max-width: $mobileMax) {
+			font-size: 24px;
+			padding-bottom: 0;
+		}
 	}
 }
