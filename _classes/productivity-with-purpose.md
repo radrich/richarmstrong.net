@@ -6,7 +6,7 @@ date: "2021-01-28"
 background_color: "#ff5500"
 categories: ['Productivity']
 tags: ['your why', 'exercises']
-priority: 100
+priority: 99
 image: 'img/pwp-thumb.jpg'
 subscribe: false
 related:

@@ -7,7 +7,7 @@ image: "img/get-inspired-thumb.jpg"
 background_color: "#366c62"
 categories: ['Inspiration', 'Creativity']
 tags: ['Cities', 'IRL']
-priority: 100
+priority: 98
 subscribe: false
 related:
   - /posts/get-inspired-by-your-city
