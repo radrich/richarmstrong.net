@@ -6,9 +6,9 @@ image: 'img/rich-doodle-thumb.jpg'
 background_color: black
 color: white
 related:
-  - /classes/abstract-art-in-fresco
-  - /posts/common-video-sizes
-  - /pages/random-word-doodle
+  - /classes/hand-code-your-first-website
+  - /classes/digital-marbling
+  - /workouts
 index: true
 ---
 
