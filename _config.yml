@@ -85,18 +85,22 @@ defaults:
   -
     scope:
       path: ""
-      type: "prompts"
+      type: "workouts"
     values:
-      layout: "prompt"
+      layout: "workout"
+      related:
+        - /classes/creativity-mini-course
+        - /classes/5-minute-creative-workouts
+        - /workouts
 
 collections:
   classes:
     output: true
     sort_by: priority
     permalink: /:name/
-  prompts:
+  workouts:
     output: true
-    permalink: /prompts/:name/
+    permalink: /workouts/:name/
 
 sass:
   sass_dir: _sass

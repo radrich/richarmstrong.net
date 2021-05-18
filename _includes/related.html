@@ -19,6 +19,15 @@
       {% assign filename = id | append: '.md'  %}
       {% assign page_match = site.pages | where: 'name', filename %}
       {% assign related_items = related_items | concat: page_match %}
+    {% elsif folder == '_workouts' or folder == 'workouts' %}
+      {% if id %}
+        {% assign id_with_slash = id_with_slash | prepend: '/workouts'  %}
+        {% assign workout_match = site.workouts | where: 'id', id_with_slash %}
+        {% assign related_items = related_items | concat: workout_match %}
+      {% else %}
+        {% assign page = site.pages | where: 'name', 'workouts.md' %}
+        {% assign related_items = related_items | concat: page %}
+      {% endif %}
     {% endif %}
   {% endfor %}
   

@@ -13,6 +13,9 @@ layout: default
 	<h2>Latest &amp; Greatest</h2>
 	{%- include grid.html items=site.data.links list=true -%}
 
+	<h2>Create & Learn with TapTapKaboom</h2>
+	{%- include grid.html items=site.data.primary-links -%}
+	
 	<h2>Recent Classes <a href="{% link pages/classes.md %}" class="cta">View All Classes</a></h2>
 	{%- include grid.html items=latest_classes -%}
 

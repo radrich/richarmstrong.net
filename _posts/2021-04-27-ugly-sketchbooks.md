@@ -1,5 +1,6 @@
 ---
 title: Why I’m Okay With an Ugly Sketchbook
+subtitle: It’s All About the Tools
 image: "img/ugly-sketchbooks-thumb.png"
 desc: "I asked myself why I wanted a beautiful sketchbook. My reason: to look creative and appear imaginative. Whoa! I felt shallow. But my sketchbooks weren’t empty. The exact opposite was true."
 categories: ['Success', 'Illustration']
