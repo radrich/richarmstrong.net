@@ -1,11 +1,15 @@
 ---
-title: "Why is Sublime Text Awesome?"
+title: "Why Sublime Text Awesome"
 subtitle: "Here are 3 reasons"
 desc: "Learn why Sublime Text is the business when it comes to editing code."
 background_color: "#fdb32b"
 image: 'img/sublime-thumb.png'
 categories: ['Coding']
 tags: ['Sublime Text', 'Tools']
+related:
+  - /classes/hand-code-your-first-website
+  - /classes/launch-a-rocket
+  - /classes/demystifying-parallax
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

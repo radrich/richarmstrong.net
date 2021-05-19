@@ -7,6 +7,10 @@ color: "white"
 image: 'img/finish-strong-website-thumb.jpg'
 categories: ['Success']
 tags: ['Effectivity']
+related:
+  - /classes/just-start
+  - /classes/the-perfect-100-day-project
+  - /classes/productivity-with-purpose
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

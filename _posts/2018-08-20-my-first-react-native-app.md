@@ -8,6 +8,10 @@ image: 'img/first-rn-app-thumb.jpg'
 header_image: 'img/rwd-react-native-process.png'
 categories: ['Coding']
 tags: ['Products', 'React Native', 'Behind The Scenes', 'Experiences', 'UX']
+related:
+  - /classes/hand-code-your-first-website
+  - /classes/launch-a-rocket
+  - /posts/sublime-text-is-awesome/
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

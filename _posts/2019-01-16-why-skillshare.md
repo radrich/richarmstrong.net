@@ -7,6 +7,10 @@ color: white
 image: 'img/why-skillshare-thumb.png'
 categories: ['Creativity', 'Success']
 tags: ['Community', 'Skillshare']
+related:
+  - /classes/just-start
+  - /classes/the-perfect-100-day-project
+  - /posts/how-to-make-your-first-skillshare-class
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

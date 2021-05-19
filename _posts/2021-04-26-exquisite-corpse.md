@@ -10,7 +10,7 @@ color: "black"
 related:
   - /classes/productivity-with-purpose
   - /classes/creativity-mini-course
-  - /classes/digital-marbling
+  - /classes/5-minute-creative-workouts
   
 ---
 # {{ page.title }}

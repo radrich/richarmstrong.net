@@ -10,7 +10,7 @@ tags: ['Effectivity', 'Exercises']
 related:
   - /classes/just-start
   - /classes/the-perfect-100-day-project
-  - /posts/finish-strong
+  - /classes/productivity-with-purpose
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
