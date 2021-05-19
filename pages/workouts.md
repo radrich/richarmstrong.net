@@ -9,7 +9,7 @@ index: true
 ---
 <h1>Creative Workouts</h1>
 
-A bunch more coming soon. Sign up for updates!
+More coming soon. Sign up for updates!
 
 {% assign workouts = site.workouts | where: "index", "true" %}
 {%- include grid.html items=workouts list=true -%}

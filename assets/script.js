@@ -105,13 +105,21 @@ var loadRandomItems = function () {
 	$('._random').each(function(index) {
 		var $this = $(this),
 		tmp = $this.data('template'),
+		source = $this.data('source') || null,
 		child = $this.data('child') || 'span',
   	amount = $this.data('amount') || 1,
   	params = $this.data('params') || {min: 1, max: 10},
   	delimeter = $this.data('delimeter') || '';
   	
-  	//console.log('amount', amount);
   	//console.log('params', params);
+  	
+  	// make source a thing
+  	if (source) {
+  		source = source.split(',')
+  		source.forEach(function (item, i) {
+			  source[i] = item.trim();
+			});
+  	}
 		
 		//gets the words inbetween the [[ ]], trims them and adds them to an array
 		var indices = indexesOf(tmp, /\[\[|\]\]/g);
@@ -144,7 +152,8 @@ var loadRandomItems = function () {
 			'vegetables-plural',
 			'vegetables-singular',
 			'colors-basic',
-			'numbers', // treat differntly
+			'numbers', // treat differently
+			'mix',  // treat differently
 		];
 		var loadedCollections = {};
 		
