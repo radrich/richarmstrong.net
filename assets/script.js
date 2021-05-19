@@ -128,6 +128,7 @@ var loadRandomItems = function () {
 		var numReplacementsNeeded = Math.min(indicesStart.length, indicesEnd.length);
 		var wordsToReplace = [];
 		
+		// setup wordsToReplace
 		for(var i=0; i<numReplacementsNeeded; i++) {
 		  wordsToReplace.push(tmp.substring(indicesStart[i] + 2, indicesEnd[i]).trim());
 		}
@@ -173,7 +174,7 @@ var loadRandomItems = function () {
 		  $this.html(elements.join(delimeter));
 		}
 		
-		var replaceFirstWord = function (str, collection) {
+		var replaceNextWord = function (str, collection) {
 			var indexFrom = str.indexOf('[[');
 			var indexTo = str.indexOf(']]') + 2;
 			var strStart = str.substring(0, indexFrom);
@@ -194,7 +195,6 @@ var loadRandomItems = function () {
 			return strStart + replacement + strEnd;
 		}
 		
-		
 		var numWordsReadyForReplacing = 0;
 		var replaceWords = function () {
 			numWordsReadyForReplacing ++;
@@ -204,9 +204,10 @@ var loadRandomItems = function () {
 			for (var k=0; k<amount; k++) {
 				var replacedStr = tmp;
 				for (var i=0; i<numReplacementsNeeded; i++) {
-					replacedStr = replaceFirstWord(replacedStr, wordsToReplace[i]);
+					replacedStr = replaceNextWord(replacedStr, wordsToReplace[i]);
 				}
 				replacedStrings.push(replacedStr);
+				console.log('replacedStrings', replacedStrings)
 			}
 		}
 		
