@@ -51,6 +51,21 @@ var randomAcronym = function (min, max) {
   return acronym;
 }
 
+var randomMix = function (collections) {
+	console.log('MIX', collections)
+	var mix = [];
+	
+	for (var i=0; i<collections.length; i++) {
+		mix = mix.concat(loadedCollections[collections[i]])
+	}
+	console.log('BIG ARRAY')
+	shuffle(mix);
+	console.log('SHUFFLE ARRAY')
+	
+	
+	return mix[0];
+}
+
 var indexesOf = function (string, regex) {
     var match, indexes = {};
 
@@ -68,6 +83,8 @@ var loadCollection = function (collection, callback) {
 	 if (collection == 'numbers') {
 		callback([]);
 	} else if (collection == 'acronyms') {
+		callback([]);
+	} else if (collection == 'mix') {
 		callback([]);
 	} else if (collection == 'dogs') {
 		$.getJSON('https://dog.ceo/api/breeds/list/all', function(data) {
@@ -100,26 +117,87 @@ var loadCollection = function (collection, callback) {
 - set loading... text intially
 - put in your own words [[ custom ]]
  */
+ 
+// collection containers
+var collectionsToLoad = [];
+var loadedCollections = {};
+var availableCollections = [
+	'acronyms',
+	'adjectives',
+	'adverbs',
+	'animals-plural',
+	'animals-singular',
+	'food-plural',
+	'food-singular',
+	'fruits-plural',
+	'fruits-singular',
+	'nouns-plural',
+	'nouns-singular',
+	'objects-plural',
+	'objects-singular',
+	'verbs-past',
+	'verbs-present',
+	'verbs',
+	'vegetables-plural',
+	'vegetables-singular',
+	'colors-basic',
+	'numbers', // treat differently
+	'mix',  // treat differently
+];
+
+var appendToCollectionsToLoad = function (collection) {
+	if (!collectionsToLoad.includes(collection)) {
+		if (availableCollections.includes(collection)) {
+			collectionsToLoad.push(collection);
+		} else {
+			throw collection + ' is not an available collection';
+		}
+	}
+}
+
+var hasLoadedAllCollections = function () {
+	// find each key in both collectionsToLoad and loadedCollections
+	var matches = 0;
+	for(var i=0; i<collectionsToLoad.length; i++) {
+		if (loadedCollections[collectionsToLoad[i]]) {
+			matches ++;
+		}
+	}
+	return matches == collectionsToLoad.length;
+}
+
+var loadAllCollections = function (callback) {
+	//console.log('loadAllCollections', hasLoadedAllCollections())
+	if (!hasLoadedAllCollections()) {
+		//console.log('--- load em up')
+		collectionsToLoad.forEach(function (collection, i) {
+			if (!loadedCollections[collection]) {
+				loadCollection(collection, function (data) {
+					loadedCollections[collection] = data;
+					if (hasLoadedAllCollections()) {
+						callback();
+					}
+				});
+			}
+		});
+	} else {
+		callback();
+	}
+}
 
 var loadRandomItems = function () {
 	$('._random').each(function(index) {
+		
+		// data from element
 		var $this = $(this),
 		tmp = $this.data('template'),
-		source = $this.data('source') || null,
 		child = $this.data('child') || 'span',
   	amount = $this.data('amount') || 1,
-  	params = $this.data('params') || {min: 1, max: 10},
+  	params = $this.data('params') || null,
   	delimeter = $this.data('delimeter') || '';
   	
-  	//console.log('params', params);
   	
-  	// make source a thing
-  	if (source) {
-  		source = source.split(',')
-  		source.forEach(function (item, i) {
-			  source[i] = item.trim();
-			});
-  	}
+  	//console.log('params', params);
 		
 		//gets the words inbetween the [[ ]], trims them and adds them to an array
 		var indices = indexesOf(tmp, /\[\[|\]\]/g);
@@ -133,30 +211,38 @@ var loadRandomItems = function () {
 		  wordsToReplace.push(tmp.substring(indicesStart[i] + 2, indicesEnd[i]).trim());
 		}
 		
-		var availableCollections = [
-			'acronyms',
-			'adjectives',
-			'adverbs',
-			'animals-plural',
-			'animals-singular',
-			'food-plural',
-			'food-singular',
-			'fruits-plural',
-			'fruits-singular',
-			'nouns-plural',
-			'nouns-singular',
-			'objects-plural',
-			'objects-singular',
-			'verbs-past',
-			'verbs-present',
-			'verbs',
-			'vegetables-plural',
-			'vegetables-singular',
-			'colors-basic',
-			'numbers', // treat differently
-			'mix',  // treat differently
-		];
-		var loadedCollections = {};
+		// setup/add to collectionsToLoad
+		for(var i=0; i<wordsToReplace.length; i++) {
+			appendToCollectionsToLoad(wordsToReplace[i]);
+		}
+		if (params && params.collections) {
+  		for(var i=0; i<params.collections.length; i++) {
+				appendToCollectionsToLoad(params.collections[i]);
+			}
+  	}
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	// $.each(wordsToReplace, function(key, word) {
+	  // 	if (availableCollections.includes(word)) {
+	  // 		if (loadedCollections[word]) {
+	  // 			replaceWords();
+	  // 			insertWords();
+	  // 		} else {
+	  // 			loadCollection(word, function (data) {
+	  // 				loadedCollections[word] = data;
+	  // 				replaceWords();
+	  // 				insertWords();
+	  // 			});
+	  // 		}
+	  // 	} else {
+	  // 		throw word + ' is not an available collection';
+	  // 	}
+	  // });
 		
 		
 		// if it is loaded, use it
@@ -186,6 +272,9 @@ var loadRandomItems = function () {
 				replacement = randomBetweenMinAndMax(params.min, params.max);
 			} else if (collection == 'acronyms') {
 				replacement = randomAcronym(params.min, params.max);
+			} else if (collection == 'mix') {
+				console.log('-- GOT HERE MIX')
+				replacement = randomMix(params.collections);
 			} else {
 				replacement = shuffle(loadedCollections[collection])[0];
 			}
@@ -195,10 +284,10 @@ var loadRandomItems = function () {
 			return strStart + replacement + strEnd;
 		}
 		
-		var numWordsReadyForReplacing = 0;
+		//var numWordsReadyForReplacing = 0;
 		var replaceWords = function () {
-			numWordsReadyForReplacing ++;
-			if (numWordsReadyForReplacing < numReplacementsNeeded) return false;
+			//numWordsReadyForReplacing ++;
+			//if (numWordsReadyForReplacing < numReplacementsNeeded) return false;
 			
 			// replace the [[ word ]] with random items
 			for (var k=0; k<amount; k++) {
@@ -211,23 +300,33 @@ var loadRandomItems = function () {
 			}
 		}
 		
+		
+		console.log('wordsToReplace', numReplacementsNeeded, wordsToReplace);
+		
+		// load collections
+  	loadAllCollections(function () {
+  		replaceWords();
+  		insertWords();
+  	});
+		
 		// loop through array, getting data
-		$.each(wordsToReplace, function(key, word) {
-	  	if (availableCollections.includes(word)) {
-	  		if (loadedCollections[word]) {
-	  			replaceWords();
-	  			insertWords();
-	  		} else {
-	  			loadCollection(word, function (data) {
-	  				loadedCollections[word] = data;
-	  				replaceWords();
-	  				insertWords();
-	  			});
-	  		}
-	  	} else {
-	  		throw word + ' is not an available collection';
-	  	}
-	  });
+		//console.log('wordsToReplace', wordsToReplace);
+		// $.each(wordsToReplace, function(key, word) {
+	 //  	if (availableCollections.includes(word)) {
+	 //  		if (loadedCollections[word]) {
+	 //  			replaceWords();
+	 //  			insertWords();
+	 //  		} else {
+	 //  			loadCollection(word, function (data) {
+	 //  				loadedCollections[word] = data;
+	 //  				replaceWords();
+	 //  				insertWords();
+	 //  			});
+	 //  		}
+	 //  	} else {
+	 //  		throw word + ' is not an available collection';
+	 //  	}
+	 //  });
 	});
 }
 

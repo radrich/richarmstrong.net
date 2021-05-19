@@ -11,6 +11,6 @@ color: "black"
 
 Give yourself 5–10 minutes to come up with as many ideas for one of these topics as you can.
 
-<ul class="_random random masonry" data-child="li" data-amount="7" data-template="[[ mix ]]" data-source="adjectives, food-singular"></ul>
+<ul class="_random random masonry" data-child="li" data-amount="7" data-template="Hey [[ mix ]] there" data-params='{"collections": ["adjectives", "food-singular"]}'></ul>
 
 Instead of one of these topics, you could use the time to generate ideas for something specific.

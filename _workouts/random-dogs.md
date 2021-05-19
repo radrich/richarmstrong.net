@@ -7,9 +7,11 @@ background_color: "#ffdfd8"
 ---
 # {{ page.title | widont }}
 
-You guys should totally try this! Try <span class="_random random" data-child="span" data-delimeter=", or " data-template="[[ numbers ]] [[ objects-plural ]] ontop of a [[ animals-singular ]]" data-amount="2" data-params='{"min":2,"max":12}'></span>. Cool huh!?
+<ul class="_random random masonry" data-child="li" data-amount="1" data-template="[[ mix ]]" data-params='{"collections": ["objects-plural", "food-singular", "colors-basic"]}'></ul>
 
-How about some random numbers? <span class="_random random" data-amount="5" data-template="[[ numbers ]]" data-params='{"min":1,"max":100}' data-delimeter=", "></span>.
+You guys should totally try this! Try <span class="_random random" data-child="span" data-delimeter=", or " data-template="[[ numbers ]] [[ objects-plural ]] [[ objects-plural ]] ontop of a [[ animals-singular ]]" data-amount="2" data-params='{"min":2,"max":12}'></span>. Cool huh!?
+
+<!-- How about some random numbers? <span class="_random random" data-amount="5" data-template="[[ numbers ]]" data-params='{"min":1,"max":100}' data-delimeter=", "></span>.
 
 Check out these objects:
 <ul class="_random random" data-child="li" data-amount="20" data-template="[[ objects-singular ]]"></ul>
@@ -33,4 +35,4 @@ Check out these basic animals:
 <ul class="_random random" data-child="li" data-amount="10" data-template="[[ animals-singular ]]"></ul>
 
 Check out these colors-basic:
-<ul class="_random random" data-child="li" data-amount="10" data-template="[[ colors-basic ]]"></ul>
+<ul class="_random random" data-child="li" data-amount="10" data-template="[[ colors-basic ]]"></ul> -->
