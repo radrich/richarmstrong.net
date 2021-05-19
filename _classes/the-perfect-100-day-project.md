@@ -8,6 +8,10 @@ background_color: "#d6d6d6"
 categories: ['Creativity', 'Success']
 tags: ['Projects', 'The100DayProject', 'Effectivity', 'Exercises']
 priority: 10
+related:
+  - /posts/100-web-characters
+  - /classes/5-minute-creative-workouts
+  - /classes/creativity-mini-course
 ---
 
 # {{ page.title | widont }}
