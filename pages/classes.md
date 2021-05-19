@@ -1,9 +1,10 @@
 ---
-title: Classes
-subtitle: Level up. Get your learning on.
+title: Take a Class
+subtitle: Level up. Get your learning on!
+description: Upskill Yourself in Creativity, Productivity, Animation, Coding & Illustration.
 permalink: /classes/
-image: 'img/classes-thumb.jpg'
-background_color: '#FEBFE7'
+image: 'img/rich-blue-doodle-bg-thumb.jpg'
+background_color: '#1165eb'
 color: black
 index: true
 ---

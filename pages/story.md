@@ -6,9 +6,9 @@ image: 'img/rich-doodle-thumb.jpg'
 background_color: black
 color: white
 related:
-  - /classes/hand-code-your-first-website
-  - /classes/digital-marbling
+  - /classes
   - /workouts
+  - /posts
 index: true
 ---
 

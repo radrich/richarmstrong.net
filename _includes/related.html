@@ -1,5 +1,9 @@
 {% if page.related %}
-  <h2>Related Stuff</h2>
+  {% if include.title %}
+    <h2>{{ include.title }}</h2>
+  {% else %}
+    <h2>Related Stuff</h2>
+  {% endif %}
   
   {% assign related_items = '' | split: '' %}
   
@@ -10,11 +14,21 @@
     {% assign id_with_slash = id | prepend: '/'  %}
     
     {% if folder == '_classes' or folder == 'classes' %}
-      {% assign class_match = site.classes | where: 'id', id_with_slash %}
-      {% assign related_items = related_items | concat: class_match %}
+      {% if id %}
+        {% assign class_match = site.classes | where: 'id', id_with_slash %}
+        {% assign related_items = related_items | concat: class_match %}
+      {% else %}
+        {% assign page = site.pages | where: 'name', 'classes.md' %}
+        {% assign related_items = related_items | concat: page %}
+      {% endif %}
     {% elsif folder == '_posts' or folder == 'posts' %}
-      {% assign post_match = site.posts | where: 'id', id_with_slash %}
-      {% assign related_items = related_items | concat: post_match %}
+      {% if id %}
+        {% assign post_match = site.posts | where: 'id', id_with_slash %}
+        {% assign related_items = related_items | concat: post_match %}
+      {% else %}
+        {% assign page = site.pages | where: 'name', 'posts.md' %}
+        {% assign related_items = related_items | concat: page %}
+      {% endif %}
     {% elsif folder == '_pages' or folder == 'pages' %}
       {% assign filename = id | append: '.md'  %}
       {% assign page_match = site.pages | where: 'name', filename %}
