@@ -26,7 +26,8 @@ document.getElementById('menuBtn').addEventListener('click', function (e) {
 	return false;
 });
 
-// prompts
+
+/* prompts & workouts */
 
 var shuffle = function (o) {
 	for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
@@ -56,7 +57,7 @@ var randomMix = function (collections) {
 	var mix = [];
 	
 	for (var i=0; i<collections.length; i++) {
-		mix = mix.concat(loadedCollections[collections[i]])
+		mix = mix.concat(collectionData[collections[i]])
 	}
 	console.log('BIG ARRAY')
 	shuffle(mix);
@@ -120,7 +121,9 @@ var loadCollection = function (collection, callback) {
  
 // collection containers
 var collectionsToLoad = [];
-var loadedCollections = {};
+var collectionsBegunLoading = [];
+var collectionsLoaded = [];
+var collectionData = {};
 var availableCollections = [
 	'acronyms',
 	'adjectives',
@@ -156,10 +159,10 @@ var appendToCollectionsToLoad = function (collection) {
 }
 
 var hasLoadedAllCollections = function () {
-	// find each key in both collectionsToLoad and loadedCollections
+	// find each key in both collectionsToLoad and collectionData
 	var matches = 0;
 	for(var i=0; i<collectionsToLoad.length; i++) {
-		if (loadedCollections[collectionsToLoad[i]]) {
+		if (collectionsLoaded.includes(collectionsToLoad[i])) {
 			matches ++;
 		}
 	}
@@ -167,21 +170,35 @@ var hasLoadedAllCollections = function () {
 }
 
 var loadAllCollections = function (callback) {
-	//console.log('loadAllCollections', hasLoadedAllCollections())
-	if (!hasLoadedAllCollections()) {
-		//console.log('--- load em up')
+	// if has loaded all collections, callback
+	if (hasLoadedAllCollections()) {
+		console.log('loaded all collections')
+		callback();
+	
+	// if not, load collections
+	} else {
+		console.log('--- load em up', collectionsToLoad)
+		console.log('--- collectionData', collectionData)
+		
 		collectionsToLoad.forEach(function (collection, i) {
-			if (!loadedCollections[collection]) {
+			console.log('--- loaded? :::: ', collection, collectionsLoaded.includes(collection))
+			
+			// if haven’t started loading collection, load it
+			if (!collectionsBegunLoading.includes(collection)) {
+				console.log('--- load collection', collection)
+				collectionsBegunLoading.push(collection);
+				
 				loadCollection(collection, function (data) {
-					loadedCollections[collection] = data;
+					collectionsLoaded.push(collection);
+					collectionData[collection] = data;
+					
 					if (hasLoadedAllCollections()) {
+						console.log('loaded all collections!!!!!!!')
 						callback();
 					}
 				});
 			}
 		});
-	} else {
-		callback();
 	}
 }
 
@@ -221,28 +238,6 @@ var loadRandomItems = function () {
 			}
   	}
   	
-  	
-  	
-  	
-  	
-  	
-  	
-  	// $.each(wordsToReplace, function(key, word) {
-	  // 	if (availableCollections.includes(word)) {
-	  // 		if (loadedCollections[word]) {
-	  // 			replaceWords();
-	  // 			insertWords();
-	  // 		} else {
-	  // 			loadCollection(word, function (data) {
-	  // 				loadedCollections[word] = data;
-	  // 				replaceWords();
-	  // 				insertWords();
-	  // 			});
-	  // 		}
-	  // 	} else {
-	  // 		throw word + ' is not an available collection';
-	  // 	}
-	  // });
 		
 		
 		// if it is loaded, use it
@@ -261,6 +256,9 @@ var loadRandomItems = function () {
 		}
 		
 		var replaceNextWord = function (str, collection) {
+			
+			console.log('replaceNextWord', collection, ' :: ', str)
+			
 			var indexFrom = str.indexOf('[[');
 			var indexTo = str.indexOf(']]') + 2;
 			var strStart = str.substring(0, indexFrom);
@@ -276,7 +274,7 @@ var loadRandomItems = function () {
 				console.log('-- GOT HERE MIX')
 				replacement = randomMix(params.collections);
 			} else {
-				replacement = shuffle(loadedCollections[collection])[0];
+				replacement = shuffle(collectionData[collection])[0];
 			}
 			
 			replacement = '<span class="word">'+replacement+'</span>'; 
@@ -296,7 +294,7 @@ var loadRandomItems = function () {
 					replacedStr = replaceNextWord(replacedStr, wordsToReplace[i]);
 				}
 				replacedStrings.push(replacedStr);
-				console.log('replacedStrings', replacedStrings)
+				//console.log('replacedStrings', replacedStrings)
 			}
 		}
 		
@@ -313,12 +311,12 @@ var loadRandomItems = function () {
 		//console.log('wordsToReplace', wordsToReplace);
 		// $.each(wordsToReplace, function(key, word) {
 	 //  	if (availableCollections.includes(word)) {
-	 //  		if (loadedCollections[word]) {
+	 //  		if (collectionData[word]) {
 	 //  			replaceWords();
 	 //  			insertWords();
 	 //  		} else {
 	 //  			loadCollection(word, function (data) {
-	 //  				loadedCollections[word] = data;
+	 //  				collectionData[word] = data;
 	 //  				replaceWords();
 	 //  				insertWords();
 	 //  			});

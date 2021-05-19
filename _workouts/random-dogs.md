@@ -7,7 +7,7 @@ background_color: "#ffdfd8"
 ---
 # {{ page.title | widont }}
 
-<ul class="_random random masonry" data-child="li" data-amount="1" data-template="[[ mix ]]" data-params='{"collections": ["objects-plural", "food-singular", "colors-basic"]}'></ul>
+<ul class="_random random masonry" data-child="li" data-amount="10" data-template="[[ mix ]]" data-params='{"collections": ["objects-plural", "food-singular", "colors-basic"]}'></ul>
 
 You guys should totally try this! Try <span class="_random random" data-child="span" data-delimeter=", or " data-template="[[ numbers ]] [[ objects-plural ]] [[ objects-plural ]] ontop of a [[ animals-singular ]]" data-amount="2" data-params='{"min":2,"max":12}'></span>. Cool huh!?
 
