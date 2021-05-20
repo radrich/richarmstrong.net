@@ -103,13 +103,6 @@ var loadCollection = function (collection, callback) {
 	}
 }
 
-/*
-- could have an identifier. So a place to put the words.
-- random amount bwteen min and max
-- set loading... text intially
-- put in your own words [[ custom ]]
- */
-
 var replaceRandomItemsWithData = function () {
 	$('._random').each(function(index) {
 		

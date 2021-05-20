@@ -9,7 +9,11 @@ background_color: "#ffdfd8"
 
 <ul class="_random random masonry" data-child="li" data-amount="10" data-template="[[ mix ]]" data-params='{"collections": ["objects-plural", "food-singular", "colors-basic"]}'></ul>
 
-You guys should totally try this! Try <span class="_random random" data-child="span" data-delimeter=", or " data-template="[[ numbers ]] [[ objects-plural ]] [[ objects-plural ]] ontop of a [[ animals-singular ]]" data-amount="2" data-params='{"min":2,"max":12}'></span>. Cool huh!?
+You guys should totally try this! Try <span class="_random" data-child="span" data-delimeter=", or " data-template="[[ numbers ]] [[ objects-plural ]] [[ objects-plural ]] ontop of a [[ animals-singular ]]" data-amount="2" data-params='{"min":2,"max":12}'></span>. Cool huh!?
+
+<p class="_random random"
+	data-child="span"
+	data-template="The [[ adjectives ]] [[ nouns-singular ]] [[ adverbs ]] [[ verbs ]] the [[ adjectives ]] [[ nouns-singular ]]"></p>
 
 <!-- How about some random numbers? <span class="_random random" data-amount="5" data-template="[[ numbers ]]" data-params='{"min":1,"max":100}' data-delimeter=", "></span>.
 

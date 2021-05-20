@@ -1,25 +1,8 @@
 Next:
 ------------------------
-[] 'More posts' instead of 'Related posts'?
-
-Prompts:
-------------------------
-[] Static items
-[] Add timer to page with callback
-[] Add buttons to page that refresh/reload (change words, start timer again), stop (stop countdown and maybe hide hidden stuff), and start (start countdown and show hidden stuff)
-[] amount min and max
-[] images
-[] custom random data added at element level
-[] style it
-	[] columns
-	[] inline
-	[] lists
-	[] related
-	[] browse all
 
 Coming up:
 ------------------------
-[] Change projects to ttk projects
 [] class links on class pages (that aren’t external URLs)
 [] in tags and categories page, include classes (not just posts)
 [] You are now subscribed page
