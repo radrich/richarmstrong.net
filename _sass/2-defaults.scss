@@ -209,6 +209,9 @@ p{
 	@media (max-width: $tabletMax) {
 		margin: 1em 0;
 	}
+	@media (max-width: $mobileMax) {
+		line-height: 1.5em;
+	}
 	
 	a{
 		color: black;
@@ -228,6 +231,10 @@ ul, ol{
 	li{
 		margin-top: 12px;
 		line-height: 1.75em;
+		
+		@media (max-width: $mobileMax) {
+			line-height: 1.5em;
+		}
 		
 		&:first-child{
 			margin-top: 0;
