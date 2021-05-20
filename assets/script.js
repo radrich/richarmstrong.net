@@ -53,18 +53,12 @@ var randomAcronym = function (min, max) {
 }
 
 var randomMix = function (collections) {
-	console.log('MIX', collections)
 	var mix = [];
-	
 	for (var i=0; i<collections.length; i++) {
 		mix = mix.concat(collectionData[collections[i]])
 	}
-	console.log('BIG ARRAY')
-	shuffle(mix);
-	console.log('SHUFFLE ARRAY')
 	
-	
-	return mix[0];
+	return shuffle(mix)[0];
 }
 
 var indexesOf = function (string, regex) {
@@ -99,10 +93,8 @@ var loadCollection = function (collection, callback) {
 		  }
 		});
 	} else {
-  	//console.log('load', collection)
   	$.getJSON('/assets/json/'+collection+'.json?v=2', function(data) {
 		  if (data.status == 'success') {
-		  	//console.log('loaded', collection, data)
 		  	callback(data.items);
 		  }
 		}).fail(function(data) {
@@ -113,16 +105,82 @@ var loadCollection = function (collection, callback) {
 
 /*
 - could have an identifier. So a place to put the words.
-- keep collections loaded outside of each random items element.
 - random amount bwteen min and max
 - set loading... text intially
 - put in your own words [[ custom ]]
  */
- 
+
+var replaceRandomItemsWithData = function () {
+	$('._random').each(function(index) {
+		
+		// data from element
+		var $this = $(this),
+		tmp = $this.data('template'),
+		child = $this.data('child') || 'span',
+  	amount = $this.data('amount') || 1,
+  	params = $this.data('params') || null,
+  	delimeter = $this.data('delimeter') || '';
+		
+		//gets the words inbetween the [[ ]], trims them and adds them to an array
+		var indices = indexesOf(tmp, /\[\[|\]\]/g);
+		var indicesStart = indices['[['];
+		var indicesEnd = indices[']]'];
+		var numReplacementsNeeded = Math.min(indicesStart.length, indicesEnd.length);
+		var wordsToReplace = [];
+		
+		// setup wordsToReplace
+		for(var i=0; i<numReplacementsNeeded; i++) {
+		  wordsToReplace.push(tmp.substring(indicesStart[i] + 2, indicesEnd[i]).trim());
+		}
+		
+		var replacedStrings = [];
+		var replaceWords = function () {
+      // replace the [[ word ]] with random items
+      for (var k=0; k<amount; k++) {
+        var replacedStr = tmp;
+        for (var i=0; i<numReplacementsNeeded; i++) {
+          replacedStr = replaceNextWord(replacedStr, wordsToReplace[i]);
+        }
+        replacedStrings.push(replacedStr);
+      }
+    }
+		var insertWords = function () {
+			var elements = [];
+      $.each(replacedStrings, function(key, str) {
+        elements.push('<'+child+' class="item">'+str+'</'+child+'>');
+      });
+      $this.html(elements.join(delimeter));
+		}
+		
+		var replaceNextWord = function (str, type) {
+			var indexFrom = str.indexOf('[[');
+			var indexTo = str.indexOf(']]') + 2;
+			var strStart = str.substring(0, indexFrom);
+			var strEnd = str.substring(indexTo);
+			var replacement;
+			
+			if (type == 'numbers') {
+				replacement = randomBetweenMinAndMax(params.min, params.max);
+			} else if (type == 'acronyms') {
+				replacement = randomAcronym(params.min, params.max);
+			} else if (type == 'mix') {
+				replacement = randomMix(params.collections);
+			} else {
+				replacement = shuffle(collectionData[type])[0];
+			}
+			
+			replacement = '<span class="word">'+replacement+'</span>'; 
+			return strStart + replacement + strEnd;
+		}
+		
+    replaceWords();
+    insertWords();
+	});
+}
+
 // collection containers
 var collectionsToLoad = [];
 var collectionsBegunLoading = [];
-var collectionsLoaded = [];
 var collectionData = {};
 var availableCollections = [
 	'acronyms',
@@ -144,16 +202,12 @@ var availableCollections = [
 	'vegetables-plural',
 	'vegetables-singular',
 	'colors-basic',
-	'numbers', // treat differently
-	'mix',  // treat differently
 ];
 
 var appendToCollectionsToLoad = function (collection) {
 	if (!collectionsToLoad.includes(collection)) {
 		if (availableCollections.includes(collection)) {
 			collectionsToLoad.push(collection);
-		} else {
-			throw collection + ' is not an available collection';
 		}
 	}
 }
@@ -162,7 +216,7 @@ var hasLoadedAllCollections = function () {
 	// find each key in both collectionsToLoad and collectionData
 	var matches = 0;
 	for(var i=0; i<collectionsToLoad.length; i++) {
-		if (collectionsLoaded.includes(collectionsToLoad[i])) {
+		if (collectionData[collectionsToLoad[i]]) {
 			matches ++;
 		}
 	}
@@ -172,28 +226,20 @@ var hasLoadedAllCollections = function () {
 var loadAllCollections = function (callback) {
 	// if has loaded all collections, callback
 	if (hasLoadedAllCollections()) {
-		console.log('loaded all collections')
 		callback();
 	
 	// if not, load collections
 	} else {
-		console.log('--- load em up', collectionsToLoad)
-		console.log('--- collectionData', collectionData)
-		
 		collectionsToLoad.forEach(function (collection, i) {
-			console.log('--- loaded? :::: ', collection, collectionsLoaded.includes(collection))
 			
 			// if haven’t started loading collection, load it
 			if (!collectionsBegunLoading.includes(collection)) {
-				console.log('--- load collection', collection)
 				collectionsBegunLoading.push(collection);
 				
 				loadCollection(collection, function (data) {
-					collectionsLoaded.push(collection);
 					collectionData[collection] = data;
 					
 					if (hasLoadedAllCollections()) {
-						console.log('loaded all collections!!!!!!!')
 						callback();
 					}
 				});
@@ -202,134 +248,42 @@ var loadAllCollections = function (callback) {
 	}
 }
 
-var loadRandomItems = function () {
+var loadRandomItemsData = function (callback) {
 	$('._random').each(function(index) {
 		
 		// data from element
 		var $this = $(this),
-		tmp = $this.data('template'),
-		child = $this.data('child') || 'span',
-  	amount = $this.data('amount') || 1,
-  	params = $this.data('params') || null,
-  	delimeter = $this.data('delimeter') || '';
-  	
-  	
-  	//console.log('params', params);
+    tmp = $this.data('template'),
+    params = $this.data('params') || null;
 		
 		//gets the words inbetween the [[ ]], trims them and adds them to an array
 		var indices = indexesOf(tmp, /\[\[|\]\]/g);
 		var indicesStart = indices['[['];
 		var indicesEnd = indices[']]'];
 		var numReplacementsNeeded = Math.min(indicesStart.length, indicesEnd.length);
-		var wordsToReplace = [];
-		
-		// setup wordsToReplace
-		for(var i=0; i<numReplacementsNeeded; i++) {
-		  wordsToReplace.push(tmp.substring(indicesStart[i] + 2, indicesEnd[i]).trim());
-		}
 		
 		// setup/add to collectionsToLoad
-		for(var i=0; i<wordsToReplace.length; i++) {
-			appendToCollectionsToLoad(wordsToReplace[i]);
+		for(var i=0; i<numReplacementsNeeded; i++) {
+		  var collection = tmp.substring(indicesStart[i] + 2, indicesEnd[i]).trim();
+		  appendToCollectionsToLoad(collection);
 		}
 		if (params && params.collections) {
   		for(var i=0; i<params.collections.length; i++) {
 				appendToCollectionsToLoad(params.collections[i]);
 			}
-  	}
-  	
-		
-		
-		// if it is loaded, use it
-		// if isn’t loaded, load collection
-		// when a collection is loaded check again
-		var replacedStrings = [];
-		
-		var insertWords = function () {
-			if (replacedStrings.length < amount) return false;
-			
-			var elements = [];
-			$.each(replacedStrings, function(key, str) {
-				elements.push('<'+child+' class="item">'+str+'</'+child+'>');
-		  });
-		  $this.html(elements.join(delimeter));
 		}
-		
-		var replaceNextWord = function (str, collection) {
-			
-			console.log('replaceNextWord', collection, ' :: ', str)
-			
-			var indexFrom = str.indexOf('[[');
-			var indexTo = str.indexOf(']]') + 2;
-			var strStart = str.substring(0, indexFrom);
-			var strEnd = str.substring(indexTo);
-			var replacement;
-			
-			if (collection == 'numbers') {
-				//console.log(str, '------ is number :', collection);
-				replacement = randomBetweenMinAndMax(params.min, params.max);
-			} else if (collection == 'acronyms') {
-				replacement = randomAcronym(params.min, params.max);
-			} else if (collection == 'mix') {
-				console.log('-- GOT HERE MIX')
-				replacement = randomMix(params.collections);
-			} else {
-				replacement = shuffle(collectionData[collection])[0];
-			}
-			
-			replacement = '<span class="word">'+replacement+'</span>'; 
-			
-			return strStart + replacement + strEnd;
-		}
-		
-		//var numWordsReadyForReplacing = 0;
-		var replaceWords = function () {
-			//numWordsReadyForReplacing ++;
-			//if (numWordsReadyForReplacing < numReplacementsNeeded) return false;
-			
-			// replace the [[ word ]] with random items
-			for (var k=0; k<amount; k++) {
-				var replacedStr = tmp;
-				for (var i=0; i<numReplacementsNeeded; i++) {
-					replacedStr = replaceNextWord(replacedStr, wordsToReplace[i]);
-				}
-				replacedStrings.push(replacedStr);
-				//console.log('replacedStrings', replacedStrings)
-			}
-		}
-		
-		
-		console.log('wordsToReplace', numReplacementsNeeded, wordsToReplace);
 		
 		// load collections
   	loadAllCollections(function () {
-  		replaceWords();
-  		insertWords();
+      callback();
   	});
-		
-		// loop through array, getting data
-		//console.log('wordsToReplace', wordsToReplace);
-		// $.each(wordsToReplace, function(key, word) {
-	 //  	if (availableCollections.includes(word)) {
-	 //  		if (collectionData[word]) {
-	 //  			replaceWords();
-	 //  			insertWords();
-	 //  		} else {
-	 //  			loadCollection(word, function (data) {
-	 //  				collectionData[word] = data;
-	 //  				replaceWords();
-	 //  				insertWords();
-	 //  			});
-	 //  		}
-	 //  	} else {
-	 //  		throw word + ' is not an available collection';
-	 //  	}
-	 //  });
 	});
 }
 
 $(function() {
-  loadRandomItems();
+  loadRandomItemsData(function () {
+    replaceRandomItemsWithData()
+  });
 });
 
 
