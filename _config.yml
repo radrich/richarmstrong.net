@@ -89,9 +89,19 @@ defaults:
     values:
       layout: "workout"
       related:
-        - /classes/creativity-mini-course
+        - /prompts
         - /classes/5-minute-creative-workouts
         - /workouts
+  -
+    scope:
+      path: ""
+      type: "prompts"
+    values:
+      layout: "prompt"
+      related:
+        - /workouts
+        - /classes/5-minute-creative-workouts
+        - /prompts
 
 collections:
   classes:
@@ -101,6 +111,9 @@ collections:
   workouts:
     output: true
     permalink: /workouts/:name/
+  prompts:
+    output: true
+    permalink: /prompts/:name/
 
 sass:
   sass_dir: _sass

@@ -3,7 +3,7 @@ layout: home
 related:
   - /classes
   - /workouts
-  - /posts
+  - /prompts
 ---
 
 <h2>Ready to Level-up Your Creative Super Powers?</h2>
