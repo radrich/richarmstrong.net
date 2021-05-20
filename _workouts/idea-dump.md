@@ -11,6 +11,6 @@ index: true
 
 Give yourself 5–10 minutes to come up with as many ideas for one of these topics as you can.
 
-<ul class="_random random masonry" data-child="li" data-amount="11" data-template="[[ mix ]]" data-params='{"collections": ["adjectives", "food-singular"]}'></ul>
+<ul class="_random random masonry" data-child="li" data-amount="11" data-template="[[ mix ]]" data-params='{"collections": ["adjectives", "food-singular", "verbs-present", "objects", "nouns-plural"]}'></ul>
 
 _Instead of one of these topics, you could generate ideas for something specific._
