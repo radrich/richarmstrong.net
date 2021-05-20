@@ -18,6 +18,8 @@ $black02: mix(black, white, 2%);
 $black05: mix(black, white, 5%);
 $black07: mix(black, white, 7%);
 $black10: mix(black, white, 10%);
+$black50: mix(black, white, 50%);
+$black70: mix(black, white, 70%);
 
 $accentColor1: #8A2BE2;
 $accentColor1_90: mix($accentColor1, white, 90%);
@@ -50,6 +52,7 @@ $navHeightMobile: 48px;
 @import 'list-social-media';
 @import 'banner';
 @import 'banner-cookies';
+@import 'breadcrumbs';
 @import 'nav';
 @import 'footer';
 @import 'code-highlight';
