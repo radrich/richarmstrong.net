@@ -8,7 +8,7 @@ image: "img/random-words-workout-thumb.gif"
 index: true
 related:
   - /posts/random-word-doodle
-  - /workouts/double-random-words
+  - /workouts/random-word-pairs
   - /classes/5-minute-creative-workouts
 ---
 # {{ page.title }}
