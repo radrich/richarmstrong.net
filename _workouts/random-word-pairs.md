@@ -1,14 +1,15 @@
 ---
-title: "Random Words Pairs"
+title: "Random Word Pairs"
 subtitle: "Pick a Random Word Pair & Doodle It"
 desc: "Doodle one of these random word pairs. Or as many as you can in a time limit."
-background_color: "#366c62"
+background_color: "#f5483b"
 color: "white"
+image: "img/random-word-pairs-workout-thumb.gif"
 index: true
 related:
   - /posts/random-word-doodle
   - /workouts/random-words
-  - /workouts/
+  - /classes/5-minute-creative-workouts
 ---
 # {{ page.title }}
 

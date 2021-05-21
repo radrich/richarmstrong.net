@@ -4,11 +4,12 @@ subtitle: "Pick a Random Word & Doodle It"
 desc: "Doodle one of these random words. Or a combination of the words."
 background_color: "#f5483b"
 color: "white"
+image: "img/random-words-workout-thumb.gif"
 index: true
 related:
   - /posts/random-word-doodle
   - /workouts/double-random-words
-  - /workouts/
+  - /classes/5-minute-creative-workouts
 ---
 # {{ page.title }}
 
