@@ -60,4 +60,17 @@
 			background-color: inherit;
 		}
 	}
+	
+	&.alt1{
+		.word{
+			background-color: black;
+			color: #FEBFE7;
+		}
+		&.by-item{
+			.item{
+				background-color: black;
+				color: #FEBFE7;
+			}
+		}
+	}
 }
