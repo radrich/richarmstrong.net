@@ -1,6 +1,6 @@
 ---
 title: Mind Map
-subtitle: Create a mind map from one of these words
+subtitle: Create a Mind Map From One of These Words
 desc: "Start with one of the following words. Then write down related words around it and drawn a line from each word to the center word. Then write down related words around each word you put down, and draw a line from it to the word it relates to. Keep doing this until you have a sprawling mind map."
 background_color: "#f0c810"
 color: "black"
