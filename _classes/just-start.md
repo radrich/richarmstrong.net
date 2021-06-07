@@ -9,4 +9,5 @@ background_color: "#421ccb"
 categories: ['Success']
 tags: ['Effectivity', 'Exercises']
 priority: 10
+popular: true
 ---

@@ -9,4 +9,5 @@ background_color: "#ffd400"
 categories: ['Creativity']
 tags: ['exercises', 'free']
 priority: 9
+popular: true
 ---

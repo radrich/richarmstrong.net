@@ -13,6 +13,7 @@ related:
   - /classes/just-start
   - /classes/the-perfect-100-day-project
   - /classes/skillshare-audio
+popular: true
 ---
 
 # {{ page.title | widont }}

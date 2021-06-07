@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% assign latest_classes = site.classes | sort: "date" | reverse | slice: 0, 6 %}
+{% assign popular_classes = site.classes | sort: "popular" | reverse | slice: 0, 6 %}
 {% assign latest_posts = site.posts | sort: "date" | reverse | slice: 0, 6 %}
 
 
@@ -14,6 +15,9 @@ layout: default
 	{%- include grid.html items=site.data.links list=true -%}
 
 	{%- include related.html title="Create & Learn with TapTapKaboom" -%}
+	
+	<h2>Popular Classes <a href="{% link pages/classes.md %}" class="cta">View All Classes</a></h2>
+	{%- include grid.html items=popular_classes -%}
 	
 	<h2>Recent Classes <a href="{% link pages/classes.md %}" class="cta">View All Classes</a></h2>
 	{%- include grid.html items=latest_classes -%}

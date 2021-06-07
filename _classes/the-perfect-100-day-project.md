@@ -12,6 +12,7 @@ related:
   - /posts/100-web-characters
   - /classes/5-minute-creative-workouts
   - /classes/creativity-mini-course
+popular: true
 ---
 
 # {{ page.title | widont }}
