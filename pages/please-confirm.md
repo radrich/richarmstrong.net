@@ -9,5 +9,5 @@ subscribe: false
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-We’ve sent you an email that contains a confrimation link.
+We’ve sent you an email that contains a confrimation link.  
 Please tap on it to join the newsletter.
