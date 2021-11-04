@@ -4,8 +4,10 @@ subtitle: You’ve been subscribed to the TapTapKaboom Newsletter
 permalink: /subscribed/
 image: "img/newsletter-thumb.png"
 index: true
+subscribe: false
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-<p>Thank you for subscribing! You’re in!</p>
+Now it’s party time.  
+I should put a GIF of me dancing here 🕺

@@ -28,7 +28,7 @@ We collect this information from you only if you voluntarily sign up to, purchas
 ## Third-party software and platforms we use
 The information we collect and have access to is stored by the following third-party software and platforms:
 
-- **Mailchimp.** We use Mailchimp to send emails to subscribers. View Mailchimp’s [privacy policy.](https://mailchimp.com/legal/privacy/)
+- **Buttondown.** We use Buttondown to send emails to subscribers. View Buttondown’s [privacy policy.](https://buttondown.email/privacy)
 - **Teachable.** We use Teachable to run [TapTapKaboom School.](school.taptapkaboom.com.) View Teachable’s [privacy policy.](https://teachable.com/privacy-policy)
 - **Gumroad.** We use Gumroad to sell products. View Gumroad’s [privacy policy.](https://gumroad.com/privacy)
 
@@ -55,7 +55,7 @@ We collect information from you when you:
 3. Make a purchase on Gumroad.
 
 ## How do we protect your information?
-We rely on third-party software and platforms to keep your information safe. None of your information is stored on our servers, or on websites we maintain. Please refer to the privacy polices of Mailchimp, Teachable, and Gumroad.
+We rely on third-party software and platforms to keep your information safe. None of your information is stored on our servers, or on websites we maintain. Please refer to the privacy polices of Buttondown, Teachable, and Gumroad.
 
 Your information is only accessible by 2 people at TapTapKaboom, and no one else. We do not sell, trade, transfer, or pass on any of your information to anyone, unless by your written consent.
 
