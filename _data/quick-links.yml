@@ -4,12 +4,12 @@
 #   image: 'img/live-2.jpg'
 #   color: '#ff4141'
 
-- title: 'How to Become a Better Creative Workshop'
-  # subtitle: '14+ Ways To Boost Your Creativity: Check It Out!'
-  subtitle: 'Join this free ”live” workshop on Friday 12 November'
-  url: https://ttkb.me/workshop
-  background_color: '#f8cf46'
-  color: '#ff6602'
+# - title: 'How to Become a Better Creative Workshop'
+#   # subtitle: '14+ Ways To Boost Your Creativity: Check It Out!'
+#   subtitle: 'Join this free ”live” workshop on Friday 12 November'
+#   url: https://ttkb.me/workshop
+#   background_color: '#f8cf46'
+#   color: '#ff6602'
    
 - title: 'The 5 Day Creativity Mini Course'
   subtitle: 'Enrol For Free!'
@@ -17,12 +17,12 @@
   image: 'img/cmc-web-thumbnail.jpg'
   color: '#ffd400'
 
-# - title: '5 Minute Creative Workouts: Get Your Creativity In Shape'
-#   #subtitle: '14+ Ways To Boost Your Creativity: Check It Out!'
-#   subtitle: 'Check Out My Latest Class!'
-#   url: /5-minute-creative-workouts/
-#   image: 'img/5min-thumb2.jpg'
-#   color: '#1165eb'
+- title: '5 Minute Creative Workouts: Get Your Creativity In Shape'
+  #subtitle: '14+ Ways To Boost Your Creativity: Check It Out!'
+  subtitle: 'Check Out My Latest Class!'
+  url: /5-minute-creative-workouts/
+  image: 'img/5min-thumb2.jpg'
+  color: '#1165eb'
   
 - title: 'Productivity with Purpose: Your Foundation for Success'
   subtitle: 'A Productivity Class for Humans'
