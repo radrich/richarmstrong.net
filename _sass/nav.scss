@@ -189,6 +189,12 @@ nav{
 		}
 	}
 	
+	@media (max-width: $mobileMax){
+		h1{
+			margin-left: 16px;
+		}
+	}
+	
 	@media (max-width: 599px){
 		height: $navHeightMobile;
 		
@@ -196,7 +202,7 @@ nav{
 		h1{
 			font-size: 26px;
 			text-align: left;
-			margin-left: 74px;
+			margin-left: 16px;
 		}
 		.logo{
 			width: 54px;
@@ -206,7 +212,7 @@ nav{
 	}
 	
 	@media (max-width: 399px){
-		h1{display: none;}
+		//h1{display: none;}
 		.links a{
 			font-size: 26px;
 			line-height: 26px;
