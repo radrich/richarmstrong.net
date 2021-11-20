@@ -11,9 +11,14 @@
 #   background_color: '#f8cf46'
 #   color: '#ff6602'
   
+- title: 'New Class!! Productivity Bascis'
+  subtitle: 'Check It Out!'
+  url: https://ttkb.me/prodbasics-sk
+  image: 'img/productivity-basics-thumb.png'
+  color: '#000000'
+
 - title: '5 Minute Creative Workouts: Get Your Creativity In Shape'
-  # subtitle: '14+ Ways To Boost Your Creativity: Check It Out!'
-  subtitle: 'Check Out My Latest Class!'
+  subtitle: '14+ Ways To Boost Your Creativity'
   url: /5-minute-creative-workouts/
   image: 'img/5min-thumb2.jpg'
   color: '#1165eb'
@@ -24,11 +29,11 @@
   image: 'img/cmc-web-thumbnail.jpg'
   color: '#ffd400'
   
-- title: 'Productivity with Purpose: Your Foundation for Success'
-  subtitle: 'A Productivity Class for Humans'
-  url: /productivity-with-purpose/
-  image: 'img/pwp-thumb.jpg'
-  color: '#ff5500'
+# - title: 'Productivity with Purpose: Your Foundation for Success'
+#   subtitle: 'A Productivity Class for Humans'
+#   url: /productivity-with-purpose/
+#   image: 'img/pwp-thumb.jpg'
+#   color: '#ff5500'
   
 # - title: 'The Perfect 100 Day Project'
 #   subtitle: 'Join 27k+ students on this epic journey.'

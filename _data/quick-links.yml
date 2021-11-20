@@ -10,7 +10,13 @@
 #   url: https://ttkb.me/workshop
 #   background_color: '#f8cf46'
 #   color: '#ff6602'
-   
+
+- title: 'New Class!! Productivity Bascis'
+  subtitle: 'Check It Out!'
+  url: https://ttkb.me/prodbasics-sk
+  image: 'img/productivity-basics-thumb.png'
+  color: '#000000'
+    
 - title: 'The 5 Day Creativity Mini Course'
   subtitle: 'Enrol For Free!'
   url: https://ttkb.me/cmc
