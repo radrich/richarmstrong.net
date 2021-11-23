@@ -10,8 +10,8 @@ priority: 99
 image: 'img/pwp-thumb.jpg'
 subscribe: false
 related:
+  - /classes/productivity-basics
   - /classes/just-start
-  - /classes/the-perfect-100-day-project
   - /classes/skillshare-audio
 ---
 
