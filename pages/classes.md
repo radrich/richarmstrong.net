@@ -11,11 +11,9 @@ index: true
 <h1>Classes</h1>
 <h2>Level up. Get your learning on. Create some awesome stuff. And have a butt-load of fun!</h2>
 
-<p>I'm a ”Top Teacher” on Skillshare 🏆 but it's not the only reason I like <a href="https://ttkb.me/sk">Skillshare</a> a lot. Paying only $99 for unlimited classes on a range of topics is crazy-good value for money. <a href="https://ttkb.me/sk">You can watch all my classes (and all the others) free for 2 weeks.</a></p>
+<p>I love teaching. Somehow, I still think that’s an understatement. I'm a “Top Teacher” <a href="https://ttkb.me/sk">on Skillshare</a>, where you pay yearly for a subscription and can take as many classes as you like—crazy good value for money! And then there’s <a href="https://ttkb.me/school">TapTapKaboom School</a> where you can purchase my classes as one-offs.</p>
 
-<p>And then there’s <a href="https://ttkb.me/school">TapTapKaboom School</a> where you can purchase single classes.</p>
-
-<p>Below are classes that thousands students have taken and given amazing reviews on. Hope you enjoy. I can't wait to see what you create.</p>
+<p>Below are classes that thousands of students have taken and given amazing reviews on.</p>
 
 {%- assign classes = site.classes | sort: 'date' | sort: 'priority' | reverse -%}
 
