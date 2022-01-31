@@ -10,6 +10,12 @@
 #   url: https://ttkb.me/workshop
 #   background_color: '#f8cf46'
 #   color: '#ff6602'
+
+- title: 'The My 100 Day Project website is live'
+  subtitle: 'Check out the book, course, and community'
+  url: https://www.my100dp.com
+  image: 'img/100dp-website-logo-512'
+  color: '#d73738'
   
 - title: 'New Class!! Productivity Bascis'
   subtitle: 'Check It Out!'
@@ -23,11 +29,11 @@
   image: 'img/5min-thumb2.jpg'
   color: '#1165eb'
 
-- title: 'The Creativity Mini Course: 5 Days of Creativity'
-  subtitle: 'Enrol For Free!'
-  url: https://ttkb.me/cmc
-  image: 'img/cmc-web-thumbnail.jpg'
-  color: '#ffd400'
+# - title: 'The Creativity Mini Course: 5 Days of Creativity'
+#   subtitle: 'Enrol For Free!'
+#   url: https://ttkb.me/cmc
+#   image: 'img/cmc-web-thumbnail.jpg'
+#   color: '#ffd400'
   
 # - title: 'Productivity with Purpose: Your Foundation for Success'
 #   subtitle: 'A Productivity Class for Humans'
