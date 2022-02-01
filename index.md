@@ -3,7 +3,7 @@ layout: home
 related:
   - /classes
   - /workouts
-  - /prompts
+  - /pages/the-perfect-100-day-project-book
 ---
 
 <h2>Ready to Level-up Your Creative Super Powers?</h2>

@@ -5,11 +5,12 @@
 #   color: '#ff4141'
 
 
-- title: 'The My 100 Day Project website is live'
-  subtitle: 'Check out the book, course, and community'
-  url: https://www.my100dp.com
-  image: 'img/100dp-website-logo-512.png'
+- title: 'Get The Perfect 100 Day Project eBook!'
+  subtitle: 'And pre-order the print edition'
+  url: https://www.my100dp.com/the-perfect-100-day-project-book
+  image: 'img/the-perfect-100dp-book.jpg'
   background_color: '#d73738'
+  color: 'white'
 
 # - title: 'How to Become a Better Creative Workshop'
 #   # subtitle: '14+ Ways To Boost Your Creativity: Check It Out!'
