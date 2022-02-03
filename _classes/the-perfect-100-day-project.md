@@ -9,16 +9,16 @@ categories: ['Creativity', 'Success']
 tags: ['Projects', 'The100DayProject', 'Effectivity', 'Exercises']
 priority: 10
 related:
-  - /posts/100-web-characters
+  - /pages/the-perfect-100-day-project-book
   - /classes/5-minute-creative-workouts
-  - /classes/creativity-mini-course
+  - /posts/100-web-characters
 popular: true
 ---
 
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-The 100 Day Project is an epic thing. You choose a creative project, do it every day for 100 days, and share your process online. And although you can do one at any point and time, there is an [offical version](https://the100dayproject.org/) that happens once a year. This year the 8th edition kicks off on January 31. If you're stuck, frustrated or not achieving the success and quality of work you're after, come see what a 100 Day Project is, and how it will fuel a creative renaissance in your life.
+The 100 Day Project is an epic thing. You choose a creative project, do it every day for 100 days, and share your process online. And although you can do one at any point and time, there is an [offical version](https://the100dayproject.org/) that happens once a year. If you're stuck, frustrated or not achieving the success and quality of work you're after, come see what a 100 Day Project is, and how it will fuel a creative renaissance in your life.
 
 100 Day Projects are awesome, but they can also be frustrating. So, I made a class to guide you in the process. Check out the intro below.
 
