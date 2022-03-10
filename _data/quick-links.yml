@@ -4,6 +4,13 @@
 #   image: 'img/live-2.jpg'
 #   color: '#ff4141'
 
+# - title: 'The Doodleverse Auction is Live'
+#   subtitle: 'Get Your Piece of Weirdness'
+#   url: https://marketplace.kalao.io/collection/0x6af53a162deb0d3abfd4f47bd6c9615b08d553fd
+#   image: 'img/doodleverse-23-homeward.png'
+#   background_color: 'black'
+#   color: 'white'
+
 - title: 'Get The Perfect 100 Day Project Book!'
   subtitle: 'Get the eBook now. Pre-order the print edition'
   url: https://www.my100dp.com/the-perfect-100-day-project-book
