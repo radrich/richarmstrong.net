@@ -18,7 +18,7 @@ related:
 
 The Doodleverse is a collection of NFTs on the Avalanche blockchain, [hosted on Kalao.](https://ttkb.me/doodleverse-kalao) It’s part of my 100 Day Project 2022, where I’m learning all about NFTs, crypto and web3.
 
-{% include img.html img="img/doodleverse-1.jpg" caption="The first 5 pieces" %}
+{% include img.html img="img/doodleverse-banner.png" caption="Welcome to The Doodleverse" %}
 
 The doodleverse is dream-like universe where anything is possible. Singing trees. One-eyed birds with worm tongues. Giant jellyfish. I’m currently fixated on weird birds. I’m ADD and struggle to maintain a single style. But this style is allowing me to flex my imagination, which I’m enjoying a ton. I have ideas being thrown at me from The Doodleverse night and day—all I want to do is illustrate (and animate) them. So, that’s what I’m doing. And I’m having loads of fun. Like, butt-loads of fun. I can’t wait to explore the doodlevrese more, and I want you to join me—if weirdness is your thing.
 
