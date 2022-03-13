@@ -11,9 +11,10 @@
 #   background_color: '#f8cf46'
 #   color: '#ff6602'
 
-- title: 'The Doodleverse Auction is Live'
+- title: 'The Doodleverse NFT Collection'
   subtitle: 'Get Your Piece of Weirdness'
-  url: https://ttkb.me/doodleverse-kalao
+  url: /doodleverse
+  # url: https://ttkb.me/doodleverse
   image: 'img/doodleverse-23-homeward.png'
   background_color: 'black'
   color: 'white'
