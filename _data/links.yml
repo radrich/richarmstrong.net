@@ -11,6 +11,13 @@
 #   background_color: '#f8cf46'
 #   color: '#ff6602'
 
+- title: 'Mashoverse 4 Ukraine'
+  subtitle: 'Buy NFTs. Support Ukraine'
+  url: https://singular.app/space/GXeVpjAUiDXiozSkjnkZcg1SUbyyCPUCrdsaPvZ2EwUcSb1?page=1&tab=onSale&forsale=forSale
+  image: 'img/26-freedom.png'
+  background_color: 'black'
+  color: 'white'
+  
 - title: 'The Doodleverse NFT Collection'
   subtitle: 'Get Your Piece of Weirdness'
   url: /doodleverse
