@@ -16,13 +16,13 @@ related:
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-The Doodleverse is a collection of doodled NFTs on the Avalanche blockchain. It’s [hosted on Kalao](https://ttkb.me/doodleverse-kalao) and is part of my 100 Day Project 2022, where I’m learning all about NFTs, crypto and web3.
+The Doodleverse is a collection of doodled NFTs (currently sold out) on the Avalanche blockchain. It’s [hosted on Kalao](https://ttkb.me/doodleverse-kalao) and is part of my 100 Day Project 2022, where I’m learning all about NFTs, crypto and web3.
 
 {% include img.html img="img/doodleverse-banner.png" caption="Welcome to The Doodleverse" %}
 
 The Doodleverse is dream-like universe where anything is possible. Singing trees. Birds with worms for tongues. Giant jellyfish. Talking rainbows. That kind of thing. Every Friday I auction the pieces I created during the week. There’s roughly 7 on auction each week, often with something special for those participating.
 
-**Next Auction:** 18 March 2022
+**Next Auction:** 25 March 2022
 
 ### But Why?
 I’m ADD and struggle to stick to a single style. But with this style, I’m finding it easy to focus on my imagination rather than the marks and colours and other stuff that goes into illustration. And I’m enjoying this a butt-ton. I have ideas being thrown at me from The Doodleverse all day and night. All I want to do is illustrate (and animate) them. So, that’s what I’m doing. I can’t wait to explore the doodleverse more, and I want you to join me—if weirdness is your thing.
