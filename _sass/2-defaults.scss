@@ -13,7 +13,6 @@ html, body{
 }
 
 body{
-	padding-top: $navHeightDesktop - 1;
 	@media (max-width: 599px){padding-top: 49px;}
 	&.menu-open{overflow: hidden;}
 }

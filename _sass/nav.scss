@@ -1,5 +1,5 @@
 nav{
-	position: fixed; top: 0; left: 0; right: 0;
+	position: relative;
 	background-color: white;
 	box-shadow: 0 1px 0 transparentize(black, .9);
 	height: 80px;
@@ -134,6 +134,30 @@ nav{
 		}
 	}
 	
+	.menu-links{
+		height: 100%;
+		box-sizing: border-box;
+		display: flex;
+		position: relative;
+		margin-right: 80px;
+		transition: visibility 0s, opacity 150ms linear;
+		
+		a{
+			font-size: 20px;
+			line-height: 20px;
+			display: block;
+			padding: 32px 16px;
+			font-weight: bold;
+			text-decoration: none;
+			
+			&.active{color: $accentColor1;}
+		}
+		
+		@media (max-width: $mobileMax){
+				margin-right: 32px;
+		}
+	}
+	
 	.menu{
 		box-sizing: border-box;
 		height: 100%;
@@ -186,6 +210,18 @@ nav{
 			position: absolute;
 			top: 100%;
 			left: 0;
+		}
+		
+		.menu-links{
+			visibility: hidden;
+		  opacity: 0;
+		  transition: visibility 150ms, opacity 150ms linear;
+		}
+	}
+	
+	@media (max-width: 849px){
+		.menu-links{
+			display: none;	
 		}
 	}
 	
