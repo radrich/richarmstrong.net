@@ -11,7 +11,7 @@ index: true
 <h1>TapTapKaboom Classes</h1>
 <h2>Level up. Learn. Create. Have Fun</h2>
 
-Ready to Level-up Your Creative Super Powers? I teach the stuff I know in ways I wish people had taught me. Think fun, easy to watch, practical classes that empower you. I have classes on creativity, coding, animation, and illustration.
+Ready to Level-up Your Creative Super Powers? I teach the stuff I know in ways I wish people had taught me. Think fun, easy to watch, practical classes that empower you. I have classes on design, creativity, coding, animation, and illustration.
 
 I want to see you develop your unique creative super powers and rock your creative universe. I want you to succeed—and have fun doing it!
 
