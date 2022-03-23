@@ -16,7 +16,7 @@ related:
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-The Doodleverse is a collection of doodled NFTs (currently sold out) on the Avalanche blockchain. It’s [hosted on Kalao](https://ttkb.me/doodleverse-kalao) and is part of my 100 Day Project 2022, where I’m learning all about NFTs, crypto and web3.
+The Doodleverse is a collection of illustrated NFTs (currently sold out) on the Avalanche blockchain. It’s [hosted on Kalao](https://ttkb.me/doodleverse-kalao) and is part of my 100 Day Project 2022, where I’m learning all about NFTs, crypto and web3.
 
 {% include img.html img="img/doodleverse-banner.png" caption="Welcome to The Doodleverse" %}
 
