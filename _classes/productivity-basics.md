@@ -14,24 +14,11 @@ related:
   - /classes/just-start
   - /classes/the-perfect-100-day-project
 ---
-{% capture main %}
-	<h1>{{ page.title | widont }}</h1>
-	<h2>{{ page.subtitle | widont }}</h2>
-{% endcapture %}
 
-{% capture side %}
-	<div class="quick-links">
-		<h3>Take The Class</h3>
-		<ul>
-			<li class="skillshare"><a>Skillshare</a></li>
-			<li class="ttkb"><a>TapTapKaboom School</a></li>
-		</ul>
-	</div>
-{% endcapture %}
+# {{ page.title | widont }}
+## {{ page.subtitle | widont }}
 
-{%- include info-box.html reverse=true main=main side=side -%}
-
-
+Want to take this class **right now?** [Tap here](#options) for options.
 
 {% include video.html type="youtube" id='efkgAhqJ1pQ' caption="The introduction to **Productivity Basics: How To Become More Productive in 4 Steps**" %}
 
