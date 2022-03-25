@@ -23,8 +23,9 @@ related:
 	<div class="quick-links">
 		<h3>Take The Class</h3>
 		<ul>
-			<li class="skillshare"><a>Skillshare</a></li>
-			<li class="ttkb"><a>TapTapKaboom School</a></li>
+			<li class="skillshare"><a href="" class="cta full">On Skillshare</a></li>
+			<li class="ttkb"><a href="" class="cta full">On TapTapKaboom School</a></li>
+			<li><a href="#details">View details</a></li>
 		</ul>
 	</div>
 {% endcapture %}
@@ -34,6 +35,8 @@ related:
 
 
 {% include video.html type="youtube" id='efkgAhqJ1pQ' caption="The introduction to **Productivity Basics: How To Become More Productive in 4 Steps**" %}
+
+### Class Details {#details}
 
 **This beginner’s productivity class jumps into the basics of being productive and covers 4 simple and practical productivity practices:**
 

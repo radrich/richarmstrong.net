@@ -162,6 +162,10 @@ a.cta{
 	}
 	&.bg-dark{}
 	
+	&.full{
+		width: 100%;
+	}
+	
 	h2 &{
 		position: absolute;
 		right: 0;
