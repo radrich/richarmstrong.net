@@ -20,7 +20,7 @@ Technically, The Doodleverse is a collection of illustrated NFTs on the Avalanch
 
 {% include img.html img="img/doodleverse-banner.png" caption="Welcome to The Doodleverse" %}
 
-But The Doodleverse is obviously so much more than its technical defintion. So what is it? It’s a dream-like universe where anything is possible. Singing trees. Birds with worms for tongues. Giant jellyfish. Talking rainbows. That kind of thing. I can’t wait to explore the doodleverse more, and I want you to join me—if weirdness is your thing.
+But The Doodleverse is obviously so much more than its technical defintion. So what is it? It’s a dream-like universe where anything is possible. Singing trees. Birds with worms for tongues. Giant jellyfish. Talking rainbows. That kind of thing. I can’t wait to explore The Doodleverse more, and would love you to join me—if weirdness is your thing.
 
 Every Friday I auction the pieces I create during the week. There’s roughly 7 on auction each week, often with something special for those participating.
 
