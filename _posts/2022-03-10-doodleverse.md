@@ -1,5 +1,5 @@
 ---
-title: The Doodleverse
+title: Welcome to The Doodleverse
 subtitle: You Want Weird Right!?
 image: 'img/doodleverse-23-homeward.png'
 desc: "The doodleverse is dream-like universe where anything is possible. Singing trees. One-eyed birds with worm tongues. Giant jellyfish."
@@ -16,7 +16,7 @@ related:
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-{% include img.html img="img/doodleverse-banner.png" caption="Welcome to The Doodleverse" %}
+{% include img.html img="img/doodleverse-banner.png" %}
 
 Technically, The Doodleverse is a collection of illustrated NFTs on the Avalanche blockchain. You can view it on [on Kalao.](https://ttkb.me/doodleverse-kalao) But it’s obviously so much more than its technical defintion. So what is it? The Doodleverse is a dream-like universe where anything is possible. Singing trees. Birds with worms for tongues. Giant jellyfish. Talking rainbows. That kind of thing. I can’t wait to explore The Doodleverse more, and would love you to join me—if weirdness is your thing.
 
