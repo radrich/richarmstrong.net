@@ -16,16 +16,16 @@ related:
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-The Doodleverse is a collection of illustrated NFTs on the Avalanche blockchain. It’s [hosted on Kalao.](https://ttkb.me/doodleverse-kalao)
+Technically, The Doodleverse is a collection of illustrated NFTs on the Avalanche blockchain. You can view it on [on Kalao.](https://ttkb.me/doodleverse-kalao)
 
 {% include img.html img="img/doodleverse-banner.png" caption="Welcome to The Doodleverse" %}
 
-The Doodleverse is dream-like universe where anything is possible. Singing trees. Birds with worms for tongues. Giant jellyfish. Talking rainbows. That kind of thing. Every Friday I auction the pieces I created during the week. There’s roughly 7 on auction each week, often with something special for those participating.
+But The Doodleverse is obviously so much more than its technical defintion. So what is it? It’s a dream-like universe where anything is possible. Singing trees. Birds with worms for tongues. Giant jellyfish. Talking rainbows. That kind of thing. I can’t wait to explore the doodleverse more, and I want you to join me—if weirdness is your thing.
+
+Every Friday I auction the pieces I create during the week. There’s roughly 7 on auction each week, often with something special for those participating.
 
 **Next Auction:** 1 April 2022 at 12pm UTC for 24 hours.
 
-### But Why?
-I’m ADD and struggle to stick to a single style. But with this style, I’m finding it easy to focus on my imagination rather than the marks and colours and other stuff that goes into illustration. And I’m enjoying this a butt-ton. I have ideas being thrown at me from The Doodleverse all day and night. All I want to do is illustrate them. So, that’s what I’m doing. I can’t wait to explore the doodleverse more, and I want you to join me—if weirdness is your thing.
 
 ### How Do I Bid for a Doodleverse Piece on Kalao?
 1. Get some AVAX on Coinbase (or another crypto marketplace).
