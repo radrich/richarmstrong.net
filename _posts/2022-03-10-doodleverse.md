@@ -18,7 +18,7 @@ related:
 
 {% include img.html img="img/doodleverse-banner.png" %}
 
-Technically, The Doodleverse is a collection of illustrated NFTs on the Avalanche blockchain. You can view it on [on Kalao.](https://ttkb.me/doodleverse-kalao) But it’s obviously so much more than its technical defintion. So what is it? The Doodleverse is a dream-like universe where anything is possible. Singing trees. Birds with worms for tongues. Giant jellyfish. Talking rainbows. That kind of thing. I can’t wait to explore The Doodleverse more, and would love you to join me—if weirdness is your thing.
+Technically, The Doodleverse is a collection of illustrated NFTs on the Avalanche blockchain. You can view it [on Kalao.](https://ttkb.me/doodleverse-kalao) But it’s obviously so much more than its technical defintion. So what is it? The Doodleverse is a dream-like universe where anything is possible. Singing trees. Birds with worms for tongues. Giant jellyfish. Talking rainbows. That kind of thing. I can’t wait to explore The Doodleverse more, and would love you to join me—if weirdness is your thing.
 
 Every Friday I auction the pieces I create during the week. There’s roughly 7 on auction each week, often with something special for those participating.
 
