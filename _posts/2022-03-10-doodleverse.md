@@ -22,7 +22,6 @@ Technically, The Doodleverse is a collection of illustrated NFTs on the Avalanch
 
 Every Friday I auction the pieces I create during the week. There’s roughly 7 on auction each week, often with something special for those participating.
 
-**Today’s Auction:** 2 pieces are being auctioned on 13 April 2022 at 7pm UTC on Potluck Protocol’s [Discord server.](https://discord.com/invite/potluckprotocol)  
 **On sale:** 3 pieces are currently for sale [on Kalao](https://ttkb.me/doodleverse-kalao) until Friday’s auction.  
 **Next Auction:** Friday 15 April at 12pm UTC [on Kalao.](https://ttkb.me/doodleverse-kalao)
 
