@@ -1,8 +1,8 @@
-# - title: 'TapTapKaboom LIVE'
-#   subtitle: 'Join me for some live creating!'
-#   url: https://ttkb.me/live
-#   image: 'img/live-2.jpg'
-#   color: '#ff4141'
+- title: 'TapTapKaboom LIVE on Twitch'
+  subtitle: 'Join me for some live illusttation!'
+  url: https://ttkb.me/twitch
+  image: 'img/live-2.jpg'
+  color: '#ff4141'
 
 - title: 'The Doodleverse NFT Collection'
   subtitle: 'Get Your Piece of Weirdness'

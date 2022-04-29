@@ -18,18 +18,18 @@ related:
 
 {% include img.html img="img/doodleverse-banner.png" %}
 
-Technically, The Doodleverse is a collection of illustrated NFTs on the Avalanche blockchain. You can view it [on Kalao.](https://ttkb.me/doodleverse-kalao) But it’s obviously so much more than its technical defintion. So what is it? The Doodleverse is a dream-like universe where anything is possible. Singing trees. Birds with worms for tongues. Giant jellyfish. Talking rainbows. That kind of thing. I can’t wait to explore The Doodleverse more, and would love you to join me—if weirdness is your thing.
+Technically, The Doodleverse is a collection of illustrated NFTs on the Avalanche blockchain. You can view it [on Kalao.](https://ttkb.me/doodleverse-kalao) But it’s obviously so much more than its technical defintion. So what is it? The Doodleverse is a dream-like universe where anything is possible. Singing trees. Birds with worms for tongues. Giant jellyfish. Talking rainbows. That kind of thing. Come join the weirdness.
 
 Every Friday I auction the pieces I create during the week. There’s roughly 7 on auction each week, often with something special for those participating.
 
-**On sale:** 3 pieces are currently for sale [on Kalao](https://ttkb.me/doodleverse-kalao) until Friday’s auction.  
-**Next Auction:** Friday 15 April at 12pm UTC [on Kalao.](https://ttkb.me/doodleverse-kalao)
+**On sale:** A few pieces are currently for sale [on NFTrade](https://ttkb.me/doodleverse-nftrade) until the next auction.  
+**Next Auction:** Friday 29 April [on Kalao.](https://ttkb.me/doodleverse-kalao)
 
 
 ### How Do I Bid for a Doodleverse Piece on Kalao?
 1. Get some AVAX on Coinbase (or another crypto marketplace).
 2. Send it to your AVAX-compatible wallet. Metamask, on the Avalanche network will do. [This blog post](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche) shows you the steps you need to take to get AVAX working on MetaMask.
-3. Log in to [the Kalao marketplace](https://marketplace.kalao.io/) using your wallet.
+3. Log in to [the Kalao marketplace](https://marketplace.kalao.io/) or another AVAX NFT marketplace selling Doodleverse pieces using your wallet.
 4. Check out [the collection.](https://ttkb.me/doodleverse-kalao)
 5. Bid and buy as you wish.
 
