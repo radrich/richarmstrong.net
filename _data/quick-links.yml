@@ -4,26 +4,26 @@
 #   image: 'img/live-2.jpg'
 #   color: '#ff4141'
 
-- title: 'Primam Turrim Dynamic NFT'
-  subtitle: 'An NFT that shows a different image based on the time of day'
-  url: https://ttkb.me/turres
-  image: 'img/primam-turrim-thumb.jpg'
-  background_color: '#1372fd'
-  color: 'white'
-
-- title: 'The Doodleverse NFT Collection'
-  subtitle: 'Get Your Piece of Weirdness'
-  #url: /doodleverse
-  url: https://ttkb.me/doodleverse-kalao
-  image: 'img/doodleverse-23-homeward.png'
-  background_color: 'black'
-  color: 'white'
+# - title: 'Primam Turrim Dynamic NFT'
+#   subtitle: 'An NFT that shows a different image based on the time of day'
+#   url: https://ttkb.me/turres
+#   image: 'img/primam-turrim-thumb.jpg'
+#   background_color: '#1372fd'
+#   color: 'white'
 
 - title: 'Get The Perfect 100 Day Project Book!'
   subtitle: 'Get the eBook now. Pre-order the print edition'
   url: https://www.my100dp.com/the-perfect-100-day-project-book
   image: 'img/the-perfect-100dp-book.jpg'
   background_color: '#d73738'
+  color: 'white'
+  
+- title: 'The Doodleverse NFT Collection'
+  subtitle: 'Get Your Piece of Weirdness'
+  #url: /doodleverse
+  url: https://ttkb.me/ddv
+  image: 'img/doodleverse-23-homeward.png'
+  background_color: 'black'
   color: 'white'
 
 # - title: 'Check out my NFTs'
