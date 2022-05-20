@@ -1,0 +1,24 @@
+<!-- type: cover, contain, center, pattern -->
+<!-- align:
+	top-left, top-center, top-right
+	middle-left, middle-center, middle-right
+	bottom-left, bottom-center, bottom-right
+-->
+<!-- btn_background_color: light, dark -->
+<div class="hero">
+  <div class="banner-content">
+    {{ content }}
+    
+    <a href="#links" class="cta bg-light">View Latest & Greatest</a>
+    
+    <div class="social">
+      {% for account in site.data.social %}
+        <a href="{{ account.url }}" class="icon" target="_blank" title="{{ account.title }}">
+          {% assign icon = 'svg/' | append: account.icon %}
+          {% include {{ icon }} %}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+  <img class="banner-image" src="img/rich-face-illo-1.jpg?v=12" alt="Rich Armstrong">
+</div>

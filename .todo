@@ -46,6 +46,13 @@ Coming up:
 [] ask me a question netlify form
 [] an animation/coding/design journey
 
+Side display (do I still need this anywhere?):
+------------------------
+{% capture side %}
+	{%- include avatar.html img='img/rich-face-3.jpg' -%}
+{% endcapture %}
+{%- include info-box.html main=content side=side -%}
+
 Jekyll options:
 ------------------------
 bundle exec jekyll serve --livereload --host 0.0.0.0 --trace
