@@ -4,6 +4,12 @@
 #   image: 'img/live-2.jpg'
 #   color: '#ff4141'
 
+- title: 'TapTapKaboom on Adobe Live'
+  subtitle: '23 & 24 May at 16:30 UTC'
+  url: https://www.behance.net/live/videos/16385/Creating-Custom-Illustrations-in-Adobe-Fresco-1-of-2
+  image: 'img/adobe.jpg'
+  color: '#fe1592'
+
 # - title: 'Primam Turrim Dynamic NFT'
 #   subtitle: 'An NFT that shows a different image based on the time of day'
 #   url: https://ttkb.me/turres
@@ -52,8 +58,8 @@
   color: '#ffd400'
 
 - title: '5 Minute Creative Workouts: Get Your Creativity In Shape'
-  #subtitle: '14+ Ways To Boost Your Creativity: Check It Out!'
-  subtitle: 'Check Out My Latest Class!'
+  subtitle: '14+ Ways To Boost Your Creativity: Check It Out!'
+  #subtitle: 'Check Out My Latest Class!'
   url: /5-minute-creative-workouts/
   image: 'img/5min-thumb2.jpg'
   color: '#1165eb'
@@ -88,11 +94,11 @@
   image: 'img/rwd-thumb.png'
   color: 'white'
 
-- title: 'Want Individual Attention + Feedback?'
-  subtitle: 'Let’s Chat 1:1 on Superpeer'
-  url: https://ttkb.me/superpeer
-  image: 'img/superpeer.png'
-  color: '#d6d6d6'
+# - title: 'Want Individual Attention + Feedback?'
+#   subtitle: 'Let’s Chat 1:1 on Superpeer'
+#   url: https://ttkb.me/superpeer
+#   image: 'img/superpeer.png'
+#   color: '#d6d6d6'
 
 # - title: 'Giclée Art Prints'
 #   subtitle: 'Available at Various Sizes'
