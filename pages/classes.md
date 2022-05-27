@@ -15,7 +15,7 @@ Ready to Level-up Your Creative Super Powers? I teach the stuff I know in ways I
 
 I want to see you develop your unique creative super powers and rock your creative universe. I want you to succeed—and have fun doing it!
 
-<p>I'm a “Top Teacher” <a href="https://ttkb.me/sk">on Skillshare</a>, where you pay yearly for a subscription and can take as many classes as you like! My classes are also availavle on <a href="https://ttkb.me/school">TapTapKaboom School</a> where you can purchase my classes as one-offs (no subscriptions)</p>
+<p>I'm a “Top Teacher” <a href="https://ttkb.me/sk">on Skillshare</a>, where you pay yearly for a subscription and can take as many classes as you like! My classes are also available on <a href="https://ttkb.me/school">TapTapKaboom School</a> where you can purchase my classes as one-offs (no subscriptions)</p>
 
 <p>Below are classes that thousands of students have taken and given amazing reviews on.</p>
 
