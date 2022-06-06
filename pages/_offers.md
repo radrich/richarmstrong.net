@@ -31,5 +31,5 @@ http://i.refs.cc/82iY7W0g?smile_ref=eyJzbWlsZV9zb3VyY2UiOiJzbWlsZV91aSIsInNtaWxl
 https://pen.tips/?ref=ZX9CzpiE
 
 ### Paperlike
-https://paperlike.com/taptapkaboom
+https://ttkb.me/paperlike
 https://paperlike.com/discount/taptapkaboom?redirect=/products/paperlike-for-ipad
