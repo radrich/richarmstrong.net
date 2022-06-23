@@ -28,7 +28,7 @@ I illustrated the characters and wrote the first version of all their stories du
 In April 2022, I decided to [put them on the blockchain](https://ttkb.me/100wch) as NFTs—so they could delight their awesome owners.
 
 ## Buy an NFT
-I’ve minted them to the Avalanche blockchain! You can [purchase them on NFTKey.](https://ttkb.me/100wch)
+I’ve minted them to the Avalanche blockchain! You can [purchase them on Joepegs.](https://ttkb.me/100wch)
 
 
 ## Buy the book
