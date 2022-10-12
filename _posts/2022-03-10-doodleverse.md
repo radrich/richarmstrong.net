@@ -1,8 +1,8 @@
 ---
-title: Welcome to The Doodleverse
+title: The Doodleverse (SOLD OUT)
 subtitle: You Want Weird Right!?
-image: 'img/doodleverse-23-homeward.png'
-desc: "The doodleverse is dream-like universe where anything is possible. Singing trees. One-eyed birds with worm tongues. Giant jellyfish."
+image: 'img/ddv-93-eternal-flower.jpg'
+desc: "The Doodleverse is something between a fever dream and a vibrant paradise—it’s certainly not of this world. Meet all kinds of weird and wonderful creatures in a variety of dream-like scenes—trees with eyes, castle clouds, vicious plants, creepy hills, and tons of one-eyed birds!"
 categories: ['Projects', 'Illustration', 'NFT']
 tags: ['NFT', 'The100DayProject']
 background_color: "black"
@@ -16,23 +16,21 @@ related:
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-{% include img.html img="img/doodleverse-banner.png" %}
+{% include img.html img="img/ddv-banner2.jpeg" %}
 
-Technically, The Doodleverse is a collection of illustrated NFTs on the Avalanche blockchain. You can view the collection [on Joepegs.](https://ttkb.me/ddv) But it’s obviously so much more than this technical defintion. **So what is it?** The Doodleverse is a dream-like universe comprised of multiple dimensions. And anything is possible. Singing trees. Birds with worms for tongues. Giant jellyfish. Talking rainbows. That kind of thing. Sometimes it’s fun. Sometimes it’s dark. And most of the time it’s weird.
+The Doodleverse is a dream-like universe comprised of multiple dimensions, and is a mix between a fever dream and a vibrant paradise—it’s certainly not of this world. Meet all kinds of weird and wonderful creatures in a variety of dream-like scenes—trees with eyes, castle clouds, vicious plants, creepy hills, and tons of one-eyed birds! Sometimes it’s fun. Sometimes it’s dark. Most of the time it’s weird.
 
-**The collection is currently sold out, with pieces available on secondary marketplaces.**
+It’s a SOLD OUT collection of 101 unique illustrated an animated NFTs on the Avalanche blockchain. You can view the collection [on OpenSea](https://ttkb.me/ddv) where you can pick up pieces for sale.
 
+### Notable links
+- The collection [on OpenSea.](https://opensea.io/collection/doodleverse)
+- [An article](https://medium.com/avalancheavax/artist-spotlight-tap-tap-kabooms-vast-nft-doodleverse-d9e2c52bd3a7) about myself and The Doodleverse on the Avalanche blog.
+- All the pieces [on Bēhance.](https://www.behance.net/taptapkaboom)
 
-### How Do I Bid or Buy a Doodleverse Piece on Avalanche?
-1. Get some AVAX on Coinbase (or another crypto marketplace). AVAX is the currency the Avalanche blockchain uses.
-2. Send it to your AVAX-compatible wallet. Metamask, on the Avalanche network will do. [This blog post](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche) shows you the steps you need to take to get AVAX working on MetaMask.
-3. Log in to [Joepegs](https://joepegs.com/) or another Avalanche NFT marketplace selling Doodleverse pieces using your wallet.
-4. Check out [the collection.](https://ttkb.me/ddv)
-5. Bid, buy, and make offers as you wish.
+{% include img.html img="img/ddv-grid-1.jpg" caption="A few Doodleverse pieces" %}
+{% include img.html img="img/ddv-grid-2.jpg" caption="Some more Doodleverse pieces" %}
+{% include img.html img="img/ddv-grid-3.jpg" caption="And some more of The Doodleverse" %}
 
-{% include img.html img="img/doodleverse-23-homeward.png" caption="Homeward" %}
-{% include img.html img="img/doodleverse-cataglottism.png" caption="Cataglottism" %}
-{% include img.html img="img/doodleverse-starberry.png" caption="Starberry" %}
-{% include img.html img="img/doodleverse-feeding-time.png" caption="Feeding Time" %}
+The Doodleverse was my first collection on the Avalanche blockchain. It started off as a 100 Day Project. But I created other pieces and new collections during that period and carried on creating The Doodleverse well after my 100 Day project had ended.
 
 Got questions? Reach out to me on [Twitter](https://ttkb.me/twitter) and [Instagram.](https://ttkb.me/ig)
