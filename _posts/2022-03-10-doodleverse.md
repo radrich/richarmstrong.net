@@ -31,6 +31,6 @@ It’s a SOLD OUT collection of 101 unique illustrated an animated NFTs on the A
 {% include img.html img="img/ddv-grid-2.jpg" caption="Some more Doodleverse pieces" %}
 {% include img.html img="img/ddv-grid-3.jpg" caption="And some more of The Doodleverse" %}
 
-The Doodleverse was my first collection on the Avalanche blockchain. It started off as a 100 Day Project. But I created other pieces and new collections during that period and carried on creating The Doodleverse well after my 100 Day project had ended.
+The Doodleverse was my first collection on the Avalanche blockchain. It started off as a [100 Day Project](https://www.my100dp.com/) where I created one piece a day. I ended up working on other collections during that 100 Day Project and carried on The Doodleverse well after my 100 Day project had ended.
 
-Got questions? Reach out to me on [Twitter](https://ttkb.me/twitter) and [Instagram.](https://ttkb.me/ig)
+For all things Doodleverse, follow me on [Twitter](https://ttkb.me/twitter) and join the [TapTapKaboom Discord.](https://ttkb.me/discord)
