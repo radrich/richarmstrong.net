@@ -4,13 +4,13 @@ subtitle: You Want Weird Right!?
 image: 'img/ddv-93-eternal-flower.jpg'
 desc: "The Doodleverse is something between a fever dream and a vibrant paradise—it’s certainly not of this world. Meet all kinds of weird and wonderful creatures in a variety of dream-like scenes—trees with eyes, castle clouds, vicious plants, creepy hills, and tons of one-eyed birds!"
 categories: ['Projects', 'Illustration', 'NFT']
-tags: ['NFT', 'The100DayProject']
+tags: ['NFT', 'The100DayProject', 'Animation']
 background_color: "black"
 color: "white"
 related:
   - /posts/nft
+  - /posts/happy-sun
   - /pages/the-perfect-100-day-project-book
-  - /classes/procreate-animation
   
 ---
 # {{ page.title | widont }}
