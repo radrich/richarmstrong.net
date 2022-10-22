@@ -1,7 +1,6 @@
 ---
 title: Child’s Play
 subtitle: 'An Abstract NFT Collection by an 18 Month Kid'
-permalink: /childsplaynft/
 image: 'img/childsplay-thumb.jpg'
 desc: "Child’s Play is an abstract NFT collection by my daughter. There are 101 pieces that she’s created both on my iPad and on paper."
 categories: ['Projects', 'Illustration', 'NFT']
