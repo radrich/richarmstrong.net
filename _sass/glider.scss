@@ -19,10 +19,11 @@
   -ms-overflow-style: none;
   transform: translateZ(0);
   
-  // @media (max-width: 1127px) {
-  //   margin: 0;
-  //   width: 100%;
-  // }
+  //$desktopMin
+  @media (max-width: $desktopMin) {
+    margin-left: -20px;
+    //width: 100%;
+  }
   
   .glide-box{
     box-sizing: border-box;
