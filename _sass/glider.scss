@@ -2,14 +2,19 @@
   width: 100%;
   margin: 0 auto;
   position: relative;
-  background-color: #fff400;
   
   width: 100vw;
   margin-left: calc((100vw - 960px)/2*-1);
+  
+  @media (max-width: $tabletMax) {
+    margin-left: -$wrapperHorizontalMarginDesktop;
+  }
+  
+  @media (max-width: $mobileMax) {
+    margin-left: -$wrapperHorizontalMarginMobile;
+  }
 }
 .glider {
-  //margin: 0 (-$wrapperHorizontalMarginDesktop) 20px;
-  // width: calc(100% + #{$wrapperHorizontalMarginDesktop * 2});
   padding-left: calc((100vw - 960px)/2);
   margin-left: -$wrapperHorizontalMarginDesktop;
   
@@ -19,10 +24,12 @@
   -ms-overflow-style: none;
   transform: translateZ(0);
   
-  //$desktopMin
   @media (max-width: $desktopMin) {
     margin-left: -20px;
-    //width: 100%;
+    padding-left: 0;
+  }
+  @media (max-width: $tabletMax) {
+    margin-left: 0;
   }
   
   .glide-box{
@@ -44,16 +51,25 @@
     
     img{ width: 100%; }
     
-    // @media (max-width: $tabletMax) {
-    //   border-radius: 0;
-    //   &:after{ border-radius: 0; }
-    // }
-    
     &:first-child{
       margin-left: 0;
+      
+      @media (max-width: $tabletMax) {
+        margin-left: $wrapperHorizontalMarginDesktop;
+      }
+      @media (max-width: $mobileMax) {
+        margin-left: $wrapperHorizontalMarginMobile;
+      }
     }
     &:last-child{
       margin-right: calc((100vw - 960px)/2 - #{$wrapperHorizontalMarginDesktop});
+      
+      @media (max-width: $tabletMax) {
+        margin-right: $wrapperHorizontalMarginDesktop;
+      }
+      @media (max-width: $mobileMax) {
+        margin-right: $wrapperHorizontalMarginMobile;
+      }
     }
   }
 }
@@ -150,7 +166,7 @@
   cursor: pointer;
   color: #ccc;
   border-radius: 999px;
-  background: #ccc;
+  background: $black20;
   width: 12px;
   height: 12px;
   margin: 7px;
@@ -158,7 +174,7 @@
 .glider-dot:hover,
 .glider-dot:focus,
 .glider-dot.active {
-  background: #a89cc8;
+  background: $accentColor1;
 }
 @media(max-width: 36em){
   .glider::-webkit-scrollbar {

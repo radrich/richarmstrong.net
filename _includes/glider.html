@@ -1,0 +1,8 @@
+<div class="glider-contain">
+  <div class="glider">
+    {% for item in include.imgs %}
+    	<div class="glide-box"><img src='{{ item | relative_url }}'/></div>
+    {% endfor %}
+  </div>
+  <div role="tablist" class="dots"></div>
+</div>
