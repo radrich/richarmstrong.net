@@ -1,5 +1,6 @@
 ---
 title: Skwgglz
+permalink: /skwgglz/
 subtitle: 'A Fun & Truly Doodled NFT Collection'
 image: 'img/skwgglz/5.png'
 desc: "The Skwgglz, a carefree bunch of doodles, sprung to life while the artist that made them dozed and drooled at his desk."
