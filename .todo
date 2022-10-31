@@ -49,6 +49,14 @@ Coming up:
 [] ask me a question netlify form
 [] an animation/coding/design journey
 
+
+Third Web NFT drop
+------------------------
+<div class="thirdweb-nft-drop">
+  <iframe src="https://gateway.ipfscdn.io/ipfs/QmPuyhD9TN9gp29M2YCvhRCjQbj3dBoN87omyBUnFAJiQM/nft-drop.html?contract=0xD7C448D44a23e8Fcf0E281fcCb63dC49347Ca0B2&chainId=43114" frameborder="0"></iframe>
+</div>
+
+
 Side display (do I still need this anywhere?):
 ------------------------
 {% capture side %}
