@@ -7,7 +7,6 @@ categories: ['Projects', 'Illustration', 'NFT']
 tags: ['NFT', 'Kids']
 background_color: "white"
 color: "black"
-subscribe: false
 related:
   - /posts/doodleverse
   - /posts/happy-sun
