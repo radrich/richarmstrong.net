@@ -25,7 +25,7 @@ It’s a SOLD OUT collection of 101 unique illustrated an animated NFTs on the A
 ### Notable links
 - The collection [on OpenSea.](https://opensea.io/collection/doodleverse)
 - [An article](https://medium.com/avalancheavax/artist-spotlight-tap-tap-kabooms-vast-nft-doodleverse-d9e2c52bd3a7) about myself and The Doodleverse on the Avalanche blog.
-- All the pieces [on Bēhance.](https://www.behance.net/taptapkaboom)
+- All the pieces [on Bēhance.](https://www.behance.net/gallery/154166099/The-Doodleverse-NFT-Collection-All-101-Pieces)
 
 {% include img.html img="img/ddv-grid-1.jpg" caption="A few Doodleverse pieces" %}
 {% include img.html img="img/ddv-grid-2.jpg" caption="Some more Doodleverse pieces" %}
