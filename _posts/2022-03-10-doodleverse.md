@@ -1,5 +1,5 @@
 ---
-title: The Doodleverse (SOLD OUT)
+title: The Doodleverse
 subtitle: You Want Weird Right!?
 image: 'img/ddv-93-eternal-flower.jpg'
 desc: "The Doodleverse is something between a fever dream and a vibrant paradise—it’s certainly not of this world. Meet all kinds of weird and wonderful creatures in a variety of dream-like scenes—trees with eyes, castle clouds, vicious plants, creepy hills, and tons of one-eyed birds!"
