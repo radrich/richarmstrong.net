@@ -3,6 +3,12 @@
   url: https://ttkb.me/live
   image: 'img/streaming-pfp.jpg'
   color: '#009fee'
+
+- title: 'Twitter Spaces with Herbert Lui'
+  subtitle: 'Wednesday 15 Feb 12pm UTC!'
+  url: https://twitter.com/taptapkaboom/status/1624397912544317440
+  image: 'img/twitter.png'
+  color: '#ff5500'
   
 # - title: 'How to Become a Better Creative Workshop'
 #   # subtitle: '14+ Ways To Boost Your Creativity: Check It Out!'
@@ -33,17 +39,17 @@
   background_color: 'black'
   color: 'white'
   
-- title: 'New Class!! Productivity Bascis'
-  subtitle: 'Check It Out!'
-  url: /productivity-basics
-  image: 'img/productivity-basics-thumb.png'
-  color: '#000000'
+# - title: 'New Class!! Productivity Bascis'
+#   subtitle: 'Check It Out!'
+#   url: /productivity-basics
+#   image: 'img/productivity-basics-thumb.png'
+#   color: '#000000'
 
-- title: '5 Minute Creative Workouts: Get Your Creativity In Shape'
-  subtitle: '14+ Ways To Boost Your Creativity'
-  url: /5-minute-creative-workouts/
-  image: 'img/5min-thumb2.jpg'
-  color: '#1165eb'
+# - title: '5 Minute Creative Workouts: Get Your Creativity In Shape'
+#   subtitle: '14+ Ways To Boost Your Creativity'
+#   url: /5-minute-creative-workouts/
+#   image: 'img/5min-thumb2.jpg'
+#   color: '#1165eb'
 
 # - title: 'The Creativity Mini Course: 5 Days of Creativity'
 #   subtitle: 'Enrol For Free!'

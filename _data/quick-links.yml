@@ -4,6 +4,12 @@
   image: 'img/streaming-pfp.jpg'
   color: '#009fee'
 
+- title: 'Twitter Spaces with Herbert Lui'
+  subtitle: 'Wednesday 15 Feb 12pm UTC!'
+  url: https://twitter.com/taptapkaboom/status/1624397912544317440
+  image: 'img/twitter.png'
+  color: '#ff5500'
+
 # - title: 'Primam Turrim Dynamic NFT'
 #   subtitle: 'An NFT that shows a different image based on the time of day'
 #   url: https://ttkb.me/turres
@@ -20,7 +26,6 @@
   
 - title: 'The Doodleverse NFT Collection'
   subtitle: 'Get Your Piece of Weirdness'
-  #url: /doodleverse
   url: https://ttkb.me/ddv
   image: 'img/doodleverse-23-homeward.png'
   background_color: 'black'
@@ -39,30 +44,29 @@
 #   background_color: '#f8cf46'
 #   color: '#ff6602'
 
-- title: 'New Class!! Productivity Bascis'
-  subtitle: 'Check It Out!'
-  url: /productivity-basics
-  image: 'img/productivity-basics-thumb.png'
-  color: '#000000'
+# - title: 'Productivity Bascis'
+#   subtitle: 'Check It Out!'
+#   url: /productivity-basics
+#   image: 'img/productivity-basics-thumb.png'
+#   color: '#000000'
     
-- title: 'The 5 Day Creativity Mini Course'
-  subtitle: 'Enrol For Free!'
-  url: https://ttkb.me/cmc
-  image: 'img/cmc-web-thumbnail.jpg'
-  color: '#ffd400'
+# - title: 'The 5 Day Creativity Mini Course'
+#   subtitle: 'Enrol For Free!'
+#   url: https://ttkb.me/cmc
+#   image: 'img/cmc-web-thumbnail.jpg'
+#   color: '#ffd400'
 
-- title: '5 Minute Creative Workouts: Get Your Creativity In Shape'
-  subtitle: '14+ Ways To Boost Your Creativity: Check It Out!'
-  #subtitle: 'Check Out My Latest Class!'
-  url: /5-minute-creative-workouts/
-  image: 'img/5min-thumb2.jpg'
-  color: '#1165eb'
+# - title: '5 Minute Creative Workouts: Get Your Creativity In Shape'
+#   subtitle: '14+ Ways To Boost Your Creativity: Check It Out!'
+#   url: /5-minute-creative-workouts/
+#   image: 'img/5min-thumb2.jpg'
+#   color: '#1165eb'
   
-- title: 'Productivity with Purpose: Your Foundation for Success'
-  subtitle: 'A Productivity Class for Humans'
-  url: /productivity-with-purpose/
-  image: 'img/pwp-thumb.jpg'
-  color: '#ff5500'
+# - title: 'Productivity with Purpose: Your Foundation for Success'
+#   subtitle: 'A Productivity Class for Humans'
+#   url: /productivity-with-purpose/
+#   image: 'img/pwp-thumb.jpg'
+#   color: '#ff5500'
 
 - title: 'Classes & Courses'
   subtitle: 'Browse the Catalogue'
