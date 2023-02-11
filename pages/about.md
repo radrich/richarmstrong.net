@@ -1,5 +1,5 @@
 ---
-title: The Story of TapTapKaboom
+title: About TapTapKaboom
 subtitle: An Origin Story
 permalink: /about/
 image: 'img/rich-doodle-thumb.jpg'
