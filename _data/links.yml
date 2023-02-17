@@ -4,12 +4,12 @@
   image: 'img/streaming-pfp.jpg'
   color: '#009fee'
 
-- title: 'Twitter Spaces with Herbert Lui'
-  subtitle: 'Wednesday 15 Feb 12pm UTC'
-  url: https://twitter.com/taptapkaboom/status/1624397912544317440
-  image: 'img/twitter.png'
-  color: 'black'
-  background_color: '#ff5500'
+# - title: 'Twitter Spaces with Herbert Lui'
+#   subtitle: 'Wednesday 15 Feb 12pm UTC'
+#   url: https://twitter.com/taptapkaboom/status/1624397912544317440
+#   image: 'img/twitter.png'
+#   color: 'black'
+#   background_color: '#ff5500'
   
 # - title: 'How to Become a Better Creative Workshop'
 #   # subtitle: '14+ Ways To Boost Your Creativity: Check It Out!'
