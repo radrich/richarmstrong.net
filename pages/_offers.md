@@ -28,7 +28,7 @@ https://ttkb.me/webflow
 http://i.refs.cc/82iY7W0g?smile_ref=eyJzbWlsZV9zb3VyY2UiOiJzbWlsZV91aSIsInNtaWxlX21lZGl1bSI6IiIsInNtaWxlX2NhbXBhaWduIjoicmVmZXJyYWxfcHJvZ3JhbSIsInNtaWxlX2N1c3RvbWVyX2lkIjoyODUyOTkzNTh9
 
 ### Pen.tips
-https://pen.tips/?ref=ZX9CzpiE
+https://ttkb.me/pentips
 
 ### Paperlike
 https://ttkb.me/paperlike
