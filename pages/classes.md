@@ -1,6 +1,6 @@
 ---
 title: Take a Class
-subtitle: Level up. Get your learning on!
+subtitle: Level up. Learn. Create. Have Fun
 description: Upskill Yourself in Creativity, Productivity, Animation, Coding & Illustration.
 permalink: /classes/
 image: 'img/rich-blue-doodle-bg-thumb.jpg'
@@ -11,11 +11,9 @@ index: true
 <h1>TapTapKaboom Classes</h1>
 <h2>Level up. Learn. Create. Have Fun</h2>
 
-Ready to Level-up Your Creative Super Powers? I teach the stuff I know in ways I wish people had taught me. Think fun, easy to watch, practical classes that empower you. I have classes on design, creativity, coding, animation, and illustration.
+Ready to Level-up Your Creative Super Powers? I teach thousands of people the stuff I know in ways I wish people had taught me. Think fun, easy to watch, practical classes that empower you to rock your creative universe. There are classes on design, creativity, coding, animation, and illustration.
 
-I want to see you develop your unique creative super powers and rock your creative universe. I want you to succeed—and have fun doing it!
-
-<p>I'm a “Top Teacher” <a href="https://ttkb.me/sk">on Skillshare</a>, where you pay yearly for a subscription and can take as many classes as you like! My classes are also available on <a href="https://ttkb.me/school">TapTapKaboom School</a> where you can purchase my classes as one-offs (no subscriptions)</p>
+<p>I host my classes <a href="https://ttkb.me/sk">on Skillshare</a> because you pay a yearly subscription and can take as many classes as you like—of mine, and thsouands of other teachers. The value is off the charts. And you don’t need to sell your kidney to access these amazing classes. Also I'm a “Top Teacher” <a href="https://ttkb.me/sk">on Skillshare</a> which means my classes are the crème de la crème A.K.A the best of the best.</p>
 
 <p>Below are classes that thousands of students have taken and given amazing reviews on.</p>
 
