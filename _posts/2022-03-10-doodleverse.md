@@ -1,7 +1,7 @@
 ---
 title: The Doodleverse
 subtitle: You Want Weird Right!?
-image: 'img/ddv-93-eternal-flower.jpg'
+image: 'img/ddv-96-flames-within-thumb.jpg'
 desc: "The Doodleverse is something between a fever dream and a vibrant paradise—it’s certainly not of this world. Meet all kinds of weird and wonderful creatures in a variety of dream-like scenes—trees with eyes, castle clouds, vicious plants, creepy hills, and tons of one-eyed birds!"
 categories: ['Projects', 'Illustration', 'NFT']
 tags: ['NFT', 'The100DayProject', 'Animation']
@@ -24,6 +24,7 @@ It’s a SOLD OUT collection of 101 unique illustrated an animated NFTs on the A
 
 ### Notable links
 - The collection [on OpenSea.](https://opensea.io/collection/doodleverse)
+- The collection [on Joepegs.](https://joepegs.com/collections/avalanche/doodleverse)
 - [An article](https://medium.com/avalancheavax/artist-spotlight-tap-tap-kabooms-vast-nft-doodleverse-d9e2c52bd3a7) about myself and The Doodleverse on the Avalanche blog.
 - All the pieces [on Bēhance.](https://www.behance.net/gallery/154166099/The-Doodleverse-NFT-Collection-All-101-Pieces)
 

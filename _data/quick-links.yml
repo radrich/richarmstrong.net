@@ -1,8 +1,29 @@
-- title: 'TapTapKaboom Live'
-  subtitle: 'Every Tuesday 2pm UTC'
-  url: https://ttkb.me/live
-  image: 'img/streaming-pfp.jpg'
-  color: '#009fee'
+- title: 'Dreamheadz PFP Collection'
+  subtitle: '1001 dreamers blinded by clouds wrapped around their heads'
+  url: /dreamheadz
+  image: 'img/dhdz-thumb.jpg'
+  background_color: 'black'
+  color: 'white'
+
+- title: 'The Doodleverse NFT Collection'
+  subtitle: 'Get your piece of weirdness'
+  url: /doodleverse
+  image: 'img/ddv-96-flames-within-thumb.jpg'
+  background_color: 'black'
+  color: 'white'
+  
+- title: 'Get The Perfect 100 Day Project Book!'
+  subtitle: 'Print, eBook & bundle editions'
+  url: https://www.my100dp.com/the-perfect-100-day-project-book
+  image: 'img/the-perfect-100dp-book.jpg'
+  background_color: '#d73738'
+  color: 'white'
+    
+# - title: 'TapTapKaboom Live'
+#   subtitle: 'Every Tuesday 2pm UTC'
+#   url: https://ttkb.me/live
+#   image: 'img/streaming-pfp.jpg'
+#   color: '#009fee'
 
 # - title: 'Twitter Spaces with Herbert Lui'
 #   subtitle: 'Wednesday 15 Feb 12pm UTC'
@@ -17,20 +38,6 @@
 #   image: 'img/primam-turrim-thumb.jpg'
 #   background_color: '#1372fd'
 #   color: 'white'
-
-- title: 'Get The Perfect 100 Day Project Book!'
-  subtitle: 'Get the eBook now. Pre-order the print edition'
-  url: https://www.my100dp.com/the-perfect-100-day-project-book
-  image: 'img/the-perfect-100dp-book.jpg'
-  background_color: '#d73738'
-  color: 'white'
-  
-- title: 'The Doodleverse NFT Collection'
-  subtitle: 'Get Your Piece of Weirdness'
-  url: https://ttkb.me/ddv
-  image: 'img/doodleverse-23-homeward.png'
-  background_color: 'black'
-  color: 'white'
 
 # - title: 'Check out my NFTs'
 #   url: https://linktr.ee/taptapkaboom
