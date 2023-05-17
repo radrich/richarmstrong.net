@@ -25,11 +25,11 @@ layout: default
 		{% endif %}
 		
 		<h1>{{ page.title }} Posts</h1>
-		{%- include grid.html items=page.posts list=true -%}
+		{%- include grid.html items=page.posts -%}
 		
 	{% elsif page.type == "tag" %}
 		<h1>Posts Tagged ‘{{ page.title }}’</h1>
-		{%- include grid.html items=page.posts list=true -%}
+		{%- include grid.html items=page.posts -%}
 	{% endif %}
 	
 </div>

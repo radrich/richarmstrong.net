@@ -6,8 +6,8 @@ background_color: "#2a0e4f"
 header_image: 'img/printing-procreate-header.jpg'
 color: "white"
 image: 'img/printing-procreate.jpg'
-categories: ['Art', 'Illustration']
-tags: ['Procreate', 'iPad', 'Info']
+categories: ['How To']
+tags: ['Procreate', 'iPad', 'Info', 'Art', 'Tech']
 related:
   - /classes/digital-marbling
   - /classes/abstract-art-in-fresco
