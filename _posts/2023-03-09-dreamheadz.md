@@ -57,7 +57,7 @@ Each of the [33 named Dreamheadz](https://joepegs.com/collections/avalanche/0x05
 
 I love collaborating with artists. And with Dreamheadz, 14 artists created their [custom Dreamheadz.](https://joepegs.com/collections/avalanche/dreamheadz?attributes=%255B%257B%2522traitType%2522%253A%2522Category%2522%252C%2522values%2522%253A%255B%2522Artist+Custom%2522%255D%257D%255D) These are the ultimate rare pieces in the collection.
 
-{% include img.html img="img/dhdz-customs-1.jpg" caption="And some more of The Doodleverse" %}
+{% include img.html img="img/dhdz-customs-1.jpg" caption="Some of the artist customs" %}
 
 ### The Process
 
