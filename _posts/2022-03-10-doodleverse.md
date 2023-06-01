@@ -1,7 +1,7 @@
 ---
 title: The Doodleverse
 subtitle: You Want Weird Right!?
-image: 'img/ddv-96-flames-within-thumb.jpg'
+image: 'img/doodleverse/96-flames-within.jpg'
 desc: "The Doodleverse is something between a fever dream and a vibrant paradise—it’s certainly not of this world. Meet all kinds of weird and wonderful creatures in a variety of dream-like scenes—trees with eyes, castle clouds, vicious plants, creepy hills, and tons of one-eyed birds!"
 categories: ['Projects', 'Illustration']
 tags: ['NFT', 'The100DayProject', 'Animation', 'Doodleverse']
@@ -16,7 +16,7 @@ related:
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-{% include img.html img="img/ddv-banner2.jpeg" %}
+{% include img.html img="img/doodleverse/banner2.jpeg" %}
 
 The Doodleverse is a dream-like universe comprised of multiple dimensions, and is a mix between a fever dream and a vibrant paradise—it’s certainly not of this world. Meet all kinds of weird and wonderful creatures in a variety of dream-like scenes—trees with eyes, castle clouds, vicious plants, creepy hills, and tons of one-eyed birds! Sometimes it’s fun. Sometimes it’s dark. Most of the time it’s weird.
 
@@ -28,9 +28,9 @@ It’s a SOLD OUT collection of 101 unique illustrated an animated NFTs on the A
 - [An article](https://medium.com/avalancheavax/artist-spotlight-tap-tap-kabooms-vast-nft-doodleverse-d9e2c52bd3a7) about myself and The Doodleverse on the Avalanche blog.
 - All the pieces [on Bēhance.](https://www.behance.net/gallery/154166099/The-Doodleverse-NFT-Collection-All-101-Pieces)
 
-{% include img.html img="img/ddv-grid-1.jpg" caption="A few Doodleverse pieces" %}
-{% include img.html img="img/ddv-grid-2.jpg" caption="Some more Doodleverse pieces" %}
-{% include img.html img="img/ddv-grid-3.jpg" caption="And some more of The Doodleverse" %}
+{% include img.html img="img/doodleverse/grid-1.jpg" caption="A few Doodleverse pieces" %}
+{% include img.html img="img/doodleverse/grid-2.jpg" caption="Some more Doodleverse pieces" %}
+{% include img.html img="img/doodleverse/grid-3.jpg" caption="And some more of The Doodleverse" %}
 
 The Doodleverse was my first collection on the Avalanche blockchain. It started off as a [100 Day Project](https://www.my100dp.com/) where I created one piece a day. I ended up working on other collections during that 100 Day Project and carried on The Doodleverse well after my 100 Day project had ended.
 
