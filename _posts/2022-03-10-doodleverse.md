@@ -20,7 +20,7 @@ related:
 
 The Doodleverse is a dream-like universe comprised of multiple dimensions, and is a mix between a fever dream and a vibrant paradise—it’s certainly not of this world. Meet all kinds of weird and wonderful creatures in a variety of dream-like scenes—trees with eyes, castle clouds, vicious plants, creepy hills, and tons of one-eyed birds! Sometimes it’s fun. Sometimes it’s dark. Most of the time it’s weird.
 
-It’s a SOLD OUT collection of 101 unique illustrated an animated NFTs on the Avalanche blockchain. You can view the collection [on OpenSea](https://ttkb.me/ddv) where you can pick up pieces for sale.
+It’s a SOLD OUT collection of 101 unique illustrated an animated NFTs on the Avalanche blockchain. You can view the collection [on Joepegs](https://ttkb.me/ddv) where you can pick up pieces for sale.
 
 ### Notable links
 - The collection [on OpenSea.](https://opensea.io/collection/doodleverse)
