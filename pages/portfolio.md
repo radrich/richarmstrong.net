@@ -44,6 +44,7 @@ subscribe: false
     <li><a href="/doodleverse"><img src="../img/doodleverse/66-harbinger-of-darkness.jpg" alt=""></a></li>
     <li><div><img src="../img/doodleverse-specials/the-calling.jpg" alt=""></div></li>
     <li><a href="/doodleverse"><img src="../img/doodleverse/6-cataglottism.png" alt=""></a></li>
+    <li><div><img src="../img/leopard-queens/10.jpg" alt=""></div></li>
   </ul>
   <ul class="col">
     <li><a href="/for-love"><img src="../img/for-love/10.jpg" alt=""></a></li>
@@ -61,6 +62,7 @@ subscribe: false
     <li><div><img src="../img/god-hates-nfts-too.jpg" alt=""></div></li>
     <li><a href="/doodleverse"><img src="../img/doodleverse/97-sea-of-dreams.jpg" alt=""></a></li>
     <li><div><img src="../img/monkeez.jpg" alt=""></div></li>
+    <li><div><img src="../img/papilio-palatia/38-5.jpg" alt=""></div></li>
     <li><a href="/happy-sun"><img src="../img/hs/90.png" alt=""></a></li>
   </ul>
   <ul class="col">
@@ -79,5 +81,6 @@ subscribe: false
     <li><a href="/doodleverse"><img src="../img/doodleverse/22-choir.jpg" alt=""></a></li>
     <li><a href="/dreamheadz"><img src="../img/dreamheadz/captain-octo.jpg" alt=""></a></li>
     <li><div><img src="../img/visual-deluge/2b.jpg" alt=""></div></li>
+    <li><a href="/cogito-mortis"><img src="../img/cogito-mortis-1.jpg" alt=""></a></li>
   </ul>
 </div>

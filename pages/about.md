@@ -24,4 +24,6 @@ index: true
 <h2>About Rich</h2>
 <p>This is where I switch to talking about myself in third person. Rich is a vivid and imaginative artist with ADHD. His bold and colourful creations draw inspiration from childhood fantasies, igniting joy &amp; passion in a uniquely authentic style. He loves learning, experimenting, and teaching others how to be creative and successful. He draws, writes, doodles, animates, and codes. He’s got a BA degree in multimedia design, a BTech Honours degree in Graphic Design, and he taught himself how to code. He’s freelanced, worked for agencies and startups, and now runs his studio just outside of Amsterdam. He’s always creating and can touch his nose with his tongue!</p>
 
-<p>If you'd like to get in touch, <a href="{% link pages/contact.md %}">tap here.</a></p>
+### Links!
+- If you'd like to get in touch, <a href="{% link pages/contact.md %}">tap here.</a>
+- This is a great [article](https://medium.com/avalancheavax/artist-spotlight-tap-tap-kabooms-vast-nft-doodleverse-d9e2c52bd3a7) about myself and The Doodleverse on the Avalanche blog.
