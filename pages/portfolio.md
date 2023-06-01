@@ -1,8 +1,8 @@
 ---
 title: Portfolio
-subtitle: See my work
+subtitle: Feast Your Eyes
 permalink: /portfolio/
-image: 'img/rich-doodle-thumb.jpg'
+image: 'img/doodleverse/78-drops-of-reflection.jpg'
 background_color: black
 color: white
 layout: default
