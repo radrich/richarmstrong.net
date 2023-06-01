@@ -8,14 +8,14 @@
 - title: 'Dreamheadz PFP Collection'
   subtitle: '1001 dreamers blinded by clouds wrapped around their heads'
   url: /dreamheadz
-  image: 'img/dhdz-thumb.jpg'
+  image: 'img/dreamheadz/thumb.jpg'
   background_color: 'black'
   color: 'white'
   
 - title: 'The Doodleverse NFT Collection'
   subtitle: 'Get your piece of weirdness'
   url: /doodleverse
-  image: 'img/ddv-96-flames-within-thumb.jpg'
+  image: 'img/doodleverse/96-flames-within.jpg'
   background_color: 'black'
   color: 'white'
   

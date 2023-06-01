@@ -30,10 +30,18 @@ nav{
 		font-size: 40px;
 		flex-grow: 1;
 		flex-shrink: 1;
+		height: 100%;
+		box-sizing: border-box;
 		margin: 0 0 0 30px;
 		text-align: left;
 		
-		a{ text-decoration: none; }
+		a{
+			text-decoration: none;
+			display: block;
+			height: 100%;
+			box-sizing: border-box;
+			padding: 10px 0 0 0;
+		}
 	}
 	
 	.logo{
@@ -143,10 +151,11 @@ nav{
 		transition: visibility 0s, opacity 150ms linear;
 		
 		a{
+			font-family: $ff1;
 			font-size: 20px;
 			line-height: 20px;
 			display: block;
-			padding: 32px 16px;
+			padding: 28px 16px 36px;
 			font-weight: bold;
 			text-decoration: none;
 			
