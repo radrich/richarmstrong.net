@@ -277,12 +277,6 @@ $(function() {
   loadRandomItemsData(function () {
     replaceRandomItemsWithData()
   });
-  
-  $('.masonry').masonry({
-    itemSelector: '.item',
-    columnWidth: 332,
-    gutter: 32,
-  });
 });
 
 /*

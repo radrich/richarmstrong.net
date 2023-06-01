@@ -1,7 +1,7 @@
 ---
 title: Dreamheadz
 subtitle: 1001 Dreamers Blinded by Clouds Wrapped Around Their Heads
-image: 'img/dhdz-thumb.jpg'
+image: 'img/dreamheadz/thumb.jpg'
 desc: "Dreamheadz is a 1001 PFP collaboration project between TapTapKaboom and CloudHeadz. Dreamheadz fits into an evolving Doodleverse storyline, where “Dreamers” have learned how to navigate the dreamy worlds—they’ve even found The Realm of Dreams, the epicentre of The Doodleverse. It’s here that this story takes place—1001 Dreamheadz are addicted to The Realm of Dreams. It’s a place they can imagine and shape and build. It’s a place where they can create the world of their dreams."
 categories: ['Projects', 'Illustration']
 tags: ['NFT', 'PFP', 'Dreams', 'Doodleverse']
@@ -12,26 +12,26 @@ related:
   - /posts/for-love
   - /posts/happy-sun
 slider_images:
-  - "img/dhdz/1.jpg"
-  - "img/dhdz/2.jpg"
-  - "img/dhdz/3.jpg"
-  - "img/dhdz/4.jpg"
-  - "img/dhdz/5.jpg"
-  - "img/dhdz/6.jpg"
-  - "img/dhdz/7.jpg"
-  - "img/dhdz/8.jpg"
-  - "img/dhdz/9.jpg"
-  - "img/dhdz/10.jpg"
-  - "img/dhdz/11.jpg"
-  - "img/dhdz/12.jpg"
-  - "img/dhdz/13.jpg"
-  - "img/dhdz/14.jpg"
-  - "img/dhdz/15.jpg"
+  - "img/dreamheadz/1.jpg"
+  - "img/dreamheadz/2.jpg"
+  - "img/dreamheadz/3.jpg"
+  - "img/dreamheadz/4.jpg"
+  - "img/dreamheadz/5.jpg"
+  - "img/dreamheadz/6.jpg"
+  - "img/dreamheadz/7.jpg"
+  - "img/dreamheadz/8.jpg"
+  - "img/dreamheadz/9.jpg"
+  - "img/dreamheadz/10.jpg"
+  - "img/dreamheadz/11.jpg"
+  - "img/dreamheadz/12.jpg"
+  - "img/dreamheadz/13.jpg"
+  - "img/dreamheadz/14.jpg"
+  - "img/dreamheadz/15.jpg"
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-{% include img.html img="img/dhdz-banner.jpg" %}
+{% include img.html img="img/dreamheadz/banner.jpg" %}
 
 _With blinding clouds wrapped around their heads, Dreamheadz have lost more than their sight. Their friends call them crazy. The authorities believe they’re addicts. But it’s worth it. They’re navigating dreams and building new worlds using their imaginations alone._
 
@@ -45,19 +45,19 @@ The collection comprises of 19 pieces made by 14 other artists; 13 legendary pie
 
 The [13 legendary Dreamheadz](https://joepegs.com/collections/avalanche/0x05e5DFF8b358cf748F3C51fe652288497a6eEa58?attributes=%255B%257B%2522traitType%2522%253A%2522Category%2522%252C%2522values%2522%253A%255B%2522Legendary%2522%255D%257D%255D) include characters like King Cloud, Peachy, Prince of Cool, Poof, Benny Squareface, and Captain Octo. They each come with a story and unique set of attributes, making them super rare in the collection.
 
-{% include img.html img="img/dhdz-legends-1.jpg" caption="A few legendary Dreamheadz" %}
+{% include img.html img="img/dreamheadz/legends-1.jpg" caption="A few legendary Dreamheadz" %}
 
 ### Named Items
 
 Each of the [33 named Dreamheadz](https://joepegs.com/collections/avalanche/0x05e5DFF8b358cf748F3C51fe652288497a6eEa58?attributes=%255B%257B%2522traitType%2522%253A%2522Category%2522%252C%2522values%2522%253A%255B%2522Named%2522%255D%257D%255D) comes with a story, and their attributes were hand-picked. They’re good-looking and often rarer than most. There’s Bluey, Dazey and Doc Robocloud. There’s Blaze, Spacey, and Princess Peggy Purple. And of course there’s Golden Boy, Naked Nick, and Jimmy Secrets.
 
-{% include img.html img="img/dhdz-named-1.jpg" caption="Some of the named Dreamheadz" %}
+{% include img.html img="img/dreamheadz/named-1.jpg" caption="Some of the named Dreamheadz" %}
 
 ### Artist Custom Items
 
 I love collaborating with artists. And with Dreamheadz, 14 artists created their [custom Dreamheadz.](https://joepegs.com/collections/avalanche/dreamheadz?attributes=%255B%257B%2522traitType%2522%253A%2522Category%2522%252C%2522values%2522%253A%255B%2522Artist+Custom%2522%255D%257D%255D) These are the ultimate rare pieces in the collection.
 
-{% include img.html img="img/dhdz-customs-1.jpg" caption="Some of the artist customs" %}
+{% include img.html img="img/dreamheadz/customs-1.jpg" caption="Some of the artist customs" %}
 
 ### The Process
 
