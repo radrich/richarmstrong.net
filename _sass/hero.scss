@@ -115,6 +115,16 @@
         &:first-child{ margin-left: 0; }
       }
     }
+    
+    @media (max-width: $mobileMin){
+      .banner-content{
+        min-width: auto;
+        
+        br{
+          display: none;
+        }
+      }
+    }
   }
   
   

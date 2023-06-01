@@ -83,13 +83,6 @@
 		margin: 0;
 	}
 	
-	@media (max-width: $tabletMax) {
-		// ul{
-		// 	&:first-child{ margin-left: 0; }
-		// 	&:last-child{ margin-right: 0; }
-		// }
-	}
-	
 	@media (max-width: $mobileMax) {
 		margin: 0;
 		
