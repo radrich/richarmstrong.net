@@ -5,14 +5,30 @@ permalink: /portfolio/
 image: 'img/rich-doodle-thumb.jpg'
 background_color: black
 color: white
+layout: default
 subscribe: false
 ---
 
-<h1>Portfolio</h1>
+<div class="content">
+<div class="center">
+  <h1>Welcome to My World</h1>
+  <p>Hello! I’m a vivid and imaginative artist with ADHD. My bold and colourful creations draw inspiration from childhood fantasies, igniting joy &amp; passion in a uniquely authentic style. I like partnering with brands that share my desire to spread fun and joy. And I often collaborate with other creatives.</p>
+  <div class="logos-container">
+    <h3>Clients include</h3>
+    <div class="logos">
+      <a href="https://www.avalabs.org/" class="portrait" target="_blank" title="Avalabs">{% include svg/avalabs.svg %}</a>
+      <a href="https://joepegs.com/" target="_blank" title="Joepegs">{% include svg/joepegs.svg %}</a>
+      <a href="https://www.adobe.com/" target="_blank" title="Adobe">{% include svg/adobe.svg %}</a>
+      <a href="https://onthatass.com/" class="wide" target="_blank" title="On That Ass}">{% include svg/onthatass.svg %}</a>
+    </div>
+  </div>
+</div>
+</div>
+
 
 <div class="portfolio">
   <ul class="col">
-    <li><a href="/bloom-avalanche-summit-mural/"><img src="../img/avalanche-ii-mural/crop1.jpg" alt=""></a></li>
+    <li><a href="/bloom-avalanche-summit-mural/"><img src="../img/avalanche-ii-mural/crop1-small.jpg" alt=""></a></li>
     <li><a href="/dreamheadz"><img src="../img/dreamheadz/thumb.jpg" alt=""></a></li>
     <li><div><img src="../img/dreamheadz-art/mirror-palace.jpg" alt=""></div></li>
     <li><a href="/doodleverse"><img src="../img/doodleverse/34-a-quick-interlude.jpg" alt=""></a></li>
@@ -20,6 +36,7 @@ subscribe: false
     <li><a href="/happy-sun"><img src="../img/hs/97.png" alt=""></a></li>
     <li><div><img src="../img/realms-of-weird/18.jpg" alt=""></div></li>
     <li><a href="/doodleverse"><img src="../img/doodleverse/50-bird-city.jpg" alt=""></a></li>
+    <li><div><img src="../img/doodleverse-specials/cosmic-snake.jpg" alt=""></div></li>
     <li><a href="/dreamheadz"><img src="../img/for-love/1.jpg" alt=""></a></li>
     <li><a href="/100-web-characters"><img src="../img/100webchars/50.jpg" alt=""></a></li>
     <li><div><img src="../img/dreamlings/5.jpg" alt=""></div></li>

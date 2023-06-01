@@ -288,6 +288,12 @@ blockquote{
 	line-height: 1.75em; // new
 }
 
+.center{
+	h1, h2, h3, h4, h5, h6, p{
+		text-align: center;
+	}
+}
+
 .wrapper{
 	padding-bottom: 20px;
 	background-color: $black02;
@@ -309,3 +315,48 @@ blockquote{
 		display: block;
 	}
 }
+
+.logos-container{
+	h3{
+		text-transform: uppercase;
+		font-size: 16px;
+		letter-spacing: 1px;
+		font-weight: bold;
+		opacity: .5;
+		margin-top: 40px;
+	}
+}
+
+.logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  a{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    margin: 0 12px;
+    opacity: .5;
+    
+    svg{ width: 100%; }
+    
+    &.portrait{
+    	width: 50px;
+    }
+    
+    &.wide{
+    	width: 120px;
+    }
+    
+    &:hover, &:active{
+    	opacity: 1;
+    }
+  }
+  
+  @media (max-width: $mobileMin){
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+ }

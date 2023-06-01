@@ -21,10 +21,13 @@
 
 .portfolio{
 	$thumbMargin: 16px;
-	margin: 0 (-$wrapperHorizontalMarginDesktop * .5 - 12px) $thumbMargin;
+	//margin: 0 (-$wrapperHorizontalMarginDesktop * .5 - 12px) $thumbMargin;
+	margin: 0 auto;
+	padding: $thumbMargin;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
+	max-width: 1600px;
 	
 	ul{
 		display: flex;
