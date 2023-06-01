@@ -20,7 +20,7 @@ subscribe: false
     <li><a href="/happy-sun"><img src="../img/hs/97.png" alt=""></a></li>
     <li><div><img src="../img/realms-of-weird/18.jpg" alt=""></div></li>
     <li><a href="/doodleverse"><img src="../img/doodleverse/50-bird-city.jpg" alt=""></a></li>
-    <li><a href="#"><img src="../img/for-love/1.jpg" alt=""></a></li>
+    <li><a href="/dreamheadz"><img src="../img/for-love/1.jpg" alt=""></a></li>
     <li><a href="/100-web-characters"><img src="../img/100webchars/50.jpg" alt=""></a></li>
     <li><div><img src="../img/dreamlings/5.jpg" alt=""></div></li>
     <li><a href="/dreamheadz"><img src="../img/dreamheadz/8.jpg" alt=""></a></li>
@@ -39,7 +39,7 @@ subscribe: false
     <li><a href="/happy-sun"><img src="../img/hs/101.png" alt=""></a></li>
     <li><a href="/doodleverse"><img src="../img/doodleverse/78-drops-of-reflection.jpg" alt=""></a></li>
     <li><div><img src="../img/turres/3-2-day.jpg" alt=""></div></li>
-    <li><a href="#"><img src="../img/dreamheadz/1.jpg" alt=""></a></li>
+    <li><a href="/dreamheadz"><img src="../img/dreamheadz/1.jpg" alt=""></a></li>
     <li><a href="/100-web-characters"><img src="../img/100webchars/55.jpg" alt=""></a></li>
     <li><div><img src="../img/god-hates-nfts-too.jpg" alt=""></div></li>
     <li><a href="/doodleverse"><img src="../img/doodleverse/97-sea-of-dreams.jpg" alt=""></a></li>
@@ -51,7 +51,7 @@ subscribe: false
     <li><div><img src="../img/attitude-collab/2.jpg" alt=""></div></li>
     <li><div><img src="../img/wagmi-surfboard.jpg" alt=""></div></li>
     <li><a href="/100-web-characters"><img src="../img/100webchars/57.jpg" alt=""></a></li>
-    <li><a href="#"><img src="../img/dreamheadz/prince-of-cool.jpg" alt=""></a></li>
+    <li><a href="/dreamheadz"><img src="../img/dreamheadz/prince-of-cool.jpg" alt=""></a></li>
     <li><a href="/doodleverse"><img src="../img/doodleverse/83-rainbow-breath.jpg" alt=""></a></li>
     <li><a href="/for-love"><img src="../img/for-love/9.jpg" alt=""></a></li>
     <li><div><img src="../img/dreamheadz-art/the-dreamtree.jpg" alt=""></div></li>
@@ -60,7 +60,7 @@ subscribe: false
     <li><a href="/happy-sun"><img src="../img/hs/3.png" alt=""></a></li>
     <li><a href="/100-web-characters"><img src="../img/100webchars/23.jpg" alt=""></a></li>
     <li><a href="/doodleverse"><img src="../img/doodleverse/22-choir.jpg" alt=""></a></li>
-    <li><a href="#"><img src="../img/dreamheadz/captain-octo.jpg" alt=""></a></li>
+    <li><a href="/dreamheadz"><img src="../img/dreamheadz/captain-octo.jpg" alt=""></a></li>
     <li><div><img src="../img/visual-deluge/2b.jpg" alt=""></div></li>
   </ul>
 </div>
