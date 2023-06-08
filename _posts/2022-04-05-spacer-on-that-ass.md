@@ -29,13 +29,16 @@ It’s quite a thing designing and illustrating a pattern that’s gonna go on d
 {% include img.html img="img/on-that-ass/9.jpg" %}
 {% include img.html img="img/on-that-ass/11.jpg" %}
 
-{% include img.html img="img/on-that-ass/13.jpg" caption="The socks" %}
+Below: the socks.
+{% include img.html img="img/on-that-ass/13.jpg" %}
 {% include img.html img="img/on-that-ass/14.jpg" %}
 {% include img.html img="img/on-that-ass/15.jpg" %}
 
-{% include img.html img="img/on-that-ass/pattern-orig.png" caption="The original pattern" %}
+Below: the original pattern, designed in Adobe Fresco and Adobe Illustrator.
 
-The *On That Ass* team came up with a great campaign and visuals for the design too. And socks!
+{% include img.html img="img/on-that-ass/pattern-orig.png" %}
+
+The *On That Ass* team came up with a great campaign and visuals for the design too.
 
 {% include img.html img="img/on-that-ass/spacer.jpg" caption="Whether they sent a man into outer space is debatable—I do, however, like to think my design has been where I haven’t" %}
 
