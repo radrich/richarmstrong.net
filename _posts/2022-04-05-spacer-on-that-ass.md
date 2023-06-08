@@ -1,7 +1,7 @@
 ---
 title: Spacer
 subtitle: 'On That Ass Boxer Short Pattern'
-image: 'img/spacer-on-that-ass/thumb.png'
+image: 'img/on-that-ass/thumb.png'
 desc: ""
 categories: ['Projects', 'Illustration']
 tags: ['Clients', 'Pattern Design']
@@ -12,32 +12,39 @@ related:
   - /posts/doodleverse
   - /posts/for-love
 slider_images:
-  - "img/spacer-on-that-ass/1.jpg"
-  - "img/spacer-on-that-ass/5.jpg"
-  - "img/spacer-on-that-ass/6.jpg"
-  - "img/spacer-on-that-ass/7.jpg"
-  - "img/spacer-on-that-ass/8.jpg"
+  - "img/on-that-ass/1.jpg"
+  - "img/on-that-ass/5.jpg"
+  - "img/on-that-ass/6.jpg"
+  - "img/on-that-ass/7.jpg"
+  - "img/on-that-ass/8.jpg"
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-{% include img.html img="img/spacer-on-that-ass/pattern.png" %}
+{% include img.html img="img/on-that-ass/pattern.png" %}
 
 It’s quite a thing designing and illustrating a pattern that’s gonna go on dudes’ butts. But I did it. And tons of boys and men across Europe have my design on their butts thanks to the boxer short subscription service [On That Ass.](https://onthatass.com/) The tricky bit was having to use vector without any gradients. It was quite a step away from my recent comfortzone of [The Doodleverse](/tags/doodleverse/) style. They also made some sweet socks to go with the boxer shorts.
 
-{% include img.html img="img/spacer-on-that-ass/pattern-orig.png" caption="The original pattern" %}
+{% include img.html img="img/on-that-ass/underwear-ladscape.jpg" caption="The boxer shorts unboxed" %}
+{% include img.html img="img/on-that-ass/9.jpg" %}
+{% include img.html img="img/on-that-ass/11.jpg" %}
 
-{% include img.html img="img/spacer-on-that-ass/underwear-ladscape.jpg" caption="The boxer shorts unboxed" %}
+{% include img.html img="img/on-that-ass/13.jpg" caption="The socks" %}
+{% include img.html img="img/on-that-ass/14.jpg" %}
+{% include img.html img="img/on-that-ass/15.jpg" %}
+
+{% include img.html img="img/on-that-ass/pattern-orig.png" caption="The original pattern" %}
+
+The *On That Ass* team came up with a great campaign and visuals for the design too. And socks!
+
+{% include img.html img="img/on-that-ass/spacer.jpg" caption="Whether they sent a man into outer space is debatable—I do, however, like to think my design has been where I haven’t" %}
 
 Below are some details of the actual boxer shorts.
 
 {% include glider.html imgs=page.slider_images %}
 
-The *On That Ass* team came up with a great campaign and visuals for the design too. And socks!
-
-{% include img.html img="img/spacer-on-that-ass/spacer.jpg" caption="Whether they sent a man into outer space is debatable—I do, however, like to think my design has been where I haven’t" %}
 
 ### Notable links
 - [On That Ass Website.](https://onthatass.com/)
-- The project [on Bēhance.](https://www.behance.net/gallery/171959453/Spacer-On-That-Ass-Boxer-Short-Pattern)
+- The project [on Bēhance.](https://www.behance.net/gallery/171959453/on-that-ass-Boxer-Short-Pattern)
 

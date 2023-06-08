@@ -32,7 +32,7 @@ subscribe: false
     <li><a href="/dreamheadz"><img src="../img/dreamheadz/thumb.jpg" alt=""></a></li>
     <li><div><img src="../img/dreamheadz-art/mirror-palace.jpg" alt=""></div></li>
     <li><a href="/doodleverse"><img src="../img/doodleverse/34-a-quick-interlude.jpg" alt=""></a></li>
-    <li><a href="/spacer-on-that-ass/"><img src="../img/spacer-on-that-ass/underwear-upclose.jpg" alt=""></a></li>
+    <li><a href="/on-that-ass/"><img src="../img/on-that-ass/underwear-upclose.jpg" alt=""></a></li>
     <li><a href="/happy-sun"><img src="../img/hs/97.png" alt=""></a></li>
     <li><div><img src="../img/realms-of-weird/18.jpg" alt=""></div></li>
     <li><a href="/doodleverse"><img src="../img/doodleverse/50-bird-city.jpg" alt=""></a></li>
