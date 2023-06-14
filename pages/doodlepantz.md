@@ -1,34 +1,47 @@
 ---
 title: Doodle Pantz
-subtitle: "Buy $Pantz & get them customised"
+subtitle: "Customisable NFT Pantz!"
 permalink: /doodlepantz/
 image: 'img/doodlepantz/custom.jpg'
+desc: "The Doodleverse is something between a fever dream and a vibrant paradise—it’s certainly not of this world. Meet all kinds of weird and wonderful creatures in a variety of dream-like scenes—trees with eyes, castle clouds, vicious plants, creepy hills, and tons of one-eyed birds!"
 background_color: black
 color: white
 related:
   - /posts/doodleverse
-  - /posts/for-love
+  - /posts/spacer-on-that-ass
   - /posts/happy-sun
 index: false
+slider_images:
+  - "img/doodlepantz/named-briefs.png"
+  - "img/doodlepantz/named-bikini.png"
+  - "img/doodlepantz/named-boxers.png"
+  - "img/doodlepantz/named-boyshorts.png"
+  - "img/doodlepantz/named-hipster.png"
+  - "img/doodlepantz/named-trunks.png"
 ---
 
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-Doodle Pantz is a collaborative and experimental NFT collection. Each $Pantz token can be customised only once. Once you’re ready to customise your $pantz, send it over and we can begin the process! There are 6 styles: briefs, bikini, boxers, boyshorts, hipster, and trunks. The initial size of the collection will be 60 items. With 5 $pantz being released for customisation at a time.
-
 {% include img.html img="img/doodlepantz/banner.jpg" %}
 
+Doodle Pantz is a *collaborative* and *experimental* NFT collection. The NFTs in most collections cannot be changed—their image, description, title, and attributes are immutable. Fixed. Set-in-stone. But with Doodle Pantz, the image and the attributes are customisable. Which means we can collaboarte to design you a sweet pair of $Pantz. Each $Pantz token can be customised only once. Once you’ve got your $Pantz and you’re ready to customise it, send it over and we can begin the process! The initial size of the collection will be 60 items, with 5 $Pantz being released for minting at a time.
+
+**There are 6 styles:** briefs, bikini, boxers, boyshorts, hipster, and trunks. You can see them below.
+
+{% include glider.html imgs=page.slider_images %}
+
 ### How It Works
-- [Mint](https://ipfs-2.thirdwebcdn.com/ipfs/QmZG9dPDYCpTuzM3mVvdtmpjqwCbhErPipNvT945QqzWHk?contract=0x8006a9Dd6f117569fB671E5CE2422c81FeC8018f&chain=%7B%22name%22%3A%22Avalanche+C-Chain%22%2C%22chain%22%3A%22AVAX%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Favalanche.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Avalanche%22%2C%22symbol%22%3A%22AVAX%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22avax%22%2C%22chainId%22%3A43114%2C%22testnet%22%3Afalse%2C%22slug%22%3A%22avalanche%22%7D&primaryColor=green) 1/5 per batch for 14.95 $AVAX
-- When you’re ready, transfer your $Pantz NFT to **0x767dC13B7C297b214489d7324652830570A5A108**
-- Get in touch, either on [Twitter](https://ttkb.me/twitter) or [Discord](https://discordapp.com/users/915986990971899974), and we’ll collaborate on your $Pantz customisation.
-- When its customised I’ll send it back to the wallet it was sent from.
-- I’ll then lock the customisation ability to prevent any further metadata changes.
+- [Mint](https://ttkb.me/doodlepantzmint) $Pantz for 14.95 $AVAX each, or find uncustomised ones on the secondary market.
+- When you’re ready, transfer your $Pantz NFT to <strong class="ellipsis-overflow">0x767dC13B7C297b214489d7324652830570A5A108</strong>
+- Get in touch with me, either on [Twitter](https://ttkb.me/twitter) or [Discord](https://discordapp.com/users/915986990971899974), and we’ll collaborate on your $Pantz customisation.
+- When it’s customised I’ll send it back to the wallet address it was sent from and lock the customisation ability to prevent any further changes.
 
-This is my first custom contract that I built using ThirdWeb.
+{%- include banner.html title='Get Your $Pantz' subtitle='Then customise ’em' color='black' img='img/doodlepantz/banner2.jpg' background_color='#b894e7' type='cover' cta='Mint now' url='https://ttkb.me/doodlepantzmint' align='bottom-right' btn_background='dark' -%}
 
-### Links
-- Mint yours [here.](https://ipfs-2.thirdwebcdn.com/ipfs/QmZG9dPDYCpTuzM3mVvdtmpjqwCbhErPipNvT945QqzWHk?contract=0x8006a9Dd6f117569fB671E5CE2422c81FeC8018f&chain=%7B%22name%22%3A%22Avalanche+C-Chain%22%2C%22chain%22%3A%22AVAX%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Favalanche.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Avalanche%22%2C%22symbol%22%3A%22AVAX%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22avax%22%2C%22chainId%22%3A43114%2C%22testnet%22%3Afalse%2C%22slug%22%3A%22avalanche%22%7D&primaryColor=green)
+### Links & Info
+- This collection is an [Avalanche blockchain.](https://www.avax.network/)
+- You can find the contract [here.](https://snowtrace.io/address/0x8006a9Dd6f117569fB671E5CE2422c81FeC8018f)
+- Mint yours [here.](https://ttkb.me/doodlepantzmint)
 - Join the [Discord.](https://ttkb.me/dc)
-- Check out [the collection.]()
+- Secondary marketplace links coming soon.

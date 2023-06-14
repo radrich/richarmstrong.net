@@ -6,16 +6,22 @@
 	position: relative;
 	padding: 40px;
 	min-height: 400px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center center;
 	display: flex;
 	flex-direction: column;
+	overflow: hidden;
 	
-	&.bg-type-cover{ background-size: cover; }
-	&.bg-type-contain{ background-size: contain; }
-	&.bg-type-center{ background-size: auto 50%; }
-	&.bg-type-pattern{
+	.bg{
+		position: absolute;
+		top: 0; right: 0; bottom: 0; left: 0;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	
+	&.bg-type-cover .bg{ background-size: cover; }
+	&.bg-type-contain .bg{ background-size: contain; }
+	&.bg-type-center .bg{ background-size: auto 50%; }
+	&.bg-type-pattern .bg{
 		background-size: 50%;
 		background-repeat: repeat;
 	}
@@ -39,6 +45,7 @@
 		top: 0; bottom: 0; left: 0; right: 0;
 		border-radius: 8px;
 		pointer-events: none;
+		z-index: 1;
 	}
 	
 	h2{
@@ -61,6 +68,66 @@
 		width: calc(100% + #{$wrapperHorizontalMarginDesktop});
 	}
 	
+	@media (max-width: $tabletMax) {
+		
+		&.align-top-left{
+			.bg{
+				mask-image: linear-gradient(to right top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+				-webkit-mask-image: linear-gradient(to right top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+			}
+		}
+		&.align-middle-left{
+			.bg{
+				mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+				-webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+			}
+		}
+		&.align-bottom-left{
+			.bg{
+				mask-image: linear-gradient(to left top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+				-webkit-mask-image: linear-gradient(to left top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+			}
+		}
+		&.align-top-center{
+			.bg{
+				mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+				-webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+			}
+		}
+		&.align-middle-center{
+			.bg{
+				mask-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
+				-webkit-mask-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
+			}
+		}
+		&.align-bottom-center{
+			.bg{
+				mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+				-webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+			}
+		}
+		
+		&.align-bottom-right{
+			.bg{
+				mask-image: linear-gradient(to left top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+				-webkit-mask-image: linear-gradient(to left top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+			}
+		}
+		&.align-middle-right{
+			.bg{
+				mask-image: linear-gradient(to left, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+				-webkit-mask-image: linear-gradient(to left top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+			}
+		}
+		&.align-top-right{
+			.bg{
+				mask-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+				-webkit-mask-image: linear-gradient(to left top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+			}
+		}
+	}
+	
+	
 	@media (max-width: $mobileMax) {
 		margin: 0 (-$wrapperHorizontalMarginMobile);
 		width: calc(100% + #{$wrapperHorizontalMarginMobile * 2});
@@ -72,5 +139,39 @@
 		}
 	}
 	
-	
+	@media (max-width: $mobileMin) {
+		&.align-top-left,
+		&.align-top-center,
+		&.align-top-right,
+		&.align-middle-left,
+		&.align-middle-center,
+		&.align-middle-right,
+		&.align-bottom-left,
+		&.align-bottom-center,
+		&.align-bottom-right{
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			
+			.bg{
+				mask-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
+				-webkit-mask-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
+			}
+		}
+		
+		a.cta{			
+			&.bg-light{
+				color: white;
+				background-color: black;
+				
+				&:hover, &:active{ background-color: transparentize(black, .3); }
+			}
+			&.bg-dark{
+				color: black;
+				background-color: white;
+				
+				&:hover, &:active{ background-color: transparentize(white, .2); }
+			}
+		}
+	}
 }

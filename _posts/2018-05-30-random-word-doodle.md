@@ -20,7 +20,7 @@ And that's why I developed the Random Word Doodle. It's a 10-day course, where y
 
 I've also created a free app that gives you random words to doodle. It's fun and hopefully brings out a doodling mood.
 
-{%- include banner.html title='Free Download' subtitle='On Android + iOS' color='black' img='img/rwd-banner.png' background_color='#f9a8a9' type='cover' cta='Download' url='http://onelink.to/2479kf' btn_text_color= 'inherit' align='bottom-right' btn_background='dark' -%}
+{%- include banner.html title='Free Download' subtitle='On Android + iOS' color='black' img='img/rwd-banner.png' background_color='#f9a8a9' type='cover' cta='Download' url='http://onelink.to/2479kf' align='bottom-right' btn_background='dark' -%}
 
 I’ve doodled for 100 days in a row before, as have many of my 10 thousand+ students. The difference I saw in my creativity and motivation was crazy. There are tons of benefits to doodling for starters, and when you combine it with doodling random words in a short period of time, there are even more benefits. And then throw in sharing, experimentation and a few other things and you’ve got a super workout for your brain.
 
