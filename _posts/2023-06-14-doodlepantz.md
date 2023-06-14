@@ -1,16 +1,16 @@
 ---
 title: Doodle Pantz
 subtitle: "Customisable NFT Pantz!"
-permalink: /doodlepantz/
 image: 'img/doodlepantz/custom.jpg'
 desc: "The Doodleverse is something between a fever dream and a vibrant paradise—it’s certainly not of this world. Meet all kinds of weird and wonderful creatures in a variety of dream-like scenes—trees with eyes, castle clouds, vicious plants, creepy hills, and tons of one-eyed birds!"
 background_color: black
 color: white
+categories: ['Projects', 'Illustration']
+tags: ['NFT']
 related:
   - /posts/doodleverse
   - /posts/spacer-on-that-ass
   - /posts/happy-sun
-index: false
 slider_images:
   - "img/doodlepantz/named-briefs.png"
   - "img/doodlepantz/named-bikini.png"
@@ -40,7 +40,7 @@ Doodle Pantz is a *collaborative* and *experimental* NFT collection. The NFTs in
 {%- include banner.html title='Get Your $Pantz' subtitle='Then customise ’em' color='black' img='img/doodlepantz/banner2.jpg' background_color='#b894e7' type='cover' cta='Mint now' url='https://ttkb.me/doodlepantzmint' align='bottom-right' btn_background='dark' -%}
 
 ### Links & Info
-- This collection is an [Avalanche blockchain.](https://www.avax.network/)
+- This collection is on the [Avalanche blockchain.](https://www.avax.network/)
 - You can find the contract [here.](https://snowtrace.io/address/0x8006a9Dd6f117569fB671E5CE2422c81FeC8018f)
 - Mint yours [here.](https://ttkb.me/doodlepantzmint)
 - Join the [Discord.](https://ttkb.me/dc)
