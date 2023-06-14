@@ -25,10 +25,8 @@ Each character will be available as a 1/1 NFT on the Avalanche blockchain. The c
 ## Origins
 I illustrated the characters and wrote the first version of all their stories during the [official 100 Day Project in 2019.](https://www.the100dayproject.org/) I posted the character along with their story to Instagram each day. After the 100 days I decided to hand-write each of the stories and make a book out of it! Why!? Because I absolutely loved the project! Coming up with the stories and illustrating the characters in Procreate was a blast. And I wanted them to exist in real life for people to experience on a coffee table, or as a bedtime story.
 
-In April 2022, I decided to [put them on the blockchain](https://ttkb.me/100wch) as NFTs—so they could delight their awesome owners.
-
 ## Buy an NFT
-I’ve minted them to the Avalanche blockchain! You can [purchase them on Joepegs.](https://ttkb.me/100wch)
+In April 2022, I decided to [put them on the blockchain](https://ttkb.me/100wch) as NFTs—so they could delight their awesome owners. I’ve minted them to the Avalanche blockchain! You can [purchase them on Joepegs.](https://ttkb.me/100wch)
 
 
 ## Buy the book
@@ -83,10 +81,10 @@ I started each day by selecting a web or tech word from a list I was keeping. Fo
 There are bits of me and people I know in each character—along with a lot of imagination! I’m sure you’ll identify with some of them. **Let me know who is your favourite character is!**
 
 ## Things to tap on!
-- **[Purchase an NFT web character.](https://ttkb.me/100wch)**
-- **[Order the eBook.](https://ttkb.me/100wche)**
-- **[Order the Physical book.](https://ttkb.me/100wchb)**
-- **[Download Iconic Iggy’s blank Photoshop or JPG template.](https://ttkb.me/100wch-iggy)** If you want to make your own Iconic Iggy costume, this link is for you.
+- [Purchase an NFT web character.](https://ttkb.me/100wch)
+- [Order the eBook.](https://ttkb.me/100wche)
+- [Order the Physical book.](https://ttkb.me/100wchb)
+- [Download Iconic Iggy’s blank Photoshop or JPG template.](https://ttkb.me/100wch-iggy) If you want to make your own Iconic Iggy costume, this link is for you.
 - Check the project out [on Behancē.](https://www.behance.net/gallery/93941091/100-Web-Characters)
 
 Below you’ll find links for classes on The Perfect 100 Day Project, animating in Procreate, and getting started. I hope you enjoy! You can also [find all my classes here.](/classes)

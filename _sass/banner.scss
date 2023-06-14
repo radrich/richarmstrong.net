@@ -84,10 +84,11 @@
 		}
 		&.align-bottom-left{
 			.bg{
-				mask-image: linear-gradient(to left top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
-				-webkit-mask-image: linear-gradient(to left top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+				mask-image: linear-gradient(to right top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+				-webkit-mask-image: linear-gradient(to right top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
 			}
 		}
+		
 		&.align-top-center{
 			.bg{
 				mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
