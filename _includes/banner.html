@@ -7,8 +7,8 @@
 <!-- btn_background_color: light, dark -->
 <div class="banner bg-type-{{ include.type }} align-{{ include.align }}" style="
 background-color: {{ include.background_color }};
-background-image: url('{{ include.img | relative_url }}');
 color: {{ include.color }};">
+  <div class="bg" style="background-image: url('{{ include.img | relative_url }}');"></div>
   {% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
   {% if include.subtitle %}<h3>{{ include.subtitle }}</h3>{% endif %}
   {% if include.cta %}

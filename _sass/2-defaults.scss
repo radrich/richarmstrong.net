@@ -218,8 +218,12 @@ p{
 		}
 	}
 	
-	strong{ font-weight: 700; }
-	b{ font-weight: bold; }
+	strong{
+		font-weight: 700;
+	}
+	b{
+		font-weight: bold;
+	}
 }
 
 ul, ol{
@@ -314,6 +318,13 @@ blockquote{
 	.tags{
 		display: block;
 	}
+}
+
+.ellipsis-overflow{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 100%;
+	display: inline-block
 }
 
 .logos-container{
