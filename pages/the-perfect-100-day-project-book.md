@@ -13,7 +13,7 @@ related:
 # Change Your Life—Do a 100 Day Project
 ## {{ page.subtitle | widont }}
 
-This book invites you to change your life. It answers tons of question you may have about 100 Day Projects, *Your* 100 Day Project, and *The* 100 Day Project. It guides you. It inspires you. And it leaves tons of room for you to make it your own.
+[This book](https://ttkb.me/100dpbook-rockynook) invites you to change your life. It answers tons of question you may have about 100 Day Projects, *Your* 100 Day Project, and *The* 100 Day Project. It guides you. It inspires you. And it leaves tons of room for you to make it your own.
 
 {% include video.html id="D_pGjSh_OWk" caption="Get an overview of what the book’s about" %}
 
@@ -30,8 +30,8 @@ It’s where you do something ‘creative’ for 100 days. ‘Creative’ doesn�
 {% include img.html img="img/100dp/book-cover-1.jpg" caption="The physical book is waaay better imo" %}
 
 ### Links!
-- Order The Perfect 100 Day Project eBook or print edition [on Amazon](https://ttkb.me/100dpbook-amazon)
-- Order the eBook, print edition, or bundle [from the publisher](https://ttkb.me/100dpbook-rockynook)
+- Order The Perfect 100 Day Project eBook or print edition [on Amazon.](https://ttkb.me/100dpbook-amazon)
+- Order the eBook, print edition, or bundle [from the publisher.](https://ttkb.me/100dpbook-rockynook)
 - Take the popular [Skillshare 100 Day Project class.](https://ttkb.me/perfect-100-day-proj)
 
 {%- include banner.html title='Read The Book' subtitle='eBook, Print &amp; Bundle' color='white' img='img/100dp/book-banner.jpg' background_color='#d73738' type='cover' cta='Order now' url='https://ttkb.me/100dpbook-rockynook' align='middle-right' btn_background='light' -%}
