@@ -20,14 +20,13 @@ related:
 
 The 100 Web Characters project is a collection of 100 illustrated (and sometimes animated) characters and their stories. Each illustrated character is based on a web or technology term, and is accompanied by a hand-written story of who they are, and what they get up to.
 
-Each character will be available as a 1/1 NFT on the Avalanche blockchain. The characters, and their stories, are also available in hardcover and eBook format.
+Each character is available as a 1/1 NFT on the Avalanche blockchain. The characters, and their stories, are also available in hardcover and eBook format.
 
 ## Origins
 I illustrated the characters and wrote the first version of all their stories during the [official 100 Day Project in 2019.](https://www.the100dayproject.org/) I posted the character along with their story to Instagram each day. After the 100 days I decided to hand-write each of the stories and make a book out of it! Why!? Because I absolutely loved the project! Coming up with the stories and illustrating the characters in Procreate was a blast. And I wanted them to exist in real life for people to experience on a coffee table, or as a bedtime story.
 
 ## Buy an NFT
 In April 2022, I decided to [put them on the blockchain](https://ttkb.me/100wch) as NFTs—so they could delight their awesome owners. I’ve minted them to the Avalanche blockchain! You can [purchase them on Joepegs.](https://ttkb.me/100wch)
-
 
 ## Buy the book
 I’ve put a lot of love and time into making this book. I even became a yellow-belt ninja at InDesign! And I learned how to self-publish a book!
