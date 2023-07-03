@@ -33,6 +33,7 @@ It’s where you do something ‘creative’ for 100 days. ‘Creative’ doesn�
 - Order The Perfect 100 Day Project eBook or print edition [on Amazon.](https://ttkb.me/100dpbook-amazon)
 - Order the eBook, print edition, or bundle [from the publisher.](https://ttkb.me/100dpbook-rockynook)
 - Take the popular [Skillshare 100 Day Project class.](https://ttkb.me/perfect-100-day-proj)
+- Download Your 100 Day [Project Tracker.](/downloads/your-100dp-tracker.pdf)
 
 {%- include banner.html title='Read The Book' subtitle='eBook, Print &amp; Bundle' color='white' img='img/100dp/book-banner.jpg' background_color='#d73738' type='cover' cta='Order now' url='https://ttkb.me/100dpbook-rockynook' align='middle-right' btn_background='light' -%}
 
