@@ -279,4 +279,16 @@ nav{
 			}
 		}
 	}
+	
+	@media (max-height: 439px){
+		.menu{
+			display: block;
+		}
+		
+		.links a{
+			font-size: 26px;
+			line-height: 26px;
+			padding: 2px 0;
+		}
+	}
 }
