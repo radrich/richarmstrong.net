@@ -32,8 +32,7 @@ If you want to get your creativity in shape, come join the class!
 
 ### Where Can I Take the Class? {#options}
 
-- [**On TapTapKaboom School.**](https://ttkb.me/5min-ttk) This is a once-off purchases and doesn’t require a membership—it will be forever yours.
-- [**On Skillshare.**](https://ttkb.me/5min-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://ttkb.me/5min-sk) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
+- [**On Skillshare.**](https://ttkb.me/5min-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://ttkb.me/5min-sk) to get a free trial. You’ll be able to watch this class and tons of others for free during that time.
 
 ### What Does The Class Include?
 - 14 creative workouts. Most only require a pen and paper.
