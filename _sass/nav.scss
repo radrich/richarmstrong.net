@@ -280,6 +280,14 @@ nav{
 		}
 	}
 	
+	@media (max-height: 549px) {
+		&.open{
+			height: auto;
+		}
+		.nav-content{
+			height: auto;
+		}
+	}
 	@media (max-height: 439px){
 		.menu{
 			display: block;
