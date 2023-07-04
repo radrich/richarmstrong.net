@@ -13,8 +13,8 @@ related:
 index: true
 ---
 
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
+# {{ page.title }}
+## {{ page.subtitle }}
 
 {% include video.html id="B4PrdimLOGA" %}
 
