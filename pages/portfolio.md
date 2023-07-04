@@ -1,6 +1,7 @@
 ---
 title: Portfolio
 subtitle: Feast Your Eyes
+description: "The art & illustration portfolio of Rich Armstrong A.K.A. TapTapKaboom."
 permalink: /portfolio/
 image: 'img/doodleverse/78-drops-of-reflection.jpg'
 background_color: black
