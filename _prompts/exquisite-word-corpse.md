@@ -1,7 +1,7 @@
 ---
 title: "An Exquisite Corpse of Words"
 subtitle: "A Bunch of Words Jammed Together"
-desc: "Maybe this makes sense. Maybe it doesn’t. Imagine it. And be inspired."
+description: "Maybe this makes sense. Maybe it doesn’t. Imagine it. And be inspired."
 background_color: "#5426e8"
 color: "#febfe7"
 index: true

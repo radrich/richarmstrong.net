@@ -1,7 +1,7 @@
 ---
 title: "Animals in Action"
 subtitle: "Animals Doing Human Things Are Always Good To Draw"
-desc: "A varying number of animals doing all sorts of thigns. If you don’t know what to draw, write, or create, start here."
+description: "A varying number of animals doing all sorts of thigns. If you don’t know what to draw, write, or create, start here."
 background_color: "#ff5500"
 image: "img/animals-in-action.gif"
 color: "black"

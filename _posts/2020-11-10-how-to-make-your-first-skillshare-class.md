@@ -1,7 +1,7 @@
 ---
 title: "How Do I Make My First Skillshare Class?"
 subtitle: "Ever Wondered What Topic, How Long, or How to Do It?"
-desc: "Learn how to structure your time, how long your class should be, what topic to teach, the reason you want to make a class, and a bunch more."
+description: "Learn how to structure your time, how long your class should be, what topic to teach, the reason you want to make a class, and a bunch more."
 categories: ['Teaching']
 tags: ['Skillshare']
 background_color: "#002333"

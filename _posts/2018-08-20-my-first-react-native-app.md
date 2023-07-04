@@ -1,7 +1,7 @@
 ---
 title: "Building My First React Native App"
 subtitle: "From Idea to App Stores"
-desc: "Here’s my experience of creating my first React Native app, The Random Word Doodle."
+description: "Here’s my experience of creating my first React Native app, The Random Word Doodle."
 background_color: "#111111"
 color: "white"
 image: 'img/first-rn-app-thumb.jpg'

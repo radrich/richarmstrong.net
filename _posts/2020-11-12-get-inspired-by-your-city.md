@@ -1,7 +1,7 @@
 ---
 title: "Get Inspired by Your City!"
 subtitle: "Why Your City Is a Mecca for Inspiration"
-desc: "Too often we go after convenient rather than effective inspiration. Getting outside and exploring your city is not convenient but it is very effective."
+description: "Too often we go after convenient rather than effective inspiration. Getting outside and exploring your city is not convenient but it is very effective."
 categories: ['Inspiration', 'Creativity']
 tags: ['Cities', 'IRL']
 background_color: "#a4b7be"

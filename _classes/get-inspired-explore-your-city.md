@@ -1,7 +1,7 @@
 ---
 title: "Get Inspired: Explore Your City"
 subtitle: "Plan an Inspiring Day Out in Your City"
-desc: "In this class you’ll learn why your city is a Mecca for inspiration, and how to plan a inspiring day out. The class covers where to go, what to bring, who to bring, how to explore, and a bunch of other things."
+description: "In this class you’ll learn why your city is a Mecca for inspiration, and how to plan a inspiring day out. The class covers where to go, what to bring, who to bring, how to explore, and a bunch of other things."
 date: "2020-11-30"
 image: "img/get-inspired-thumb.jpg"
 background_color: "#366c62"

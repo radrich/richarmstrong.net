@@ -1,7 +1,7 @@
 ---
 title: "The Scene"
 subtitle: "Imagine This. Then Create It"
-desc: "Imagine this scene, and then create it. Draw it. Write about it. Or something that comes to mind."
+description: "Imagine this scene, and then create it. Draw it. Write about it. Or something that comes to mind."
 image: "img/abstract-art-site-thumbnail.jpg"
 background_color: "#ffdfd8"
 ---

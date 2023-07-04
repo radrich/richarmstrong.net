@@ -1,6 +1,6 @@
 ---
 title: "Behind The Scenes of The Abstract & Organic iPad Doodling Class"
-desc: "A behind the scenes look at The Abstract & Organic iPad Doodling Class"
+description: "A behind the scenes look at The Abstract & Organic iPad Doodling Class"
 image: 'img/behind-scenes-thumb.jpg'
 background_color: "#111111"
 color: "white"

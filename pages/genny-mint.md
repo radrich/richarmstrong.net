@@ -1,7 +1,7 @@
 ---
 title: Genny Mint
 subtitle: Mint New Gennys Here
-desc: "Mint yourself a Genny!"
+description: "Mint yourself a Genny!"
 permalink: /genny-mint/
 background_color: 'black'
 color: white

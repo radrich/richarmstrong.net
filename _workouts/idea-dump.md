@@ -1,7 +1,7 @@
 ---
 title: Idea Dump
 subtitle: Come Up With As Many Ideas for One of These Topics As You Can
-desc: "Come up with ideas for one of these topics."
+description: "Come up with ideas for one of these topics."
 background_color: "#ff5500"
 color: "white"
 index: true

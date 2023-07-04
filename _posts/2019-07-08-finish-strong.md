@@ -1,7 +1,7 @@
 ---
 title: "Finish Strong"
 subtitle: "Resist the new thing. Pitch up for a few more days"
-desc: "Finishing has never been my strength. I start projects much quicker than I finish them. When I get close to the end of a project my brain becomes fixated on the next thing. The new thing. The possibilities. The options. All the time I'll have on my hands."
+description: "Finishing has never been my strength. I start projects much quicker than I finish them. When I get close to the end of a project my brain becomes fixated on the next thing. The new thing. The possibilities. The options. All the time I'll have on my hands."
 background_color: "#ff3232"
 color: "white"
 image: 'img/finish-strong-website-thumb.jpg'

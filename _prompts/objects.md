@@ -1,7 +1,7 @@
 ---
 title: "Random Objects"
 subtitle: "Your Fix of Random Objects"
-desc: "Use these words to work on your creativity!"
+description: "Use these words to work on your creativity!"
 image: "img/abstract-art-site-thumbnail.jpg"
 background_color: "#ffdfd8"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Make Up The Backronym"
 subtitle: "Make Up the Meaning of As Many of These Acronyms As You Can"
-desc: "Come up with the backronyms of these acronyms"
+description: "Come up with the backronyms of these acronyms"
 background_color: "#febfe7"
 color: "black"
 index: true

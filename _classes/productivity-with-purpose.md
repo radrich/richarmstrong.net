@@ -1,7 +1,7 @@
 ---
 title: "Productivity with Purpose"
 subtitle: "Your Foundation for Success"
-desc: "In this class you’ll learn how to spend your time. The class kicks off with 2 exercises that help you figure out where you want to be in 5 years time and, most importantly, why you want to get there. We then move onto 3 productivity exercises, where you define your next steps, uncover what sharpens you, and create a timetable. All of this is to help you know exactly what to work on and when to work on it."
+description: "In this class you’ll learn how to spend your time. The class kicks off with 2 exercises that help you figure out where you want to be in 5 years time and, most importantly, why you want to get there. We then move onto 3 productivity exercises, where you define your next steps, uncover what sharpens you, and create a timetable. All of this is to help you know exactly what to work on and when to work on it."
 date: "2021-01-28"
 background_color: "#ff5500"
 categories: ['Productivity']

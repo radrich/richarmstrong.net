@@ -1,7 +1,7 @@
 ---
 title: "The Perfect 100 Day Project Class"
 subtitle: "Your Guide to Explosive Creative Growth"
-desc: "This process focuses on coming up with a 100 day project of your own. One that’s perfect for you. One that boosts your creativity. One you wake up excited for. One that makes your life better. The process also helps you prepare for the 100 days."
+description: "This process focuses on coming up with a 100 day project of your own. One that’s perfect for you. One that boosts your creativity. One you wake up excited for. One that makes your life better. The process also helps you prepare for the 100 days."
 date: "2019-03-28"
 image: "img/100dp/class-thumb.jpg"
 background_color: "#d6d6d6"

@@ -1,7 +1,7 @@
 ---
 title: "The 12 Principles of Animation"
 subtitle: "Bring Your Animations to Life"
-desc: "Learn why theses principles bring life and magic into your motion work"
+description: "Learn why theses principles bring life and magic into your motion work"
 categories: ['Animation']
 tags: ['Theory']
 background_color: "#00dcbe"

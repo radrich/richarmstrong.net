@@ -1,7 +1,7 @@
 ---
 title: "Random Words"
 subtitle: "Pick a Random Word & Doodle It"
-desc: "Doodle one of these random words. Or a combination of the words."
+description: "Doodle one of these random words. Or a combination of the words."
 background_color: "#f5483b"
 color: "white"
 image: "img/random-words-workout-thumb.gif"

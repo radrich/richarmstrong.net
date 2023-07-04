@@ -1,7 +1,7 @@
 ---
 title: Random Haiku
 subtitle: Pen a Haiku About a Random Word (or Several)
-desc: "A Haiku is a Japanese poem consisting of 15 syllables and 3 lines. The first line has 5 syllables, the second has 7, and the last has 5. Choose a word and write a Haiku about it."
+description: "A Haiku is a Japanese poem consisting of 15 syllables and 3 lines. The first line has 5 syllables, the second has 7, and the last has 5. Choose a word and write a Haiku about it."
 background_color: "#366c62"
 color: "#f0c810"
 index: true

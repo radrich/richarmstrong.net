@@ -1,7 +1,7 @@
 ---
 title: The Messterpiece
 subtitle: Draw All These Things on One Page As Fast as You Can
-desc: "Draw all these things on your page as fast as you can. Don’t think too hard or too long. If something is taking too long, skip it and draw something else."
+description: "Draw all these things on your page as fast as you can. Don’t think too hard or too long. If something is taking too long, skip it and draw something else."
 background_color: "black"
 color: "#f0c810"
 index: true

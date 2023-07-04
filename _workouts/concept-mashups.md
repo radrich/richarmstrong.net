@@ -1,7 +1,7 @@
 ---
 title: Concept Mashups
 subtitle: Create New Things by Combining Aspects From Each of the 2 Words
-desc: "Choose one of the sets of words to work with. Then think of as many concept mashups as you can. A concept mashup is where you create new things by combining aspects from each of the 2 words."
+description: "Choose one of the sets of words to work with. Then think of as many concept mashups as you can. A concept mashup is where you create new things by combining aspects from each of the 2 words."
 background_color: "#febfe7"
 color: "#f5483B"
 index: true

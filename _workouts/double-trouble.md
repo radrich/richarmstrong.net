@@ -1,7 +1,7 @@
 ---
 title: Double Trouble!
 subtitle: Draw As Many Combinations From the 2 Sets of Words As You Can
-desc: "This workout is all about combining things together. Draw as many combinations from the 2 sets of words as you can."
+description: "This workout is all about combining things together. Draw as many combinations from the 2 sets of words as you can."
 background_color: "#f5483b"
 color: "white"
 index: true

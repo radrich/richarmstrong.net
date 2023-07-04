@@ -1,7 +1,7 @@
 ---
 title: "TapTapKaboom School"
 subtitle: "Solo classes and new learning experiences"
-desc: "All classes since the beginning of 2019 are up for sale on TapTapKaboom School. And there will be different types of learning content available in the future."
+description: "All classes since the beginning of 2019 are up for sale on TapTapKaboom School. And there will be different types of learning content available in the future."
 background_color: "#111111"
 color: "white"
 image: 'img/school-is-live.jpg'

@@ -1,7 +1,7 @@
 ---
 title: Get to Know TapTapKaboom
 subtitle: Also known as Rich Armstrong
-desc: "Rich Armstrong, creator of TapTapKaboom, began as a website creation teacher, impressing others with his coding skills. Transitioning from product design to education, he embraced playful projects that merged with TapTapKaboom. Seeking authenticity, Rich rekindled his childhood passion for drawing, adding color and texture to his art. Becoming an artist alongside his teaching, he ignites joy with vivid and imaginative creations inspired by childhood fantasies. With ADHD and a love for learning, Rich shares his creative expertise, holding degrees in multimedia design and graphic design, while also being a self-taught coder. He freelanced, worked in agencies, and now runs a studio near Amsterdam."
+description: "Rich Armstrong, creator of TapTapKaboom, began as a website creation teacher, impressing others with his coding skills. Transitioning from product design to education, he embraced playful projects that merged with TapTapKaboom. Seeking authenticity, Rich rekindled his childhood passion for drawing, adding color and texture to his art. Becoming an artist alongside his teaching, he ignites joy with vivid and imaginative creations inspired by childhood fantasies. With ADHD and a love for learning, Rich shares his creative expertise, holding degrees in multimedia design and graphic design, while also being a self-taught coder. He freelanced, worked in agencies, and now runs a studio near Amsterdam."
 permalink: /about/
 image: 'img/rich-doodle-thumb.jpg'
 background_color: black

@@ -2,7 +2,7 @@
 title: Wondercats
 subtitle: 'A Big Magical Collab Project'
 image: 'img/wondercats-thumb.jpg'
-desc: "A fun collaborative collection of magical catlike creatures."
+description: "A fun collaborative collection of magical catlike creatures."
 categories: ['Projects', 'Illustration']
 tags: ['NFT', 'Cats', 'Collabs']
 background_color: "white"

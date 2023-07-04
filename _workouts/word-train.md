@@ -1,7 +1,7 @@
 ---
 title: Word Train
 subtitle: Create a Train of Related Words Starting With One of These Words
-desc: "Start with one of the following words. Then write down the first word that comes to mind. And then the first word that comes to mind for that word, and so on."
+description: "Start with one of the following words. Then write down the first word that comes to mind. And then the first word that comes to mind for that word, and so on."
 background_color: "#1165eb"
 color: "white"
 index: true

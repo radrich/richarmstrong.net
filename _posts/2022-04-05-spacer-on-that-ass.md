@@ -2,7 +2,7 @@
 title: Spacer
 subtitle: 'On That Ass Boxer Short Pattern'
 image: 'img/on-that-ass/thumb.png'
-desc: ""
+description: ""
 categories: ['Projects', 'Illustration']
 tags: ['Clients', 'Pattern Design']
 background_color: "black"

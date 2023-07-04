@@ -1,7 +1,7 @@
 ---
 title: 5 Word Descriptions
 subtitle: Describe These Words using 5 Words or Less
-desc: "Describe as many of the following words as you can in using 5 words or less. Check how good your descriptions are by telling them to someone and seeing if they guess the words."
+description: "Describe as many of the following words as you can in using 5 words or less. Check how good your descriptions are by telling them to someone and seeing if they guess the words."
 background_color: "#69dc9e"
 color: "black"
 index: true

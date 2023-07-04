@@ -1,7 +1,7 @@
 ---
 title: Raptorz in Daydream
 image: 'img/raptorz-collab-3.jpg'
-desc: "A speical 5-piece collaboration project about raptors and dreaming."
+description: "A speical 5-piece collaboration project about raptors and dreaming."
 categories: ['Projects', 'Illustration']
 tags: ['NFT', 'Raptorz', 'Collabs', 'Doodleverse']
 background_color: "#1371fd"

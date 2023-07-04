@@ -1,7 +1,7 @@
 ---
 title: Alternative Uses
 subtitle: Come Up With As Many Uses for One of These Things As You Can
-desc: "The classic creativity test designed by J.P. Guilford. But instead of using it to test creativity, we’re using it to practice and boost creativity. Come up with as many uses for one of these things as you can."
+description: "The classic creativity test designed by J.P. Guilford. But instead of using it to test creativity, we’re using it to practice and boost creativity. Come up with as many uses for one of these things as you can."
 background_color: "black"
 color: "#69dc9e"
 index: true

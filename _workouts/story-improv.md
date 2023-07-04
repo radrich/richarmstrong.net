@@ -1,7 +1,7 @@
 ---
 title: Story Improv
 subtitle: Make Up A Story With These Words
-desc: "Grab a writing pad or voice recorder app, and tell a story using these words."
+description: "Grab a writing pad or voice recorder app, and tell a story using these words."
 background_color: "white"
 image: 'img/record-thumb.gif'
 color: "#f5483b"

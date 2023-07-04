@@ -1,7 +1,7 @@
 ---
 title: "YOUR Questions Answered!"
 subtitle: "A Skillshare Audio Exclusive"
-desc: "In this audio class I answer questions from students around creativity, motivation, perfectionism, and more."
+description: "In this audio class I answer questions from students around creativity, motivation, perfectionism, and more."
 external_url: https://ttkb.me/sk-audio
 date: "2020-11-16"
 image: "img/sk-audio-thumb2.jpg"

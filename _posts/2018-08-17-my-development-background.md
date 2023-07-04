@@ -1,7 +1,7 @@
 ---
 title: "My Development Background"
 subtitle: "Why and how can I can teach people to code?"
-desc: "I teach people to code. But do I even know how to code myself? What’s my expereince? I cover all that in this post."
+description: "I teach people to code. But do I even know how to code myself? What’s my expereince? I cover all that in this post."
 background_color: "#0077ff"
 color: "white"
 categories: ['Coding']

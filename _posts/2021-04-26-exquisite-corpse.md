@@ -2,7 +2,7 @@
 title: A Super Long Exquisite Corpse
 subtitle: A Global Collab!
 image: "img/exquisite-corpse-thumb.jpg"
-desc: "17 of us made an Exquisite Corpse!"
+description: "17 of us made an Exquisite Corpse!"
 categories: ['Projects']
 tags: ['Collaborations', 'Exquisite Corpse']
 background_color: "#ff5500"

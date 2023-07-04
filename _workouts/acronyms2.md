@@ -1,7 +1,7 @@
 ---
 title: "Random Acronyms 2"
 subtitle: "Your Fix of Random Acronyms"
-desc: "Come up with the backronyms of these acronyms"
+description: "Come up with the backronyms of these acronyms"
 background_color: "#febfe7"
 color: "black"
 index: false

@@ -1,7 +1,7 @@
 ---
 title: "5 Minute Creative Workouts"
 subtitle: "Get Your Creativity In Shape"
-desc: "This class contains 14 days of 5 minute creative workouts. Workouts like coming up with the meanings of random acronyms, making up stories, drawing random words, and combining words to make new ideas and drawings."
+description: "This class contains 14 days of 5 minute creative workouts. Workouts like coming up with the meanings of random acronyms, making up stories, drawing random words, and combining words to make new ideas and drawings."
 date: "2021-05-14"
 background_color: "#1165eb"
 categories: ['Creativity']
