@@ -24,4 +24,4 @@ Occasionally, you’ll be able to mint new Gennys! Sometimes it’ll be for spec
 
 All the 1/1 of Genny pieces are made using code. And each piece is derived from an algorithm that I wrote. Some Gennys are animated. When this is the case I’ve generated frames, compiled them together and exported a video file. The Gennys that aren’t animations can be printed at *massive* sizes! I’d love to see you print, frame, and share your Gennys with me and the community.
 
-You can view the entire Genny collection [on Salvor.](https://ttkb.me/genny)
+View the entire Genny collection [here.](https://ttkb.me/genny)
