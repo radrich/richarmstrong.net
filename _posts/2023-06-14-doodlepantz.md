@@ -25,14 +25,13 @@ slider_images:
 
 {% include img.html img="img/doodlepantz/banner.jpg" %}
 
-Doodle Pantz is a *collaborative* and *experimental* NFT collection. The NFTs in most collections cannot be changed—their image, description, title, and attributes are immutable. Fixed. Set-in-stone. But with Doodle Pantz, the image and the attributes are customisable. Which means we can collaboarte to design you a sweet pair of $Pantz. Each $Pantz token can be customised only once. Once you’ve got your $Pantz and you’re ready to customise it, send it over and we can begin the process! The initial size of the collection will be 60 items, with 5 $Pantz being released for minting at a time.
+Doodle Pantz is a *collaborative* and *experimental* NFT collection. The NFTs in most collections cannot be changed—their image, description, title, and attributes are immutable. Fixed. Set-in-stone. But with Doodle Pantz, the image and the attributes are customisable. Which means owner and artist can collaboarte to design a sweet pair of $Pantz. Each $Pantz token can be customised only once. Once you’ve got your regular $Pantz and you’re ready to customise it, send it over and we can begin the process! The size of the collection will only be 36 items.
 
 **There are 6 styles:** briefs, bikini, boxers, boyshorts, hipster, and trunks. You can see them below.
 
 {% include glider.html imgs=page.slider_images %}
 
 ### How It Works
-- [Mint](https://ttkb.me/doodlepantzmint) $Pantz for 14.95 $AVAX each, or find uncustomised ones on the secondary market.
 - When you’re ready, transfer your $Pantz NFT to <strong class="ellipsis-overflow">0x767dC13B7C297b214489d7324652830570A5A108</strong>
 - Get in touch with me, either on [Twitter](https://ttkb.me/twitter) or [Discord](https://discordapp.com/users/915986990971899974), and we’ll collaborate on your $Pantz customisation.
 - When it’s customised I’ll send it back to the wallet address it was sent from and lock the customisation ability to prevent any further changes.
@@ -40,8 +39,6 @@ Doodle Pantz is a *collaborative* and *experimental* NFT collection. The NFTs in
 {%- include banner.html title='Get Your $Pantz' subtitle='Then customise ’em' color='black' img='img/doodlepantz/banner2.jpg' background_color='#b894e7' type='cover' cta='Mint now' url='https://ttkb.me/doodlepantzmint' align='bottom-right' btn_background='dark' -%}
 
 ### Links & Info
-- This collection is on the [Avalanche blockchain.](https://www.avax.network/)
 - You can find the contract [here.](https://snowtrace.io/address/0x8006a9Dd6f117569fB671E5CE2422c81FeC8018f)
-- Mint yours [here.](https://ttkb.me/doodlepantzmint)
 - Join the [Discord.](https://ttkb.me/dc)
-- Secondary marketplace links coming soon.
+- Find your pair of $Pantz [here.](https://ttkb.me/doodlepantz)
