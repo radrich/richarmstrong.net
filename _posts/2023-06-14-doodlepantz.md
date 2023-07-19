@@ -36,7 +36,7 @@ Doodle Pantz is a *collaborative* and *experimental* NFT collection. The NFTs in
 - Get in touch with me, either on [Twitter](https://ttkb.me/twitter) or [Discord](https://discordapp.com/users/915986990971899974), and we’ll collaborate on your $Pantz customisation.
 - When it’s customised I’ll send it back to the wallet address it was sent from and lock the customisation ability to prevent any further changes.
 
-{%- include banner.html title='Get Your $Pantz' subtitle='Then customise ’em' color='black' img='img/doodlepantz/banner2.jpg' background_color='#b894e7' type='cover' cta='Mint now' url='https://ttkb.me/doodlepantzmint' align='bottom-right' btn_background='dark' -%}
+{%- include banner.html title='Get Your $Pantz' subtitle='Then customise ’em' color='black' img='img/doodlepantz/banner2.jpg' background_color='#b894e7' type='cover' cta='Check em out' url='https://ttkb.me/doodlepantz' align='bottom-right' btn_background='dark' -%}
 
 ### Links & Info
 - You can find the contract [here.](https://snowtrace.io/address/0x8006a9Dd6f117569fB671E5CE2422c81FeC8018f)
