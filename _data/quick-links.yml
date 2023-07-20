@@ -101,11 +101,11 @@
   image: 'img/newsletter-thumb.png'
   color: 'white'
   
-- title: 'Get The Random Word Doodle App'
-  subtitle: 'You’ll Get Random Words to Doodle on Your Phone'
-  url: https://ttkb.me/rwd-app
-  image: 'img/rwd-thumb.png'
-  color: 'white'
+# - title: 'Get The Random Word Doodle App'
+#   subtitle: 'You’ll Get Random Words to Doodle on Your Phone'
+#   url: https://ttkb.me/rwd-app
+#   image: 'img/rwd-thumb.png'
+#   color: 'white'
 
 # - title: 'Want Individual Attention + Feedback?'
 #   subtitle: 'Let’s Chat 1:1 on Superpeer'
