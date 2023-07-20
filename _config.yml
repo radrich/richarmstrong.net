@@ -84,32 +84,19 @@ defaults:
   -
     scope:
       path: ""
-      type: "workouts"
-    values:
-      layout: "workout"
-      related:
-        - /prompts
-        - /classes/5-minute-creative-workouts
-        - /workouts
-  -
-    scope:
-      path: ""
       type: "prompts"
     values:
       layout: "prompt"
       related:
-        - /workouts
+        - /classes/boost-your-creativity
         - /classes/5-minute-creative-workouts
-        - /prompts
+        - /classes/boost-your-creativity
 
 collections:
   classes:
     output: true
     sort_by: priority
     permalink: /:name/
-  workouts:
-    output: true
-    permalink: /workouts/:name/
   prompts:
     output: true
     permalink: /prompts/:name/

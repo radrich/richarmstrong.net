@@ -12,7 +12,7 @@ auto_related: false
 related:
   - /classes/boost-your-creativity
   - /classes/5-minute-creative-workouts
-  - /classes/creativity-mini-course
+  - /prompts
 ---
 # {{ 'It’s An Exercise to Boost Your Creativity' | widont }}
 

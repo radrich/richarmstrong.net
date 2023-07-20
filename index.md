@@ -2,7 +2,7 @@
 layout: home
 related:
   - /classes
-  - /workouts
+  - /prompts
   - /pages/the-perfect-100-day-project-book
 ---
 
