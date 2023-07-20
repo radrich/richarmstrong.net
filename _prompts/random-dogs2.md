@@ -4,6 +4,7 @@ subtitle: "Start by Drawing a Dog"
 description: "Draw one of these random dgos."
 image: "img/abstract-art-site-thumbnail.jpg"
 background_color: "#ffdfd8"
+index: false
 ---
 # {{ page.title | widont }}
 
