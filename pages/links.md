@@ -1,5 +1,5 @@
 ---
-title: Quick Links ⚡️
+title: Quick Links
 subtitle: Get Where You Want Fast!
 image: "img/links-thumb.jpg"
 index: true
