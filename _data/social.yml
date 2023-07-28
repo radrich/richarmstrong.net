@@ -5,19 +5,17 @@
 - title: 'Instagram'
   url: https://ttkb.me/ig
   icon: instagram.svg
-
-- title: 'Dribbble'
-  url: https://ttkb.me/dribbble
-  icon: dribbble.svg
-  
-- title: 'Behance'
-  url: https://ttkb.me/behance
-  icon: behance.svg
-
-- title: 'Ello'
-  url: https://ttkb.me/ello
-  icon: ello.svg
   
 - title: 'Twitter'
   url: https://ttkb.me/twitter
   icon: twitter.svg
+
+- title: 'Behance'
+  url: https://ttkb.me/behance
+  icon: behance.svg
+  
+- title: 'Dribbble'
+  url: https://ttkb.me/dribbble
+  icon: dribbble.svg
+  
+
