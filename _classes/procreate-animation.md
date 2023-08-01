@@ -5,7 +5,8 @@ description: "Learn how to bring life and movement into your illustrations on yo
 external_url: https://ttkb.me/procreate-animation
 date: "2023-07-28"
 image: "img/procreate-animation-thumb.png"
-background_color: "#009bfe"
+background_color: "#13b0fd"
+color: "white"
 categories: ['Animation']
 tags: ['iPad', 'Procreate']
 priority: 7
