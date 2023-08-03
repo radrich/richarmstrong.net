@@ -15,7 +15,7 @@ index: true
 
 <p>I teach thousands of people the stuff I know in ways I wish people had taught me. Think fun, easy to watch, practical classes that empower you to rock your creative universe. There are classes on design, creativity, productivity, coding, animation, and illustration.</p>
 
-<p>I host my classes <a href="https://ttkb.me/sk">on Skillshare</a> because you pay a yearly subscription and can take as many classes as you like—of mine, and thsouands of other teachers. The value is off the charts. And you don’t need to sell your kidney to access these amazing classes. Also I'm a “Top Teacher” <a href="https://ttkb.me/sk">on Skillshare</a> which means my classes are the crème de la crème A.K.A the best of the best.</p>
+<p>I host my classes <a href="https://ttkb.me/sk">on Skillshare</a> because you pay a yearly subscription and can take as many classes as you like—of mine, and thousands of other teachers. The value is off the charts. And you don’t need to sell your kidney to access these amazing classes. Also I'm a “Top Teacher” <a href="https://ttkb.me/sk">on Skillshare</a> which means my classes are the crème de la crème A.K.A the best of the best.</p>
 
 <p>Below are classes that thousands of students have taken and given amazing reviews on.</p>
 
