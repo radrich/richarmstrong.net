@@ -71,7 +71,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  x86_64-darwin-21
+  ruby
 
 DEPENDENCIES
   jekyll (~> 4.0.0)
@@ -84,4 +84,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.4.18
+   2.1.4
