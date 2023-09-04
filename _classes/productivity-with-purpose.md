@@ -18,8 +18,6 @@ related:
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-Want to take this class **right now?** [Tap here](#options) for options.
-
 {% include video.html type="youtube" id='xhiZG9TXQnU' caption="The introduction to **Productivity with Purpose: Your Foundation for Success**" %}
 
 **We all want to be productive right!? I mean, what’s the alternative?**
@@ -30,7 +28,6 @@ The best productivity advice doesn’t work for long unless what you’re doing 
 
 ### Where Can I Take the Class? {#options}
 
-- [**On TapTapKaboom School.**](https://ttkb.me/pwp-ttk) This is a once-off purchases and doesn’t require a membership—it will be forever yours.
 - [**On Skillshare.**](https://ttkb.me/pwp-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://ttkb.me/pwp-sk) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
 
 ### The Class Includes The Following

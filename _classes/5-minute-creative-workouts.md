@@ -18,8 +18,6 @@ related:
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-Want to take this class **right now?** [Tap here](#options) for options.
-
 {% include video.html type="youtube" id='dlTyoSAtDyI' caption="The introduction to **5 Minute Creative Workouts: Get Your Creativity In Shape**" %}
 
 **Creativity is powerful and important. But too few of us take the time to keep our creativity in shape.** In fact, we often let our creativity wither and atrophy. Which is no good to anyone.
