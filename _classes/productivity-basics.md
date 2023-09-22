@@ -18,8 +18,6 @@ related:
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-Want to take this class **right now?** [Tap here](#options) for options.
-
 {% include video.html type="youtube" id='efkgAhqJ1pQ' caption="The introduction to **Productivity Basics: How To Become More Productive in 4 Steps**" %}
 
 **This beginner’s productivity class jumps into the basics of being productive and covers 4 simple and practical productivity practices:**
@@ -39,7 +37,6 @@ All you’ll need to take this class is a pen and some paper!
 
 ### Where Can I Take the Class? {#options}
 
-- [**On TapTapKaboom School.**](https://ttkb.me/prodbasics) This is a once-off purchases and doesn’t require a membership—it will be forever yours.
 - [**On Skillshare.**](https://ttkb.me/prodbasics-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://ttkb.me/pwp-sk) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
 
 {%- include banner.html
