@@ -9,7 +9,7 @@ background_color: "black"
 color: "white"
 related:
   - /posts/doodleverse
-  - /posts/for-love
+  - /posts/esomar-congress-2023
   - /posts/happy-sun
 ---
 # {{ page.title | widont }}

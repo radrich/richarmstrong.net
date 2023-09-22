@@ -68,6 +68,7 @@ subscribe: false
   </ul>
   <ul class="col">
     <li><a href="/happy-sun"><img src="../img/hs/65.png" alt=""></a></li>
+    <li><a href="/esomar-congress-2023/"><img src="../img/esomar-congress-2023/artwork.jpg" alt=""></a></li>
     <li><div><img src="../img/attitude-collab/2.jpg" alt=""></div></li>
     <li><div><img src="../img/wagmi-surfboard.jpg" alt=""></div></li>
     <li><a href="/100-web-characters"><img src="../img/100webchars/57.jpg" alt=""></a></li>
