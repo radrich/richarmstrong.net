@@ -32,6 +32,7 @@ subscribe: false
     <li><a href="/bloom-avalanche-summit-mural/"><img src="../img/avalanche-ii-mural/crop1-small.jpg" alt=""></a></li>
     <li><a href="/dreamheadz"><img src="../img/dreamheadz/thumb.jpg" alt=""></a></li>
     <li><div><img src="../img/dreamheadz-art/mirror-palace.jpg" alt=""></div></li>
+    <li><a href="/essential-glasses-coral-reef/"><img src="../img/essential-glasses-coral-reef/portrait-2.jpg" alt=""></a></li>
     <li><a href="/doodleverse"><img src="../img/doodleverse/34-a-quick-interlude.jpg" alt=""></a></li>
     <li><a href="/on-that-ass/"><img src="../img/on-that-ass/underwear-upclose.jpg" alt=""></a></li>
     <li><a href="/happy-sun"><img src="../img/hs/97.png" alt=""></a></li>

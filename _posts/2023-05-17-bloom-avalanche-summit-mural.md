@@ -4,13 +4,13 @@ subtitle: Avalanche Summit II Mural
 image: 'img/avalanche-ii-mural/thumb.jpg'
 description: "Bloom was painted using Posca paint markers—black, white, and luminescent red—at the Poble Espanyol, Barcelona, during the Avalanche Summit II in 2023. It measures roughly 3 x 2 metres. The mural took 6 hours to complete. It was the first time imagery from The Doodleverse has appeared in real life."
 categories: ['Projects', 'Illustration']
-tags: ['Doodleverse', 'Clients', 'Mural', 'IRL']
+tags: ['Clients', 'Mural', 'IRL']
 background_color: "black"
 color: "white"
 related:
-  - /posts/doodleverse
+  - /posts/essential-glasses-coral-reef
   - /posts/esomar-congress-2023
-  - /posts/happy-sun
+  - /posts/doodleverse
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
