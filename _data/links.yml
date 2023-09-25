@@ -5,26 +5,33 @@
   background_color: '#13b0fd'
   color: 'white'
   
-# - title: 'Dreamheadz PFP Collection'
-#   subtitle: '1001 dreamers blinded by clouds wrapped around their heads'
-#   url: /dreamheadz
-#   image: 'img/dreamheadz/thumb.jpg'
-#   background_color: 'black'
-#   color: 'white'
-
-- title: 'The Genny Collection'
-  subtitle: 'Art made with code. New algorithms dropping weekly'
-  url: /genny
-  image: 'img/genny/thumb2.png'
-  background_color: '#ffc600'
-  color: 'white'
-  
-- title: 'The Reverie NFT Collection'
-  subtitle: 'Get your piece of daydream weird'
-  url: https://ttkb.me/reverie
-  image: 'img/reverie/0.jpg'
+- title: 'ESOMOR Congress Booth'
+  subtitle: 'Paintings, Doodles and a Mural Auction'
+  url: /esomar-congress-2023
+  image: 'img/esomar-congress-2023/thumb.jpg'
   background_color: 'black'
   color: 'white'
+
+- title: 'Mantanani Coral Reef'
+  subtitle: 'Vinyl Sticker Illustration'
+  url: /essential-glasses-coral-reef
+  image: 'img/essential-glasses-coral-reef/thumb.png'
+  background_color: 'black'
+  color: 'white'
+
+# - title: 'The Genny Collection'
+#   subtitle: 'Art made with code. New algorithms dropping weekly'
+#   url: /genny
+#   image: 'img/genny/thumb2.png'
+#   background_color: '#ffc600'
+#   color: 'white'
+  
+# - title: 'The Reverie NFT Collection'
+#   subtitle: 'Get your piece of daydream weird'
+#   url: https://ttkb.me/reverie
+#   image: 'img/reverie/0.jpg'
+#   background_color: 'black'
+#   color: 'white'
   
 - title: 'Get The Perfect 100 Day Project Book!'
   subtitle: 'Print, eBook & bundle editions'
