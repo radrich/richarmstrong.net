@@ -1,5 +1,5 @@
 ---
-title: The Mantanani Coral Reef
+title: Mantanani Coral Reef
 subtitle: Vinyl Sticker Illustration
 image: 'img/essential-glasses-coral-reef/thumb.png'
 description: "Jan, the owner of Cloud Gallery and Essential Glasses, has a special connection to the Mantanani Coral Reef. To celebrate a Malaysian art exhibition, the Rich Armstrong A.K.A. TapTapKaboom was commissioned to create a coral reef illustration for the storefront window."

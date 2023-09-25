@@ -25,7 +25,7 @@ free_art_images:
 
 I was invited to [ESOMAR](https://esomar.org/) Congress 2023 in Amsterdam’s [Beurs van Berlage](https://beursvanberlage.com/) venue to give a keynote presentation and operate a creative booth. I spoke about how magical technology is. And how those who use new technology are often viewed as cheats or magicians.
 
-{% include img.html img="img/esomar-congress-2023/slient-disco.jpeg" caption="My first Silent Disco keynote" %}
+{% include img.html img="img/esomar-congress-2023/silent-disco.jpg" caption="My first Silent Disco keynote" %}
 
 I created part of an NFT artwork on stage. And I also collected the award for best exhibitor—which was maybe slightly unfair seeing that I was the only artist exhibiting at the conference.
 
