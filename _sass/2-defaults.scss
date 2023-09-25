@@ -370,5 +370,10 @@ blockquote{
   @media (max-width: $mobileMin){
     justify-content: flex-start;
     flex-direction: column;
+	
+	a{
+		height: auto;
+		padding: 12px 0;
+	}
   }
  }
