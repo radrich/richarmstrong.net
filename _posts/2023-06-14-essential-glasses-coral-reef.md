@@ -36,4 +36,4 @@ We had to jump through some hoops to get it printed at short notice. It wasn’t
 
 ### Notable links
 - Check out [Cloud Gallery](https://www.cloudamsterdam.com/) and their upcoming exhibitions.
-- Have a look at [Essential Glasses.](https://essential-glasses.com/) €10 of their purchase goes to clearing up Mantanani’s beaches.
+- Have a look at [Essential Glasses.](https://essential-glasses.com/) €10 of each purchase goes to clearing up Mantanani’s beaches.
