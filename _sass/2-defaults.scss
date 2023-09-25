@@ -290,7 +290,15 @@ blockquote{
 	margin: -12px 0 20px;
 	color: mix(black, white, 50%);
 	font-size: .8em;
-	line-height: 1.75em; // new
+	line-height: 1.75em;
+
+	a{
+		color: mix(black, white, 50%);
+		
+		&:hover, &:active{
+			color: $accentColor1;
+		}
+	}
 }
 
 .center{
