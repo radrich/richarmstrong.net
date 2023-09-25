@@ -4,7 +4,7 @@ subtitle: You Want Weird Right!?
 image: 'img/doodleverse/96-flames-within.jpg'
 description: "The Doodleverse is something between a fever dream and a vibrant paradise—it’s certainly not of this world. Meet all kinds of weird and wonderful creatures in a variety of dream-like scenes—trees with eyes, castle clouds, vicious plants, creepy hills, and tons of one-eyed birds!"
 categories: ['Projects', 'Illustration']
-tags: ['NFT', 'The100DayProject', 'Animation', 'Doodleverse']
+tags: ['NFT', 'The100DayProject', 'Animation', 'Doodleverse', 'For Sale']
 background_color: "black"
 color: "white"
 related:
