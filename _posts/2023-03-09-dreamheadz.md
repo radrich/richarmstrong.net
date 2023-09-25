@@ -4,7 +4,7 @@ subtitle: 1001 Dreamers Blinded by Clouds Wrapped Around Their Heads
 image: 'img/dreamheadz/thumb.jpg'
 description: "Dreamheadz is a 1001 PFP collaboration project between TapTapKaboom and CloudHeadz. Dreamheadz fits into an evolving Doodleverse storyline, where “Dreamers” have learned how to navigate the dreamy worlds—they’ve even found The Realm of Dreams, the epicentre of The Doodleverse. It’s here that this story takes place—1001 Dreamheadz are addicted to The Realm of Dreams. It’s a place they can imagine and shape and build. It’s a place where they can create the world of their dreams."
 categories: ['Projects', 'Illustration']
-tags: ['NFT', 'PFP', 'Dreams', 'Doodleverse']
+tags: ['NFT', 'PFP', 'Dreams', 'Doodleverse', 'For Sale']
 background_color: "black"
 color: "white"
 related:

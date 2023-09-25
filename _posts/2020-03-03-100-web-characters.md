@@ -6,7 +6,7 @@ image: 'img/100-web-chars-thumbnail.jpg'
 background_color: '#f0c810'
 color: black
 categories: ['Projects', 'Illustration']
-tags: ['The100DayProject', 'Picture Books', 'Products', 'Coding']
+tags: ['The100DayProject', 'Picture Books', 'Products', 'Coding', 'For Sale']
 related:
   - /classes/the-perfect-100-day-project
   - /classes/procreate-animation

@@ -4,7 +4,7 @@ subtitle: 'I Think of Death'
 image: 'img/cogito-mortis-1.jpg'
 description: "Cogito Mortis is a poem about death and 52 collecitbles interpreting the poem."
 categories: ['Projects', 'Illustration']
-tags: ['NFT', 'Death', 'Skulls', 'Poetry', 'Doodleverse']
+tags: ['NFT', 'Death', 'Skulls', 'Poetry', 'Doodleverse', 'For Sale']
 background_color: "black"
 color: "white"
 related:
