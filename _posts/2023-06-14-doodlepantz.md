@@ -5,8 +5,8 @@ image: 'img/doodlepantz/custom.jpg'
 description: "The Doodleverse is something between a fever dream and a vibrant paradise—it’s certainly not of this world. Meet all kinds of weird and wonderful creatures in a variety of dream-like scenes—trees with eyes, castle clouds, vicious plants, creepy hills, and tons of one-eyed birds!"
 background_color: black
 color: white
-categories: ['Projects', 'Illustration', 'For Sale']
-tags: ['NFT']
+categories: ['Projects', 'Illustration']
+tags: ['NFT', 'For Sale']
 related:
   - /posts/doodleverse
   - /posts/spacer-on-that-ass
