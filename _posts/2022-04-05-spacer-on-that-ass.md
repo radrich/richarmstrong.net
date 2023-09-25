@@ -4,7 +4,7 @@ subtitle: 'On That Ass Boxer Short Pattern'
 image: 'img/on-that-ass/thumb.png'
 description: ""
 categories: ['Projects', 'Illustration']
-tags: ['Clients', 'Pattern Design']
+tags: ['Client Work', 'Pattern Design']
 background_color: "black"
 color: "white"
 related:

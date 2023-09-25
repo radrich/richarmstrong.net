@@ -4,7 +4,7 @@ subtitle: Paintings, Doodles and a Mural Auction
 image: 'img/esomar-congress-2023/thumb.jpg'
 description: "In 2023, Rich Armstrong A.K.A. TapTapKaboom attended the ESOMAR Congress in Amsterdam. He gave a keynote speech highlighting the magic of technology, emphasizing how innovators are sometimes seen as magicians. During the event he engaged attendees by drawing, painting, and giving away art pieces and Happy Sun stickers. On the second day, a three-panel artwork he created was auctioned for charity. He also organized a treasure hunt for art at the venue. Overall, it was a successful and creative experience for TapTapKaboom."
 categories: ['Projects', 'Illustration', 'Keynote']
-tags: ['Clients', 'Mural', 'IRL']
+tags: ['Client Work', 'Mural', 'IRL']
 background_color: "black"
 color: "white"
 related:
