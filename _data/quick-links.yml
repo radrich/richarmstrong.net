@@ -12,7 +12,13 @@
 #   background_color: 'black'
 #   color: 'white'
 
-
+- title: 'NFTs R DeAd?'
+  subtitle: 'Mint 4 collectibles until Nov 1'
+  url: https://ttkb.me/rdead
+  image: 'img/rdead/thumb.jpg'
+  background_color: 'black'
+  color: 'white'
+  
 - title: 'New Procreate Animation class!'
   subtitle: 'Check It Out!'
   url: https://ttkb.me/procreate-animation
