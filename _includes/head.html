@@ -11,9 +11,4 @@
 	{%- feed_meta -%}
 	
 	<link rel="stylesheet" href="{{ "/assets/style.css?v=" | append: site.asset_version | relative_url  }}">
-	
-	{%- if jekyll.environment == 'production' and site.fathom_analytics -%}
-    <script src="https://cdn.usefathom.com/script.js" site="{{ site.fathom_analytics }}" defer></script>
-  {%- endif -%}
-
 </head>

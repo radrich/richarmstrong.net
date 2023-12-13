@@ -108,3 +108,9 @@ https://shopify.github.io/liquid/
 https://jekyllrb.com/docs/
 https://blog.webjeda.com/jekyll-related-posts/
 
+
+
+
+{%- if jekyll.environment == 'production' and site.fathom_analytics -%}
+  <script src="https://cdn.usefathom.com/script.js" site="{{ site.fathom_analytics }}" defer></script>
+{%- endif -%}
