@@ -1,6 +1,6 @@
 ---
 title: "TapTapKaboom Library"
-subtitle: "A library of commonly draw elements"
+subtitle: "A library of commonly drawn elements"
 description: "The TapTapKaboom Library is an evolving collection of artistic elements, including submarines, birds, and more. This library facilitates the creation of diverse scenes and compositions and aims to streamline the artistic process by reusing elements and employing a code base for batch placement, bursts, and random additions of elements. The library serves various purposes, from generative art to merchandise and token-based collaborative art projects."
 image: 'img/ttkb-library/thumb.jpg'
 background_color: 'white'
