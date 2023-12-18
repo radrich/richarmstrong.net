@@ -1,11 +1,10 @@
-- title: 'NFTs R DeAd?'
-  subtitle: 'Mint 4 collectibles until Nov 1'
-  url: https://ttkb.me/rdead
-  image: 'img/rdead/thumb.jpg'
-  background_color: 'black'
-  color: 'white'
+- title: 'Productivity with Purpose: Your Foundation for Success'
+  subtitle: 'A Productivity Class for Humans'
+  url: https://ttkb.me/pwp
+  image: 'img/pwp-thumb.jpg'
+  color: '#ff5500'
 
-- title: 'New Procreate Animation class!'
+- title: 'Procreate Animation!'
   subtitle: 'Check It Out!'
   url: https://ttkb.me/procreate-animation
   image: 'img/procreate-animation-thumb.png'
@@ -18,20 +17,6 @@
   image: 'img/shop/thumb-1.jpg'
   background_color: '#f0c810'
   color: 'black'
-  
-- title: 'ESOMOR Congress Booth'
-  subtitle: 'Paintings, Doodles and a Mural Auction'
-  url: /esomar-congress-2023
-  image: 'img/esomar-congress-2023/thumb.jpg'
-  background_color: 'black'
-  color: 'white'
-
-- title: 'Mantanani Coral Reef'
-  subtitle: 'Vinyl Sticker Illustration'
-  url: /essential-glasses-coral-reef
-  image: 'img/essential-glasses-coral-reef/thumb.png'
-  background_color: 'black'
-  color: 'white'
 
 # - title: 'The Genny Collection'
 #   subtitle: 'Art made with code. New algorithms dropping weekly'
@@ -98,12 +83,6 @@
 #   url: https://ttkb.me/cmc
 #   image: 'img/cmc-web-thumbnail.jpg'
 #   color: '#ffd400'
-  
-# - title: 'Productivity with Purpose: Your Foundation for Success'
-#   subtitle: 'A Productivity Class for Humans'
-#   url: /productivity-with-purpose/
-#   image: 'img/pwp-thumb.jpg'
-#   color: '#ff5500'
   
 # - title: 'The Perfect 100 Day Project'
 #   subtitle: 'Join 27k+ students on this epic journey.'

@@ -12,19 +12,18 @@
 #   background_color: 'black'
 #   color: 'white'
 
-- title: 'NFTs R DeAd?'
-  subtitle: 'Mint 4 collectibles until Nov 1'
-  url: https://ttkb.me/rdead
-  image: 'img/rdead/thumb.jpg'
-  background_color: 'black'
-  color: 'white'
-  
-- title: 'New Procreate Animation class!'
+- title: 'Productivity with Purpose: Your Foundation for Success'
+  subtitle: 'A Productivity Class for Humans'
+  url: https://ttkb.me/pwp
+  image: 'img/pwp-thumb.jpg'
+  color: '#ff5500'
+
+- title: 'Procreate Animation!'
   subtitle: 'Check It Out!'
   url: https://ttkb.me/procreate-animation
   image: 'img/procreate-animation-thumb.png'
   background_color: '#13b0fd'
-  color: 'white'  
+  color: 'white' 
 
 - title: 'Shop! Shop! Shop!'
   subtitle: 'My teeny tiny online store is up!'
