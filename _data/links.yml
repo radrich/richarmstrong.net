@@ -11,12 +11,12 @@
   background_color: '#13b0fd'
   color: 'white'
 
-- title: 'Shop! Shop! Shop!'
-  subtitle: 'My teeny tiny online store is up!'
-  url: https://ttkb.me/shop
-  image: 'img/shop/thumb-1.jpg'
-  background_color: '#f0c810'
-  color: 'black'
+# - title: 'Shop! Shop! Shop!'
+#   subtitle: 'My teeny tiny online store is up!'
+#   url: https://ttkb.me/shop
+#   image: 'img/shop/thumb-1.jpg'
+#   background_color: '#f0c810'
+#   color: 'black'
 
 # - title: 'The Genny Collection'
 #   subtitle: 'Art made with code. New algorithms dropping weekly'
