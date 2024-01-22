@@ -2,7 +2,7 @@
 title: "NFTs R DeAd"
 subtitle: "Wait. What? R NFTs DeAd?"
 image: 'img/rdead/thumb.jpg'
-description: ""
+description: "People keep telling me “NFTs R deAd.” Or they ask “R NFTs DeAd?” They’re not. They’re forever. They’re culture. They’re change. They’re the future."
 categories: ['Projects', 'Illustration']
 tags: ['NFT', 'For Sale']
 background_color: "black"
