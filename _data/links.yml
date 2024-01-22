@@ -1,8 +1,9 @@
-- title: 'Productivity with Purpose: Your Foundation for Success'
-  subtitle: 'A Productivity Class for Humans'
-  url: https://ttkb.me/pwp
-  image: 'img/pwp-thumb.jpg'
-  color: '#ff5500'
+- title: 'LIMINA'
+  subtitle: 'The most exclusive TapTapKaboom NFT drop'
+  url: /limina
+  image: 'img/limina/thumb.jpg'
+  background_color: 'black'
+  color: 'white'
 
 - title: 'Procreate Animation!'
   subtitle: 'Check It Out!'

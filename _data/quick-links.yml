@@ -5,18 +5,18 @@
 #   background_color: 'black'
 #   color: 'white'
   
-# - title: 'Dreamheadz PFP Collection'
-#   subtitle: '1001 dreamers blinded by clouds wrapped around their heads'
-#   url: /dreamheadz
-#   image: 'img/dreamheadz/thumb.jpg'
-#   background_color: 'black'
-#   color: 'white'
+- title: 'LIMINA'
+  subtitle: 'The most exclusive TapTapKaboom NFT drop'
+  url: /limina
+  image: 'img/limina/thumb.jpg'
+  background_color: 'black'
+  color: 'white'
 
-- title: 'Productivity with Purpose: Your Foundation for Success'
-  subtitle: 'A Productivity Class for Humans'
-  url: https://ttkb.me/pwp
-  image: 'img/pwp-thumb.jpg'
-  color: '#ff5500'
+# - title: 'Productivity with Purpose: Your Foundation for Success'
+#   subtitle: 'A Productivity Class for Humans'
+#   url: https://ttkb.me/pwp
+#   image: 'img/pwp-thumb.jpg'
+#   color: '#ff5500'
 
 - title: 'Procreate Animation!'
   subtitle: 'Check It Out!'
