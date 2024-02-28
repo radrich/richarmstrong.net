@@ -160,19 +160,19 @@
 			}
 		}
 		
-		a.cta{			
-			&.bg-light{
-				color: white;
-				background-color: black;
+		// a.cta{			
+		// 	&.bg-light{
+		// 		color: white;
+		// 		background-color: white;
 				
-				&:hover, &:active{ background-color: transparentize(black, .3); }
-			}
-			&.bg-dark{
-				color: black;
-				background-color: white;
+		// 		&:hover, &:active{ background-color: transparentize(black, .3); }
+		// 	}
+		// 	&.bg-dark{
+		// 		color: black;
+		// 		background-color: white;
 				
-				&:hover, &:active{ background-color: transparentize(white, .2); }
-			}
-		}
+		// 		&:hover, &:active{ background-color: transparentize(white, .2); }
+		// 	}
+		// }
 	}
 }
