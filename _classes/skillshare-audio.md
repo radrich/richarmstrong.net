@@ -8,5 +8,4 @@ image: "img/sk-audio-thumb2.jpg"
 background_color: "#3819d6"
 categories: ['Success', 'Creativity']
 tags: ['Perfectionism', 'Audio']
-priority: 99
 ---

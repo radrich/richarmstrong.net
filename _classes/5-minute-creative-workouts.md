@@ -6,7 +6,6 @@ date: "2021-05-14"
 background_color: "#1165eb"
 categories: ['Creativity']
 tags: ['exercises']
-priority: 100
 image: 'img/5min-thumb1.jpg'
 subscribe: false
 related:

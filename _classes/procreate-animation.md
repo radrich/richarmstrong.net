@@ -9,6 +9,6 @@ background_color: "#13b0fd"
 color: "white"
 categories: ['Animation']
 tags: ['iPad', 'Procreate']
-priority: 7
+priority: 99
 popular: true
 ---
