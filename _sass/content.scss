@@ -25,6 +25,11 @@
 		border-radius: 8px;
 		overflow: hidden;
 		
+		&.contained{
+			margin: 0 auto 20px;
+			width: 100%;
+		}
+		
 		&:after{
 			content: "";
 			position: absolute;
