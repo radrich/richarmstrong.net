@@ -2,7 +2,7 @@
 title: "Procreate Dreams"
 subtitle: "Create Fun Animations on Your iPad"
 description: "Learn how to animate on your iPad with ease with Procreate’s new animation app: Procreate Dreams."
-date: "2024-02-29"
+date: "2024-03-04"
 image: "img/procreate-dreams-thumb.jpg"
 background_color: "#1371fd"
 color: "white"
@@ -18,15 +18,9 @@ related:
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-{% comment %}
 Want to take the class right now? [Tap here.](https://ttkb.me/procreate-dreams)
-{% endcomment %}
 
 {% include video.html type="youtube" id='OlXMyiTlDFM' caption="The introduction to **Procreate Dreams: Create Fun Animations on Your iPad**" %}
-
-**This class is launching on March 4.**  
-Sign up to below to be the first to know when it’s live.
-{% include mailing-list.html %}
 
 ### What’s this class about?
 
