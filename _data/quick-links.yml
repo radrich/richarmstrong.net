@@ -4,10 +4,10 @@
 #   image: 'img/doodleverse/34-a-quick-interlude.jpg'
 #   background_color: 'black'
 #   color: 'white'
-  
-- title: 'LIMINA'
-  subtitle: 'The most exclusive TapTapKaboom NFT drop'
-  url: /limina
+
+- title: '🚨 LIMINA is currently on auction!'
+  subtitle: 'View auction times!'
+  url: /limina#times
   image: 'img/limina/thumb.jpg'
   background_color: 'black'
   color: 'white'
