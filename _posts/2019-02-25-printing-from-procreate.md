@@ -12,6 +12,7 @@ related:
   - /classes/digital-marbling
   - /classes/abstract-art-in-fresco
   - /classes/procreate-animation
+signup_tag: Learning
 ---
 # {{ page.title | widont  }}
 ## {{ page.subtitle | widont  }}

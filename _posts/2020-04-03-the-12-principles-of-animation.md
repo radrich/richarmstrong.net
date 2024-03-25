@@ -11,6 +11,7 @@ related:
   - /classes/intro-to-looom
   - /classes/procreate-animation
   - /classes/synthetic-stop-motion-in-after-effects
+signup_tag: Learning
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

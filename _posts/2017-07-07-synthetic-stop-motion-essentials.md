@@ -11,6 +11,7 @@ related:
   - /classes/procreate-animation
   - /classes/synthetic-stop-motion-in-after-effects
   - /posts/common-video-sizes
+signup_tag: Learning
 ---
 
 # {{ page.title | widont }}

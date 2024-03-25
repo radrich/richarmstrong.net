@@ -11,6 +11,7 @@ related:
   - /posts/why-skillshare
   - /posts/new-school
   - /classes/the-perfect-100-day-project
+signup_tag: Learning
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

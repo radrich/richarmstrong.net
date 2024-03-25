@@ -11,7 +11,7 @@ related:
   - /posts/nft
   - /posts/happy-sun
   - /pages/the-perfect-100-day-project-book
-  
+signup_tag: Art  
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

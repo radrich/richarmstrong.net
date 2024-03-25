@@ -27,6 +27,7 @@ slider_images:
   - "img/dreamheadz/13.jpg"
   - "img/dreamheadz/14.jpg"
   - "img/dreamheadz/15.jpg"
+signup_tag: Art
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

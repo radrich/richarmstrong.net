@@ -11,7 +11,7 @@ related:
   - /posts/nft
   - /posts/doodleverse
   - /posts/happy-sun
-  
+signup_tag: Art
 ---
 # {{ page.title | widont }}
 ## *{{ page.subtitle | widont }}*

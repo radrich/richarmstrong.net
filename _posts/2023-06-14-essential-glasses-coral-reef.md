@@ -11,6 +11,7 @@ related:
   - /posts/bloom-avalanche-summit-mural
   - /posts/esomar-congress-2023
   - /posts/for-love
+signup_tag: Art
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

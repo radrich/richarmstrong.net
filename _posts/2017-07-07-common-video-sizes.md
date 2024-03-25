@@ -11,6 +11,7 @@ related:
   - /classes/synthetic-stop-motion-in-after-effects
   - /classes/procreate-animation
   - /posts/synthetic-stop-motion-essentials
+signup_tag: Learning
 ---
 # {{ page.title | widont }}
 
@@ -32,7 +33,7 @@ Video dimensions are flexible, but here are some common ones.
 Below are default video sizes with a 16:9 aspect ratio. But you can upload videos with any dimensions.
 - **720p HD:** 1280px wide x 720px high. It’s a 16:9 aspect ratio.
 - **1080p HD:** 1920px wide x 1080px high. It’s a 16:9 aspect ratio.
-- **4K:** 3840px wide x 2160px high. This is pretty big. It’s a 16:9 aspect ratio.
+- **4K (UHD):** 3840px wide x 2160px high. This is pretty big. It’s a 16:9 aspect ratio.
 
 ### Instagram
 - **Instagram Posts** have a maximum width of 1080px and a height of 1350px. Instagram requires videos to be between 3 and 60 seconds in length. Square, landscape and portrait orientation can work here.

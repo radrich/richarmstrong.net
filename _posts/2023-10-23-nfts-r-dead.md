@@ -16,6 +16,7 @@ slider_images:
   - "img/rdead/2.jpg"
   - "img/rdead/3.jpg"
   - "img/rdead/4.jpg"
+signup_tag: Art
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

@@ -11,6 +11,7 @@ related:
   - /classes/just-start
   - /classes/the-perfect-100-day-project
   - /classes/productivity-with-purpose
+signup_tag: Learning
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

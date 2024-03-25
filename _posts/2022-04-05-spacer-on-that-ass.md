@@ -17,6 +17,7 @@ slider_images:
   - "img/on-that-ass/6.jpg"
   - "img/on-that-ass/7.jpg"
   - "img/on-that-ass/8.jpg"
+signup_tag: Art
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

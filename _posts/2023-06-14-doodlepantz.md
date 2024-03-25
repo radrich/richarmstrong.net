@@ -18,6 +18,7 @@ slider_images:
   - "img/doodlepantz/named-boyshorts.png"
   - "img/doodlepantz/named-hipster.png"
   - "img/doodlepantz/named-trunks.png"
+signup_tag: Art
 ---
 
 # {{ page.title | widont }}

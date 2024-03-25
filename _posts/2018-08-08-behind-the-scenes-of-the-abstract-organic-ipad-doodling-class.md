@@ -6,6 +6,7 @@ background_color: "#111111"
 color: "white"
 categories: ['Creativity']
 tags: ['Behind The Scenes', 'Play', 'Experimentation', 'Exercises']
+signup_tag: Learning
 ---
 # {{ page.title | widont }}
 

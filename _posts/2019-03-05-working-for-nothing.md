@@ -8,6 +8,7 @@ color: "white"
 image: 'img/working-for-nothing.jpg'
 categories: ['Success']
 tags: ['Client Work', 'Money']
+signup_tag: Learning
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

@@ -11,7 +11,7 @@ related:
   - /classes/productivity-with-purpose
   - /classes/creativity-mini-course
   - /classes/5-minute-creative-workouts
-  
+signup_tag: Learning
 ---
 # {{ page.title }}
 ## {{ page.subtitle }}

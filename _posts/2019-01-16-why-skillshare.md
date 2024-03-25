@@ -11,6 +11,7 @@ related:
   - /classes/just-start
   - /classes/the-perfect-100-day-project
   - /posts/how-to-make-your-first-skillshare-class
+signup_tag: Learning
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

@@ -11,6 +11,7 @@ related:
   - /posts/essential-glasses-coral-reef
   - /posts/esomar-congress-2023
   - /posts/doodleverse
+signup_tag: Art
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

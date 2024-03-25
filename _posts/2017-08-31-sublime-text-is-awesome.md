@@ -10,6 +10,7 @@ related:
   - /classes/hand-code-your-first-website
   - /classes/launch-a-rocket
   - /classes/demystifying-parallax
+signup_tag: Learning
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

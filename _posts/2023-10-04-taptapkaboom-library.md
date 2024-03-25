@@ -11,6 +11,7 @@ related:
   - /posts/doodleverse
   - /posts/for-love
   - /posts/reverie
+signup_tag: Art
 ---
 # The {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

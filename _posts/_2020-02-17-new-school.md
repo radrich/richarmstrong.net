@@ -12,6 +12,7 @@ related:
   - /classes/the-perfect-100-day-project
   - /classes/digital-marbling
   - /classes/hand-code-your-first-website
+signup_tag: Learning
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}

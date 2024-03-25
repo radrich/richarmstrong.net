@@ -11,6 +11,7 @@ related:
   - /classes/the-perfect-100-day-project
   - /classes/procreate-animation
   - /classes/just-start
+signup_tag: Art
 ---
 
 {% include video.html id="Zeq85WQBjEQ" %}

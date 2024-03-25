@@ -10,9 +10,10 @@ categories: ['Creativity']
 tags: ['Random Word Doodle', 'Products', 'Exercises']
 auto_related: false
 related:
-  - /classes/boost-your-creativity
+  - /classes/_boost-your-creativity
   - /classes/5-minute-creative-workouts
   - /prompts
+signup_tag: Learning
 ---
 # {{ 'It’s An Exercise to Boost Your Creativity' | widont }}
 

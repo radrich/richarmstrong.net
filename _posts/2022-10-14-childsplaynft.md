@@ -22,6 +22,7 @@ slider_images:
   - "img/childsplay/8.jpg"
   - "img/childsplay/9.jpg"
   - "img/childsplay/10.jpg"
+signup_tag: Art
 ---
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
