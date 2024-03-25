@@ -8,7 +8,7 @@ background_color: "#366c62"
 categories: ['Inspiration', 'Creativity']
 tags: ['Cities', 'IRL']
 priority: 98
-subscribe: false
+signup_tag: Learning
 related:
   - /posts/get-inspired-by-your-city
   - /classes/creativity-mini-course

@@ -8,7 +8,7 @@ categories: ['Productivity']
 tags: ['your why', 'exercises']
 priority: 99
 image: 'img/pwp-thumb.jpg'
-subscribe: false
+signup_tag: Learning
 related:
   - /classes/productivity-basics
   - /classes/just-start

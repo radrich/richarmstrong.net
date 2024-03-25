@@ -7,7 +7,7 @@ image: "img/productivity-basics-thumb.png"
 background_color: "#000000"
 categories: ['Productivity']
 tags: ['basics', 'exercises']
-subscribe: false
+signup_tag: Learning
 related:
   - /classes/productivity-with-purpose
   - /classes/just-start

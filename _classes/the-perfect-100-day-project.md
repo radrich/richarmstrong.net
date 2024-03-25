@@ -13,6 +13,7 @@ related:
   - /classes/5-minute-creative-workouts
   - /posts/100-web-characters
 popular: true
+signup_tag: 100 Day Project
 ---
 # {{ "The Perfect 100 Day Project" | widont }}
 ## {{ page.subtitle | widont }}

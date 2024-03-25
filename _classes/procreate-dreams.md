@@ -13,6 +13,7 @@ related:
   - /classes/procreate-animation
   - /classes/digital-marbling
   - /classes/illusions-of-depth
+signup_tag: Learning
 ---
 
 # {{ page.title | widont }}
