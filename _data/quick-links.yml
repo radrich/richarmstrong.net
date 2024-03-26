@@ -12,8 +12,8 @@
   background_color: 'black'
   color: 'white'
 
-- title: 'Adobe LIVE on Wednesday at 6.30pm UTC'
-  subtitle: 'Tune in!'
+- title: 'Adobe LIVE on Wednesday 27 March'
+  subtitle: 'Tune in at 6.30pm UTC!'
   url: https://www.youtube.com/watch?v=vq_BArn0H7Y&ab_channel=AdobeLive
   image: 'img/adobe.jpg'
   background_color: 'white'
