@@ -53,6 +53,7 @@ subscribe: false
   </ul>
   <ul class="col">
     <li><a href="/limina"><img src="../img/limina/1.jpg" alt=""></a></li>
+    <li><a href="/drippy-green-mural/"><img src="../img/drippy-green-mural/feature.jpg" alt=""></a></li>
     <li><a href="/for-love"><img src="../img/for-love/10.jpg" alt=""></a></li>
     <li><div><img src="../img/doodleverse-specials/sunrise-realm.jpg" alt=""></div></li>
     <li><a href="/doodleverse"><img src="../img/doodleverse/86-summer-romance.jpg" alt=""></a></li>
