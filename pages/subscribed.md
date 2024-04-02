@@ -1,6 +1,6 @@
 ---
 title: You’re In!
-subtitle: You’ve been subscribed to the TapTapKaboom Newsletter
+subtitle: You’ve been subscribed to Rich Armstrong’s mailing list
 permalink: /subscribed/
 image: "img/newsletter-thumb.png"
 index: true

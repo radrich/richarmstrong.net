@@ -1,7 +1,7 @@
 ---
-title: "TapTapKaboom Library"
+title: "Universe Library"
 subtitle: "A library of commonly drawn elements"
-description: "The TapTapKaboom Library is an evolving collection of artistic elements, including submarines, birds, and more. This library facilitates the creation of diverse scenes and compositions and aims to streamline the artistic process by reusing elements and employing a code base for batch placement, bursts, and random additions of elements. The library serves various purposes, from generative art to merchandise and token-based collaborative art projects."
+description: "The Universe Library is an evolving collection of artistic elements, including submarines, birds, and more. This library facilitates the creation of diverse scenes and compositions and aims to streamline the artistic process by reusing elements and employing a code base for batch placement, bursts, and random additions of elements. The library serves various purposes, from generative art to merchandise and token-based collaborative art projects."
 image: 'img/ttkb-library/thumb.jpg'
 background_color: 'white'
 color: 'black'
@@ -16,7 +16,7 @@ signup_tag: Art
 # The {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-The TapTapKaboom Library will become a collection of common elements I use in my artwork—submarines, clouds, suns, birds, jewels, jellyfish, mushrooms—mostly those kind of things. But I could, in theory, add any kind of elements to the library.
+The Universe Library will become a collection of common elements I use in my artwork—submarines, clouds, suns, birds, jewels, jellyfish, mushrooms—mostly those kind of things. But I could, in theory, add any kind of elements to the library.
 
 {% include img.html img="img/ttkb-library/3-up.jpg" caption="Just 3 scenes generated with code" %}
 
@@ -35,14 +35,14 @@ So, is the library just a bunch of elements you can add to pieces? No. In conjun
 - I’ll also be able to add a single random item from a group—again, with a tap of a button.
 - With the generative art learnings I’ve picked up from working on @0xGenny and Dreamheadz, I’ll be able to create doodled pieces of art that come to life with code. This excites me no end. I love mixing handmade stuff with technology.
 
-The TapTapKaboom Library is a precursor to the LIMINA project, because LIMINA will use all kinds of elements to form parts of each artwork. But the library has multiple uses for the future:
+The Universe Library is a precursor to the LIMINA project, because LIMINA will use all kinds of elements to form parts of each artwork. But the library has multiple uses for the future:
 
 - Generative art collections (art made with code—Processing and p5.js).
 - Collections that mix generative and unique elements of art—like this LIMINA project.
 - Quick additions to artworks.
 - Prototyping of scenes and idea-generation.
 - Non-art artwork. Like merch, stickers, banners, socks.
-- Individual items can be used as ERC-1155 tokens to build your own ERC-721 TapTapKaboom pieces. I’m epically looking forward to this. Based on what pieces you hold, you’ll potentially get access to different ERC-1155 tokens you can use to create your own collaborative TapTapKaboom artworks.
+- Individual items can be used as ERC-1155 tokens to build your own ERC-721 Rich-inspired pieces. I’m epically looking forward to this. Based on what pieces you hold, you’ll potentially get access to different ERC-1155 tokens you can use to create your own collaborative artworks.
 
 ### What are the next steps for me?
 

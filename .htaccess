@@ -1,8 +1,8 @@
 ErrorDocument 404 /404.html
 
 # no www
-RewriteCond %{HTTP_HOST} !^taptapkaboom\.com$ [NC]
-RewriteRule ^(.*)$ https://taptapkaboom.com/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} !^richarmstrong\.net$ [NC]
+RewriteRule ^(.*)$ https://richarmstrong.net/$1 [R=301,L]
 
 # https
 RewriteCond %{HTTPS} !=on

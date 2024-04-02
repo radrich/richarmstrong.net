@@ -42,6 +42,6 @@ You could keep on doing work for free. But you'll know when it's time to charge.
 
 ---
 
-There are a lot of different opinions about this stuff. And plenty of books written. So there's _always_ more to say. [Chat with me](mailto:rich@taptapkaboom.com) if you have any questions or comments.
+There are a lot of different opinions about this stuff. And plenty of books written. So there's _always_ more to say. [Chat with me](mailto:heyricharmstrong@gmail.com) if you have any questions or comments.
 
 {% include video.html type="youtube" id='jVkLVRt6c1U' caption="Here's a video on the topic by Mike Monteiro. He swears. Watch out." %}

@@ -19,7 +19,7 @@ Just so you know who you’re dealing with, here’s my development background. 
 - I’ve been involved on the front-end side of countless Cordova app builds from 2015–2018. Cordova allows developers to build web apps that work inside of native apps. That means leveraging your web skills to make native*ish* apps. I’m not a fan at all.
 - I hate Wordpress. It’s a strong word, but I much prefer hand-coding things. I do work with developers who love it. We still get along.
 - I’ve used Statamic and Craft to build websites before.
-- I currently use Jekyll to build taptapkaboom.com.
+- I currently use Jekyll to build this website.
 - I’ve tried a bunch of other languages, frameworks and CMS products too. Things like Shopify, Tumblr, CodeIgnitor, Node, Express.
 - I’m busy having a look at Python.
 - I’ve been making React websites since 2015. I *really* like React. And so do a bunch of clever people. As a designer, it makes a lot of sense.

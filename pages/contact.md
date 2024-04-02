@@ -9,6 +9,6 @@ index: true
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-<p>You may want to get in touch or hang out. That's nice 😎 You can email at rich@taptapkaboom.com. But please don't spam or irritate me. Because that's not nice 🙁</p>
+<p>You may want to get in touch or hang out. That's nice 😎 You can email at heyricharmstrong@gmail.com. But please don't spam or irritate me. Because that's not nice 🙁</p>
 
 {%- include list-social-media.html title="Follow me online" -%}

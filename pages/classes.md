@@ -9,8 +9,8 @@ color: black
 index: true
 signup_tag: Learning
 ---
-<h1>TapTapKaboom Classes</h1>
-<h2>Level up. Learn. Create. Have Fun</h2>
+<h1>Online Classes</h1>
+<h2>Create. Learn. Level-up. Have Fun</h2>
 
 If you want to learn new things but find it overwhelming, then I’m your guy. I’ve taught thousands of students what I know in short, fun, practical and easy-to-start ways. And they’ve given me raving reviews.  
 Browse my classes below. Most of them are hosted [on Skillshare.](https://ttkb.me/sk)

@@ -18,7 +18,7 @@ signup_tag: Art
 
 {% include img.html img="img/drippy-green-mural/feature.jpg" caption="This green was epic to work with" %}
 
-I have friends who like this colour green. The same friends have a kid who loves my doodles. So guess who got a TapTapKaboom birthday gift?
+I have friends who like this colour green. The same friends have a kid who loves my doodles. So guess who got a super rad mural birthday gift?
 
 I managed to find the exact right paint colour. I did some rough planning and sketching on my iPad, got some feedback, and then did a day of mural painting—with a little help from the kid.
 

@@ -1,6 +1,6 @@
 ---
-title: TapTapKaboom Privacy Policy
-description: Read the TapTapKaboom Privacy Policy.
+title: Rich Armstrong Privacy Policy
+description: Read Rich Armstrong’s Privacy Policy.
 permalink: /privacy/
 background_color: black
 color: '#F5483B'
@@ -10,7 +10,7 @@ index: true
 ---
 # {{ page.title | widont }}
 
-We’ve compiled this privacy policy so you know how your personally identifiable information, and other information, is being collected, used, handled, and protected by TapTapKaboom.
+We’ve compiled this privacy policy so you know how your personally identifiable information, and other information, is being collected, used, handled, and protected by Rich Armstrong.
 
 ## What information do we collect?
 We collect and store, via third-party software and platforms, the following information:
@@ -59,8 +59,8 @@ We rely on third-party software and platforms to keep your information safe. Non
 
 Your information is only accessible by 2 people at TapTapKaboom, and no one else. We do not sell, trade, transfer, or pass on any of your information to anyone, unless by your written consent.
 
-## What kind of tracking is used by TapTapKaboom?
-On taptapkaboom.com we do not track individual behaviour. We use [Fathom Analytics](https://usefathom.com/) to track site usage and non-personal identification information. These are things like:
+## What kind of tracking is used by Ric Armstrong?
+On richarmstrong.net we do not track individual behaviour. We use [Fathom Analytics](https://usefathom.com/) to track site usage and non-personal identification information. These are things like:
 
 - Browser name
 - Device type
@@ -70,10 +70,10 @@ On taptapkaboom.com we do not track individual behaviour. We use [Fathom Analyti
 On [TapTapKaboom School](school.taptapkaboom.com) your individual user behaviour and class progress **is tracked.** This is to provide you with a personalised learning experience. Without tracking your individual user behaviour, TapTapKaboom School would not function properly.
 
 ## Do we use ‘cookies’?
-Yes we do, but **not on taptapkaboom.com.** Your web browser places cookies on your hard drive for record-keeping purposes and sometimes to track information about you. You may choose to set your web browser to refuse cookies, or to alert you when cookies are being used. If you do so, some parts of [TapTapKaboom School](school.taptapkaboom.com) may not function properly (see above). You can read [Teachable’s cookie policy](https://teachable.com/cookies-policy) for more information.
+Yes we do, but **not on richarmstrong.net.** Your web browser places cookies on your hard drive for record-keeping purposes and sometimes to track information about you. You may choose to set your web browser to refuse cookies, or to alert you when cookies are being used. If you do so, some parts of [TapTapKaboom School](school.taptapkaboom.com) may not function properly (see above). You can read [Teachable’s cookie policy](https://teachable.com/cookies-policy) for more information.
 
-## How does TapTapKaboom handle Do Not Track (DNT) signals?
-This does not apply on taptapkaboom.com as individual behaviour is not tracked. But on [TapTapKaboom School](school.taptapkaboom.com) DNT signals are not responded to. Please read Teachable and Gumroad’s privacy policies for more information.
+## How do you handle Do Not Track (DNT) signals?
+This does not apply on richarmstrong.net as individual behaviour is not tracked. But on [TapTapKaboom School](school.taptapkaboom.com) DNT signals are not responded to. Please read Teachable and Gumroad’s privacy policies for more information.
 
 ## Third-party links
 We occasionally include or offer third-party products, services, and events on our website. These third-party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect your information and welcome any feedback about these other sites.
@@ -100,22 +100,22 @@ Should a data breach occur, on any of the third-party software or platforms wher
 We have the discretion to update this privacy policy at any time. When we do, we will revise the updated date at the bottom of this page. We encourage you to frequently check this page for any changes and to stay informed about how we collect, use, handle, and protect your information. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.
 
 ## Your acceptance of these terms
-By using taptapkaboom.com, TapTapKaboom School, and/or purchasing products and services from us, you signify your acceptance of this policy. Your continued use of, and participation in, our events, products and services following the posting of changes to this policy will be deemed as your acceptance of those changes.
+By using richarmstrong.net, TapTapKaboom School, and/or purchasing products and services from us, you signify your acceptance of this policy. Your continued use of, and participation in, our events, products and services following the posting of changes to this policy will be deemed as your acceptance of those changes.
 
 ## Contacting Us
 
 If you would like to know what information of yours is stored, or to request removal of information, or if there are any questions regarding this privacy policy, you may contact us using the information below:
 
-rich@taptapkaboom.com 
+heyricharmstrong@gmail.com
 
 or
 
-TapTapKaboom  
-Beethovenstraat 4  
-1501BB  
-Zaandam  
+Rich Armstrong
+Breestraat 65  
+Koog aan de Zaan  
+1541 EC  
 The Netherlands
 
 ## Last update
 
-This privacy policy was last updated on **01 December 2020**
+This privacy policy was last updated on **2 April 2024**

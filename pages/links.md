@@ -8,4 +8,4 @@ index: true
 
 {%- include grid.html items=site.data.quick-links list=true -%}
 
-{%- include list-social-media.html title="Find TapTapKaboom Elsewhere" -%}
+{%- include list-social-media.html title="Find Rich Elsewhere" -%}

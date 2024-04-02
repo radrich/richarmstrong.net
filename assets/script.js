@@ -1,5 +1,3 @@
-console.log('TapTapKaboom yo! 👊👊💥');
-
 //returns if a url is internal
 var _isInternalURL = function (url) {
 	var regex1	= /http/,

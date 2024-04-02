@@ -1,7 +1,7 @@
 ---
 title: "Embracing Artistic Freedom"
 subtitle: "The Benefits of Part-Time Artistry"
-description: "In early 2022, Rich A.K.A. TapTapKaboom became a full-time artist thanks to Web3 and NFTs. However, in 2023 he returned to part-time artistry without making a big fuss of it. He argues that being a full-time artist can lead to devaluing one's art due to financial pressure. Artists with other sources of income can explore ideas and concepts without rushing, producing higher-quality work and avoiding the pressure to sell quickly. He emphasizes that part-time artists are still artists and should embrace that identity without self-judgment."
+description: "In early 2022, Rich became a full-time artist thanks to Web3 and NFTs. However, in 2023 he returned to part-time artistry without making a big fuss of it. He argues that being a full-time artist can lead to devaluing one's art due to financial pressure. Artists with other sources of income can explore ideas and concepts without rushing, producing higher-quality work and avoiding the pressure to sell quickly. He emphasizes that part-time artists are still artists and should embrace that identity without self-judgment."
 image: 'img/am-i-artist-thumb.png'
 background_color: '#7f98bc'
 color: 'black'

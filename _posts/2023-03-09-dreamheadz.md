@@ -2,7 +2,7 @@
 title: Dreamheadz
 subtitle: 1001 Dreamers Blinded by Clouds Wrapped Around Their Heads
 image: 'img/dreamheadz/thumb.jpg'
-description: "Dreamheadz is a 1001 PFP collaboration project between TapTapKaboom and CloudHeadz. Dreamheadz fits into an evolving Doodleverse storyline, where “Dreamers” have learned how to navigate the dreamy worlds—they’ve even found The Realm of Dreams, the epicentre of The Doodleverse. It’s here that this story takes place—1001 Dreamheadz are addicted to The Realm of Dreams. It’s a place they can imagine and shape and build. It’s a place where they can create the world of their dreams."
+description: "Dreamheadz is a 1001 PFP collaboration project between Rich Armstrong and CloudHeadz. Dreamheadz fits into an evolving Doodleverse storyline, where “Dreamers” have learned how to navigate the dreamy worlds—they’ve even found The Realm of Dreams, the epicentre of The Doodleverse. It’s here that this story takes place—1001 Dreamheadz are addicted to The Realm of Dreams. It’s a place they can imagine and shape and build. It’s a place where they can create the world of their dreams."
 categories: ['Projects', 'Illustration']
 tags: ['NFT', 'PFP', 'Doodleverse', 'For Sale']
 background_color: "black"
@@ -36,7 +36,7 @@ signup_tag: Art
 
 _With blinding clouds wrapped around their heads, Dreamheadz have lost more than their sight. Their friends call them crazy. The authorities believe they’re addicts. But it’s worth it. They’re navigating dreams and building new worlds using their imaginations alone._
 
-[Dreamheadz](https://joepegs.com/collections/avalanche/dreamheadz) is a SOLD OUT 1001 PFP collaboration project between TapTapKaboom and CloudHeadz. Dreamheadz fits into an evolving Doodleverse storyline, where “Dreamers” have learned how to navigate the dreamy worlds—they’ve even found The Realm of Dreams, the epicentre of The Doodleverse. It’s here that this story takes place—1001 Dreamheadz are addicted to The Realm of Dreams. It’s a place they can imagine and shape and build. It’s a place where they can create the world of their dreams.
+[Dreamheadz](https://joepegs.com/collections/avalanche/dreamheadz) is a SOLD OUT 1001 PFP collaboration project between Rich and CloudHeadz. Dreamheadz fits into an evolving Doodleverse storyline, where “Dreamers” have learned how to navigate the dreamy worlds—they’ve even found The Realm of Dreams, the epicentre of The Doodleverse. It’s here that this story takes place—1001 Dreamheadz are addicted to The Realm of Dreams. It’s a place they can imagine and shape and build. It’s a place where they can create the world of their dreams.
 
 {% include glider.html imgs=page.slider_images %}
 
@@ -69,5 +69,3 @@ What I did next was download the metadata, and use it to recreate the collection
 ### Notable links
 - The collection [on Joepegs.](https://joepegs.com/collections/avalanche/dreamheadz)
 - The project [on Bēhance.](https://www.behance.net/gallery/169390063/Dreamheadz)
-- [TapTapKaboom Discord](https://ttkb.me/dc)
-- [CloudHeadz Discord](https://discord.gg/Vkr7gWH873)

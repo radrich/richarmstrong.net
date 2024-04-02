@@ -37,4 +37,3 @@ Creating is a joy. It’s play. It’s expressive. Kids do it naturally. Let thi
 
 ### Notable links
 - The collection [on Campfire.](https://campfire.exchange/collections/0x063d76a8d094fafad03e7539a8c88bc3fc049423)
-- The [TapTapKaboom Discord.](https://ttkb.me/dc)

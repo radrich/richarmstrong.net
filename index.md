@@ -6,8 +6,8 @@ related:
   - /pages/the-perfect-100-day-project-book
 ---
 
-## Hey! This is Rich.
+## Hey! I’m Rich.
 
-I’m an ADHD artist.  
-I create [colourful illustrative art.](/categories/projects/)  
-And [teach popular classes]({% link pages/classes.md %}) for creatives.
+A multi-hyphenate artist & illustrator.  
+I create bold, colourful & dremay [illustrative art.](/categories/projects/)  
+I [teach popular classes]({% link pages/classes.md %}) for creatives.

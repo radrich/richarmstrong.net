@@ -18,28 +18,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: TapTapKaboom
-email: rich@taptapkaboom.com
-tagline: AHDH artist, teacher & author
-description: "I&#039;m Rich Armstrong. And I Want You To Have Fun Creating. Because my eyes light up when I create. And I want to pass that on. I want creating to be easy and fun. I want you to love it as much as I do. And I believe you can."
+title: Rich Armstrong
+email: heyricharmstrong@gmail.com
+tagline: Multi-hyphenate doodle artist
+description: "This is the online website, portfolio and store of the artist I&#039;m Rich Armstrong. He’s a doodler, teacher, and a terrible dancer."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.taptapkaboom.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: taptapkaboom
-github_username: taptapkaboom
-fathom_analytics: WBBMJNFH
+url: "https://www.richarmstrong.net" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: richarmstr_ong
+github_username: radrich
+# fathom_analytics: WBBMJNFH
 logo: /img/favicon-72.png
 
 social:
   links:
     - https://twitter.com/richarmstr_ong
-    #- https://www.linkedin.com/in/mrrichardarmstrong
+    - https://www.linkedin.com/in/heyricharmstrong
     - https://github.com/radrich
     - https://instagram.com/richarmstr_ong
     - https://dribbble.com/richarmstr_ong
     - https://behance.com/richarmstr_ong
 
 twitter:
-  username: taptapkaboom
+  username: richarmstr_ong
   card: summary
 
 permalink: /:slug/
@@ -50,14 +50,14 @@ defaults:
       path: ""
       type: ""
     values:
-      author: "taptapkaboom"
+      author: "richarmstrong"
   -
     scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      author: "taptapkaboom"
+      author: "richarmstrong"
       auto_related: true
   -
     scope:
@@ -65,14 +65,14 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      author: "taptapkaboom"
+      author: "richarmstrong"
   -
     scope:
       path: "pages"
       type: "pages"
     values:
       layout: "page"
-      author: "taptapkaboom"
+      author: "richarmstrong"
       permalink: /:basename/
   -
     scope:
@@ -104,7 +104,7 @@ sass:
   sass_dir: _sass
   style: compressed
 
-asset_version: 48
+asset_version: 49
 
 jekyll-archives:
   enabled:

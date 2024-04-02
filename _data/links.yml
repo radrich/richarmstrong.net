@@ -40,7 +40,7 @@
   background_color: '#d73738'
   color: 'white'
   
-# - title: 'TapTapKaboom Live'
+# - title: 'Rich Live'
 #   subtitle: 'Every Tuesday 2pm UTC'
 #   url: https://ttkb.me/live
 #   image: 'img/streaming-pfp.jpg'
@@ -48,7 +48,7 @@
 
 # - title: 'Twitter Spaces with Herbert Lui'
 #   subtitle: 'Wednesday 15 Feb 12pm UTC'
-#   url: https://twitter.com/taptapkaboom/status/1624397912544317440
+#   url: https://twitter.com/richarmstr_ong/status/1624397912544317440
 #   image: 'img/twitter.png'
 #   color: 'black'
 #   background_color: '#ff5500'

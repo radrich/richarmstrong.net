@@ -8,7 +8,7 @@ function createBanner(){
   var div = document.createElement('div');
   div.setAttribute('id','cookieLaw');
   div.setAttribute('class','banner-cookies');
-  div.innerHTML = '<div class="content"><p>TapTapKaboom uses cookies 🍪 If you continue, you\'re saying you\'re okay with the site using them when you visit. View the <a href="/privacy-policy/" rel="nofollow">privacy policy</a> for more info.</p><a class="cta" href="javascript:void(0);" onclick="removeCookieBanner();"><span>Okay!</span></a></div>';
+  div.innerHTML = '<div class="content"><p>Rich Armstrong uses cookies 🍪 If you continue, you\'re saying you\'re okay with the site using them when you visit. View the <a href="/privacy-policy/" rel="nofollow">privacy policy</a> for more info.</p><a class="cta" href="javascript:void(0);" onclick="removeCookieBanner();"><span>Okay!</span></a></div>';
    
   bodytag.appendChild(div);
   createCookie(window.cookieName,window.cookieValue, window.cookieDuration);

@@ -1,2 +1,2 @@
-# taptapkaboom.com
- The main taptapkaboom.com
+# richarmstrong.net
+ The website, portfolio, and store of the artist Rich Armstrong
