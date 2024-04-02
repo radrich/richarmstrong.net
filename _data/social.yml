@@ -1,13 +1,13 @@
-- title: 'YouTube'
-  url: https://ttkb.me/youtube
-  icon: youtube.svg
+# - title: 'YouTube'
+#   url: https://ttkb.me/youtube-rich
+#   icon: youtube.svg
   
 - title: 'Instagram'
-  url: https://ttkb.me/ig
+  url: https://ttkb.me/ig-rich
   icon: instagram.svg
   
 - title: 'Twitter'
-  url: https://ttkb.me/twitter
+  url: https://ttkb.me/x-rich
   icon: twitter.svg
 
 - title: 'Behance'
