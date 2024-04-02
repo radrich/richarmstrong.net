@@ -9,5 +9,5 @@ related:
 ## Hey! I’m Rich.
 
 A multi-hyphenate artist & illustrator.  
-I create bold, colourful & dremay [illustrative art.](/categories/projects/)  
+I create bold, colourful & dreamy [illustrative art.](/categories/projects/)  
 I [teach popular classes]({% link pages/classes.md %}) for creatives.
