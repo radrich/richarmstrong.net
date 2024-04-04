@@ -9,22 +9,33 @@ color: white
 related:
   - /classes
   - /pages/portfolio
-  - /posts
+  - /pages/the-perfect-100-day-project-book
 index: true
 ---
 
 # {{ page.title }}
 ## {{ page.subtitle }}
 
-{% include video.html id="B4PrdimLOGA" %}
+In 2022 I began calling myself an artist. This changed everything. I began creating like the 6 year old me sitting at his little white art table. For the joy of it. I rediscovered my inner kid. I began spending more time on my “doodles”. I began selling them as NFTs. Then I began doing murals. And clothing. And appearing on Adobe Live. And I feel I still have so much more to share, and so much more to learn.
 
-<p>When I (Rich Armstrong) created a short class on how to create a website from scratch I did it because everyone who stood behind me, while I coded, marvelled at my ability and thought I was a genius. <em>I am a genius</em> but I knew that learning to code was easy—if you understood the basics. Since then I've created a bunch of classes and <strong>taught thousands of students</strong> a bunch of skills, tools, and techniques. While that was happening I started “TapTapKaboom”. It began as a playful project to learn new ways to create—little experiments that go boom! I realised this way of thinking was central to how I learned new things and what I was teaching my students. So Rich Armstrong and TapTapKaboom became one. By this time, around 2018, I had transitioned from a product designer to an educator.</p>
+Before this I’d called myself many things—entrepreneur, workshop facilitator, author, teacher, product designer, animator—basically a unicorn. I still call myself these things from time to time, but I feel like I’m an artist at my core. I love creativity. I love creating. I love making. I have a vivid imagination. I have ADHD—which responds really well to drawing. So this is me.
 
-<p>But at the end of 2021 I felt that the only thing I could teach any longer, with any real authority, was how to teach an online class. I wanted to use my imagination. I wanted to be authentic. So I revisited Rich the kid—the one who drew and doodled more than anything else. I began spending more time on my “doodles”. I added colour. I added grit and grain. I pushed the concepts. I discovered a way to do grainy gradients. I made NFTs to sell to people for 100 days. And that’s how I became an artist. I still teach—because creating myself *and* teaching others how to create are two vital sides of a sword I wield. But an artist is what I’ve longed, deep down, to be since I was a kid.</p>
+{% include video.html id="B4PrdimLOGA" caption="TapTapKaboom used to be my artist alias" %}
 
-<h2>About Rich</h2>
-<p>This is where I switch to talking about myself in third person. Rich is a vivid and imaginative artist with ADHD. His bold and colourful creations draw inspiration from childhood fantasies, igniting joy &amp; passion in a uniquely authentic style. He loves learning, experimenting, and teaching others how to be creative and successful. He draws, writes, doodles, animates, and codes. He’s got a BA degree in multimedia design, a BTech Honours degree in Graphic Design, and he taught himself how to code. He’s freelanced, worked for agencies and startups, and now runs his studio just outside of Amsterdam. He’s always creating and can touch his nose with his tongue!</p>
+### What ideas & topics does my work cover?
+- Dreamy-type stuff.
+- Happiness.
+- Happy Suns, birds, clouds.
+- ADHD.
+- Us creating the way we do because of all the artists and geniuses in the past.
+- Us creating by responding to the world around us.
+
+### What else do I do?
+Besides drawing and doodling, I [facilitate workshops](https://www.studioarmstrong.com), teach [creative classes](/classes), and head up [TapTapKaboom](https://www.taptapkaboom.com) where we teach people tech stuff in fun ways. I’ve also written [a book](/the-perfect-100-day-project-book/) published by RockyNook.
 
 ### Links!
 - If you'd like to get in touch, <a href="{% link pages/contact.md %}">tap here.</a>
 - This is a great [article](https://medium.com/avalancheavax/artist-spotlight-tap-tap-kabooms-vast-nft-doodleverse-d9e2c52bd3a7) about myself and The Doodleverse on the Avalanche blog.
+
+{% include notice.html notice="I used to call myself [TapTapKaboom.](https://www.taptapkaboom.com) Now I’m going by Rich Armstrong.  
+TapTapKaboom is where we teach people tech stuff in fun ways—like how to hand-code your first website." %}

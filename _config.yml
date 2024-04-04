@@ -104,7 +104,7 @@ sass:
   sass_dir: _sass
   style: compressed
 
-asset_version: 50
+asset_version: 51
 
 jekyll-archives:
   enabled:

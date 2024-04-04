@@ -9,6 +9,8 @@ index: true
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-<p>You may want to get in touch or hang out. That's nice 😎 You can email at heyricharmstrong@gmail.com. But please don't spam or irritate me. Because that's not nice 🙁</p>
+To get in touch with me you can email me at heyricharmstrong@gmail.com.  
+I’ll then follow up with next steps.
+
 
 {%- include list-social-media.html title="Follow me online" -%}

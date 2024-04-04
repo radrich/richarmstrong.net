@@ -1,4 +1,7 @@
-{% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
+{% if include.title %}
+  <h2>{{ include.title }}</h2>
+{% endif %}
+
 <ul class="list-social-media">
   {% for account in site.data.social %}
     <li><a href="{{ account.url }}" target="_blank" title="{{ account.title }}">

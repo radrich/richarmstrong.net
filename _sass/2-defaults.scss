@@ -208,9 +208,9 @@ p{
 	@media (max-width: $tabletMax) {
 		margin: 1em 0;
 	}
-	@media (max-width: $mobileMax) {
-		line-height: 1.5em;
-	}
+	// @media (max-width: $mobileMax) {
+	// 	line-height: 1.5em;
+	// }
 	
 	a{
 		color: black;
@@ -291,18 +291,67 @@ blockquote{
 }
 
 .notice{
-	background-color: transparentize(black, .95);
+	background-color: $black05;
 	position: relative;
 	margin: 0 -20px 20px;
 	box-sizing: border-box;
-	padding: 20px;
+	padding: 32px;
 	width: calc(100% + 40px);
 	border-radius: 8px;
 	overflow: hidden;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+	
+	&:after{
+		content: "";
+		position: absolute;
+		top: 0; bottom: 0; left: 0; right: 0;
+		box-shadow: inset 0 0 0 1px transparentize(black, .9);
+		pointer-events: none;
+		border-radius: 8px;
+	}
+	
+	.notice-icon{
+		max-width: 88px;
+		max-height: 88px;
+		margin-right: 20px;
+		
+		img{
+			width: 100%;
+		}
+	}
+	
+	.notice-content{}
+	
+	p:first-child{
+		margin-top: 0;
+	}
+	p:last-child{
+		margin-bottom: 0;
+	}
 	
 	@media (max-width: $tabletMax) {
+		
+	}
+	@media (max-width: $mobileMax) {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		border-radius: 0;
 		width: calc(100% + 36px);
+		
+		
+		text-align: center;
+		
+		.notice-icon{
+			margin: 0 0 20px 0;	
+		}
+		
+		&:after{
+			left: -2px; right: -2px;
+		}
 	}
 }
 

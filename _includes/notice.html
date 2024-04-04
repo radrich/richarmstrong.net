@@ -1,0 +1,12 @@
+<div class="notice">
+    <div class="notice-icon"><p>
+        {% if include.img %}
+            <img src="{{ include.img | relative_url }}"/>
+        {% else %}
+            <img src="/assets/idea.png"/>
+        {% endif %}
+    </p></div>
+    <div class="notice-content">
+        {{ include.notice | markdownify }}
+    </div>
+</div>
