@@ -1,6 +1,6 @@
 ---
 title: Creative Prompts
-subtitle: "Dunno What To Create? Start With These."
+subtitle: "Dunno what to create? Start here."
 permalink: /prompts/
 background_color: 'white'
 image: 'img/prompts-thumb.jpg'
