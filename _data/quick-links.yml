@@ -5,9 +5,9 @@
 #   background_color: 'black'
 #   color: 'white'
 
-- title: '🚨 LIMINA is ON AUCTION!'
-  subtitle: 'View auction times!'
-  url: /limina#times
+- title: 'LIMINA'
+  subtitle: 'The Realm of Dreams awaits'
+  url: /limina
   image: 'img/limina/thumb.jpg'
   background_color: 'black'
   color: 'white'
