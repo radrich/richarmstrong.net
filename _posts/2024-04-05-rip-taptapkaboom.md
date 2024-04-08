@@ -37,6 +37,6 @@ At this point it felt like the universe had given me a break. Things clicked int
 
 - I’m [@richarmstr_ong](https://www.instagram.com/richarmstr_ong) on Instagram now.
 - I’m [@richarmstr_ong](https://www.twitter.com/richarmstr_ong) on X (formerly Twitter) now.
-- The updated Rich Armstrong [mailing list.](https://buttondown.email/richarmstrong).
+- Here’s the updated Rich Armstrong [mailing list.](https://buttondown.email/richarmstrong).
 - This is my new website. It’s [richarmstrong.net](https://www.richarmstrong.net/)
 - If you want to learn tech stuff, [join the TapTapKaboom mailing list.](https://buttondown.email/taptapkaboom)
