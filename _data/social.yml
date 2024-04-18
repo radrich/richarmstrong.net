@@ -3,19 +3,23 @@
 #   icon: youtube.svg
   
 - title: 'Instagram'
-  url: https://ttkb.me/ig-rich
+  url: https://www.instagram.com/richarmstr_ong
   icon: instagram.svg
   
 - title: 'Twitter'
-  url: https://ttkb.me/x-rich
+  url: https://www.twitter.com/richarmstr_ong
   icon: twitter.svg
 
 - title: 'Behance'
-  url: https://ttkb.me/behance
+  url: https://www.behance.com/richarmstr_ong
   icon: behance.svg
   
 - title: 'Dribbble'
-  url: https://ttkb.me/dribbble
+  url: https://www.dribbble.com/richarmstr_ong
   icon: dribbble.svg
+  
+- title: 'Working Not Working'
+  url: https://workingnotworking.com/200084-rich
+  icon: workingnotworking.svg
   
 
