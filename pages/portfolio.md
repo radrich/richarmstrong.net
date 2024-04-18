@@ -41,7 +41,7 @@ subscribe: false
     <li><div><img src="../img/realms-of-weird/18.jpg" alt=""></div></li>
     <li><a href="/doodleverse"><img src="../img/doodleverse/50-bird-city.jpg" alt=""></a></li>
     <li><div><img src="../img/doodleverse-specials/cosmic-snake.jpg" alt=""></div></li>
-    <li><a href="/dreamheadz"><img src="../img/for-love/1.jpg" alt=""></a></li>
+    <li><a href="/for-love"><img src="../img/for-love/1.jpg" alt=""></a></li>
     <li><a href="/100-web-characters"><img src="../img/100webchars/50.jpg" alt=""></a></li>
     <li><div><img src="../img/dreamlings/5.jpg" alt=""></div></li>
     <li><a href="/limina"><img src="../img/limina/6.jpg" alt=""></a></li>
