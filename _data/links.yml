@@ -5,12 +5,12 @@
   background_color: 'black'
   color: 'white'
   
-- title: 'Adobe LIVE on Wednesday 24 April'
-  subtitle: 'Tune in at 5pm UTC!'
-  url: https://www.youtube.com/watch?v=opXtUJueM6w&ab_channel=AdobeLive
-  image: 'img/adobe.jpg'
-  background_color: 'white'
-  color: 'black'
+# - title: 'Adobe LIVE on Wednesday 24 April'
+#   subtitle: 'Tune in at 5pm UTC!'
+#   url: https://www.youtube.com/watch?v=opXtUJueM6w&ab_channel=AdobeLive
+#   image: 'img/adobe.jpg'
+#   background_color: 'white'
+#   color: 'black'
 
 - title: 'My Procreate Dreams Class Is LIVE!'
   subtitle: 'Check It Out!'
