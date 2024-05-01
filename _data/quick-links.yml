@@ -1,3 +1,11 @@
+
+- title: 'Texture in Procreate'
+  subtitle: 'Learn How I Use & Create Texture in Procreate'
+  url: /texture-in-procreate
+  image: 'img/texture-in-procreate-thumb.jpg'
+  background_color: '#fea9e2'
+  color: 'white'
+  
 # - title: 'Skillshare Live NFT Class Session 2!'
 #   subtitle: 'Live on 11 July 5pm UTC. Sign up today!'
 #   url: https://ttkb.me/sklive
@@ -25,12 +33,12 @@
 #   image: 'img/pwp-thumb.jpg'
 #   color: '#ff5500'
 
-- title: 'My Procreate Dreams Class Is LIVE!'
-  subtitle: 'Check It Out!'
-  url: https://ttkb.me/procreate-dreams
-  image: 'img/procreate-dreams-thumb.jpg'
-  background_color: '#1371fd'
-  color: 'white'
+# - title: 'My Procreate Dreams Class Is LIVE!'
+#   subtitle: 'Check It Out!'
+#   url: https://ttkb.me/procreate-dreams
+#   image: 'img/procreate-dreams-thumb.jpg'
+#   background_color: '#1371fd'
+#   color: 'white'
 
 # - title: 'Shop! Shop! Shop!'
 #   subtitle: 'My teeny tiny online store is up!'

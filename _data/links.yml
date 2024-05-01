@@ -12,11 +12,11 @@
 #   background_color: 'white'
 #   color: 'black'
 
-- title: 'My Procreate Dreams Class Is LIVE!'
-  subtitle: 'Check It Out!'
-  url: https://ttkb.me/procreate-dreams
-  image: 'img/procreate-dreams-thumb.jpg'
-  background_color: '#1371fd'
+- title: 'Texture in Procreate'
+  subtitle: 'Learn How I Use & Create Texture in Procreate'
+  url: /texture-in-procreate
+  image: 'img/texture-in-procreate-thumb.jpg'
+  background_color: '#fea9e2'
   color: 'white'
 
 # - title: 'Shop! Shop! Shop!'
