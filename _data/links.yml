@@ -1,4 +1,12 @@
-- title: 'LIMINA'
+
+- title: 'Texture in Procreate'
+  subtitle: 'Learn How I Use & Create Texture in Procreate'
+  url: /texture-in-procreate
+  image: 'img/texture-in-procreate-thumb.jpg'
+  background_color: '#fea9e2'
+  color: 'white'
+  
+  - title: 'LIMINA'
   subtitle: 'The Realm of Dreams awaits'
   url: /limina
   image: 'img/limina/thumb.jpg'
@@ -11,13 +19,6 @@
 #   image: 'img/adobe.jpg'
 #   background_color: 'white'
 #   color: 'black'
-
-- title: 'Texture in Procreate'
-  subtitle: 'Learn How I Use & Create Texture in Procreate'
-  url: /texture-in-procreate
-  image: 'img/texture-in-procreate-thumb.jpg'
-  background_color: '#fea9e2'
-  color: 'white'
 
 # - title: 'Shop! Shop! Shop!'
 #   subtitle: 'My teeny tiny online store is up!'
