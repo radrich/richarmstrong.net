@@ -54,8 +54,8 @@ You’ll also have access to all files that I use during the class including ill
 
 If you’re wanting your artwork to feel more authentic, look less digital, or if you want to explore handmade techniques without all the equipment and mess in the real world, come take this class.
 
-### Where Can I Take the Class? {#options}
+### Where can I take the class? {#options}
 
 - [**On Gumroad.**](https://richarmstrong.gumroad.com/l/texture-in-procreate) For $29.99 you can download the course and all the assets. You’ll forever have access to it, and any future updates.
-- [**On Skillshare.**](https://skl.sh/4aWAtQs) With a Skillshare memerbship you can watch the class, create a project that I give you feedback on, earn a certificate of completion, and ask questions. You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://skl.sh/4aWAtQs) to get a free trial. You’ll be able to watch this class and tons of others for free during that time.
+- [**On Skillshare.**](https://skl.sh/4aWAtQs) With a Skillshare memerbship you can watch the class, create a project that I give you feedback on, earn a certificate of completion, and ask questions. Use [this link](https://skl.sh/4aWAtQs) to trial Skillshare for free. You’ll be able to watch this class and tons of others during your trial.
 - [**On Udemy.**](https://www.udemy.com/course/texture-in-procreate) For €29.99 you can take the class, ask me questions and receive a certificate of completion.
