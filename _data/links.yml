@@ -6,7 +6,7 @@
   background_color: '#fea9e2'
   color: 'white'
   
-  - title: 'LIMINA'
+- title: 'LIMINA'
   subtitle: 'The Realm of Dreams awaits'
   url: /limina
   image: 'img/limina/thumb.jpg'
