@@ -19,7 +19,12 @@ signup_tag: Learning
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
+
+{% include notice.html notice="Until Friday 17 May you can sign up to the class [**for free.**](https://richarmstrong.ck.page/texture-in-procreate)" %}
+
+{% comment %}
 Want to take the class right now? [Tap here for options.](#options)
+{% endcomment %}
 
 {% include video.html type="youtube" id='CDy1znxXbpw' caption="The introduction to **Texture in Procreate: Add Life & Character to Your Illustrations**" %}
 
