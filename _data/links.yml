@@ -1,4 +1,11 @@
 
+- title: 'FREE NFT Drop: Dreams in Bold'
+  subtitle: 'Get an NFT + abstract art Procreate course + access to hoodie & art print'
+  url: https://ttkb.me/remx
+  image: 'img/dreams-in-bold/thumb.jpg'
+  background_color: 'white'
+  color: 'black'
+  
 - title: 'Texture in Procreate'
   subtitle: 'New Class on How I Use & Create Texture in Procreate'
   url: /texture-in-procreate
@@ -34,12 +41,12 @@
 #   background_color: 'black'
 #   color: 'white'
   
-- title: 'Get The Perfect 100 Day Project Book!'
-  subtitle: 'Print, eBook & bundle editions'
-  url: /the-perfect-100-day-project-book
-  image: 'img/100dp/book.jpg'
-  background_color: '#d73738'
-  color: 'white'
+# - title: 'Get The Perfect 100 Day Project Book!'
+#   subtitle: 'Print, eBook & bundle editions'
+#   url: /the-perfect-100-day-project-book
+#   image: 'img/100dp/book.jpg'
+#   background_color: '#d73738'
+#   color: 'white'
   
 # - title: 'Rich Live'
 #   subtitle: 'Every Tuesday 2pm UTC'
