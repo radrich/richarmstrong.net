@@ -18,7 +18,7 @@ subscribe: false
     <h3>Clients include</h3>
     <div class="logos">
       <a href="https://www.avalabs.org/" class="portrait" target="_blank" title="Avalabs">{% include svg/avalabs.svg %}</a>
-      <a href="https://www.cloudamsterdam.com/" target="_blank" title="Cloud Gallery">{% include svg/cloud.svg %}</a>
+      <a href="https://www.korwater.com/" target="_blank" title="Kor Water">{% include svg/kor.svg %}</a>
       <a href="https://joepegs.com/" target="_blank" title="Joepegs">{% include svg/joepegs.svg %}</a>
       <a href="https://www.adobe.com/" target="_blank" title="Adobe">{% include svg/adobe.svg %}</a>
       <a href="https://esomar.org/" target="_blank" title="ESOMAR">{% include svg/esomar.svg %}</a>
