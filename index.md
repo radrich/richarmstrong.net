@@ -1,8 +1,6 @@
 ---
 layout: home
 related:
-  - /classes
-  - /prompts
   - /pages/the-perfect-100-day-project-book
 ---
 
@@ -10,4 +8,4 @@ related:
 
 A multi-hyphenate artist & illustrator.  
 I create bold, colourful & dreamy [illustrative art.](/categories/projects/)  
-And teach [popular classes]({% link pages/classes.md %}) for creatives.
+And teach [popular classes](https://www.taptapkaboom.com) for creatives.

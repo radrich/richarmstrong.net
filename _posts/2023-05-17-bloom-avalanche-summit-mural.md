@@ -22,7 +22,7 @@ signup_tag: Art
 
 {% include img.html img="img/avalanche-ii-mural/crop2.jpg" caption="Right outside the main conference stage" %}
 {% include img.html img="img/avalanche-ii-mural/sequence.gif" caption="Some of the process" %}
-{% include img.html img="img/avalanche-ii-mural/sketch.jpg" caption="The initial sketch in my Baron Fig notebook" %}
+{% include img.html img="img/avalanche-ii-mural/sketch.jpg" caption="The initial sketch in my notebook" %}
 
 ### Notable links
 - The project [on Bēhance.](https://www.behance.net/gallery/170838083/Bloom-Avalanche-Summit-II-Mural)

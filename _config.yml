@@ -74,32 +74,7 @@ defaults:
       layout: "page"
       author: "richarmstrong"
       permalink: /:basename/
-  -
-    scope:
-      path: ""
-      type: "classes"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "prompts"
-    values:
-      layout: "prompt"
-      related:
-        - /classes/boost-your-creativity
-        - /classes/5-minute-creative-workouts
-        - /classes/boost-your-creativity
-
-collections:
-  classes:
-    output: true
-    sort_by: priority
-    permalink: /:name/
-  prompts:
-    output: true
-    permalink: /prompts/:name/
-
+      
 sass:
   sass_dir: _sass
   style: compressed

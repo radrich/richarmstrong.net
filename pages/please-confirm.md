@@ -9,5 +9,5 @@ subscribe: false
 # {{ page.title | widont }}
 ## {{ page.subtitle | widont }}
 
-I’ve sent you an email that contains a confrimation link.  
+I’ve sent you an email that contains a confirmation link.  
 Tap on it to join the newsletter.

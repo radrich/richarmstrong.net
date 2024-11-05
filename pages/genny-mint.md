@@ -10,7 +10,6 @@ index: false
 related:
   - /posts/genny
   - /posts/doodleverse
-  - /classes/hand-code-your-first-website
 ---
 # {{ page.title | widont }}
 

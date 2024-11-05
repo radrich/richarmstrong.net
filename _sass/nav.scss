@@ -67,7 +67,7 @@ nav{
 		}
 	}
 	
-	@mixin menu-btn-size ($barWidth: 40px, $barHeight: 5px, $defaultY: 10px, $hoverY: 12px){
+	@mixin menu-btn-size ($barWidth: 32px, $barHeight: 4px, $defaultY: 10px, $hoverY: 12px){
 		.menu-icon{
 			width: $barWidth;
 			height: $barHeight;
@@ -140,7 +140,7 @@ nav{
 			}
 		}
 		
-		@include menu-btn-size(40px, 4px, 9px, 11px);
+		@include menu-btn-size(32px, 4px, 7px, 9px);
 		
 		@media (max-width: $mobileMax){
 			@include menu-btn-size(32px, 3px, 7px, 9px);

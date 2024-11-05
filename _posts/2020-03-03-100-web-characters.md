@@ -7,10 +7,6 @@ background_color: '#f0c810'
 color: black
 categories: ['Projects', 'Illustration']
 tags: ['The100DayProject', 'Picture Books', 'Products', 'Coding', 'For Sale']
-related:
-  - /classes/the-perfect-100-day-project
-  - /classes/procreate-animation
-  - /classes/just-start
 signup_tag: Art
 ---
 
@@ -87,4 +83,4 @@ There are bits of me and people I know in each character—along with a lot of i
 - [Download Iconic Iggy’s blank Photoshop or JPG template.](https://ttkb.me/100wch-iggy) If you want to make your own Iconic Iggy costume, this link is for you.
 - Check the project out [on Behancē.](https://www.behance.net/gallery/93941091/100-Web-Characters)
 
-Below you’ll find links for classes on The Perfect 100 Day Project, animating in Procreate, and getting started. I hope you enjoy! You can also [find all my classes here.](/classes)
+You can also [find all my classes here.](https://ttkb.me)
