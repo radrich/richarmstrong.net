@@ -8,10 +8,6 @@ color: "white"
 image: 'img/printing-procreate.jpg'
 categories: ['How To']
 tags: ['Procreate', 'iPad', 'Info', 'Art', 'Tech']
-related:
-  - /classes/digital-marbling
-  - /classes/abstract-art-in-fresco
-  - /classes/procreate-animation
 signup_tag: Learning
 ---
 # {{ page.title | widont  }}

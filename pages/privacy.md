@@ -20,7 +20,6 @@ We collect and store, via third-party software and platforms, the following info
 - Your postal address
 - Your birthday
 - Your purchase history
-- Your progress and behavious for classes you’re enrolled in on TapTapKaboom School
 - Your possible interests
 
 We collect this information from you only if you voluntarily sign up to, purchase, use, and participate in our events, products, or services.

@@ -39,8 +39,6 @@ categories: ['class additions', 'animation']
 tags: ['after effects', 'code', 'expressions', 'stop-motion', 'animation']
 related: #add the folder and slug (no date)
   - /posts/common-video-sizes
-  - /classes/procreate-animation
-  - /classes/just-start
 
 # optional
 permalink: /say-what/ #if it’s different to the slug

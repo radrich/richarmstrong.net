@@ -6,6 +6,6 @@ index: true
 ---
 # {{ page.title }}
 
-{%- include grid.html items=site.data.quick-links list=true -%}
+{%- include grid.html items=site.data.links list=true -%}
 
 {%- include list-social-media.html title="Find Rich Elsewhere" -%}

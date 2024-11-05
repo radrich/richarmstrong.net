@@ -3,30 +3,8 @@ layout: default
 ---
 <div class="content">
 	{% if page.type == "category" %}
-		{% assign classes = site.classes %}
-		{% assign class_matches = '' | split: ''  %}
-		{% assign position = 0 %}
-		
-		{% for class in site.classes %}
-			{% if class.categories contains page.title %}
-				{% assign additions = classes | slice: position, 1 %}
-				{% assign class_matches = class_matches | concat: additions %}
-			{% endif %}
-			{% assign position = position | plus: 1 %}
-		{% endfor %}
-		
-		{% assign n = class_matches | size %}
-		{% if n > 0 %}
-  		{% if n > 1 %}
-  			{% assign class_matches = class_matches | sample: n %}
-  		{% endif %}
-			<h1>{{ page.title }} Classes</h1>
-			{%- include grid.html items=class_matches -%}
-		{% endif %}
-		
 		<h1>{{ page.title }} Posts</h1>
 		{%- include grid.html items=page.posts -%}
-		
 	{% elsif page.type == "tag" %}
 		<h1>Posts Tagged ‘{{ page.title }}’</h1>
 		{%- include grid.html items=page.posts -%}

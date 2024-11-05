@@ -41,9 +41,10 @@ h1{
 	}
 	
 	@media (max-width: $tabletMax) {
+		line-height: 1em;
 		margin: 10px 0 20px 0;
 		& + h2{
-			margin-top: -.5em;
+			margin-top: -.2em;
 			font-size: 24px;
 		}
 	}
@@ -372,7 +373,7 @@ blockquote{
 }
 
 .center{
-	h1, h2, h3, h4, h5, h6, p{
+	h1, h2, h3, h4, h5, h6, p, div{
 		text-align: center;
 	}
 }
@@ -446,12 +447,14 @@ blockquote{
   }
   
   @media (max-width: $mobileMin){
-    justify-content: flex-start;
-    flex-direction: column;
+    //justify-content: flex-start;
+    //flex-direction: column;
+		flex-wrap: wrap;
 	
-	a{
-		height: auto;
-		padding: 12px 0;
-	}
+		a{
+			height: auto;
+			padding: 6px 0;
+			margin: 0 6px;
+		}
   }
  }

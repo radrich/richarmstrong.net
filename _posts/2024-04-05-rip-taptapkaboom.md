@@ -18,7 +18,7 @@ signup_tag: Art
 
 In a moment of clarity I knew I had to let go of the TapTapKaboom name. It needed to transform into a business. With focus and clarity. Just as I needed to be more authentic and stop trying to teach *everything* to *everyone* under the TapTapKaboom name *and* be an artist under the same name. It was too much. It was too confusing.
 
-So. TapTapKaboom is becoming a *real* business—one that teaches tech stuff in easy, approachable and fun ways. Makes sense right!? Tap. Tap. Kaboom.
+So. TapTapKaboom is becoming a *real* business—one that teaches creative stuff in easy, approachable and fun ways. Makes sense right!? Tap. Tap. Kaboom.
 
 Also! TapTapKaboom, despite being an epic name, didn’t make sense as an artist’s name. People called me *TapTap*, or just *Tap.* It was weird. Another problem I had was teaching a broad range of skills and topics—coding, animation, drawing, art, creativity, productivity, design. I found it difficult to stick to one thing. I’m ADHD, what do you expect? But it also meant that anyone who followed me for one topic would find me communicating about other topics they weren’t into.
 
@@ -30,13 +30,13 @@ At this point it felt like the universe had given me a break. Things clicked int
 
 **So, this is how my business world is structured:**
 
-- **TapTapKaboom.** A brand that teaches tech-related stuff in a fun and approachable way—coding, UX, UI, websites, apps.
+- **TapTapKaboom.** A brand that teaches creative stuff in a fun and approachable way—Procreate, animation, creativity, coding, UX, UI, websites, apps, productivity.
 - **Rich Armstrong.** The artist. Who illustrates, doodles and creates. And who teaches art-related stuff from a personal, authentic perspective.
 
 ### New links
 
 - I’m [@richarmstr_ong](https://www.instagram.com/richarmstr_ong) on Instagram now.
-- I’m [@richarmstr_ong](https://www.twitter.com/richarmstr_ong) on X (formerly Twitter) now.
+- I’m [@richarmstr_ong](https://www.x.com/richarmstr_ong) on X (formerly Twitter) now.
 - Here’s the updated Rich Armstrong [mailing list.](https://buttondown.email/richarmstrong).
 - This is my new website. It’s [richarmstrong.net](https://www.richarmstrong.net/)
-- If you want to learn tech stuff, [join the TapTapKaboom mailing list.](https://buttondown.email/taptapkaboom)
+- If you want to unleash your creativity, [join the TapTapKaboom mailing list.](https://ttkb.me/join)
