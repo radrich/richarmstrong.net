@@ -27,7 +27,7 @@ url: "https://www.richarmstrong.net" # the base hostname & protocol for your sit
 twitter_username: richarmstr_ong
 github_username: radrich
 # fathom_analytics: WBBMJNFH
-logo: /img/favicon-72.png
+logo: /assets/favicon-72.png
 
 social:
   links:
@@ -79,7 +79,7 @@ sass:
   sass_dir: _sass
   style: compressed
 
-asset_version: 51
+asset_version: 52
 
 jekyll-archives:
   enabled:
