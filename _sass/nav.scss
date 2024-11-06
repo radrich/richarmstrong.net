@@ -1,7 +1,7 @@
 nav{
 	position: relative;
-	background-color: white;
-	box-shadow: 0 1px 0 transparentize(black, .9);
+	background-color: $black02;
+	//box-shadow: 0 1px 0 transparentize(black, .9);
 	height: 80px;
 	width: 100%;
 	box-sizing: border-box;
@@ -36,16 +36,19 @@ nav{
 		text-align: left;
 		
 		a{
-			font-size: 20px;
-			
-			line-height: 20px;
-			padding: 28px 16px 32px 32px;
-			font-weight: bold;
-			
-			text-decoration: none;
+			background: $accentColor3 url('../assets/pfp-transparent-256.png') no-repeat center center / contain;
+			text-indent: -999px;
+			overflow: hidden;
+			width: 64px;
+			height: 64px;
+			border-radius: 50%;
 			display: block;
-			height: 100%;
+			margin: 8px 20px;
 			box-sizing: border-box;
+			
+			&:active{
+				transform: translateY(2px);
+			}
 		}
 	}
 	
@@ -247,7 +250,10 @@ nav{
 		h1{
 			
 			a{
-				padding: 13px 16px 17px 16px;
+				width: 42px;
+				height: 42px;
+				margin: 4px 8px;
+				background-color: transparent;
 			}
 		}
 		.logo{

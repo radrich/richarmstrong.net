@@ -51,6 +51,10 @@ h1{
 	
 	@media (max-width: $mobileMax) {
 		font-size: 36px;
+		
+		.last-name{
+			display: none;
+		}
 	}
 }
 
