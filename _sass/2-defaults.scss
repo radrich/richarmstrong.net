@@ -440,6 +440,10 @@ blockquote{
     &.portrait{
     	width: 50px;
     }
+	
+	&.mid{
+    	width: 70px;
+    }
     
     &.wide{
     	width: 120px;
@@ -450,9 +454,7 @@ blockquote{
     }
   }
   
-  @media (max-width: $mobileMin){
-    //justify-content: flex-start;
-    //flex-direction: column;
+  @media (max-width: $mobileMax){
 		flex-wrap: wrap;
 	
 		a{

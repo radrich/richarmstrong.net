@@ -1,0 +1,7 @@
+<div class="grid-images">
+  {% for item in include.imgs %}
+    <div class="grid-img-container">
+      <img src='{{ item | relative_url }}'/>
+    </div>
+  {% endfor %}
+</div>

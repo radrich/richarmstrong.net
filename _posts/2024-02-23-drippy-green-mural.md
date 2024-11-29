@@ -10,7 +10,7 @@ color: "white"
 related:
   - /posts/bloom-avalanche-summit-mural
   - /posts/esomar-congress-2023
-  - /posts/essential-glasses-coral-reef
+  - /posts/spro-mural
 signup_tag: Art
 ---
 # {{ page.title | widont }}
