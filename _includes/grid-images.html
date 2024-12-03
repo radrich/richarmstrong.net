@@ -1,4 +1,4 @@
-<div class="grid-images">
+<div class="grid-images {% if include.type == "double" %}double{% endif %}">
   {% for item in include.imgs %}
     <div class="grid-img-container">
       <img src='{{ item | relative_url }}'/>

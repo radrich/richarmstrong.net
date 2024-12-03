@@ -6,6 +6,10 @@
 	grid-template-columns: repeat(3, 1fr);
 	gap: 1rem;
 	
+	&.double{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	
 	.grid-img-container{
 		background-color: $black05;
     color: white;
@@ -56,6 +60,8 @@
 	@media (max-width: $mobileMin) {
 		grid-template-columns: 1fr;
 		gap: .5rem;
+		
+		&.double{grid-template-columns: 1fr;}
 		
 		.grid-img-container{
 			&:after{

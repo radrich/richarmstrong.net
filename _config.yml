@@ -79,7 +79,7 @@ sass:
   sass_dir: _sass
   style: compressed
 
-asset_version: 53
+asset_version: 54
 
 jekyll-archives:
   enabled:
