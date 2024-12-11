@@ -5,3 +5,4 @@ _site
 vendor
 assets/.DS_store
 .DS_store
+img/.DS_store
