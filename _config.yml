@@ -20,8 +20,8 @@
 
 title: Rich Armstrong
 email: heyricharmstrong@gmail.com
-tagline: Multi-hyphenate Artist
-description: "This is the online website, portfolio and store of the artist Rich Armstrong. He’s a doodler and teacher with terrible dance moves."
+tagline: Multidisciplinary artist
+description: "The online portfolio of multidisciplinary artist Rich Armstrong."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.richarmstrong.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: richarmstr_ong
@@ -79,7 +79,7 @@ sass:
   sass_dir: _sass
   style: compressed
 
-asset_version: 54
+asset_version: 55
 
 jekyll-archives:
   enabled:
