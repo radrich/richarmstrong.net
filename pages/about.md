@@ -12,7 +12,7 @@ index: true
 # About Rich The Artist
 ## Reconnecting viewers with their inner child
 
-I’m a multidisciplinary artist based in Amsterdam. I bring imagination to life through vibrant and playful creations. My work features bold colours, dreamlike scenarios, and quirky characters. I invite viewers to reconnect with their inner child, to smile, and to hope. Stories and themes of dreams, transitions, and exploration inspire my creations.
+I’m a multi-hyphenate artist based in Amsterdam. I bring imagination to life through vibrant and playful creations. My work features bold colours, dreamlike scenarios, and quirky characters. I invite viewers to reconnect with their inner child, to smile, and to hope. Stories and themes of dreams, transitions, and exploration inspire my creations.
 
 My art has evolved from ADHD doodles in my school books to artwork for brands like Adobe, Ava Labs, and On That Ass. I create bold and vibrant illustrations,  murals, and merchandise artwork. Each piece sparks joy, playfulness and possibility.
 
