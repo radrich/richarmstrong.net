@@ -7,7 +7,7 @@ index: true
 layout: single-center
 subscribe: false
 ---
-{% include img.html img="img/rich/celebration-1.gif?v=1" caption="I’m happy you’re in (almost)." %}
+{% include img.html default_size="true" img="img/rich/celebration-1.gif?v=1" caption="I’m happy you’re in (almost)." %}
 
 **Hit that confirm button...**  
 in the email I sent you  
