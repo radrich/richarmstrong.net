@@ -3,16 +3,17 @@
 	{% assign btn_value = include.btn %}
 {% endif %}
 
-{% assign kit_form_tag = 'general' %}
-{% if include.kit_form_tag %}
-	{% if site.data.kit[include.kit_form_tag] %}
-		{% assign kit_form_tag = include.kit_form_tag %}
-	{% endif %}
+{% assign btn_value = 'Join the crew' %}
+{% if include.btn %}
+	{% assign btn_value = include.btn %}
 {% endif %}
 
-{% assign form_id = site.data.kit[kit_form_tag] %}
+{% assign kit_form_id = 6776086 %}
+{% if include.kit_form_id %}
+	{% assign kit_form_id = include.kit_form_id %}
+{% endif %}
 
-<form action="https://app.convertkit.com/forms/{{ form_id }}/subscriptions" data-tag="{{ kit_form_tag }}" method="post" class="subscribe" target="_blank">
+<form action="https://app.convertkit.com/forms/{{ kit_form_id }}/subscriptions" method="post" class="subscribe" target="_blank">
 	<div class="inputs">
 		<input type="email" required placeholder="Your Email Address" aria-label="Email Address" name="email_address">
 		<input type="submit" value="{{ btn_value }}" name="subscribe">
