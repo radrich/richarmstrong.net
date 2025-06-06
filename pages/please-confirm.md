@@ -14,5 +14,5 @@ in the email I sent you
 to complete the signup process
 
 **If you don’t see it...**  
-Check your junk folder &amp;  
+check your junk folder and  
 add hey@richarmstrong.net to your contacts
