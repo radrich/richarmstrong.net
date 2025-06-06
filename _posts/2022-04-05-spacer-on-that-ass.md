@@ -19,9 +19,6 @@ slider_images:
   - "img/on-that-ass/8.jpg"
 signup_tag: Art
 ---
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
-
 {% include img.html img="img/on-that-ass/pattern.png" %}
 
 It’s quite a thing designing and illustrating a pattern that’s gonna go on dudes’ butts. But I did it. And tons of boys and men across Europe have my design on their butts thanks to the boxer short subscription service [On That Ass.](https://onthatass.com/) The tricky bit was having to use vector without any gradients. It was quite a step away from my recent comfortzone of [The Doodleverse](/tags/doodleverse/) style. They also made some sweet socks to go with the boxer shorts.

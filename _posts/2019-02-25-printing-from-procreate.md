@@ -10,10 +10,7 @@ categories: ['How To']
 tags: ['Procreate', 'iPad', 'Info', 'Art', 'Tech']
 signup_tag: Learning
 ---
-# {{ page.title | widont  }}
-## {{ page.subtitle | widont  }}
-
-**I've had some questions on Instagram about printing. Especially digital marbling pieces coming from Procreate.**
+**I've had some questions on about printing. Especially digital marbling pieces coming from Procreate.**
 **Here's what I do & what you should think about:**
 
 1. When you want to print (because who wouldn't want to print a marbling piece?) **choose your print size before you paint.** You don't want an amazing piece of marbling to be too small for what you want to print!

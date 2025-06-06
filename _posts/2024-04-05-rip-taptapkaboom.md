@@ -13,9 +13,6 @@ related:
   - /pages/prompts
 signup_tag: Art
 ---
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
-
 In a moment of clarity I knew I had to let go of the TapTapKaboom name. It needed to transform into a business. With focus and clarity. Just as I needed to be more authentic and stop trying to teach *everything* to *everyone* under the TapTapKaboom name *and* be an artist under the same name. It was too much. It was too confusing.
 
 So. TapTapKaboom is becoming a *real* business—one that teaches creative stuff in easy, approachable and fun ways. Makes sense right!? Tap. Tap. Kaboom.

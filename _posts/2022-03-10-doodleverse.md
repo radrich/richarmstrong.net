@@ -13,9 +13,6 @@ related:
   - /pages/the-perfect-100-day-project-book
 signup_tag: Art  
 ---
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
-
 {% include img.html img="img/doodleverse/banner2.jpeg" %}
 
 The Doodleverse is a dream-like universe comprised of multiple dimensions, and is a mix between a fever dream and a vibrant paradise—it’s certainly not of this world. Meet all kinds of weird and wonderful creatures in a variety of dream-like scenes—trees with eyes, castle clouds, vicious plants, creepy hills, and tons of one-eyed birds! Sometimes it’s fun. Sometimes it’s dark. Most of the time it’s weird.

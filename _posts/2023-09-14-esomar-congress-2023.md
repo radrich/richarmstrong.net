@@ -18,9 +18,6 @@ free_art_images:
   - "img/esomar-congress-2023/free-art-4.jpg"
   - "img/esomar-congress-2023/free-art-5.jpg"
 ---
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
-
 {% include img.html img="img/esomar-congress-2023/artwork.jpg" %}
 
 I was invited to [ESOMAR](https://esomar.org/) Congress 2023 in Amsterdam’s [Beurs van Berlage](https://beursvanberlage.com/) venue to give a keynote presentation and operate a creative booth. I spoke about how magical technology is. And how those who use new technology are often viewed as cheats or magicians.

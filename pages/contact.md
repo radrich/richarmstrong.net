@@ -6,7 +6,5 @@ color: white
 index: true
 center: true
 ---
-# {{ page.title | widont }}
-
 If you’d like to work with me, email [heyricharmstrong@gmail.com](mailto:heyricharmstrong@gmail.com) or  
 [schedule a call](https://heyrich.net/cal) with me—a video call works best for me.

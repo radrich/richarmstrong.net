@@ -13,9 +13,6 @@ related:
   - /posts/reverie
 signup_tag: Art
 ---
-# The {{ page.title | widont }}
-## {{ page.subtitle | widont }}
-
 The Universe Library will become a collection of common elements I use in my artwork—submarines, clouds, suns, birds, jewels, jellyfish, mushrooms—mostly those kind of things. But I could, in theory, add any kind of elements to the library.
 
 {% include img.html img="img/ttkb-library/3-up.jpg" caption="Just 3 scenes generated with code" %}

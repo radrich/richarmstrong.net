@@ -12,9 +12,6 @@ related:
   - /posts/for-love
   - /posts/reverie
 ---
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
-
 At the start of 2022 I became a full-time artist. Web3 and NFTs made that possible. It was a wild ride. However, sometime in 2023 I stopped being a full-time artist. It wasn’t a big decision. It just kind of happened.
 
 Here’s why I think it’s not bad (and probably good) that artists aren’t full-time artists.

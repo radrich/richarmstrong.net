@@ -13,9 +13,6 @@ related:
   - /posts/happy-sun
 signup_tag: Art
 ---
-# {{ page.title | widont }}
-## *{{ page.subtitle | widont }}*
-
 {% include img.html img="img/wondercats-banner.jpg" %}
 
 *Maybe you’ve heard rumours. Maybe you’ve seen one. Some call them unicats. Others call them caticorns. We don’t know what they are or where they’re from. I call them Wondercats. Maybe they’re angels. Or gods. Or figments of our shared imagination. From our observations, they’re magical creatures. And they remind us of cats. Most of the time they have just one horn. The more we’ve observed them the more we’ve come to understand that they have individual personalities and temperaments. And that they’re all part of a tribe or clan. This collection of drawings and writings is a first stab at a collective understanding of Wondercats.*

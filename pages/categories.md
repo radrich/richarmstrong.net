@@ -5,8 +5,6 @@ background_color: '#FF5500'
 color: white
 index: true
 ---
-# {{ page.title | widont }}
-
 {% for cat in site.categories %}
 	{% assign cat_title = cat[0] %}
 	{% assign cat_slug = cat_title | slugify %}

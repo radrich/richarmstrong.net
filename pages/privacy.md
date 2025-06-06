@@ -1,5 +1,5 @@
 ---
-title: Rich Armstrong Privacy Policy
+title: Rich Armstrong’s Privacy Policy
 description: Read Rich Armstrong’s Privacy Policy.
 permalink: /privacy/
 background_color: black
@@ -8,8 +8,6 @@ letter: P
 subscribe: false
 index: true
 ---
-# {{ page.title | widont }}
-
 We’ve compiled this privacy policy so you know how your personally identifiable information, and other information, is being collected, used, handled, and protected by Rich Armstrong.
 
 ## What information do we collect?
