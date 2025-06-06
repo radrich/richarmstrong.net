@@ -1,6 +1,6 @@
 ---
-title: "About"
-subtitle: "The multidisciplinary artist reconnecting viewers with their inner child."
+title: "Rich The Artist"
+subtitle: "Reconnecting people with their inner kid."
 description: "Rich’s artist bio."
 permalink: /about/
 image: 'img/rich-face-illo-1.jpg'
@@ -8,9 +8,7 @@ background_color: black
 color: white
 index: true
 ---
-
-# About Rich The Artist
-## Reconnecting viewers with their inner child
+{% include video.html id="B4PrdimLOGA" caption="TapTapKaboom used to be my artist alias" %}
 
 I’m a multi-hyphenate artist based in Amsterdam. I bring imagination to life through vibrant and playful creations. My work features bold colours, dreamlike scenarios, and quirky characters. I invite viewers to reconnect with their inner child, to smile, and to hope. Stories and themes of dreams, transitions, and exploration inspire my creations.
 
@@ -19,8 +17,6 @@ My art has evolved from ADHD doodles in my school books to artwork for brands li
 When I’m not creating my own artwork, I’m helping others with theirs. I’ve helped over 250,000 people improve their artistic skills with books, courses, and as a mentor. I also enjoy speciality coffee, dancing badly, and doodling with my daughter.
 
 My mission is simple: to create art that reconnects viewers with the joys of childhood.
-
-{% include video.html id="B4PrdimLOGA" caption="TapTapKaboom used to be my artist alias" %}
 
 ### What else do I do?
 - I teach creative classes in fun ways at [TapTapKaboom.](https://www.taptapkaboom.com)

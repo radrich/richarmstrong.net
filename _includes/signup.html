@@ -1,11 +1,13 @@
 {% if page.subscribe != false %}
-	{% if include.title != false %}
-		{% if include.title %}
-			<h2>{{ include.title }}</h2>
-		{% else %}
-			<h2>Join my mailing list</h2>
+	<div class="center">
+		{% if include.title != false %}
+			{% if include.title %}
+				<h2>{{ include.title }}</h2>
+			{% else %}
+				<h2>Join the mailing list</h2>
+			{% endif %}
 		{% endif %}
-	{% endif %}
-	
-	{% include mailing-list.html tag=page.signup_tag %}
+		
+		{% include mailing-list.html kit_form_tag=include.kit_form_tag btn=include.btn %}
+	</div>
 {% endif %}

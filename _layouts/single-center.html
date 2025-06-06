@@ -8,12 +8,17 @@ layout: default
       {% if page.subtitle and page.subtitle != "" %}
         <h2>{{ page.subtitle | widont }}</h2>
       {% endif %}
+    
+      {%- include content-header.html -%}
+      {{ content }}
     </div>
-    {%- include content-header.html -%}
-    {{ content }}
   </article>
-  <hr>
-  {%- include signup.html -%}
+  
+  {% if page.subscribe != false and page.related != false %}
+    <hr>
+  {% endif %}
+  
+  {%- include signup.html kit_form_tag=page.kit_form_tag -%}
   {%- include related.html -%}
   
 </div>

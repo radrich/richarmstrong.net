@@ -1,13 +1,18 @@
 ---
-title: Almost There!
-subtitle: You’re almost subscribed
+title: Whoop!
+subtitle: You’re one step away
 permalink: /please-confirm/
 image: "img/newsletter-thumb.png"
 index: true
+layout: single-center
 subscribe: false
 ---
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
+{% include img.html img="img/rich/celebration-1.gif?v=1" caption="I’m happy you’re in (almost)." %}
 
-I’ve sent you an email that contains a confirmation link.  
-Tap on it to join the newsletter.
+**Hit that confirm button...**  
+in the email I sent you  
+to complete the signup process
+
+**If you don’t see it...**  
+Check your junk folder &amp;  
+add hey@richarmstrong.net to your contacts

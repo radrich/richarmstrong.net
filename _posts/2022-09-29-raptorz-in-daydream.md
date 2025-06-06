@@ -12,8 +12,6 @@ related:
   - /posts/happy-sun
 signup_tag: Art
 ---
-# {{ page.title | widont }}
-
 {% include img.html img="img/raptorz-collab-banner.jpg" %}
 
 *It really was a funny thing. Raptorz began appearing in The Doodleverse. Who was dreaming of them? How many were there to be? And all of a sudden the dreams stopped. Only five of them. It could only mean one thing: day dreaming. Of Raptorz.*

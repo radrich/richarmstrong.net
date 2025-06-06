@@ -13,9 +13,6 @@ related:
   - /posts/spro-mural
 signup_tag: Art
 ---
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
-
 {% include img.html img="img/drippy-green-mural/feature.jpg" caption="This green was epic to work with" %}
 
 I have friends who like this colour green. The same friends have a kid who loves my doodles. So guess who got a super rad mural birthday gift?

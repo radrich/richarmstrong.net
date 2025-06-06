@@ -13,9 +13,6 @@ related:
   - /posts/happy-sun
 signup_tag: Art
 ---
-# {{ page.title | widont }}
-## *{{ page.subtitle | widont }}*
-
 {% include img.html img="img/cogito-mortis-banner.jpg" %}
 
 *Remember those who walked before.  

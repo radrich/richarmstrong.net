@@ -13,9 +13,6 @@ related:
   - /posts/doodleverse
 signup_tag: Art
 ---
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
-
 {% include img.html img="img/avalanche-ii-mural/crop1.jpg" %}
 
 *Bloom* was painted using Posca paint markers—black, white, and luminescent red—at the Poble Espanyol, Barcelona, during the Avalanche Summit II in 2023. It measures roughly 3 x 2 metres. The mural took 6 hours to complete. It was the first time imagery from [The Doodleverse](/doodleverse/) has appeared in real life.

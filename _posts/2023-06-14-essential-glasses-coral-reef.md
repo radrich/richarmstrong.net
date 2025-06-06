@@ -13,9 +13,6 @@ related:
   - /posts/for-love
 signup_tag: Art
 ---
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
-
 {% include img.html img="img/essential-glasses-coral-reef/banner.jpg" %}
 
 The Mantanani Coral Reef is dear to Jan, the owner of [Cloud Gallery](https://www.cloudamsterdam.com/) and [Essential Glasses](https://essential-glasses.com/). So, with an opening exhibtion night of Malaysian art coming up, I was commissioned to create a doodled coral reef for one of the storefront’s windows.

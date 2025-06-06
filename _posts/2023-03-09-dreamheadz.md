@@ -29,9 +29,6 @@ slider_images:
   - "img/dreamheadz/15.jpg"
 signup_tag: Art
 ---
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
-
 {% include img.html img="img/dreamheadz/banner.jpg" %}
 
 _With blinding clouds wrapped around their heads, Dreamheadz have lost more than their sight. Their friends call them crazy. The authorities believe they’re addicts. But it’s worth it. They’re navigating dreams and building new worlds using their imaginations alone._

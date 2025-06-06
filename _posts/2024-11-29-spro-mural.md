@@ -33,9 +33,6 @@ grid_images:
   
 signup_tag: Art
 ---
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
-
 In cold and rainy November 2024, I flew my family from Amsterdam over to Brighton for a few days to do a mural at SPRO Coffee Co—and to explore the city. I crouched, painted upside down, stood on ladders for hours, and even got my 3-year-old daughter painting some of the “sweet genius” pink splodges.
 
 This is my biggest mural to date. It took 3 days and was a ton of fun. It was mostly freestyle doodling—sometimes I used my notebook or chatted to the owner about an idea or character, like the poopy man saying “This coffee is the sh*t”.

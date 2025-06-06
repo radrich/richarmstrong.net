@@ -18,9 +18,6 @@ slider_images:
   - "img/rdead/4.jpg"
 signup_tag: Art
 ---
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
-
 {% include img.html img="img/rdead/banner.jpg" %}
 
 People keep telling me “NFTs R deAd.” Or they ask “R NFTs DeAd?” They’re not. They’re forever. They’re culture. They’re change. They’re the future.

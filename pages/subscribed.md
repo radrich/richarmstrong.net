@@ -1,13 +1,16 @@
 ---
 title: You’re In!
-subtitle: You’ve been subscribed to Rich Armstrong’s mailing list
+subtitle: You’ve been subscribed to my mailing list
 permalink: /subscribed/
 image: "img/newsletter-thumb.png"
 index: true
 subscribe: false
+layout: single-center
+related:
+  - /posts/spro-mural
+  - /posts/limina
+  - /posts/doodleverse
 ---
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
+{% include img.html img="img/rich/celebration-2.gif?v=1" caption="Now it’s party time—be in touch soon." %}
 
-Now it’s party time.  
-I should put a GIF of me dancing here 🕺
+

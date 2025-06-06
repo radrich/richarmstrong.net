@@ -9,11 +9,7 @@ categories: ['Projects', 'Illustration']
 tags: ['The100DayProject', 'Picture Books', 'Products', 'Coding', 'For Sale']
 signup_tag: Art
 ---
-
 {% include video.html id="Zeq85WQBjEQ" %}
-
-# {{ page.title | widont }}
-## {{ page.subtitle | widont }}
 
 The 100 Web Characters project is a collection of 100 illustrated (and sometimes animated) characters and their stories. Each illustrated character is based on a web or technology term, and is accompanied by a hand-written story of who they are, and what they get up to.
 
