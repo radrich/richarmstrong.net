@@ -30,6 +30,23 @@
 			width: 100%;
 		}
 		
+		&.default-size{
+			display: inline-block;
+			margin: 0 auto 20px;
+			width: auto;
+			max-width: 100%;
+			
+			img{
+				display: block;
+				width: auto;
+				max-width: 100%;
+			}
+			
+			& + .caption{
+				margin-top: -20px;
+			}
+		}
+		
 		&:after{
 			content: "";
 			position: absolute;
@@ -44,6 +61,10 @@
 		@media (max-width: $tabletMax) {
 			border-radius: 0;
 			&:after{ border-radius: 0; }
+			
+			&.default-size{
+				border-radius: 8px;
+			}
 		}
 		
 		@media (max-width: $mobileMax) {

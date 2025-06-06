@@ -374,6 +374,10 @@ blockquote{
 			color: $accentColor1;
 		}
 	}
+	
+	& + .img-content.default-size{
+		display: none;
+	}
 }
 
 .marker{

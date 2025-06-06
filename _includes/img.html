@@ -1,4 +1,4 @@
-<div class="img-content {% if include.contained %}contained{% endif %}">
+<div class="img-content {% if include.contained %}contained{% endif %} {% if include.default_size %}default-size{% endif %}">
 	<img src="{{ include.img | relative_url }}" alt="{{ include.alt }}">
 </div>
-{% if include.caption %}<em class="caption">{{ include.caption }}</em>{% endif %}
+{% if include.caption %}<p class="caption">{{ include.caption }}</p>{% endif %}
