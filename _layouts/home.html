@@ -4,46 +4,92 @@ layout: default
 
 {% assign latest_items = site.learn | sort: "date" | reverse | slice: 0, 6 %}
 {% assign popular_items = site.learn | sort: "popular" | reverse | slice: 0, 6 %}
-{% assign free_items = site.learn | sort: "free" | reverse | slice: 0, 6 %}
-{% assign latest_posts = site.posts | sort: "date" | reverse | slice: 0, 6 %}
 
 <div class="content">
 	
 	<div class="center">
-		<h1>Want to <span class="marker">have fun</span> creating?</h1>
-		<h2>We got you. Check our classes, books &amp; tools.</h2>
 		{{ content }}
+		
+		{%- include signup.html title="Get my daily mail" -%}
 	</div>
 	
-	{%- include reviews.html -%}
-	
-	{%- include signup.html title="" btn="Sign me up!" -%}
+
 	
 	{% comment %}{% include notice.html notice="Check this out" %}{% endcomment %}
 	
-	<h2 class="filter-heading"><span>Content Library</span> <a href="#" class="cta" id="filterBtnsToggle">Filter</a></h2>
-	<div class="filter-box" id="filterBox">
-		
-		<h4>Filter by type</h4>
-		<div class="filter-btns">
-			<a href="#" class="cta filterBtn" data-filter-type="type" data-filter="all">All</a>
-			{% assign all_types = site.learn | map: "type" | join: "," | split: "," | uniq | sort %}
-			{% for type in all_types %}
-				<a href="#" class="cta filterBtn" data-filter-type="type" data-filter="{{ type | slugify }}">{{ type }}</a>
-			{% endfor %}
-		</div>
-		<h4>Filter by category</h4>
-		<div class="filter-btns">
-			<a href="#" class="cta filterBtn" data-filter-type="category" data-filter="all">All</a>
-			{% assign all_cats = site.learn | map: "categories" | join: "," | split: "," | uniq | sort %}
-			{% for cat in all_cats %}
-				<a href="#" class="cta filterBtn" data-filter-type="category" data-filter="{{ cat | slugify }}">{{ cat }}</a>
-			{% endfor %}
-		</div>
+	<h2><span>Recent stuff</span></h2>
+	<h2><span>Popular products</span><a href="/learn" class="cta">Show All</a></h2>
+	{%- assign items = site.learn | sort: 'popular' | reverse | slice: 0, 6 -%}
+	{%- include grid.html items=items -%}
+	<h2><span>A few fav art pieces</span><a href="/art" class="cta">Show More</a></h2>
+	
+	<div class="portfolio">
+		<ul class="col">
+			<li><a href="/spro-mural/"><img src="../img/spro/mural-3.jpg" alt=""></a></li>
+			<li><a href="/bloom-avalanche-summit-mural/"><img src="../img/avalanche-ii-mural/crop1-small.jpg" alt=""></a></li>
+			<li><a href="/dreamheadz"><img src="../img/dreamheadz/thumb.jpg" alt=""></a></li>
+			<li><div><img src="../img/dreamheadz-art/mirror-palace.jpg" alt=""></div></li>
+			<li><a href="/essential-glasses-coral-reef/"><img src="../img/essential-glasses-coral-reef/portrait-2.jpg" alt=""></a></li>
+			<li><a href="/doodleverse"><img src="../img/doodleverse/34-a-quick-interlude.jpg" alt=""></a></li>
+			<li><a href="/spacer-on-that-ass/"><img src="../img/on-that-ass/underwear-upclose.jpg" alt=""></a></li>
+			<li><a href="/happy-sun"><img src="../img/hs/97.png" alt=""></a></li>
+			<li><div><img src="../img/realms-of-weird/18.jpg" alt=""></div></li>
+			<li><a href="/doodleverse"><img src="../img/doodleverse/50-bird-city.jpg" alt=""></a></li>
+			<li><div><img src="../img/doodleverse-specials/cosmic-snake.jpg" alt=""></div></li>
+			<li><a href="/for-love"><img src="../img/for-love/1.jpg" alt=""></a></li>
+			<li><a href="/100-web-characters"><img src="../img/100webchars/50.jpg" alt=""></a></li>
+			<li><div><img src="../img/dreamlings/5.jpg" alt=""></div></li>
+			<li><a href="/limina"><img src="../img/limina/6.jpg" alt=""></a></li>
+			<li><a href="/dreamheadz"><img src="../img/dreamheadz/8.jpg" alt=""></a></li>
+			<li><a href="/doodleverse"><img src="../img/doodleverse/66-harbinger-of-darkness.jpg" alt=""></a></li>
+			<li><div><img src="../img/doodleverse-specials/the-calling.jpg" alt=""></div></li>
+			<li><a href="/doodleverse"><img src="../img/doodleverse/6-cataglottism.png" alt=""></a></li>
+			<li><div><img src="../img/leopard-queens/10.jpg" alt=""></div></li>
+		</ul>
+		<ul class="col">
+			<li><a href="/limina"><img src="../img/limina/1.jpg" alt=""></a></li>
+			<li><a href="/drippy-green-mural/"><img src="../img/drippy-green-mural/feature.jpg" alt=""></a></li>
+			<li><a href="/for-love"><img src="../img/for-love/10.jpg" alt=""></a></li>
+			<li><div><img src="../img/doodleverse-specials/sunrise-realm.jpg" alt=""></div></li>
+			<li><a href="/doodleverse"><img src="../img/doodleverse/86-summer-romance.jpg" alt=""></a></li>
+			<li><div><img src="../img/mech-avax-promo.jpg" alt=""></div></li>
+			<li><a href="/doodleverse"><img src="../img/doodleverse/9-ritual.jpg" alt=""></a></li>
+			<li><div><img src="../img/visual-deluge/2a.jpg" alt=""></div></li>
+			<li><a href="/doodleverse"><img src="../img/doodleverse/93-eternal-flower.jpg" alt=""></a></li>
+			<li><a href="/happy-sun"><img src="../img/hs/101.png" alt=""></a></li>
+			<li><a href="/doodleverse"><img src="../img/doodleverse/78-drops-of-reflection.jpg" alt=""></a></li>
+			<li><div><img src="../img/turres/3-2-day.jpg" alt=""></div></li>
+			<li><a href="/dreamheadz"><img src="../img/dreamheadz/1.jpg" alt=""></a></li>
+			<li><a href="/100-web-characters"><img src="../img/100webchars/55.jpg" alt=""></a></li>
+			<li><div><img src="../img/god-hates-nfts-too.jpg" alt=""></div></li>
+			<li><a href="/doodleverse"><img src="../img/doodleverse/97-sea-of-dreams.jpg" alt=""></a></li>
+			<li><div><img src="../img/monkeez.jpg" alt=""></div></li>
+			<li><div><img src="../img/papilio-palatia/38-5.jpg" alt=""></div></li>
+			<li><a href="/happy-sun"><img src="../img/hs/90.png" alt=""></a></li>
+		</ul>
+		<ul class="col">
+			<li><a href="/avalanche9000"><img src="../img/avalanche9000/main.jpg" alt=""></a></li>
+			<li><a href="/happy-sun"><img src="../img/hs/65.png" alt=""></a></li>
+			<li><a href="/esomar-congress-2023/"><img src="../img/esomar-congress-2023/artwork.jpg" alt=""></a></li>
+			<li><div><img src="../img/attitude-collab/2.jpg" alt=""></div></li>
+			<li><div><img src="../img/wagmi-surfboard.jpg" alt=""></div></li>
+			<li><a href="/limina"><img src="../img/limina/5.jpg" alt=""></a></li>
+			<li><a href="/100-web-characters"><img src="../img/100webchars/57.jpg" alt=""></a></li>
+			<li><a href="/dreamheadz"><img src="../img/dreamheadz/prince-of-cool.jpg" alt=""></a></li>
+			<li><a href="/doodleverse"><img src="../img/doodleverse/83-rainbow-breath.jpg" alt=""></a></li>
+			<li><a href="/for-love"><img src="../img/for-love/9.jpg" alt=""></a></li>
+			<li><div><img src="../img/dreamheadz-art/the-dreamtree.jpg" alt=""></div></li>
+			<li><div><img src="../img/mimi-chao-collab/ruth-bader-ginsburg.jpg" alt=""></div></li>
+			<li><div><img src="../img/spacetronaut.jpg" alt=""></div></li>
+			<li><a href="/happy-sun"><img src="../img/hs/3.png" alt=""></a></li>
+			<li><a href="/100-web-characters"><img src="../img/100webchars/23.jpg" alt=""></a></li>
+			<li><a href="/doodleverse"><img src="../img/doodleverse/22-choir.jpg" alt=""></a></li>
+			<li><a href="/dreamheadz"><img src="../img/dreamheadz/captain-octo.jpg" alt=""></a></li>
+			<li><div><img src="../img/visual-deluge/2b.jpg" alt=""></div></li>
+			<li><a href="/cogito-mortis"><img src="../img/cogito-mortis-1.jpg" alt=""></a></li>
+		</ul>
 	</div>
 	
-	{%- assign items = site.learn | sort: 'date' | sort: 'priority' | reverse -%}
-	{%- include grid.html items=items -%}
-
-	{%- include signup.html title="Want Creative Insights in Your Inbox?" btn="Sign me up!" -%}
+	<hr>
+	{%- include signup.html title="Get my daily mail" -%}
 </div>

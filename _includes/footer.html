@@ -17,6 +17,8 @@
 
 {% assign current_time = 'now' | date: "%s" %}
 
+<script src="{{ 'assets/jquery-3.5.1.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/glider.js?v=' | append: site.asset_version | relative_url }}"></script>
 
 {% if site.env.JEKYLL_ENV != "local" %}
 <script src="{{ 'assets/script.js?v=' | append: site.asset_version | relative_url }}"></script>

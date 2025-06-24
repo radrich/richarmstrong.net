@@ -4,8 +4,8 @@ related:
   - /pages/the-perfect-100-day-project-book
 ---
 
-## Hey! I’m Rich.
+# Hey! I’m Rich.
+## The multi-hyphenate artist & creative coach
 
-A multi-hyphenate artist & illustrator.  
-I create bold, colourful & dreamy [illustrative art.](/categories/projects/)  
+I create bold, colourful & playful [illustrative art.](/art)  
 And teach [popular classes](https://www.taptapkaboom.com) for creatives.
