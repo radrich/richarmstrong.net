@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="content">
+  <h1 class="center">Stuff in the <span class="marker">{{ page.category }}</span> Category</h1>
+
+{% assign category_title = page.category %}
+{% assign category_slug = category_title | slugify %}
+
+<!-- Collect items from default categories -->
+{% assign default_category_items = "" %}
+{% for category in site.categories %}
+  {% if category[0] == category_title %}
+    {% assign default_category_items = category[1] %}
+  {% endif %}
+{% endfor %}
+
+{% if default_category_items == "" %}
+  {% assign default_category_items = "" | split: "" %}
+{% endif %}
+
+<!-- Collect items from custom items categories -->
+{% assign items_category_items = site.items | where: "categories", category_title %}
+
+<!-- Combine both collections -->
+{% assign category_items = default_category_items | concat: items_category_items %}
+
+{%- include grid.html items=category_items -%}
+
+
+	
+</div>

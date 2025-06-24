@@ -10,5 +10,11 @@
 	{%- seo -%}
 	{%- feed_meta -%}
 	
-	<link rel="stylesheet" href="{{ "/assets/style.css?v=" | append: site.asset_version | relative_url  }}">
+	{% assign current_time = 'now' | date: "%s" %}
+	
+	{% if site.env.JEKYLL_ENV == "local" %}
+	<link rel="stylesheet" href="{{ "/assets/style.css?v=" | append: current_time | relative_url }}">
+	{% else %}
+	<link rel="stylesheet" href="{{ "/assets/style.css?v=" | append: site.asset_version | relative_url }}">
+	{% endif %}
 </head>

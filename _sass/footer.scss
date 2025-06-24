@@ -1,5 +1,6 @@
-footer{
+footer.site-footer{
 	background-color: $black05;
+	background: linear-gradient(to bottom, $black05, white);
 	padding: 44px 40px;
 	display: flex;
 	align-items: center;

@@ -18,10 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+asset_version: 57
+
 title: Rich Armstrong
 email: heyricharmstrong@gmail.com
-tagline: Multidisciplinary artist
-description: "The online portfolio of multidisciplinary artist Rich Armstrong."
+tagline: "Mutli-hyphenate artist + creative coach"
+description: "Rich’s home base on the internet."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.richarmstrong.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: richarmstr_ong
@@ -37,6 +39,7 @@ social:
     - https://instagram.com/richarmstr_ong
     - https://dribbble.com/richarmstr_ong
     - https://behance.com/richarmstr_ong
+    - https://youtube.com/@richarmstr_ong
 
 twitter:
   username: richarmstr_ong
@@ -64,28 +67,67 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "page"
+      layout: "single"
       author: "richarmstrong"
   -
     scope:
       path: "pages"
       type: "pages"
     values:
-      layout: "page"
+      layout: "single"
       author: "richarmstrong"
       permalink: /:basename/
+  -
+    scope:
+      path: ""
+      type: "items"
+    values:
+      layout: "post"
+      sitemap: false
+      priority: 0
+  -
+    scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: "post"
+      sitemap: false
+      priority: 0
+  -
+    scope:
+      path: ""
+      type: "prompts"
+    values:
+      layout: "prompt"
+      related:
+        - /pages/prompts
+        - /items/5-minute-creative-workouts
+        - /items/unleash-your-creativity
       
+collections:
+  items:
+    output: true
+    sort_by: priority
+    permalink: /:name/
+  portfolio:
+    output: true
+    sort_by: priority
+    permalink: /:name/
+  prompts:
+    output: true
+    permalink: /prompts/:name/
+
 sass:
   sass_dir: _sass
   style: compressed
-
-asset_version: 56
 
 jekyll-archives:
   enabled:
     - categories
     - tags
-  layout: archive
+  layouts:
+    tag: tag
+    category: category
   permalinks:
     tag: '/tags/:name/'
     category: '/categories/:name/'
@@ -97,6 +139,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-dotenv
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

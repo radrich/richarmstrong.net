@@ -44,7 +44,7 @@ h1{
 		line-height: 1em;
 		margin: 10px 0 20px 0;
 		& + h2{
-			margin-top: -.2em;
+			margin-top: -.5em;
 			font-size: 24px;
 		}
 	}
@@ -213,9 +213,6 @@ p{
 	@media (max-width: $tabletMax) {
 		margin: 1em 0;
 	}
-	// @media (max-width: $mobileMax) {
-	// 	line-height: 1.5em;
-	// }
 	
 	a{
 		color: black;
@@ -279,6 +276,7 @@ blockquote{
 	margin: 0;
 	padding-left: 1em;
 	border-left: 4px solid $accentColor3;
+	box-sizing: border-box;
 	
 	p{
 		font-style: oblique;
@@ -291,6 +289,55 @@ blockquote{
 		
 		@media (max-width: $tabletMax) {
 			margin-top: -.5em;
+		}
+	}
+	
+	footer{
+		font-weight: 600;
+	}
+	
+	&.big{
+		font-size: 30px;
+		line-height: 1.1em;
+		padding: 40px;
+		border: none;
+		text-align: center;
+		background-color: $accentColor3;
+		border-radius: 8px;
+		position: relative;
+		
+		p{
+			font-size: inherit;
+			line-height: 1.1em;
+			font-style: normal;
+			margin: 0;
+			
+			&::before{
+				content: "“";
+			}
+			&::after{
+				content: "”";
+			}
+		}
+		
+		footer{
+			margin-top: 12px;
+			font-size: .8em;
+			font-weight: bold;
+			
+			&::before{
+				content: "— ";
+				margin-left: -12px;
+			} 
+		}
+		
+		@media (max-width: $mobileMax) {
+			padding: 20px;
+			font-size: 24px;
+			
+			p{
+				font-size: 24px;
+			}
 		}
 	}
 }
@@ -346,8 +393,6 @@ blockquote{
 		align-items: center;
 		border-radius: 0;
 		width: calc(100% + 36px);
-		
-		
 		text-align: center;
 		
 		.notice-icon{
@@ -403,8 +448,9 @@ h1, h2, h3, h4, h5, h6, p, div{
 }
 
 .wrapper{
-	padding-bottom: 20px;
+	padding: 1px 0 20px;
 	background-color: $black02;
+	background: linear-gradient(to bottom, white, $black02);
 }
 
 .meta{
@@ -460,6 +506,14 @@ h1, h2, h3, h4, h5, h6, p, div{
     &.portrait{
     	width: 50px;
     }
+		
+		&.wide{
+    	width: 120px;
+    }
+    
+    &:hover, &:active{
+    	opacity: 1;
+    }
 	
 	&.mid{
     	width: 70px;
@@ -475,12 +529,12 @@ h1, h2, h3, h4, h5, h6, p, div{
   }
   
   @media (max-width: $mobileMax){
-		flex-wrap: wrap;
+		justify-content: flex-start;
+    flex-direction: column;
 	
 		a{
 			height: auto;
-			padding: 6px 0;
-			margin: 0 6px;
+			padding: 12px 0;
 		}
   }
  }

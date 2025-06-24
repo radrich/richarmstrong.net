@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="content">
+  <article itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="center">
+      <h1>{{ page.title | widont }}</h1>
+      {% if page.subtitle and page.subtitle != "" %}
+        <h2>{{ page.subtitle | widont }}</h2>
+      {% endif %}
+    </div>
+    {%- include content-header.html -%}
+    {{ content }}
+  </article>
+  {% if page.subscribe != false and page.related != false %}
+    <hr>
+  {% endif %}
+  
+  {%- include signup.html kit_form_id=page.kit_form_id -%}
+  {%- include related.html -%}
+  
+</div>

@@ -1,8 +1,19 @@
+{% assign current_date = 'now' | date: "%Y-%m-%d" %}
+{% assign six_months_ago_date = current_date | subtract_months: 6 %}
+{% assign current_timestamp = current_date | to_unix_timestamp %}
+{% assign six_months_ago_timestamp = six_months_ago_date | to_unix_timestamp %}
+
 {% if include.items.size > 0 %}
   <div class="grid {% if include.list %}list{% endif %}">
     <ul>
     {% for item in include.items %}
-      <li>
+      {% assign item_date = item.date | date: "%Y-%m-%d" %}
+      {% assign item_timestamp = item_date | to_unix_timestamp %}
+    
+      <li
+        class="item {% if item.popular %}popluar{% endif %} {% if item.event %}event{% endif %} {% if item.new %}new{% endif %} {% if item.updated %}updated{% endif %} {% if item.free %}free{% endif %}"
+        {% if item.type.size > 0 %}data-type="{{ item.type | join: ',' }}"{% endif %}
+        {% if item.categories.size > 0 %} data-category="{{ item.categories | join: ',' }}"{% endif %}>
         <a href="{% if item.external_url %}{{ item.external_url }}{% else %}{{ item.url }}{% endif %}">
           <div class="img-thumb" style="background-color:{{ item.background_color }};">
             <img style="background-color:{{ entry.background_color }}" src="{{ site.baseurl | append: 'assets/blank.png' | relative_url }}" alt="{{ item.title }}">
@@ -13,7 +24,15 @@
               {% if item.letter %}
                 {{ item.letter | slice: 0 }}
               {% else %}
-                {{ item.title | replace: 'The ': '' | replace: 'the ': '' | strip | slice: 0 }}
+                {% assign words = item.title | split: " " %}
+                {% assign first_letters = "" %}
+
+                {% for word in words %}
+                  {% assign first_letter = word | slice: 0, 1 %}
+                  {% assign first_letters = first_letters | append: first_letter %}
+                {% endfor %}
+                
+                {{ first_letters }}  
               {% endif %}
             </span>
           {% endif %}
@@ -22,6 +41,20 @@
             <span class="title">{{ item.title }}</span>
             {% if item.subtitle %}<span class="subtitle">{{ item.subtitle }}</span>{% endif %}
           </span>
+          
+          {% if item.event %}
+            {% assign date_string = item.event %}
+            {% assign event_date_formatted = date_string | date: "%d %b" %}
+            <span class="nb event">Live: {{ event_date_formatted }}</span>
+          {% elsif item.free %}
+            <span class="nb free">Free!</span>
+          {% elsif item_timestamp > six_months_ago_timestamp %}
+            <span class="nb new">New!</span>
+          {% elsif item.popular %}
+            <span class="nb popular">Popular!</span>
+          {% elsif item.updated %}
+            <span class="nb updated">Updated!</span>
+          {% endif %}
         </a>
       </li>
     {% endfor %}

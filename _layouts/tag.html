@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="content">
+  <h1 class="center">Stuff Tagged <span class="marker">{{ page.tag }}</span></h1>
+
+{% assign tag_title = page.tag %}
+{% assign tag_slug = tag_title | slugify %}
+
+<!-- Collect items from default tags -->
+{% assign default_tag_items = "" %}
+{% for tag in site.tags %}
+  {% if tag[0] == tag_title %}
+    {% assign default_tag_items = tag[1] %}
+  {% endif %}
+{% endfor %}
+
+{% if default_tag_items == "" %}
+  {% assign default_tag_items = "" | split: "" %}
+{% endif %}
+
+<!-- Collect items from custom items tags -->
+{% assign items_tag_items = site.items | where: "tags", tag_title %}
+
+<!-- Combine both collections -->
+{% assign tag_items = default_tag_items | concat: items_tag_items %}
+
+{%- include grid.html items=tag_items -%}
+
+
+	
+</div>

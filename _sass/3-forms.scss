@@ -57,12 +57,11 @@ form{
 		}
 		
 		input[type="email"]{
-			border-top-left-radius: 8px;
-			border-bottom-left-radius: 8px;
+			border-radius: 8px;
+			margin-right: 8px;
 		}
 		input[type="submit"]{
-			border-top-right-radius: 8px;
-			border-bottom-right-radius: 8px;
+			border-radius: 8px;
 		}
 		
 		@media (max-width: $mobileMax) {
@@ -78,6 +77,10 @@ form{
 				margin-top: 12px;
 				border-radius: 8px;
 			}
+		}
+		@media (min-width: $mobileMax) {
+			$thumbMargin: 16px;
+    	margin: 0 (-$wrapperHorizontalMarginDesktop * .5) $thumbMargin;
 		}
 	}
 }

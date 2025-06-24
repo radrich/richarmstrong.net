@@ -7,7 +7,9 @@
 
     {%- include nav.html -%}
     
-    <div class="wrapper {% if page.center %}center{% endif %}">
+    <div class="wrapper">
+      <a href="{% link index.md %}" class="logo">{{ site.title }}</a>
+      
       {{ content }}
     </div>
 

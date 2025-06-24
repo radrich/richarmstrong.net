@@ -19,7 +19,12 @@
 		display: flex;
 		flex-basis: 100%;
 		justify-content: center;
+		position: relative;
 		&:first-child{ margin: $thumbMargin; }
+		
+		&.hide{
+			display: none;
+		}
 	}
 	
 	a{
@@ -85,6 +90,7 @@
 		background-color: white;
 		flex-grow: 1;
 		position: relative;
+		text-align: left;
 		
 		&:after{
 			content: "";
@@ -109,6 +115,37 @@
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 1.1em;
+	}
+	
+	.nb{
+		position: absolute;
+		top: 8px;
+		right: 8px;
+		background-color: $accentColor3;
+		color: mix($accentColor3, black, 30%);
+		display: block;
+		padding: 3px 12px 4px;
+		border-radius: 4px;
+		box-shadow: 0 4px 4px transparentize(black, 0.8);
+		line-height: 20px;
+		font-size: 16px;
+		text-transform: uppercase;
+		
+		&.event{
+			background-color: $accentColor5;
+			color: white;
+		}
+		&.popular{
+			background-color: $accentColor5;
+			color: white;
+		}
+		&.free{
+			background-color: $accentColor5;
+			color: white;
+		}
+		&.updated{
+			
+		}
 	}
 	
 	@mixin list-default{
@@ -145,7 +182,7 @@
 				}
 				
 				.thumb{
-					font-size: 60px;
+					font-size: 40px;
 				}
 			}
 			
@@ -176,6 +213,15 @@
 			.info{ padding: 12px 12px 16px;}
 			.title{ font-size: 20px; }
 			.subtitle{ font-size: 16px; }
+			
+			.nb{
+				font-size: 12px;
+				padding: 0 8px;
+				box-shadow: none;
+				top: 0;
+				right: 0;
+				line-height: 20px;
+			}
 		}
 	}
 	
@@ -189,5 +235,9 @@
 	
 	@media (max-width: $mobileMin) {
 		@include grid-small;
+		
+		&.list{
+			@include grid-small;
+		}
 	}
 }
