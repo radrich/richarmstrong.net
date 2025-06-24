@@ -5,9 +5,10 @@ module Jekyll
     safe true
 
     def generate(site)
-      # Get all tags from posts and items
+      # Get all tags from posts, art and learn collections
       all_tags = site.posts.docs.flat_map { |post| post['tags'] }.uniq
-      all_tags += site.collections['items'].docs.flat_map { |item| item['tags'] }.uniq
+      all_tags += site.collections['learn'].docs.flat_map { |learn| learn['tags'] }.uniq
+      all_tags += site.collections['art'].docs.flat_map { |art| art['tags'] }.uniq
       all_tags = all_tags.uniq.sort
 
       all_tags.each do |tag|

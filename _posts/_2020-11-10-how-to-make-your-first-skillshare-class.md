@@ -10,7 +10,7 @@ image: 'img/how-to-make-your-first-skillshare-class-thumb.png'
 related:
   - /posts/why-skillshare
   - /posts/new-school
-  - /items/the-perfect-100-day-project
+  - /learn/the-perfect-100-day-project
 ---
 
 Getting started on anything can be daunting. But when it comes to publishing your first online class, even on an awesome and easy-to-use platform like Skillshare, it can be overwhelming. In the video below I cover a few tips for creating your first Skillshare class, specifically:

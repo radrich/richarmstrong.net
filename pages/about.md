@@ -1,42 +1,51 @@
 ---
-title: "Rich The Artist"
-subtitle: "Reconnecting people with their inner kid."
+title: "About"
+page_title: Hi there. I’m Rich
+subtitle: "The multi-hyphenate artist & creative coach"
 description: "Rich’s artist bio."
 permalink: /about/
 image: 'img/rich-face-illo-1.jpg'
 background_color: black
 color: white
 index: true
+related:
+  - /pages/mail
+  - /pages/learn
+  - /pages/art
 ---
-{% include video.html id="B4PrdimLOGA" caption="TapTapKaboom used to be my artist alias" %}
 
-Hi there. Rich here. I’m a multi-hyphenate artist living in Amsterdam. But I haven’t always called myself an artist. In fact, I’ve had many titles. But to simplify things, I’ve written code, animated, designed, and taught online. All very creative. All for money. Now I art, write, and help creatives unstick themselves (more common than you know). I use my past “lives” to do what I do now better, and to better help my students and clients.
+{% include img.html img="img/rich-about.jpg" %}
 
-### My art
-When it comes to my art, it’s playful, vibrant, and full of weird creatures. However, sometimes it’s more abstract and deals with feelings and raw expression. My art has evolved from adhd doodles in my school books to artwork for brands like Adobe, Ava Labs, and On That Ass.
+I’m an multi-hyphenate artist, writer, and creative un-sticker living in Amsterdam. Now, I haven’t always called myself an artist. Over the years, I’ve written code, animated things, designed stuff, and taught online. All creative. All for money.
 
-My mission is simple: to create art that reconnects viewers with the joys of childhood.
+Now, I make bold, playful art and help other creatives get out of their own way (it’s more common than you think). I use every version of my past self to do what I do now—better, weirder, and with more heart.
 
-I’m a multi-hyphenate artist based in Amsterdam. I bring imagination to life through vibrant and playful creations. My work features bold colours, dreamlike scenarios, and quirky characters. I invite viewers to reconnect with their inner child, to smile, and to hope. Stories and themes of dreams, transitions, and exploration inspire my creations.
+## My art
 
-### Helping creatives unstick themselves
-When I’m not creating my own artwork, I’m helping others with theirs. I’ve helped 250k+ people improve their artistic skills with books, courses, and coaching.
+My work is vibrant, emotional, and full of strange creatures and characters. Sometimes it’s joyful and silly. Other times it’s abstract and raw. It all started with adhd-fuelled doodles in school notebooks. Now they’re all grown up and live on walls, undies, hoodies, and in digital wallets as NFTs. And they’ve made appearances for awesome brands like like Adobe, Frankly Doodle, and On That Ass.
 
-I also enjoy speciality coffee, dancing badly, and doodling with my daughter.
+**My mission is simple:** make art that reminds you what it felt like to be a kid. I want you to dream again, believe anything is possible, and delve into your imagination. I want you to feel a little more human.
 
+{% include img.html img="img/doodleverse-specials/sign-post.jpg" caption="My Doodleverse style" %}
 
-### What else do I do?
-- I teach creative classes in fun ways at [TapTapKaboom.](https://www.taptapkaboom.com)
-- I’ve written a book called [The Perfect 100 Day Project](/the-perfect-100-day-project-book/) published by RockyNook.
+## Helping creatives unstick themselves
+
+When I’m not making art, I’m helping other creatives finish what they start. And sometimes just start. 250k+ people have read my books and taken my courses. They’ve learned new skills, beat procrastination, made plans, found creative flow, and done difficult things.
+
+{% include img.html img="img/filming.jpg" caption="Rich in action at the old studio" %}
+
+## A few extra things:
+
+- I love specialty coffee.
+- I dance like no one’s watching.
+- Can touch my nose with my tongue.
+- Doodle beside my daughter as often as possible.
+
+{% comment %}
 
 ### Links!
 - Get in touch: <a href="{% link pages/contact.md %}">tap here.</a>
 - This is a great [article](https://medium.com/avalancheavax/artist-spotlight-tap-tap-kabooms-vast-nft-doodleverse-d9e2c52bd3a7) about myself and The Doodleverse on the Avalanche blog.
-
-
-<p class="center">Hey! I’m Rich Armstrong. I’m the founder of TapTapKaboom. I’m also a multi-hyphenate artist who’s authored books and taught thousands of students.</p>
-
-{% include img.html img="img/filming.jpg" caption="Rich in action." %}
 
 I haven’t always called myself an artist. I’ve been a motion graphic designer, a UI/UX designer, and an interactive developer. I’ve worked as an employee at an agency, as a freelancer, as a startup employee, and as a business owner. **One thing I’ve loved throughout all these phases is teaching people to create and to succeed.**
 
@@ -46,3 +55,5 @@ TapTapKaboom’s mission is to fire up people’s creativity and help creatives 
 
 Big loves ❤️  
 **Rich from TapTapKaboom**
+
+{% endcomment %}

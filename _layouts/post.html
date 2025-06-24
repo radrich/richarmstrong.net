@@ -13,7 +13,14 @@ layout: default
     {{ content  }}
     <div class="meta">
       <p>
-        <a href="{% link pages/posts.md %}">Posted</a> on {{ page.date | date_to_string }} in 
+        {% if page.collection == "art" %}
+          <a href="/art-all/">Posted</a> 
+        {% elsif page.collection == "learn" %}
+          <a href="/learn/">Posted</a> 
+        {% else %}
+          <a href="{% link pages/posts.md %}">Posted</a> 
+        {% endif %}
+          on {{ page.date | date_to_string }} in 
         {% for cat in page.categories %}
           {% assign cat_slug = cat | slugify %}
           {% if forloop.last and forloop.first != true %}and {% endif %} <a href="{{ '/categories/' | append: cat_slug }}/">{{ cat }}</a>

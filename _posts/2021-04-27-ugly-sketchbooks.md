@@ -8,9 +8,9 @@ tags: ['Sketchbook', 'Tools', 'Journal']
 background_color: "#febfe7"
 color: "black"
 related:
-  - /items/5-minute-creative-workouts
-  - /items/productivity-basics
-  - /items/just-start
+  - /learn/5-minute-creative-workouts
+  - /learn/productivity-basics
+  - /learn/just-start
 ---
 
 I’ve always wanted a beautiful sketchbook. Not the actual book—anyone can pick up a Moleskine. I mean the content. Faces. Imaginative scenes. Hands. Pen drawings. Posca marker illustrations. You know the ones you see on Pinterest right? But I never got there. Not even 10 pages of beautiful spreads. It bugged me for a long time.

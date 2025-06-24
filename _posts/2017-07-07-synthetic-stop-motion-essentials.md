@@ -8,8 +8,8 @@ image: 'img/synth-sm-icon.png'
 categories: ['Animation', 'Coding']
 tags: ['After Effects', 'Expressions', 'Stop Motion']
 related:
-  - /items/procreate-animation
-  - /items/synthetic-stop-motion-in-after-effects
+  - /learn/procreate-animation
+  - /learn/synthetic-stop-motion-in-after-effects
   - /posts/common-video-sizes
 ---
 

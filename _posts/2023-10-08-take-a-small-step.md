@@ -8,7 +8,7 @@ color: 'black'
 categories: ['Productivity']
 tags: ['Imperfection', 'Fear']
 related:
-  - /items/just-start
+  - /learn/just-start
   - /posts/finish-strong
   - /posts/ugly-sketchbooks
 ---

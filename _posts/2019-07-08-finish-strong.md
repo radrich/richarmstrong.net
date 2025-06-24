@@ -7,9 +7,9 @@ color: "white"
 image: 'img/finish-strong-website-thumb.jpg'
 categories: ['Productivity']
 related:
-  - /items/just-start
-  - /items/the-perfect-100-day-project
-  - /items/productivity-with-purpose
+  - /learn/just-start
+  - /learn/the-perfect-100-day-project
+  - /learn/productivity-with-purpose
 ---
 
 Finishing has never been my strength. I start projects much quicker than I finish them. When I get close to the end of a project my brain becomes fixated on the next thing. The new thing. The possibilities. The options. All the time I'll have on my hands.

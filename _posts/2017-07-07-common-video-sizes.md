@@ -8,8 +8,8 @@ image: 'img/common-video-sizes-icon.png'
 categories: ['Animation']
 tags: ['After Effects', 'Info']
 related:
-  - /items/synthetic-stop-motion-in-after-effects
-  - /items/procreate-animation
+  - /learn/synthetic-stop-motion-in-after-effects
+  - /learn/procreate-animation
   - /posts/synthetic-stop-motion-essentials
 ---
 

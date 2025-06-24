@@ -12,7 +12,7 @@ I believe that design principles are learned through practice. Most of us have a
 
 Often when we think too hard, or for too long—we get stuck. I think we should try create quickly, intuitively, and from the heart. There is merit in deliberating, planning, and being exact, but I don't think that's a big problem for most adults in the creative industries. The problem is that we don't create without fear of judgement (even from ourselves) very often.
 
-So what I try do is doodle very organically and abstractly as often as I can. I play. I experiment. I set rules. Sometimes I do it every morning for weeks. Other times I doodle for an entire morning and then not again for a few days. And so, I [made a class](/items/abstract-organic-ipad-doodling) on how to play and experiment with abstract and organic shapes with an iPad – a tool a lot of people carry around with them.
+So what I try do is doodle very organically and abstractly as often as I can. I play. I experiment. I set rules. Sometimes I do it every morning for weeks. Other times I doodle for an entire morning and then not again for a few days. And so, I [made a class](/learn/abstract-organic-ipad-doodling) on how to play and experiment with abstract and organic shapes with an iPad – a tool a lot of people carry around with them.
 
 The iPad is such a powerful creation tool. But there’s a tendency, especially amongst professional designers, to think that we need to adopt the iPad as an awe-inspiring art and illustration making tool. We can do that, but we can also be embracing what the iPad and digital tools offer us to play, have fun, and experiment. By using iPad apps we can create things much quicker than we can in real life. And when we use apps like Paper, which have paired-down tool sets, we can play a lot quicker. Besides being quick and easy to make stuff, it also helps us foster our creativity.
 
@@ -29,4 +29,4 @@ The whole process was super fun though. And super hot—it was over 30ºC/80ºF 
 
 One of the hardest things about creating a class on play and experimentation was that some of the stuff I created during the class wasn’t *that* nice. They were experiments. But the thing is, that was honest and vulnerable, and because I wanted to foster that in students I had to keep it in. And because of that aspect of the class I left out my normally polished intro animation, and made it fun and super-approachable.
 
-I hope you enjoy [the class!](/items/abstract-organic-ipad-doodling) Let me know what you think.
+I hope you enjoy [the class!](/learn/abstract-organic-ipad-doodling) Let me know what you think.

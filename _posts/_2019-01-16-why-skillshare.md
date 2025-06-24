@@ -8,8 +8,8 @@ image: 'img/why-skillshare-thumb.png'
 categories: ['Creativity', 'Success']
 tags: ['Community', 'Skillshare']
 related:
-  - /items/just-start
-  - /items/the-perfect-100-day-project
+  - /learn/just-start
+  - /learn/the-perfect-100-day-project
   - /posts/how-to-make-your-first-skillshare-class
 ---
 

@@ -8,9 +8,9 @@ tags: ['Collaborations', 'Creative exercises']
 background_color: "#ff5500"
 color: "black"
 related:
-  - /items/productivity-with-purpose
-  - /items/creativity-mini-course
-  - /items/5-minute-creative-workouts
+  - /learn/productivity-with-purpose
+  - /learn/creativity-mini-course
+  - /learn/5-minute-creative-workouts
 ---
 
 {% include img.html img="img/exquisite-corpse.jpg" %}

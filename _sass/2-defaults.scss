@@ -8,8 +8,8 @@ html, body{
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 1.3em;
-	background-color: $black05;
-	color: #111;
+	background: white;
+	color: black;
 }
 
 body{
@@ -32,11 +32,12 @@ h1,h2,h3,h4,h5,h6{
 h1{
 	font-size: 48px;
 	margin: 40px 0;
-	line-height: 1.25em;
+	line-height: 1em;
+	margin: 10px 0 20px 0;
 	
 	& + h2{
-		margin-top: -1em;
-		font-size: 30px;
+		margin-top: -.5em;
+		font-size: 24px;
 		margin-bottom: 1.5em;
 	}
 	
@@ -51,10 +52,6 @@ h1{
 	
 	@media (max-width: $mobileMax) {
 		font-size: 36px;
-		
-		.last-name{
-			display: none;
-		}
 	}
 }
 
@@ -159,6 +156,10 @@ a.cta{
 	color: black;
 	
 	&:hover, &:active{ background-color: transparentize(black, .9); }
+	
+	&.selected{
+		background-color: $accentColor4;
+	}
 	
 	&.bg-light{
 		color: white;
@@ -302,7 +303,7 @@ blockquote{
 		padding: 40px;
 		border: none;
 		text-align: center;
-		background-color: $accentColor3;
+		background-color: $accentColor5;
 		border-radius: 8px;
 		position: relative;
 		
@@ -431,10 +432,10 @@ blockquote{
 	margin: 0 -.2em -.1em;
 	z-index: -1;
 	position: relative;
-	background-color: $accentColor5;
+	background-color: $accentColor4;
 	
 	&.bright{
-		background-color: $accentColor5;
+		background-color: $accentColor4;
 	}
 }
 
@@ -449,8 +450,13 @@ h1, h2, h3, h4, h5, h6, p, div{
 
 .wrapper{
 	padding: 1px 0 20px;
+	//margin-top: -30px;
 	background-color: $black02;
 	background: linear-gradient(to bottom, white, $black02);
+	
+	@media (max-width: $tabletMax){
+		//margin-top: -20px;
+	}
 }
 
 .meta{
@@ -538,3 +544,7 @@ h1, h2, h3, h4, h5, h6, p, div{
 		}
   }
  }
+ 
+@media (max-width: $mobileMax) {
+	.hide-when-mobile{ display: none;}
+}

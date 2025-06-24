@@ -11,12 +11,20 @@
     {% assign id = item_array[2] %}
     {% assign id_with_slash = id | prepend: '/'  %}
     
-    {% if folder == '_items' or folder == 'items' %}
+    {% if folder == '_learn' or folder == 'learn' %}
       {% if id %}
-        {% assign match = site.items | where: 'id', id_with_slash %}
+        {% assign match = site.learn | where: 'id', id_with_slash %}
         {% assign related_items = related_items | concat: match %}
       {% else %}
-        {% assign page = site.pages | where: 'name', 'items.md' %}
+        {% assign page = site.pages | where: 'name', 'learn.md' %}
+        {% assign related_items = related_items | concat: page %}
+      {% endif %}
+    {% elsif folder == '_art' or folder == 'art' %}
+      {% if id %}
+        {% assign match = site.art | where: 'id', id_with_slash %}
+        {% assign related_items = related_items | concat: match %}
+      {% else %}
+        {% assign page = site.pages | where: 'name', 'learn.md' %}
         {% assign related_items = related_items | concat: page %}
       {% endif %}
     {% elsif folder == '_posts' or folder == 'posts' %}

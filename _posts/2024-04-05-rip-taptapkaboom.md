@@ -9,7 +9,7 @@ background_color: "#1371fd"
 color: "white"
 related:
   - /pages/about
-  - /pages/portfolio
+  - /pages/art
   - /pages/prompts
 signup_tag: Art
 ---

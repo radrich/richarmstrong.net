@@ -5,9 +5,10 @@ module Jekyll
     safe true
 
     def generate(site)
-      # Get all categories from posts and items
+      # Get all categories from posts, art and learn collections
       all_categories = site.posts.docs.flat_map { |post| post['categories'] }.uniq
-      all_categories += site.collections['items'].docs.flat_map { |item| item['categories'] }.uniq
+      all_categories += site.collections['learn'].docs.flat_map { |learn| learn['categories'] }.uniq
+      all_categories += site.collections['art'].docs.flat_map { |art| art['categories'] }.uniq
       all_categories = all_categories.uniq.sort
 
       all_categories.each do |category|

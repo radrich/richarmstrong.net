@@ -121,8 +121,8 @@
 		position: absolute;
 		top: 8px;
 		right: 8px;
-		background-color: $accentColor3;
-		color: mix($accentColor3, black, 30%);
+		background-color: $accentColor5;
+		color: mix($accentColor5, black, 30%);
 		display: block;
 		padding: 3px 12px 4px;
 		border-radius: 4px;
@@ -132,15 +132,15 @@
 		text-transform: uppercase;
 		
 		&.event{
-			background-color: $accentColor5;
+			background-color: $accentColor7;
 			color: white;
 		}
 		&.popular{
-			background-color: $accentColor5;
+			background-color: $accentColor7;
 			color: white;
 		}
 		&.free{
-			background-color: $accentColor5;
+			background-color: $accentColor7;
 			color: white;
 		}
 		&.updated{

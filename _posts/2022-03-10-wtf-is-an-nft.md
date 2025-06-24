@@ -9,9 +9,9 @@ index: true
 categories: ['NFTs']
 tags: ['NFTs']
 related:
-  - /items/nft-guide
-  - /items/the-perfect-100-day-project-book
-  - /items/hand-code-your-first-website
+  - /learn/nft-guide
+  - /learn/the-perfect-100-day-project-book
+  - /learn/hand-code-your-first-website
 ---
 
 {% include img.html img="img/nft-banner.png" %}

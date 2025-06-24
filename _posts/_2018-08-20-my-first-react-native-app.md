@@ -9,8 +9,8 @@ header_image: 'img/rwd-react-native-process.png'
 categories: ['Coding']
 tags: ['Products', 'React Native', 'Behind The Scenes', 'Experiences', 'UX']
 related:
-  - /items/hand-code-your-first-website
-  - /items/launch-a-rocket
+  - /learn/hand-code-your-first-website
+  - /learn/launch-a-rocket
   - /posts/sublime-text-is-awesome/
 ---
 

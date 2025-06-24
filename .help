@@ -7,9 +7,6 @@ Third Web NFT drop
 
 Side display (do I still need this anywhere?):
 ------------------------
-{% capture side %}
-	{%- include avatar.html img='img/rich-face-3.jpg' -%}
-{% endcapture %}
 {%- include info-box.html main=content side=side -%}
 
 Jekyll options:
@@ -42,9 +39,8 @@ related: #add the folder and slug (no date)
 
 # optional
 permalink: /say-what/ #if it’s different to the slug
-hide_headings: true #if you want a layout without headings (so you can do somethign special)
 
-# posts
+# art, learn, post items
 updated: 2020-10-20 #include if has been updated
 layout: post #include it if it’s different than post
 auto_related: false #add false if you want to remove related posts (shows random 3 based on tag relation)
@@ -53,7 +49,7 @@ auto_related: false #add false if you want to remove related posts (shows random
 permalink: /slug/ #INCLUDE! Otherwise it defaults to /pages/slug
 layout: post #include it if it’s different than post
 
-# classes
+# learn
 date: "2019-09-26"
 priority: 99 #higher is higher—leave out if priority doesn’t matter
 
@@ -105,8 +101,6 @@ Great Jekyll resources:
 https://shopify.github.io/liquid/
 https://jekyllrb.com/docs/
 https://blog.webjeda.com/jekyll-related-posts/
-
-
 
 
 {%- if jekyll.environment == 'production' and site.fathom_analytics -%}

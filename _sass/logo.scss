@@ -1,31 +1,31 @@
-a.logo{
-	display: block;
-    width: 83px;
-    height: 93px;
-    margin: 20px auto 20px;
-    overflow: hidden;
-    text-indent: -9999px;
-    background: url('./logotype.svg') no-repeat center center / contain;
+// a.logo{
+// 	display: block;
+//     width: 83px;
+//     height: 93px;
+//     margin: 20px auto 20px;
+//     overflow: hidden;
+//     text-indent: -9999px;
+//     background: url('./logotype.svg') no-repeat center center / contain;
     
-    &:active{
-        transform: translateY(2px);
-    }
+//     &:active{
+//         transform: translateY(2px);
+//     }
     
-    @media (min-width: $tabletMax){
-        margin: 40px auto 0;
-    }
+//     @media (min-width: $tabletMax){
+//         margin: 40px auto 0;
+//     }
     
-    @media (max-width: $mobileMax){
-        width: 56px;
-        height: 64px;
-        margin: 20px auto -12px;
-    }
+//     @media (max-width: $mobileMax){
+//         width: 56px;
+//         height: 64px;
+//         margin: 20px auto -12px;
+//     }
     
-    @media (min-width: 1399px){
-        position: fixed;
-        margin: 0;
-        left: 40px;
-        top: 40px;
-    }
+//     @media (min-width: 1399px){
+//         position: fixed;
+//         margin: 0;
+//         left: 40px;
+//         top: 40px;
+//     }
     
-}
+// }

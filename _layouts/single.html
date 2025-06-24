@@ -4,7 +4,11 @@ layout: default
 <div class="content">
   <article itemscope itemtype="http://schema.org/BlogPosting">
     <div class="center">
-      <h1>{{ page.title | widont }}</h1>
+      {% if page.page_title and page.page_title != "" %}
+        <h1>{{ page.page_title | widont }}</h1>
+      {% else %}
+        <h1>{{ page.title | widont }}</h1>
+      {% endif %}
       {% if page.subtitle and page.subtitle != "" %}
         <h2>{{ page.subtitle | widont }}</h2>
       {% endif %}

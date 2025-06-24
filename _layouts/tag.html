@@ -19,14 +19,13 @@ layout: default
   {% assign default_tag_items = "" | split: "" %}
 {% endif %}
 
-<!-- Collect items from custom items tags -->
-{% assign items_tag_items = site.items | where: "tags", tag_title %}
+<!-- Collect items from custom learn and art tags -->
+{% assign learn_tag_items = site.learn | where: "tags", tag_title %}
+{% assign art_tag_items = site.art | where: "tags", tag_title %}
 
 <!-- Combine both collections -->
-{% assign tag_items = default_tag_items | concat: items_tag_items %}
+{% assign tag_items = default_tag_items | concat: learn_tag_items | concat: art_tag_items %}
 
 {%- include grid.html items=tag_items -%}
-
-
 	
 </div>

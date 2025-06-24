@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{{ content }}
+
+<div class="content">
+  {% if page.subscribe != false and page.related != false %}
+    <hr>
+  {% endif %}
+  
+  {%- include signup.html kit_form_id=page.kit_form_id -%}
+  {%- include related.html -%}
+</div>

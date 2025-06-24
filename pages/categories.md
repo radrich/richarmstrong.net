@@ -13,8 +13,8 @@ index: true
 {% endfor %}
 {% assign default_categories = default_categories | split: "," | sort %}
 
-{% assign items_categories = site.items | map: "categories" | join: "," | split: "," | uniq %}
-{% assign all_categories = default_categories | concat: items_categories | uniq | sort %}
+{% assign learn_categories = site.learn | map: "categories" | join: "," | split: "," | uniq %}
+{% assign all_categories = default_categories | concat: learn_categories | uniq | sort %}
 
 <!-- Display list of combined categories -->
 <ul class="_random random masonry">
@@ -37,14 +37,14 @@ index: true
     {% endif %}
   {% endfor %}
   
-  <!-- Collect items from custom items categories -->
-  {% assign items_category_items = site.items | where: "categories", category_title %}
+  <!-- Collect items from custom learn categories -->
+  {% assign learn_category_items = site.learn | where: "categories", category_title %}
   
   <!-- Combine both collections if default_category_items is not empty -->
   {% if default_category_items.size > 0 %}
-    {% assign category_items = items_category_items | concat: default_category_items %}
+    {% assign category_items = learn_category_items | concat: default_category_items %}
   {% else %}
-    {% assign category_items = items_category_items %}
+    {% assign category_items = learn_category_items %}
   {% endif %}
   
   <h3 class="center" id="{{ category_slug }}"><a href="{{ '/categories/' | append: category_slug }}">{{ category_title }}</a></h3>

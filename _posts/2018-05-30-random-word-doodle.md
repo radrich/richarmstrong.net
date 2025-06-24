@@ -11,8 +11,8 @@ tags: ['Apps', 'Creative exercises']
 auto_related: false
 related:
   - /pages/prompts
-  - /items/unleash-your-creativity
-  - /items/the-perfect-100-day-project
+  - /learn/unleash-your-creativity
+  - /learn/the-perfect-100-day-project
 ---
 
 It’s crazy. We live in an era where the grey squishy thing in our skull plays a major role in all aspects of our lives—in work, our personal lives, our decision making, in productivity, in efficacy, and especially in our creativity. Yet rarely do we give it the workout it needs 😅

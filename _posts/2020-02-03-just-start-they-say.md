@@ -8,9 +8,9 @@ image: 'img/just-start-they-say-thumb.jpg'
 categories: ['Productivity']
 tags: ['Productivity exercises']
 related:
-  - /items/just-start
-  - /items/the-perfect-100-day-project
-  - /items/productivity-with-purpose
+  - /learn/just-start
+  - /learn/the-perfect-100-day-project
+  - /learn/productivity-with-purpose
 ---
 
 Of course I want to start.  

@@ -7,9 +7,9 @@ image: 'img/sublime-thumb.png'
 categories: ['Coding']
 tags: ['Sublime Text', 'Tools',]
 related:
-  - /items/hand-code-your-first-website
-  - /items/launch-a-rocket
-  - /items/demystifying-parallax
+  - /learn/hand-code-your-first-website
+  - /learn/launch-a-rocket
+  - /learn/demystifying-parallax
 ---
 
 **The first reason** is that you can try Sublime [for free.](https://www.sublimetext.com) And it doesn't cost too much to [buy a license.](https://www.sublimetext.com/buy) You _should_ buy a license if you use it a lot. And _especially_ if you use it to make mooooney 💰💰💰

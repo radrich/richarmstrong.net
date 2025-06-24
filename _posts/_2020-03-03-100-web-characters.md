@@ -8,9 +8,9 @@ color: black
 categories: ['Projects', 'Illustration']
 tags: ['The100DayProject', 'Picture Books', 'Products', 'Coding', 'For Sale']
 related:
-  - /items/the-perfect-100-day-project
-  - /items/procreate-animation
-  - /items/just-start
+  - /learn/the-perfect-100-day-project
+  - /learn/procreate-animation
+  - /learn/just-start
 ---
 
 {% include video.html id="Zeq85WQBjEQ" %}

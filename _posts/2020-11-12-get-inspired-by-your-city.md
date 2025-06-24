@@ -9,9 +9,9 @@ color: "white"
 image: 'img/get-inspired-explore-your-city-thumb.jpg'
 subscribe: false
 related:
-  - /items/get-inspired-explore-your-city
-  - /items/the-perfect-100-day-project
-  - /items/the-perfect-100-day-project-book
+  - /learn/get-inspired-explore-your-city
+  - /learn/the-perfect-100-day-project
+  - /learn/the-perfect-100-day-project-book
 ---
 
 {% include img.html img="img/get-inspired-explore-your-city-pins1.jpg" caption="Some inspiration from Amsterdam." %}

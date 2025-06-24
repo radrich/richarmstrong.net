@@ -9,9 +9,9 @@ header_image: 'img/school-is-live-banner.jpg'
 categories: ['News And Updates', 'Teaching']
 tags: ['TapTapKaboom School']
 related:
-  - /items/the-perfect-100-day-project
-  - /items/digital-marbling
-  - /items/hand-code-your-first-website
+  - /learn/the-perfect-100-day-project
+  - /learn/digital-marbling
+  - /learn/hand-code-your-first-website
 ---
 
 If you don't like subscription fees, and prefer to purchase classes that are forever yours, all my classes, since the beginning of 2019, are now available on [TapTapKaboom School](https://ttkb.me/school)

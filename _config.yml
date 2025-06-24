@@ -80,7 +80,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "items"
+      type: "learn"
     values:
       layout: "post"
       sitemap: false
@@ -88,7 +88,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "portfolio"
+      type: "art"
     values:
       layout: "post"
       sitemap: false
@@ -101,15 +101,15 @@ defaults:
       layout: "prompt"
       related:
         - /pages/prompts
-        - /items/5-minute-creative-workouts
-        - /items/unleash-your-creativity
+        - /learn/5-minute-creative-workouts
+        - /learn/unleash-your-creativity
       
 collections:
-  items:
+  learn:
     output: true
     sort_by: priority
     permalink: /:name/
-  portfolio:
+  art:
     output: true
     sort_by: priority
     permalink: /:name/

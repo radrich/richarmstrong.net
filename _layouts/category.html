@@ -19,11 +19,12 @@ layout: default
   {% assign default_category_items = "" | split: "" %}
 {% endif %}
 
-<!-- Collect items from custom items categories -->
-{% assign items_category_items = site.items | where: "categories", category_title %}
+<!-- Collect items from custom learn and art categories -->
+{% assign learn_category_items = site.learn | where: "categories", category_title %}
+{% assign art_category_items = site.art | where: "categories", category_title %}
 
 <!-- Combine both collections -->
-{% assign category_items = default_category_items | concat: items_category_items %}
+{% assign category_items = default_category_items | concat: learn_category_items | concat: art_category_items %}
 
 {%- include grid.html items=category_items -%}
 
