@@ -9,9 +9,6 @@ letter: P
 subscribe: false
 index: true
 ---
-
-
-
 This privacy policy explains what information we collect, why we collect it, how it’s stored, and how you can access or delete it. It applies to everything offered by Rich Armstrong and Studio Armstrong VOF—on websites like [richarmstrong.net](https://www.richarmstrong.net) and [go.richarmstrong.net](https://go.richarmstrong.net)
 {:.center}
 

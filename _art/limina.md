@@ -9,8 +9,8 @@ tags: ['NFT', 'For Sale', 'Doodleverse']
 background_color: "black"
 color: "white"
 related:
-  - /posts/doodleverse
-  - /posts/for-love
+  - /art/doodleverse
+  - /art/for-love
   - /posts/universe-library
 slider_images:
   - "img/limina/0.jpg"

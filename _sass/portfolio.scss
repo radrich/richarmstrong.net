@@ -85,6 +85,17 @@
 		margin: 0;
 	}
 	
+	&.in-content{
+		margin: 0 (-$wrapperHorizontalMarginDesktop * .5 - 12px) $thumbMargin;
+		padding: 0;
+	}
+	
+	@media (max-width: $tabletMax) {
+		&.in-content{
+			margin: 0;
+		}
+	}
+	
 	@media (max-width: $mobileMax) {
 		margin: 0;
 		

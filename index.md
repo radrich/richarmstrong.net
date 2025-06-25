@@ -1,11 +1,15 @@
 ---
 layout: home
-related:
-  - /pages/the-perfect-100-day-project-book
+recent:
+  - /learn/unleash-your-creativity
+  - /learn/texture-in-procreate
+  - /learn/gradient-maps-in-adobe-photoshop
+start_here:
+  - /pages/art
+  - /pages/learn
+  - /pages/prompts
 ---
 
-# Hey! I’m Rich.
-## The multi-hyphenate artist & creative coach
+## Hey! I’m Rich
 
-I create bold, colourful & playful [illustrative art.](/art)  
-And teach [popular classes](https://www.taptapkaboom.com) for creatives.
+I’m an multi-hyphenate artist, writer, and creative un-sticker living in Amsterdam. I make bold, playful art and help other creatives get out of their own way. Pumped you’re here.

@@ -9,9 +9,9 @@ tags: ['NFT', 'The100DayProject', 'Animation', 'Doodleverse', 'For Sale']
 background_color: "black"
 color: "white"
 related:
-  - /posts/nft
-  - /posts/happy-sun
-  - /pages/the-perfect-100-day-project-book
+  - /art/for-love
+  - /art/happy-sun
+  - /learn/the-perfect-100-day-project-book
 signup_tag: Art  
 ---
 {% include img.html img="img/doodleverse/banner2.jpeg" %}
