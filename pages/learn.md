@@ -1,5 +1,5 @@
 ---
-title: "Learn with Rich"
+title: Learn with Rich
 subtitle: Get unstuck. Create. Level-up
 description: Upskill Yourself in Creativity, Productivity, Animation, Coding & Illustration.
 permalink: /learn/
@@ -50,5 +50,5 @@ layout: default
 	{%- assign items = site.learn | sort: 'date' | sort: 'priority' | reverse -%}
 	{%- include grid.html items=items -%}
 
-	{%- include signup.html title="Want Creative Insights in Your Inbox?" btn="Sign me up!" -%}
+	{%- include signup-callout.html class="full-width" kit_form_id=page.kit_form_id -%}
 </div>

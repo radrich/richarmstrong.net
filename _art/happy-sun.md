@@ -9,9 +9,9 @@ tags: ['NFT', 'Happy', 'Happy Sun', 'Doodleverse', 'For Sale']
 background_color: "#f7d41d"
 color: "white"
 related:
-  - /posts/nft
-  - /posts/doodleverse
-  - /posts/for-love
+  - /art/doodleverse
+  - /art/for-love
+  - /art/limina
 signup_tag: Art
 ---
 {% include img.html img="img/hs/banner.jpg" %}

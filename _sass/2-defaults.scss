@@ -7,7 +7,7 @@ html, body{
 	font-family: $ff2;
 	font-size: 20px;
 	font-weight: 400;
-	line-height: 1.3em;
+	line-height: 1.2em;
 	background: white;
 	color: black;
 }
@@ -36,7 +36,7 @@ h1{
 	margin: 10px 0 20px 0;
 	
 	& + h2{
-		margin-top: -.5em;
+		margin-top: -.7em;
 		font-size: 24px;
 		margin-bottom: 1.5em;
 	}
@@ -244,7 +244,7 @@ ul, ol{
 		line-height: 1.5em;
 		
 		@media (max-width: $mobileMax) {
-			line-height: 1.5em;
+			line-height: 1.2em;
 		}
 		
 		&:first-child{
@@ -306,6 +306,7 @@ blockquote{
 		background-color: $accentColor5;
 		border-radius: 8px;
 		position: relative;
+		box-shadow: 0 0 8px transparentize(black, .9);
 		
 		p{
 			font-size: inherit;
@@ -330,6 +331,15 @@ blockquote{
 				content: "— ";
 				margin-left: -12px;
 			} 
+		}
+		
+		&:after{
+			content: "";
+			box-shadow: inset 0 0 0 1px transparentize(black, .9);
+			position: absolute;
+			top: 0; bottom: 0; left: 0; right: 0;
+			border-radius: 8px;
+			pointer-events: none;
 		}
 		
 		@media (max-width: $mobileMax) {
@@ -408,10 +418,11 @@ blockquote{
 
 .caption{
 	display: block;
-	margin: -12px 0 20px;
-	color: mix(black, white, 50%);
+	margin: -8px 0 20px;
+	color: black;
 	font-size: .8em;
-	line-height: 1.5em;
+	line-height: 1em;
+	opacity: .5;
 
 	a{
 		color: mix(black, white, 50%);
@@ -449,7 +460,7 @@ h1, h2, h3, h4, h5, h6, p, div{
 }
 
 .wrapper{
-	padding: 1px 0 20px;
+	padding: 1px 0 40px;
 	//margin-top: -30px;
 	background-color: $black02;
 	background: linear-gradient(to bottom, white, $black02);

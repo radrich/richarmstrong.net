@@ -46,6 +46,7 @@ $mobileMax: 767px;
 $tabletMin: 768px;
 $tabletMax: 1079px;
 $desktopMin: 1080px;
+$desktopMax: 1280px;
 
 $wrapperHorizontalMarginDesktop: 60px;
 $wrapperHorizontalMarginMobile: 16px;
@@ -72,3 +73,4 @@ $navHeightMobile: 48px;
 @import 'nft';
 @import 'glider';
 @import 'portfolio';
+@import 'callout';

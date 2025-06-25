@@ -7,18 +7,10 @@ layout: default
 
 <div class="content">
 	
-	<div class="center">
-		<h1>Get My Daily Mail</h1>
-		<h2>Tiny stories, weird doodles &amp; gentle kicks to get you unstuck + making stuff</h2>
-		<p>Join 2k+ subscribers to my Daily Mail. <br class="hide-when-mobile">
-			I write to fellow creatives like we’re pen pals.</p>
-	</div>
-	
-	{% include mailing-list.html %}
-	<p class="caption center">Expect stories, doodles, insecurities, and the occasional firecracker idea.</p>
+		{% include signup-callout.html class="full-width" %}
 	
 	{% comment %}{% include notice.html notice="Check this out" %}{% endcomment %}
-	<hr>
+
 	<div class="center">
 		{{ content }}
 	</div>

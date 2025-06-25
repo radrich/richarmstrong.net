@@ -1,7 +1,7 @@
 ---
 title: RIP TapTapKaboom
 subtitle: A man has a new name
-image: 'img/rich-face-illo-1.jpg'
+image: 'img/rich/rich-face-illo-1.jpg'
 description: "Rich Armstrong evolved TapTapKaboom from a personal brand into a business focused on teaching coding, UX/UI, and app design. Concurrently, he embraced his artist identity under his real name, creating a clear divide between his tech education and artistic endeavors. This restructuring aims for clarity and authenticity in his professional and creative pursuits."
 categories: ['Success']
 tags: ['Branding', 'News']

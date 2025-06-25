@@ -4,7 +4,7 @@ page_title: Hi there. I’m Rich
 subtitle: "The multi-hyphenate artist & creative coach"
 description: "Rich’s artist bio."
 permalink: /about/
-image: 'img/rich-face-illo-1.jpg'
+image: 'img/rich/rich-face-illo-1.jpg'
 background_color: black
 color: white
 index: true
@@ -14,7 +14,7 @@ related:
   - /pages/art
 ---
 
-{% include img.html img="img/rich-about.jpg" %}
+{% include img.html img="img/rich/rich-about.jpg" img_mobile="img/rich/rich-about-mobile.jpg" %}
 
 I’m an multi-hyphenate artist, writer, and creative un-sticker living in Amsterdam. Now, I haven’t always called myself an artist. Over the years, I’ve written code, animated things, designed stuff, and taught online. All creative. All for money.
 

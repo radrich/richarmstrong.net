@@ -1,0 +1,33 @@
+{% assign title = 'Get My Daily Mail' %}
+{% if include.title %}{% assign title = include.title %}{% endif %}
+  
+{% assign subtitle = 'Short stories &amp; gentle kicks to get you&nbsp;creating' %}
+{% if include.subtitle %}{% assign subtitle = include.subtitle %}{% endif %}
+  
+{% assign btn = 'Sign me up' %}
+{% if include.btn %}{% assign btn = include.btn %}{% endif %}
+  
+{% assign desc = 'I write to 2k+ fellow creatives like we’re pen pals. <br class="hide-when-mobile">
+    Expect tiny stories, weird doodles, honesty &amp; the occasional firecracker&nbsp;idea.' %}
+{% if include.desc %}{% assign desc = include.desc %}{% endif %}
+
+{% assign caption = 'And subscribers get exclusives + sneak&nbsp;peeks...' %}
+{% if include.caption %}{% assign caption = include.caption %}{% endif %}
+
+{% assign kit_form_id = 6776086 %}
+{% if include.kit_form_id %}{% assign kit_form_id = include.kit_form_id %}{% endif %}
+
+<div class="callout {{ include.class }}">
+  <h1>{{ title }}</h1>
+  <h2>{{ subtitle  }}</h2>
+  
+  {% if desc and desc != "" %}
+    <p>{{ desc }}</p>
+  {% endif %}
+
+  {% include mailing-list.html btn=btn_value kit_form_id=kit_form_id %}
+  
+  {% if caption and caption != "" %}
+    <p class="caption center">{{ caption }}</p>
+  {% endif %}
+</div>

@@ -1,4 +1,12 @@
 <div class="img-content {% if include.contained %}contained{% endif %} {% if include.default_size %}default-size{% endif %}">
-	<img src="{{ include.img | relative_url }}" alt="{{ include.alt }}">
+	
+	<picture>
+		{% if include.img_mobile %}
+			<source srcset="{{ include.img_mobile | relative_url }}" media="(max-width: 499px)">
+		{% endif %}
+		<img src="{{ include.img | relative_url }}" alt="{{ include.alt }}">
+	</picture>
+	
+	{% comment %} <img src="{{ include.img | relative_url }}" alt="{{ include.alt }}"> {% endcomment %}
 </div>
 {% if include.caption %}<p class="caption">{{ include.caption }}</p>{% endif %}
