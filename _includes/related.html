@@ -1,33 +1,7 @@
 {% if page.related %}
-  {% if include.title %}
-    <h2 class="center">{{ include.title }}</h2>
-  {% endif %}
   
-  {% assign related_items = '' | split: '' %}
+  {% include related-items.html title=include.title items=page.related %}
   
-  {% for item in page.related %}
-    {% assign item_array = item | split: "/" %}
-    {% assign folder = item_array[1] %}
-    {% assign id = item_array[2] %}
-    {% assign id_with_slash = id | prepend: '/'  %}
-    
-    {% if folder == '_posts' or folder == 'posts' %}
-      {% if id %}
-        {% assign match = site.posts | where: 'id', id_with_slash %}
-        {% assign related_items = related_items | concat: match %}
-      {% else %}
-        {% assign page = site.pages | where: 'name', 'posts.md' %}
-        {% assign related_items = related_items | concat: page %}
-      {% endif %}
-    {% elsif folder == '_pages' or folder == 'pages' %}
-      {% assign filename = id | append: '.md'  %}
-      {% assign match = site.pages | where: 'name', filename %}
-      {% assign related_items = related_items | concat: match %}
-    {% endif %}
-  {% endfor %}
-  
-  {%- include grid.html items=related_items -%}
-
 {% elsif page.auto_related %}
   {% assign related_posts = '' | split: '' %}
   {% assign min_common_tags = 1 %}
@@ -57,7 +31,7 @@
     {% endif %}
   {% endfor %}
   
-  {% comment %} TODO: add classes with same cat {% endcomment %}
+  {% comment %} TODO: add items with same cat {% endcomment %}
   {% comment %} TODO: choose posts that match better. ie: with more tag and categroy matches {% endcomment %}
   
   {% comment %} randomise posts {% endcomment %}

@@ -1,7 +1,6 @@
 nav{
 	position: relative;
-	background-color: $black02;
-	//box-shadow: 0 1px 0 transparentize(black, .9);
+	background-color: white;
 	height: 80px;
 	width: 100%;
 	box-sizing: border-box;
@@ -46,27 +45,12 @@ nav{
 			margin: 8px 20px;
 			box-sizing: border-box;
 			
-			&:active{
-				transform: translateY(2px);
+			&:hover{
+				transform: rotate(-10deg) scale(1.1);
 			}
-		}
-	}
-	
-	.logo{
-		width: 83px;
-		height: 100%;
-		padding: 0 30px;
-		position: absolute; top: 0; left: 0;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		
-		svg{
-			width: 100%;
-		}
-		
-		&:hover{
-			transform: rotate(-5deg);
+			&:active{
+				transform: rotate(-10deg) translateY(2px) scale(1.1);
+			}
 		}
 	}
 	
@@ -256,15 +240,10 @@ nav{
 				background-color: transparent;
 			}
 		}
-		.logo{
-			width: 54px;
-			padding: 0 10px;
-		}
 		.menu-btn{width: 60px;}
 	}
 	
 	@media (max-width: 399px){
-		//h1{display: none;}
 		.links a{
 			font-size: 26px;
 			line-height: 26px;

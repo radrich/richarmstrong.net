@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="content">
+  <article>
+    <div class="center">
+      <h1>{{ page.title | widont }}</h1>
+      {% if page.subtitle and page.subtitle != "" %}
+        <h2>{{ page.subtitle | widont }}</h2>
+      {% endif %}
+
+      {%- include content-header.html -%}
+      {{ content  }}
+      <div class="meta">
+        <p>This is a <a href="/prompts">creative prompt</a></p>
+      </div>
+    </div>
+  </article>
+  <hr>
+  {%- include signup.html kit_form_id=page.kit_form_id -%}
+  {%- include related.html -%}
+</div>

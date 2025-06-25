@@ -1,5 +1,5 @@
 .grid{
-	$thumbMargin: 16px;
+	$thumbMargin: 8px;
 	margin: 0 (-$wrapperHorizontalMarginDesktop * .5 - 12px) $thumbMargin;
 	
 	ul{
@@ -19,7 +19,12 @@
 		display: flex;
 		flex-basis: 100%;
 		justify-content: center;
+		position: relative;
 		&:first-child{ margin: $thumbMargin; }
+		
+		&.hide{
+			display: none;
+		}
 	}
 	
 	a{
@@ -50,6 +55,16 @@
 		&:hover{
 			transform: rotate(2deg);
 		}
+		&.rotate-hover-1:hover {transform: rotate(-3deg);}
+		&.rotate-hover-2:hover {transform: rotate(-2.5deg);}
+		&.rotate-hover-3:hover {transform: rotate(-2deg);}
+		&.rotate-hover-4:hover {transform: rotate(-1.5deg);}
+		&.rotate-hover-5:hover {transform: rotate(-1deg);}
+		&.rotate-hover-6:hover {transform: rotate(1deg);}
+		&.rotate-hover-7:hover {transform: rotate(1.5deg);}
+		&.rotate-hover-8:hover {transform: rotate(2deg);}
+		&.rotate-hover-9:hover {transform: rotate(2.5deg);}
+		&.rotate-hover-10:hover {transform: rotate(3deg);}
 	}
 	
 	.img-thumb{
@@ -85,6 +100,7 @@
 		background-color: white;
 		flex-grow: 1;
 		position: relative;
+		text-align: left;
 		
 		&:after{
 			content: "";
@@ -109,6 +125,37 @@
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 1.1em;
+	}
+	
+	.nb{
+		position: absolute;
+		top: 8px;
+		right: 8px;
+		background-color: $accentColor5;
+		color: mix($accentColor5, black, 30%);
+		display: block;
+		padding: 3px 12px 4px;
+		border-radius: 4px;
+		box-shadow: 0 4px 4px transparentize(black, 0.8);
+		line-height: 20px;
+		font-size: 16px;
+		text-transform: uppercase;
+		
+		&.event{
+			background-color: $accentColor7;
+			color: white;
+		}
+		&.popular{
+			background-color: $accentColor7;
+			color: white;
+		}
+		&.free{
+			background-color: $accentColor7;
+			color: white;
+		}
+		&.updated{
+			
+		}
 	}
 	
 	@mixin list-default{
@@ -145,7 +192,7 @@
 				}
 				
 				.thumb{
-					font-size: 60px;
+					font-size: 40px;
 				}
 			}
 			
@@ -176,6 +223,15 @@
 			.info{ padding: 12px 12px 16px;}
 			.title{ font-size: 20px; }
 			.subtitle{ font-size: 16px; }
+			
+			.nb{
+				font-size: 12px;
+				padding: 0 8px;
+				box-shadow: none;
+				top: 0;
+				right: 0;
+				line-height: 20px;
+			}
 		}
 	}
 	
@@ -189,5 +245,9 @@
 	
 	@media (max-width: $mobileMin) {
 		@include grid-small;
+		
+		&.list{
+			@include grid-small;
+		}
 	}
 }

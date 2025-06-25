@@ -1,23 +1,25 @@
 # redirects
-/nft-guide https://taptapkaboom.gumroad.com/l/nft-guide
-/portfolio /
-
-# newsletter
-/subscribe https://ttkb.me/news-rich
-/newsletter https://ttkb.me/news-rich
-/fanclub https://ttkb.me/news-rich
-/news https://ttkb.me/news-rich
-/blast https://ttkb.me/news-rich
-
+/nft-guide https://richarmstrong.gumroad.com/l/nft-guide
 /layerart http://skl.sh/2flvRLL
+# /art /
+
+# NEWSLETTER
+/subscribe /join/
+/newsletter /join/
+/fanclub /join/
+/news /join/
+/blast /join/
+
+# RENAMES
 /story /about
-/workouts https://www.taptapkaboom.com/prompts
-/posts/2017/08/31/sublime-text https://www.taptapkaboom.com/sublime-text-is-awesome
-/posts/2017/07/07/synthetic-stop-motion-essentials https://www.taptapkaboom.com/synthetic-stop-motion-essentials
-/posts/2017/07/07/common-video-sizes https://www.taptapkaboom.com/common-video-sizes
-/posts/sublime-text-is-awesome https://www.taptapkaboom.com/sublime-text-is-awesome
-/posts/synthetic-stop-motion-essentials https://www.taptapkaboom.com/synthetic-stop-motion-essentials
-/posts/common-video-sizes https://www.taptapkaboom.com/common-video-sizes
+/workouts /prompts
+/workouts/* /prompts/:splat
+/posts/2017/08/31/sublime-text /sublime-text-is-awesome
+/posts/2017/07/07/synthetic-stop-motion-essentials /synthetic-stop-motion-essentials
+/posts/2017/07/07/common-video-sizes /common-video-sizes
+/posts/sublime-text-is-awesome /sublime-text-is-awesome
+/posts/synthetic-stop-motion-essentials /synthetic-stop-motion-essentials
+/posts/common-video-sizes /common-video-sizes
 
 # shop
 # /shop https://shop.taptapkaboom.com/

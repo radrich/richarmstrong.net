@@ -1,15 +1,52 @@
 ---
-title: Browse Posts by Category
+title: Browse by Category
 permalink: /categories/
 background_color: '#FF5500'
 color: white
+sitemap: true
 index: true
 ---
+
+{% assign default_categories = "" %}
 {% for cat in site.categories %}
-	{% assign cat_title = cat[0] %}
-	{% assign cat_slug = cat_title | slugify %}
-	{% assign cat_items = cat[1] %}
-	
-  <h3>Category: <a href="{{ '/categories/' | append: cat_slug }}">{{ cat_title }}</a></h3>
-  {%- include grid.html items=cat_items -%}
+  {% assign default_categories = default_categories | append: cat[0] | append: "," %}
+{% endfor %}
+{% assign default_categories = default_categories | split: "," | sort %}
+
+{% assign learn_categories = site.learn | map: "categories" | join: "," | split: "," | uniq %}
+{% assign all_categories = default_categories | concat: learn_categories | uniq | sort %}
+
+<!-- Display list of combined categories -->
+<ul class="_random random masonry">
+	{% for category_title in all_categories %}
+		{% assign category_slug = category_title | slugify %}
+		<li class="item"><a class="word" href="#{{ category_slug }}">{{ category_title }}</a></li>
+	{% endfor %}
+</ul>
+
+
+<!-- Iterate over all unique categories -->
+{% for category_title in all_categories %}
+  {% assign category_slug = category_title | slugify %}
+  
+  <!-- Collect items from default categories -->
+  {% assign default_category_items = "" %}
+  {% for category in site.categories %}
+    {% if category[0] == category_title %}
+      {% assign default_category_items = category[1] %}
+    {% endif %}
+  {% endfor %}
+  
+  <!-- Collect items from custom learn categories -->
+  {% assign learn_category_items = site.learn | where: "categories", category_title %}
+  
+  <!-- Combine both collections if default_category_items is not empty -->
+  {% if default_category_items.size > 0 %}
+    {% assign category_items = learn_category_items | concat: default_category_items %}
+  {% else %}
+    {% assign category_items = learn_category_items %}
+  {% endif %}
+  
+  <h3 class="center" id="{{ category_slug }}"><a href="{{ '/categories/' | append: category_slug }}">{{ category_title }}</a></h3>
+  {%- include grid.html items=category_items list=true -%}
 {% endfor %}

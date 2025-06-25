@@ -5,7 +5,7 @@ description: "The Universe Library is an evolving collection of artistic element
 image: 'img/ttkb-library/thumb.jpg'
 background_color: 'white'
 color: 'black'
-categories: ['Illustration', 'Projects', 'Coding']
+categories: ['Illustration', 'Coding']
 tags: ['Doodleverse', 'NFT', 'Code']
 related:
   - /posts/doodleverse

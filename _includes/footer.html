@@ -1,20 +1,39 @@
-<footer>
-<div class="social">
-  {% for account in site.data.social %}
-    <a href="{{ account.url }}" class="icon" target="_blank" title="{{ account.title }}">
-      {% assign icon = 'svg/' | append: account.icon %}
-      {% include {{ icon }} %}
-    </a>
-  {% endfor %}
-</div>
-<div class="links">
-  {%- include links-footer.html -%}
-</div>
-<div class="info">
-  <p>&copy; {{ site.title }} {{ "now" | date: '%Y' }}</p>
-</div>
+<footer class="site-footer">
+  <div class="social">
+    {% for account in site.data.social %}
+      <a href="{{ account.url }}" class="icon" target="_blank" title="{{ account.title }}">
+        {% assign icon = 'svg/' | append: account.icon %}
+        {% include {{ icon }} %}
+      </a>
+    {% endfor %}
+  </div>
+  <div class="links">
+    {%- include links-footer.html -%}
+  </div>
+  <div class="info">
+    <p>&copy; {{ site.title }} {{ "now" | date: '%Y' }}</p>
+  </div>
 </footer>
+
+{% assign current_time = 'now' | date: "%s" %}
 
 <script src="{{ 'assets/jquery-3.5.1.min.js' | relative_url }}"></script>
 <script src="{{ 'assets/glider.js?v=' | append: site.asset_version | relative_url }}"></script>
+
+{% if site.env.JEKYLL_ENV != "local" %}
 <script src="{{ 'assets/script.js?v=' | append: site.asset_version | relative_url }}"></script>
+{% else %}
+<script src="{{ 'assets/script.js?v=' | append: current_time | relative_url }}"></script>
+{% endif %}
+
+{% if site.env.JEKYLL_ENV != "local" %}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-STEWLV9H5G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-STEWLV9H5G');
+</script>
+<script src="//cdn.cookie-script.com/s/4ff72fa42f5e07b1f651ee90824adc09.js"></script>
+{% endif %}

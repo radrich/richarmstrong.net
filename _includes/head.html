@@ -2,13 +2,25 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0">
-	<meta name="ahrefs-site-verification" content="e560518428c629c7f0ac1c619b06b01ff728860f8c940bcf1697d35c1a170625">
+	<meta name="ahrefs-site-verification" content="5b159d30ea70339e7271e6916a9a204d87d671cde7989298ba2e80c38f9d06ad">
+	<script src="https://analytics.ahrefs.com/analytics.js" data-key="DAuoQs1I2UjGgu5kzsXPug" async></script>
+
 	
-	<link href='{{ "/assets/favicon-32.png?v=" | append: site.asset_version | absolute_url  }}' rel='icon' type='image/png'>
+	<link href='{{ "/assets/favicon-16.png?v=" | append: site.asset_version | absolute_url  }}' sizes="16x16" rel='icon' type='image/png'>
+	<link href='{{ "/assets/favicon-32.png?v=" | append: site.asset_version | absolute_url  }}' sizes="32x32" rel='icon' type='image/png'>
+	
 	<link href='{{ "/assets/pfp-256.png?v=" | append: site.asset_version | absolute_url  }}' rel='apple-touch-icon' type='image/png'>
+	
+	<meta name="theme-color" content="#fea9e2">
 	
 	{%- seo -%}
 	{%- feed_meta -%}
 	
-	<link rel="stylesheet" href="{{ "/assets/style.css?v=" | append: site.asset_version | relative_url  }}">
+	{% assign current_time = 'now' | date: "%s" %}
+	
+	{% if site.env.JEKYLL_ENV == "local" %}
+	<link rel="stylesheet" href="{{ "/assets/style.css?v=" | append: current_time | relative_url }}">
+	{% else %}
+	<link rel="stylesheet" href="{{ "/assets/style.css?v=" | append: site.asset_version | relative_url }}">
+	{% endif %}
 </head>
