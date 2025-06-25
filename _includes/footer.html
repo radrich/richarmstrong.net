@@ -21,9 +21,9 @@
 <script src="{{ 'assets/glider.js?v=' | append: site.asset_version | relative_url }}"></script>
 
 {% if site.env.JEKYLL_ENV != "local" %}
-<script src="{{ 'assets/script.js?v=' | append: site.asset_version | relative_url }}"></script>
+  <script src="{{ 'assets/script.js?v=' | append: site.asset_version | relative_url }}"></script>
 {% else %}
-<script src="{{ 'assets/script.js?v=' | append: current_time | relative_url }}"></script>
+  <script src="{{ 'assets/script.js?v=' | append: current_time | relative_url }}"></script>
 {% endif %}
 
 {% if site.env.JEKYLL_ENV != "local" %}
