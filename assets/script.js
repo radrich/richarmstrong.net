@@ -133,10 +133,12 @@ filterButtons.forEach(button => {
 /** random reviews */
 document.addEventListener('DOMContentLoaded', function() {
     var reviewContainer = document.getElementById('_randomReview');
-    var reviews = JSON.parse(reviewContainer.getAttribute('data-reviews'));
-    var randomReview = reviews[Math.floor(Math.random() * reviews.length)];
+    if (reviewContainer && reviewContainer.hasAttribute('data-reviews')) {
+        var reviews = JSON.parse(reviewContainer.getAttribute('data-reviews'));
+        var randomReview = reviews[Math.floor(Math.random() * reviews.length)];
 
-    reviewContainer.innerHTML = `<blockquote class="big"><p>${randomReview.quote}</p><footer>${randomReview.author}</footer></blockquote>`;
+        reviewContainer.innerHTML = `<blockquote class="big"><p>${randomReview.quote}</p><footer>${randomReview.author}</footer></blockquote>`;   
+    }
 });
 
 

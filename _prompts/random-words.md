@@ -1,15 +1,17 @@
 ---
 title: "Random Words"
-subtitle: "Pick a Random Word & Doodle It"
+subtitle: "Pick a random word + doodle it"
 description: "Doodle one of these random words. Or a combination of the words."
 background_color: "#f5483b"
 color: "white"
 image: "img/random-words-workout-thumb.gif"
 index: true
+priority: 100
 date: 2020-01-28
 ---
 
-Set a timer. 5 minutes is great. Then doodle one of these random words (or whatever comes to mind).
+Set a timer. 5 minutes is great.  
+Then doodle one of the words below (whatever comes to mind).
 
 <ul class="_random random masonry" data-child="li" data-amount="11" data-template="[[ mix ]]" data-params='{"collections": ["random-words", "animals-signular", "food-singular", "verbs-present", "objects", "nouns-singular"]}'></ul>
 

@@ -7,6 +7,7 @@ image: "img/animals-in-action.gif"
 color: "black"
 index: true
 date: 2020-01-28
+priority: 99
 ---
 
 <p class="_random random"

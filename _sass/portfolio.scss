@@ -77,6 +77,17 @@
 		&:hover{
 			transform: rotate(-2deg);
 		}
+		
+		&.rotate-hover-1:hover {transform: rotate(-3deg);}
+		&.rotate-hover-2:hover {transform: rotate(-2.5deg);}
+		&.rotate-hover-3:hover {transform: rotate(-2deg);}
+		&.rotate-hover-4:hover {transform: rotate(-1.5deg);}
+		&.rotate-hover-5:hover {transform: rotate(-1deg);}
+		&.rotate-hover-6:hover {transform: rotate(1deg);}
+		&.rotate-hover-7:hover {transform: rotate(1.5deg);}
+		&.rotate-hover-8:hover {transform: rotate(2deg);}
+		&.rotate-hover-9:hover {transform: rotate(2.5deg);}
+		&.rotate-hover-10:hover {transform: rotate(3deg);}
 	}
 	
 	img{

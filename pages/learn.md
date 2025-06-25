@@ -3,9 +3,9 @@ title: "Learn with Rich"
 subtitle: Get unstuck. Create. Level-up
 description: Upskill Yourself in Creativity, Productivity, Animation, Coding & Illustration.
 permalink: /learn/
-image: 'img/rich-blue-doodle-bg-thumb.jpg'
-background_color: '#1165eb'
-color: black
+image: 'img/rich/rich-timer.jpg'
+background_color: '#1371fd'
+color: white
 index: true
 layout: default
 ---

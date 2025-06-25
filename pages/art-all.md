@@ -1,6 +1,6 @@
 ---
 title: "All The Art"
-subtitle: Neatly organised by date
+subtitle: Neatly organised by project
 description: 
 permalink: /art-all/
 image: 'img/doodleverse/78-drops-of-reflection.jpg'

@@ -10,12 +10,188 @@ index: true
 sitemap: true
 layout: art
 related:
+  - /pages/art-all
   - /art/doodleverse
-  - /art/limina
   - /art/for-love
+portfolio:
+  col1:
+    - url: /spro-mural/
+      img: ../img/spro/mural-3.jpg
+      alt: ""
+    - url: /bloom-avalanche-summit-mural/
+      img: ../img/avalanche-ii-mural/crop1-small.jpg
+      alt: ""
+    - url: /dreamheadz
+      img: ../img/dreamheadz/thumb.jpg
+      alt: ""
+    - url: 
+      img: ../img/dreamheadz-art/mirror-palace.jpg
+      alt: ""
+    - url: /essential-glasses-coral-reef/
+      img: ../img/essential-glasses-coral-reef/portrait-2.jpg
+      alt: ""
+    - url: /doodleverse
+      img: ../img/doodleverse/34-a-quick-interlude.jpg
+      alt: ""
+    - url: /spacer-on-that-ass/
+      img: ../img/on-that-ass/underwear-upclose.jpg
+      alt: ""
+    - url: /happy-sun
+      img: ../img/hs/97.png
+      alt: ""
+    - url: 
+      img: ../img/realms-of-weird/18.jpg
+      alt: ""
+    - url: /doodleverse
+      img: ../img/doodleverse/50-bird-city.jpg
+      alt: ""
+    - url: 
+      img: ../img/doodleverse-specials/cosmic-snake.jpg
+      alt: ""
+    - url: /for-love
+      img: ../img/for-love/1.jpg
+      alt: ""
+    - url: /100-web-characters
+      img: ../img/100webchars/50.jpg
+      alt: ""
+    - url: 
+      img: ../img/dreamlings/5.jpg
+      alt: ""
+    - url: /limina
+      img: ../img/limina/6.jpg
+      alt: ""
+    - url: /dreamheadz
+      img: ../img/dreamheadz/8.jpg
+      alt: ""
+    - url: /doodleverse
+      img: ../img/doodleverse/66-harbinger-of-darkness.jpg
+      alt: ""
+    - url: 
+      img: ../img/doodleverse-specials/the-calling.jpg
+      alt: ""
+    - url: /doodleverse
+      img: ../img/doodleverse/6-cataglottism.png
+      alt: ""
+    - url: 
+      img: ../img/leopard-queens/10.jpg
+      alt: ""
+  col2:
+    - url: /limina
+      img: ../img/limina/1.jpg
+      alt: ""
+    - url: /drippy-green-mural/
+      img: ../img/drippy-green-mural/feature.jpg
+      alt: ""
+    - url: /for-love
+      img: ../img/for-love/10.jpg
+      alt: ""
+    - url: 
+      img: ../img/doodleverse-specials/sunrise-realm.jpg
+      alt: ""
+    - url: /doodleverse
+      img: ../img/doodleverse/86-summer-romance.jpg
+      alt: ""
+    - url: 
+      img: ../img/mech-avax-promo.jpg
+      alt: ""
+    - url: /doodleverse
+      img: ../img/doodleverse/9-ritual.jpg
+      alt: ""
+    - url: 
+      img: ../img/visual-deluge/2a.jpg
+      alt: ""
+    - url: /doodleverse
+      img: ../img/doodleverse/93-eternal-flower.jpg
+      alt: ""
+    - url: /happy-sun
+      img: ../img/hs/101.png
+      alt: ""
+    - url: /doodleverse
+      img: ../img/doodleverse/78-drops-of-reflection.jpg
+      alt: ""
+    - url: 
+      img: ../img/turres/3-2-day.jpg
+      alt: ""
+    - url: /dreamheadz
+      img: ../img/dreamheadz/1.jpg
+      alt: ""
+    - url: /100-web-characters
+      img: ../img/100webchars/55.jpg
+      alt: ""
+    - url: 
+      img: ../img/god-hates-nfts-too.jpg
+      alt: ""
+    - url: /doodleverse
+      img: ../img/doodleverse/97-sea-of-dreams.jpg
+      alt: ""
+    - url: 
+      img: ../img/monkeez.jpg
+      alt: ""
+    - url: 
+      img: ../img/papilio-palatia/38-5.jpg
+      alt: ""
+    - url: /happy-sun
+      img: ../img/hs/90.png
+      alt: ""
+  col3:
+    - url: /avalanche9000
+      img: ../img/avalanche9000/main.jpg
+      alt: ""
+    - url: /happy-sun
+      img: ../img/hs/65.png
+      alt: ""
+    - url: /esomar-congress-2023/
+      img: ../img/esomar-congress-2023/artwork.jpg
+      alt: ""
+    - url: 
+      img: ../img/attitude-collab/2.jpg
+      alt: ""
+    - url: 
+      img: ../img/wagmi-surfboard.jpg
+      alt: ""
+    - url: /limina
+      img: ../img/limina/5.jpg
+      alt: ""
+    - url: /100-web-characters
+      img: ../img/100webchars/57.jpg
+      alt: ""
+    - url: /dreamheadz
+      img: ../img/dreamheadz/prince-of-cool.jpg
+      alt: ""
+    - url: /doodleverse
+      img: ../img/doodleverse/83-rainbow-breath.jpg
+      alt: ""
+    - url: /for-love
+      img: ../img/for-love/9.jpg
+      alt: ""
+    - url: 
+      img: ../img/dreamheadz-art/the-dreamtree.jpg
+      alt: ""
+    - url: 
+      img: ../img/mimi-chao-collab/ruth-bader-ginsburg.jpg
+      alt: ""
+    - url: 
+      img: ../img/spacetronaut.jpg
+      alt: ""
+    - url: /happy-sun
+      img: ../img/hs/3.png
+      alt: ""
+    - url: /100-web-characters
+      img: ../img/100webchars/23.jpg
+      alt: ""
+    - url: /doodleverse
+      img: ../img/doodleverse/22-choir.jpg
+      alt: ""
+    - url: /dreamheadz
+      img: ../img/dreamheadz/captain-octo.jpg
+      alt: ""
+    - url: 
+      img: ../img/visual-deluge/2b.jpg
+      alt: ""
+    - url: /cogito-mortis
+      img: ../img/cogito-mortis-1.jpg
+      alt: ""
 ---
-
-{% assign latest_posts = site.posts | sort: "date" | reverse | slice: 0, 6 %}
 
 <div class="content center">
 	<h1>Rich’s Art</h1>
@@ -35,70 +211,19 @@ related:
     </div>
   </div>
 </div>
-  
+
 <div class="portfolio">
-  <ul class="col">
-    <li><a href="/spro-mural/"><img src="../img/spro/mural-3.jpg" alt=""></a></li>
-    <li><a href="/bloom-avalanche-summit-mural/"><img src="../img/avalanche-ii-mural/crop1-small.jpg" alt=""></a></li>
-    <li><a href="/dreamheadz"><img src="../img/dreamheadz/thumb.jpg" alt=""></a></li>
-    <li><div><img src="../img/dreamheadz-art/mirror-palace.jpg" alt=""></div></li>
-    <li><a href="/essential-glasses-coral-reef/"><img src="../img/essential-glasses-coral-reef/portrait-2.jpg" alt=""></a></li>
-    <li><a href="/doodleverse"><img src="../img/doodleverse/34-a-quick-interlude.jpg" alt=""></a></li>
-    <li><a href="/spacer-on-that-ass/"><img src="../img/on-that-ass/underwear-upclose.jpg" alt=""></a></li>
-    <li><a href="/happy-sun"><img src="../img/hs/97.png" alt=""></a></li>
-    <li><div><img src="../img/realms-of-weird/18.jpg" alt=""></div></li>
-    <li><a href="/doodleverse"><img src="../img/doodleverse/50-bird-city.jpg" alt=""></a></li>
-    <li><div><img src="../img/doodleverse-specials/cosmic-snake.jpg" alt=""></div></li>
-    <li><a href="/for-love"><img src="../img/for-love/1.jpg" alt=""></a></li>
-    <li><a href="/100-web-characters"><img src="../img/100webchars/50.jpg" alt=""></a></li>
-    <li><div><img src="../img/dreamlings/5.jpg" alt=""></div></li>
-    <li><a href="/limina"><img src="../img/limina/6.jpg" alt=""></a></li>
-    <li><a href="/dreamheadz"><img src="../img/dreamheadz/8.jpg" alt=""></a></li>
-    <li><a href="/doodleverse"><img src="../img/doodleverse/66-harbinger-of-darkness.jpg" alt=""></a></li>
-    <li><div><img src="../img/doodleverse-specials/the-calling.jpg" alt=""></div></li>
-    <li><a href="/doodleverse"><img src="../img/doodleverse/6-cataglottism.png" alt=""></a></li>
-    <li><div><img src="../img/leopard-queens/10.jpg" alt=""></div></li>
-  </ul>
-  <ul class="col">
-    <li><a href="/limina"><img src="../img/limina/1.jpg" alt=""></a></li>
-    <li><a href="/drippy-green-mural/"><img src="../img/drippy-green-mural/feature.jpg" alt=""></a></li>
-    <li><a href="/for-love"><img src="../img/for-love/10.jpg" alt=""></a></li>
-    <li><div><img src="../img/doodleverse-specials/sunrise-realm.jpg" alt=""></div></li>
-    <li><a href="/doodleverse"><img src="../img/doodleverse/86-summer-romance.jpg" alt=""></a></li>
-    <li><div><img src="../img/mech-avax-promo.jpg" alt=""></div></li>
-    <li><a href="/doodleverse"><img src="../img/doodleverse/9-ritual.jpg" alt=""></a></li>
-    <li><div><img src="../img/visual-deluge/2a.jpg" alt=""></div></li>
-    <li><a href="/doodleverse"><img src="../img/doodleverse/93-eternal-flower.jpg" alt=""></a></li>
-    <li><a href="/happy-sun"><img src="../img/hs/101.png" alt=""></a></li>
-    <li><a href="/doodleverse"><img src="../img/doodleverse/78-drops-of-reflection.jpg" alt=""></a></li>
-    <li><div><img src="../img/turres/3-2-day.jpg" alt=""></div></li>
-    <li><a href="/dreamheadz"><img src="../img/dreamheadz/1.jpg" alt=""></a></li>
-    <li><a href="/100-web-characters"><img src="../img/100webchars/55.jpg" alt=""></a></li>
-    <li><div><img src="../img/god-hates-nfts-too.jpg" alt=""></div></li>
-    <li><a href="/doodleverse"><img src="../img/doodleverse/97-sea-of-dreams.jpg" alt=""></a></li>
-    <li><div><img src="../img/monkeez.jpg" alt=""></div></li>
-    <li><div><img src="../img/papilio-palatia/38-5.jpg" alt=""></div></li>
-    <li><a href="/happy-sun"><img src="../img/hs/90.png" alt=""></a></li>
-  </ul>
-  <ul class="col">
-    <li><a href="/avalanche9000"><img src="../img/avalanche9000/main.jpg" alt=""></a></li>
-    <li><a href="/happy-sun"><img src="../img/hs/65.png" alt=""></a></li>
-    <li><a href="/esomar-congress-2023/"><img src="../img/esomar-congress-2023/artwork.jpg" alt=""></a></li>
-    <li><div><img src="../img/attitude-collab/2.jpg" alt=""></div></li>
-    <li><div><img src="../img/wagmi-surfboard.jpg" alt=""></div></li>
-    <li><a href="/limina"><img src="../img/limina/5.jpg" alt=""></a></li>
-    <li><a href="/100-web-characters"><img src="../img/100webchars/57.jpg" alt=""></a></li>
-    <li><a href="/dreamheadz"><img src="../img/dreamheadz/prince-of-cool.jpg" alt=""></a></li>
-    <li><a href="/doodleverse"><img src="../img/doodleverse/83-rainbow-breath.jpg" alt=""></a></li>
-    <li><a href="/for-love"><img src="../img/for-love/9.jpg" alt=""></a></li>
-    <li><div><img src="../img/dreamheadz-art/the-dreamtree.jpg" alt=""></div></li>
-    <li><div><img src="../img/mimi-chao-collab/ruth-bader-ginsburg.jpg" alt=""></div></li>
-    <li><div><img src="../img/spacetronaut.jpg" alt=""></div></li>
-    <li><a href="/happy-sun"><img src="../img/hs/3.png" alt=""></a></li>
-    <li><a href="/100-web-characters"><img src="../img/100webchars/23.jpg" alt=""></a></li>
-    <li><a href="/doodleverse"><img src="../img/doodleverse/22-choir.jpg" alt=""></a></li>
-    <li><a href="/dreamheadz"><img src="../img/dreamheadz/captain-octo.jpg" alt=""></a></li>
-    <li><div><img src="../img/visual-deluge/2b.jpg" alt=""></div></li>
-    <li><a href="/cogito-mortis"><img src="../img/cogito-mortis-1.jpg" alt=""></a></li>
-  </ul>
+  {% for col in page.portfolio %}
+    <ul class="col">
+      {% for item in col[1] %}
+        <li>
+          {% if item.url %}
+            <a class="rotate-hover-{% rotate_num %}" href="{{ item.url }}"><img src="{{ item.img }}" alt="{{ item.alt }}"></a>
+          {% else %}
+            <div><img src="{{ item.img }}" alt="{{ item.alt }}"></div>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
 </div>

@@ -34,40 +34,19 @@ layout: default
 	
 	<h2><span>A few fav artworks</span><a href="/art" class="cta">Show More</a></h2>
 	<div class="portfolio in-content">
-		<ul class="col">
-			<li><a href="/dreamheadz"><img src="../img/dreamheadz/thumb.jpg" alt=""></a></li>
-			<li><div><img src="../img/dreamheadz-art/mirror-palace.jpg" alt=""></div></li>
-			<li><a href="/doodleverse"><img src="../img/doodleverse/34-a-quick-interlude.jpg" alt=""></a></li>
-			<li><a href="/happy-sun"><img src="../img/hs/97.png" alt=""></a></li>
-			<li><a href="/doodleverse"><img src="../img/doodleverse/50-bird-city.jpg" alt=""></a></li>
-			<li><a href="/spro-mural/"><img src="../img/spro/mural-3.jpg" alt=""></a></li>
-			<li><a href="/for-love"><img src="../img/for-love/1.jpg" alt=""></a></li>
-			<li><a href="/dreamheadz"><img src="../img/dreamheadz/8.jpg" alt=""></a></li>
-			<li><a href="/doodleverse"><img src="../img/doodleverse/66-harbinger-of-darkness.jpg" alt=""></a></li>
-			<li><a href="/doodleverse"><img src="../img/doodleverse/6-cataglottism.png" alt=""></a></li>
-		</ul>
-		<ul class="col">
-			<li><a href="/limina"><img src="../img/limina/1.jpg" alt=""></a></li>
-			<li><a href="/for-love"><img src="../img/for-love/10.jpg" alt=""></a></li>
-			<li><a href="/doodleverse"><img src="../img/doodleverse/86-summer-romance.jpg" alt=""></a></li>
-			<li><div><img src="../img/visual-deluge/2a.jpg" alt=""></div></li>
-			<li><a href="/doodleverse"><img src="../img/doodleverse/93-eternal-flower.jpg" alt=""></a></li>
-			<li><a href="/happy-sun"><img src="../img/hs/101.png" alt=""></a></li>
-			<li><a href="/doodleverse"><img src="../img/doodleverse/78-drops-of-reflection.jpg" alt=""></a></li>
-			<li><div><img src="../img/turres/3-2-day.jpg" alt=""></div></li>
-			<li><a href="/dreamheadz"><img src="../img/dreamheadz/1.jpg" alt=""></a></li>
-		</ul>
-		<ul class="col">
-			<li><a href="/avalanche9000"><img src="../img/avalanche9000/main.jpg" alt=""></a></li>
-			<li><a href="/happy-sun"><img src="../img/hs/65.png" alt=""></a></li>
-			<li><div><img src="../img/attitude-collab/2.jpg" alt=""></div></li>
-			<li><div><img src="../img/wagmi-surfboard.jpg" alt=""></div></li>
-			<li><a href="/dreamheadz"><img src="../img/dreamheadz/prince-of-cool.jpg" alt=""></a></li>
-			<li><a href="/doodleverse"><img src="../img/doodleverse/83-rainbow-breath.jpg" alt=""></a></li>
-			<li><a href="/for-love"><img src="../img/for-love/9.jpg" alt=""></a></li>
-			<li><div><img src="../img/dreamheadz-art/the-dreamtree.jpg" alt=""></div></li>
-			<li><a href="/doodleverse"><img src="../img/doodleverse/97-sea-of-dreams.jpg" alt=""></a></li>
-		</ul>
+		{% for col in page.portfolio %}
+			<ul class="col">
+				{% for item in col[1] %}
+					<li>
+						{% if item.url %}
+							<a class="rotate-hover-{% rotate_num %}" href="{{ item.url }}"><img src="{{ item.img }}" alt="{{ item.alt }}"></a>
+						{% else %}
+							<div><img src="{{ item.img }}" alt="{{ item.alt }}"></div>
+						{% endif %}
+					</li>
+				{% endfor %}
+			</ul>
+		{% endfor %}
 	</div>
 	
 	<hr>

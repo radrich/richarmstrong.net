@@ -1,6 +1,6 @@
 ---
 title: "Avalanche 9000"
-subtitle: "The biggest upgrade to the Avalanche blockchain"
+subtitle: "Avalanche blockchain’s biggest upgrade"
 date: 2024-08-09
 image: 'img/avalanche9000/thumb.jpg'
 description: "All aboard! We’re going to the moon!"

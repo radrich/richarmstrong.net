@@ -14,6 +14,10 @@ Jekyll options:
 bundle exec jekyll serve --livereload --host 0.0.0.0 --trace
 JEKYLL_ENV=production bundle exec jekyll build
 
+# use dev config file here
+# this is useful for testing the site locally with the dev config file
+bundle exec jekyll serve --livereload --host 0.0.0.0 --trace --config _config.yml,_config_dev.yml
+
 Markdown/Liquid Cheats:
 ------------------------
 # widont something

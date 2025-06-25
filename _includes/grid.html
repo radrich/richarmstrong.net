@@ -14,7 +14,7 @@
         class="item {% if item.popular %}popluar{% endif %} {% if item.event %}event{% endif %} {% if item.new %}new{% endif %} {% if item.updated %}updated{% endif %} {% if item.free %}free{% endif %}"
         {% if item.type.size > 0 %}data-type="{{ item.type | join: ',' }}"{% endif %}
         {% if item.categories.size > 0 %} data-category="{{ item.categories | join: ',' }}"{% endif %}>
-        <a href="{% if item.external_url %}{{ item.external_url }}{% else %}{{ item.url }}{% endif %}">
+        <a href="{% if item.external_url %}{{ item.external_url }}{% else %}{{ item.url }}{% endif %}" class="rotate-hover-{% rotate_num %}">
           <div class="img-thumb" style="background-color:{{ item.background_color }};">
             <img style="background-color:{{ entry.background_color }}" src="{{ site.baseurl | append: 'assets/blank.png' | relative_url }}" alt="{{ item.title }}">
           {% if item.image %}

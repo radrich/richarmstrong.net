@@ -6,6 +6,7 @@ background_color: "#f5483b"
 color: "white"
 image: "img/random-word-pairs-workout-thumb.gif"
 index: true
+priority: 99
 date: 2020-01-28
 ---
 

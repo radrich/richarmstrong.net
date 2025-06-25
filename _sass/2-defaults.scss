@@ -209,7 +209,7 @@ button{
 p{
 	font-size: 20px;
 	margin: 1.5em 0;
-	line-height: 1.75em;
+	line-height: 1.5em;
 	
 	@media (max-width: $tabletMax) {
 		margin: 1em 0;
@@ -241,7 +241,7 @@ ul, ol{
 		}
 		
 		margin-top: 12px;
-		line-height: 1.75em;
+		line-height: 1.5em;
 		
 		@media (max-width: $mobileMax) {
 			line-height: 1.5em;
@@ -411,7 +411,7 @@ blockquote{
 	margin: -12px 0 20px;
 	color: mix(black, white, 50%);
 	font-size: .8em;
-	line-height: 1.75em;
+	line-height: 1.5em;
 
 	a{
 		color: mix(black, white, 50%);
