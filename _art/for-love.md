@@ -41,4 +41,4 @@ As a collection, *For Love* is a 10 piece limited NFT collection on Avalanche th
 ### Notable links
 - For Love [on Joepegs.](https://joepegs.com/collections/avalanche/for-love)
 - For Love [on OpenSea.](https://opensea.io/collection/for-love-avax)
-- The project [on Beēhance.](https://www.behance.net/gallery/151999919/For-Love-A-Story-of-Bots-Flaming-Warriors-Uniting)
+- The project [on Bēhance.](https://www.behance.net/gallery/151999919/For-Love-A-Story-of-Bots-Flaming-Warriors-Uniting)
