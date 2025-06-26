@@ -11,6 +11,9 @@
 /blast /mail/
 /join /mail/
 
+# PORTFOLIO
+/portfolio /art/
+
 # RENAMES
 /story /about
 /workouts /prompts
