@@ -4,11 +4,12 @@
 # /art /
 
 # NEWSLETTER
-/subscribe /join/
-/newsletter /join/
-/fanclub /join/
-/news /join/
-/blast /join/
+/subscribe /mail/
+/newsletter /mail/
+/fanclub /mail/
+/news /mail/
+/blast /mail/
+/join /mail/
 
 # RENAMES
 /story /about
