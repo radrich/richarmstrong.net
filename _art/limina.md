@@ -26,7 +26,7 @@ signup_tag: Art
 
 After [The Dreamheadz](/dreamheadz) found their way into The Realm of Dreams, everyone wanted access. The Order built seven gates leading to the epicentre of the [Doodleverse.](/tags/doodleverse/) They called it Project LIMINA. But, upon their completion, the gates buckled and broke. Cosmic waves rippled through the realms. The Doodleverse began to unravel. The Shadow reemerged. Creatures fled their homes. Glitches appeared. It was chaos. But, a single gate remains open.
 
-**These 7 LIMINA pieces are for sale [on Salvor.](https://ttkb.me/liminaauction)**
+**These 7 LIMINA pieces are for sale [on Salvor.](https://heyrich.net/liminaauction)**
 
 {% include video.html type="youtube" id='Ir8k613DleA' caption="LIMINA introduction" %}
 
@@ -54,4 +54,4 @@ These pieces are the biggest pieces I’ve created. They’re 5X bigger than my 
 - **Blockchain:** Avalanche. Chain ID 43114.
 - **Provenance:** View [on Snowtrace.](https://snowtrace.io/token/0xd586114816CBA9A733B1BeF2f5c822D650ddd01c?chainId=43114)
 
-{%- include banner.html title='Shop LIMINA' color='white' img='img/limina/cta-banner.jpg?v=2' background_color='#136efb' btn_background='light' btn_text_color='white' type='cover' cta='Collect' url='https://ttkb.me/liminaauction' align='bottom-right' -%}
+{%- include banner.html title='Shop LIMINA' color='white' img='img/limina/cta-banner.jpg?v=2' background_color='#136efb' btn_background='light' btn_text_color='white' type='cover' cta='Collect' url='https://heyrich.net/liminaauction' align='bottom-right' -%}

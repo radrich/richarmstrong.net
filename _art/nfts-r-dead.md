@@ -27,12 +27,12 @@ People and brands and metas enter the arena. Some die. Web3 is Game of Thrones. 
 
 R NFTs DeAd? Nah. Maybe the NFTs with no artistic value. Maybe the NFTs bought solely for quick profits. Because attached to Art tokens is Art. Art has been around for ever. And NFTs make Art eternal. While ArtFi may be DeAd, Art lives on. Art creates culture. Art challenges the norms. Art tells stories. Art moves people. Art inspires. Art is the future.
 
-To celebrate Halloween, and the “death of NFTS”, I created [4 mixed-media pieces](https://ttkb.me/rdead) that explore death, dreams, and doodles.
+To celebrate Halloween, and the “death of NFTS”, I created [4 mixed-media pieces](https://heyrich.net/rdead) that explore death, dreams, and doodles.
 
 ### Details
 - 4628 x 6545 px (slightly smaller than A2 size) 300dpi
 - Mediums: Photography, Printer, Scanner, Procreate, Photoshop, Adobe Fresco
-- [Mint](https://ttkb.me/rdead) for 0.01Ξ
+- [Mint](https://heyrich.net/rdead) for 0.01Ξ
 - 4 x Open editions
 - Minting closes on Nov 2
 - Mint all 4 and get airdropped a final piece

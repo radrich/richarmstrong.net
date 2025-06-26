@@ -16,12 +16,12 @@ signup_tag: Art
 ---
 {% include img.html img="img/hs/banner.jpg" %}
 
-**Happy Sun** is a beloved character from The Doodleverse, who has magic powers and puts everyone in a good mood. So, creating this NFT collection was super fun and it made tons of people really happy! As a collection, Happy Sun is a 101 piece 1/1 PFP collection on Avalanche. You can view the collection [on OpenSea](https://ttkb.me/happysun) where you can pick up suns for sale.
+**Happy Sun** is a beloved character from The Doodleverse, who has magic powers and puts everyone in a good mood. So, creating this NFT collection was super fun and it made tons of people really happy! As a collection, Happy Sun is a 101 piece 1/1 PFP collection on Avalanche. You can view the collection [on OpenSea](https://heyrich.net/happysun) where you can pick up suns for sale.
 
 We celebrate **Happy Sun Day** on Thursdays and rock our Happy Sun PFPs in social media settings to *#spreadTheHappy.* Happy Sun has his/her own [Twitter profile](https://twitter.com/HappySunFam), and we often host Twitter spaces to chat and hang out.
 
 ### Notable links
-- The collection [on Joepegs.](https://ttkb.me/hs)
+- The collection [on Joepegs.](https://heyrich.net/hs)
 - Happy Sun [on Twitter](https://twitter.com/HappySunFam)
 - See all the Happy Suns [on Bēhance.](https://www.behance.net/gallery/154170369/Happy-Sun)
 

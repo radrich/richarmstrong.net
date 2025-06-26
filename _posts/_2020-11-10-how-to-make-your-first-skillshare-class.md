@@ -27,9 +27,9 @@ Getting started on anything can be daunting. But when it comes to publishing you
 
 ### You Want In?
 
-- Want to join Skillshare? [Sign up here](https://ttkb.me/sk-invite) for 2 free weeks.
-- Want more tips on how to make classes? [Sign up here.](https://ttkb.me/make-a-class)
-- Want to publish your first Skillshare class? [Sign up here](https://ttkb.me/teach-sk) and tell them I sent you 🦄
+- Want to join Skillshare? [Sign up here](https://heyrich.net/sk-invite) for 2 free weeks.
+- Want more tips on how to make classes? [Sign up here.](https://heyrich.net/make-a-class)
+- Want to publish your first Skillshare class? [Sign up here](https://heyrich.net/teach-sk) and tell them I sent you 🦄
 
 ### Some Stats
 Besides loving teaching online, you may wonder why you should listen to me. Well, these are my Skillshare stats as of 10 November 2020:

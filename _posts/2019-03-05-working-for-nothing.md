@@ -38,8 +38,4 @@ Tell your client how much *a thing* is going to cost them—when you know. Becau
 
 You could keep on doing work for free. But you'll know when it's time to charge. Or stop completely. The first step is to bring it up with your client. Tell them of your intention to charge for work going forward. **Because this is your profession.** Tell them you've had fun (hopefully). And then let them know the costs. Be nice. Be firm. Know your worth. You *can* just walk away if you're not happy with the deal. It's pretty simple.
 
----
-
-There are a lot of different opinions about this stuff. And plenty of books written. So there's _always_ more to say. [Chat with me](mailto:rich@taptapkaboom.com) if you have any questions or comments.
-
 {% include video.html type="youtube" id='jVkLVRt6c1U' caption="Here's a video on the topic by Mike Monteiro. He swears. Watch out." %}

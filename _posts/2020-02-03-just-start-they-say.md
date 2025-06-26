@@ -54,4 +54,4 @@ The class expounds on the above, and includes 5 exercises to guide and prompt yo
 
 I made this class to help you transition into someone who starts the things you really want to do. Important things, life-altering things, creative projects, and helpful habits.
 
-Come [check it out.](https://ttkb.me/juststart)
+Come [check it out.](https://heyrich.net/juststart)

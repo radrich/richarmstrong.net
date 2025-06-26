@@ -34,7 +34,7 @@ All you’ll need to take this class is a pen and some paper!
 
 ### Where Can I Take the Class? {#options}
 
-- [**On Skillshare.**](https://ttkb.me/prodbasics-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://ttkb.me/pwp-sk) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
+- [**On Skillshare.**](https://heyrich.net/prodbasics-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://heyrich.net/pwp-sk) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
 
 {%- include banner.html
 	title='Get The Basics Right'
@@ -44,7 +44,7 @@ All you’ll need to take this class is a pen and some paper!
 	background_color='#ff5500'
 	type='cover'
 	cta='Take the class'
-	url='https://ttkb.me/prodbasics'
+	url='https://heyrich.net/prodbasics'
 	btn_text_color='inherit'
 	align='middle-left'
 	btn_background='light' -%}

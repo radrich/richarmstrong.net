@@ -21,7 +21,7 @@ signup_tag: Art
 With this project, I gathered 50 artists to collaborate with. Some were lesser-know artists. Some were famous artists. And some had never heard of, nor ever used, the Avalanche blockchain, where these creatures are represented as NFTS. Each piece is a unique piece.
 
 ### Notable links
-- The collection on [Joepegs.](https://ttkb.me/wcats)
+- The collection on [Joepegs.](https://heyrich.net/wcats)
 - View it on [Bēhance.](https://www.behance.net/gallery/155432147/Wondercats-A-Big-Magical-Collab-Project)
 
 {% include img.html img="img/wondercats-grid-1.jpg" caption="I’m only showing the Wonderctas that I drew. You can find all of the cats on joepegs.com" %}

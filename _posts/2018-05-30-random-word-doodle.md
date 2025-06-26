@@ -29,6 +29,6 @@ I've also created a free app that gives you random words to doodle. It's fun and
 
 ## There's a bunch of ways you can get started
 
-- You can take the video class on [Skillshare.](https://ttkb.me/rwd-class)
+- You can take the video class on [Skillshare.](https://heyrich.net/rwd-class)
 - I made a [creative prompt](/prompts/random-words/) that generates random words for you.
-- There’s [a book](https://ttkb.me/unleash) I wrote all about doodling random words.
+- There’s [a book](https://heyrich.net/unleash) I wrote all about doodling random words.

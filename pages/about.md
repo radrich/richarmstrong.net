@@ -51,9 +51,8 @@ I haven’t always called myself an artist. I’ve been a motion graphic designe
 
 When I created a short class in 2015 on how to create a website from scratch I did it because everyone who stood behind me, while I coded, marvelled at my genius ability. I knew that learning to code was easy—if you understood the basics. I loved creating this class. It changed my life. And it changed thousands of other peoples’ lives. Since then I’ve created classes on everything I thought could help creatives—and people who didn’t think they were creative. Over the past few years I’ve **taught over 250,000 students** a bunch of skills, tools, and techniques.
 
-TapTapKaboom’s mission is to fire up people’s creativity and help creatives achieve their next level of success. I know what it’s like to feel stuck. I know what it’s like to not “get” something, and then to “get” it. And I’ve seen others go through the exact same thing. I also know what it’s like to have a dream come true, to make an app and a website for the first time, to get a book published. I know what it’s like to wake up with a sparkle in your eyes and a fire in your soul. Creating does that. That’s what I want to share. That’s what I want to get every single person on the planet doing. Creating. Intentionally. As themseleves. And going after those dreams. It’s possible.
+I’m on a mission is to fire up people’s creativity and help creatives achieve their next level of success. I know what it’s like to feel stuck. I know what it’s like to not “get” something, and then to “get” it. And I’ve seen others go through the exact same thing. I also know what it’s like to have a dream come true, to make an app and a website for the first time, to get a book published. I know what it’s like to wake up with a sparkle in your eyes and a fire in your soul. Creating does that. That’s what I want to share. That’s what I want to get every single person on the planet doing. Creating. Intentionally. As themseleves. And going after those dreams. It’s possible.
 
-Big loves ❤️  
-**Rich from TapTapKaboom**
+**Rich ✌️**
 
 {% endcomment %}

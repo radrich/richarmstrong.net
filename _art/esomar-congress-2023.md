@@ -25,9 +25,9 @@ I was invited to [ESOMAR](https://esomar.org/) Congress 2023 in Amsterdam’s [B
 
 {% include img.html img="img/esomar-congress-2023/silent-disco.jpg" caption="My first Silent Disco keynote" %}
 
-I created part of [an NFT](https://ttkb.me/changing-realms) artwork on stage. And I also collected the award for best exhibitor—which was maybe *slightly* unfair seeing that I was the only artist exhibiting at the conference.
+I created part of [an NFT](https://heyrich.net/changing-realms) artwork on stage. And I also collected the award for best exhibitor—which was maybe *slightly* unfair seeing that I was the only artist exhibiting at the conference.
 
-{% include img.html img="img/esomar-congress-2023/changing-realms.jpg" caption="**Changing Realms** is available for [minting.](https://ttkb.me/changing-realms) The location metadata is set to Beurs van Berlage" %}
+{% include img.html img="img/esomar-congress-2023/changing-realms.jpg" caption="**Changing Realms** is available for [minting.](https://heyrich.net/changing-realms) The location metadata is set to Beurs van Berlage" %}
 
 When I wasn’t on stage I was at my booth—drawing, painting, and meeting neighbouring exhibitors and passerbyers. Also, eating delcious food.
 

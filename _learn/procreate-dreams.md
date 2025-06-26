@@ -72,4 +72,4 @@ Let’s get to it and launch that spaceship!**
 
 ### Where Can I Take the Class? {#options}
 
-[**On Skillshare.**](https://ttkb.me/procreate-dreams) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://ttkb.me/pwp-sk) to get a free trial. You’ll be able to watch this class and tons of others for free during that time.
+[**On Skillshare.**](https://heyrich.net/procreate-dreams) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://heyrich.net/pwp-sk) to get a free trial. You’ll be able to watch this class and tons of others for free during that time.

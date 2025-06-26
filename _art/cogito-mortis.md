@@ -26,7 +26,7 @@ Death is in us all.*
 Cogito Mortis is the poem above and 52 generative art pieces interpreting it. The collection was sold out in seconds during a [Micro Mint Monday.](https://metapep.com/micro/) Each of the 52 pieces are slightly different from the other pieces in the collection. Each piece is represented by an NFT on the Avalanche blockchain.
 
 ### Notable links
-- The collection [on Campfire.](http://ttkb.me/mortis)
+- The collection [on Campfire.](http://heyrich.net/mortis)
 - The collection on [Joepegs.](https://joepegs.com/collections/avalanche/cogito-mortis)
 - View it on [Bēhance.](https://www.behance.net/gallery/162897369/Cogito-MortisI-Think-of-Death)
 

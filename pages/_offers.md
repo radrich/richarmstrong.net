@@ -14,25 +14,25 @@ Check this out Rich – https://app.usefathom.com/#/settings/referrals
 
 
 ### Listenable
-https://ttkb.me/listenable
+https://heyrich.net/listenable
 
 
 ### Skillshare
 
 
 ### Webflow
-https://ttkb.me/webflow
+https://heyrich.net/webflow
 
 
 ### Plenny shake
 http://i.refs.cc/82iY7W0g?smile_ref=eyJzbWlsZV9zb3VyY2UiOiJzbWlsZV91aSIsInNtaWxlX21lZGl1bSI6IiIsInNtaWxlX2NhbXBhaWduIjoicmVmZXJyYWxfcHJvZ3JhbSIsInNtaWxlX2N1c3RvbWVyX2lkIjoyODUyOTkzNTh9
 
 ### Pen.tips
-https://ttkb.me/pentips
+https://heyrich.net/pentips
 
 ### Paperlike
-https://ttkb.me/paperlike
+https://heyrich.net/paperlike
 https://paperlike.com/discount/taptapkaboom?redirect=/products/paperlike-for-ipad
 
 ### Stickermule
-Get em rad stickers at Sticker Mule. With this link you get money off your first order – https://ttkb.me/mule
+Get em rad stickers at Sticker Mule. With this link you get money off your first order – https://heyrich.net/mule

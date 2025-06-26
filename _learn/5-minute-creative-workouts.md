@@ -28,7 +28,7 @@ If you want to get your creativity in shape, come join the class!
 
 ### Where Can I Take the Class? {#options}
 
-- [**On Skillshare.**](https://ttkb.me/5min-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://ttkb.me/5min-sk) to get a free trial. You’ll be able to watch this class and tons of others for free during that time.
+- [**On Skillshare.**](https://heyrich.net/5min-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://heyrich.net/5min-sk) to get a free trial. You’ll be able to watch this class and tons of others for free during that time.
 
 ### What Does The Class Include?
 - 14 creative workouts. Most only require a pen and paper.

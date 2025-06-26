@@ -9,9 +9,9 @@ color: black
 categories: ['Projects', 'Generative Art']
 tags: ['NFT', 'Code', 'For Sale']
 related:
-  - /pages/genny-mint
-  - /posts/doodleverse
-  - /posts/happy-sun
+  - /art/doodleverse
+  - /art/happy-sun
+  - /art/for-love
 signup_tag: Art
 ---
 {% include img.html img="img/genny/genny.png" %}
@@ -24,10 +24,8 @@ Most Gennys are designed at a *massive* size—perfect for [printing.](https://j
 
 I began creating art with code again when I grew tired of drawing every day—maybe I was even slightly burned out. And it’s done wonders for my creativity. Creating with the other side of my brain, or perhaps a mixture of both sides, feels different. It’s mathematical. It’s random. And it’s producing a different type of beauty. And I have so many ideas for generative art!
 
-{%- include banner.html title='View the collection' color='white' img='img/genny/banner-streaks.jpg' background_color='#34c2a2' type='cover' cta='View all the Gennys' url='https://ttkb.me/genny' align='middle-center' btn_background='light' -%}
+{%- include banner.html title='View the collection' color='white' img='img/genny/banner-streaks.jpg' background_color='#34c2a2' type='cover' cta='View all the Gennys' url='https://heyrich.net/genny' align='middle-center' btn_background='light' -%}
 
 ### Links & Info
-- Mint [new Gennys.]({% link pages/genny-mint.md %})
-- View [the entire collection.](https://ttkb.me/genny)
-- Join [the Discord.](https://ttkb.me/dc)
+- View [the entire collection.](https://heyrich.net/genny)
 - View [the contract.](https://snowtrace.io/address/0x283B874BE3B97223c1EEf495e4d3eaca95677A35)

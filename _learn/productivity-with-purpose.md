@@ -26,7 +26,7 @@ The best productivity advice doesn’t work for long unless what you’re doing 
 
 ### Where Can I Take the Class? {#options}
 
-- [**On Skillshare.**](https://ttkb.me/pwp-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://ttkb.me/pwp-sk) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
+- [**On Skillshare.**](https://heyrich.net/pwp-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://heyrich.net/pwp-sk) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
 
 ### The Class Includes The Following
 - Looking into the future and choosing a 5-Year Title.
@@ -44,7 +44,7 @@ The best productivity advice doesn’t work for long unless what you’re doing 
 	background_color='#ff5500'
 	type='cover'
 	cta='Take the class'
-	url='https://ttkb.me/pwp-ttk'
+	url='https://heyrich.net/pwp-ttk'
 	btn_text_color='inherit'
 	align='middle-left'
 	btn_background='dark' -%}

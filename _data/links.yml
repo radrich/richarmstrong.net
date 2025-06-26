@@ -21,14 +21,14 @@
 
 # - title: 'Shop! Shop! Shop!'
 #   subtitle: 'My teeny tiny online store is up!'
-#   url: https://ttkb.me/shop
+#   url: https://heyrich.net/shop
 #   image: 'img/shop/thumb-1.jpg'
 #   background_color: '#f0c810'
 #   color: 'black'
   
 # - title: 'The Reverie NFT Collection'
 #   subtitle: 'Get your piece of daydream weird'
-#   url: https://ttkb.me/reverie
+#   url: https://heyrich.net/reverie
 #   image: 'img/reverie/0.jpg'
 #   background_color: 'black'
 #   color: 'white'
@@ -42,7 +42,7 @@
   
 # - title: 'Rich Live'
 #   subtitle: 'Every Tuesday 2pm UTC'
-#   url: https://ttkb.me/live
+#   url: https://heyrich.net/live
 #   image: 'img/streaming-pfp.jpg'
 #   color: '#009fee'
 
@@ -56,13 +56,13 @@
 # - title: 'How to Become a Better Creative Workshop'
 #   # subtitle: '14+ Ways To Boost Your Creativity: Check It Out!'
 #   subtitle: 'Join this free ”live” workshop on Friday 12 November'
-#   url: https://ttkb.me/workshop
+#   url: https://heyrich.net/workshop
 #   background_color: '#f8cf46'
 #   color: '#ff6602'
 
 # - title: 'Primam Turrim Dynamic NFT'
 #   subtitle: 'An NFT that shows a different image based on the time of day'
-#   url: https://ttkb.me/turres
+#   url: https://heyrich.net/turres
 #   image: 'img/primam-turrim-thumb.jpg'
 #   background_color: '#1372fd'
 #   color: 'white'
@@ -81,7 +81,7 @@
 
 # - title: 'The Creativity Mini Course: 5 Days of Creativity'
 #   subtitle: 'Enrol For Free!'
-#   url: https://ttkb.me/cmc
+#   url: https://heyrich.net/cmc
 #   image: 'img/cmc-web-thumbnail.jpg'
 #   color: '#ffd400'
   
@@ -99,24 +99,24 @@
   
 # - title: 'YOUR Questions Answered!'
 #   subtitle: 'Listen to My Audio Class on Skillshare'
-#   url: https://ttkb.me/sk-audio
+#   url: https://heyrich.net/sk-audio
 #   image: 'img/sk-audio-thumb1.png'
 #   color: '#3819d6'
 
 # - title: 'Mimi Chao Collab Art Prints Available'
 #   subtitle: 'The Perfect Holiday Gift'
-#   url: https://ttkb.me/prints
+#   url: https://heyrich.net/prints
 #   image: 'img/mimi-collab-thumb.gif'
 #   color: '#bbaaaa'
     
 # - title: 'Giclée Art Prints'
 #   subtitle: 'Available at Various Sizes'
-#   url: https://ttkb.me/prints
+#   url: https://heyrich.net/prints
 #   image: 'img/art-prints-thumb.jpg'
 #   color: '#a9737e'
 
 # - title: 'Want Individual Attention + Feedback?'
 #   subtitle: 'Let’s Chat 1:1 on Superpeer'
-#   url: https://ttkb.me/superpeer
+#   url: https://heyrich.net/superpeer
 #   image: 'img/superpeer.png'
 #   color: '#d6d6d6'

@@ -22,8 +22,8 @@ This class is about getting inspired in a deeper, truer, and more authentic way�
 
 ### Where Can I Take the Class? {#options}
 
-- [**On Skillshare.**](https://ttkb.me/get-inspired-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://ttkb.me/get-inspired-sk) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
-- [**On Listenable.**](https://ttkb.me/get-inspired-listenable) Listenable is an *audio-only* membership service with some super-helpful content. Use [this link](https://ttkb.me/get-inspired-listenable) to get a 7-day free trial. You’ll be able to listen to this class and a whole bunch more for free during that time.
+- [**On Skillshare.**](https://heyrich.net/get-inspired-sk) You’ll need a Premium Skillshare membership (very much worth it). If you’ve never used Skillshare before, use [this link](https://heyrich.net/get-inspired-sk) to get a 14-day free trial. You’ll be able to watch this class and tons of others for free during that time.
+- [**On Listenable.**](https://heyrich.net/get-inspired-listenable) Listenable is an *audio-only* membership service with some super-helpful content. Use [this link](https://heyrich.net/get-inspired-listenable) to get a 7-day free trial. You’ll be able to listen to this class and a whole bunch more for free during that time.
 
 ### What The Class Covers
 - Why your city is a Mecca for inspiration.
@@ -41,7 +41,7 @@ This class is about getting inspired in a deeper, truer, and more authentic way�
 	background_color='#366c62'
 	type='cover'
 	cta='Take the class'
-	url='https://ttkb.me/get-inspired'
+	url='https://heyrich.net/get-inspired'
 	btn_text_color='inherit'
 	align='bottom-right'
 	btn_background='light' -%}

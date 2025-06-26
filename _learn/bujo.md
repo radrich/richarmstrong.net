@@ -18,7 +18,7 @@ related:
 {% include video.html type="youtube" id='vOxOWCh39VY' caption="The intro to Bullet Journaling: Get Productive With Your Notebook" %}
 
 <script src="https://gumroad.com/js/gumroad.js"></script>
-<a class="gumroad-button" href="https://taptapkaboom.gumroad.com/l/bujo-class" data-gumroad-overlay-checkout="true">Buy on</a>
+<a class="gumroad-button" href="https://richarmstrong.gumroad.com/l/bujo-class" data-gumroad-overlay-checkout="true">Buy on</a>
 
 ## There’s got to be a better way
 Do you feel like there’s a better way to be productive than using a combination of apps, calendars, websites, paper lists, and post-it notes?
@@ -43,7 +43,7 @@ Rich has been using it since 2021. It’s been life-changing for him. He doesn�
 
 ### Where Can I Take the Class? {#options}
 You can purchase it from our Gumroad store.  
-<a class="gumroad-button" href="https://taptapkaboom.gumroad.com/l/bujo-class" data-gumroad-overlay-checkout="true">€19 on</a>
+<a class="gumroad-button" href="https://richarmstrong.gumroad.com/l/bujo-class" data-gumroad-overlay-checkout="true">€19 on</a>
 
 ## ​What’s covered in this class?
 
@@ -66,7 +66,7 @@ You can purchase it from our Gumroad store.
 	background_color='#fff7eb'
 	type='cover'
 	cta='Get The class'
-	url='https://ttkb.me/bujo-class'
+	url='https://heyrich.net/bujo-class'
 	btn_text_color='inherit'
 	align='middle-right'
 	btn_background='dark' -%}

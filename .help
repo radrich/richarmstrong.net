@@ -31,7 +31,7 @@ Front-matter data:
 title: "Abstract Art"
 subtitle: "Easy Ways to Express Yourself With Adobe Fresco"
 description: "Here’s some principles, tips, issues, and expressions used in the synthetic stop-motion class." #for meta
-external_url: https://ttkb.me/fresco-abstract-art #use this to link to external url instead of url on website
+external_url: https://heyrich.net/fresco-abstract-art #use this to link to external url instead of url on website
 header_img: 'img/rwd-react-native-process.png' #for the post
 img: "img/abstract-art-site-thumbnail.jpg" #thumbnail
 background_color: "#ffdfd8" #styles thumbnail background color

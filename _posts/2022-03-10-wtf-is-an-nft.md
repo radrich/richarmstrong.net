@@ -22,7 +22,7 @@ An NFT is a non-fungible token. Big deal. The explanation for that TLA doesn’t
 
 1. You need to exchange some crypto you own for an NFT. Think of it as handing some cash over in exchange for a skateboard.
 2. You store your crypto in your wallet. There are tons of different kinds of wallet for different blockchains and for different purposes. A wallet doubles as a unique identifier that you can use to log into websites and apps with. Apps that use this way of logging in are called decentralised apps. They call them dApps. When you set up your wallet, you’ll receive a unique phrase—this is access to your wallet. Never share this phrase with anyone. And keep it in a safe place. The wallets I use are [MetaMask](https://metamask.io/) for the Ethereum, Polygon, and Avalanche blockchains. I use [Phantom](https://phantom.app/) for the Solana blockchain. I use [Temple](https://templewallet.com/) for the Tezos blockchain.
-3. You need to exchange “real money” for crytpo. They call “real money” fiat currency. The best place to do this is on an exchange, where you can swap “real” money for digital money. The easiest exchange I’ve used is [Coinbase.com.](https://ttkb.me/coinbase) Use [this link](https://ttkb.me/coinbase) to get some free Bitcoin when you sign up. I’ll get some too.
+3. You need to exchange “real money” for crytpo. They call “real money” fiat currency. The best place to do this is on an exchange, where you can swap “real” money for digital money. The easiest exchange I’ve used is [Coinbase.com.](https://heyrich.net/coinbase) Use [this link](https://heyrich.net/coinbase) to get some free Bitcoin when you sign up. I’ll get some too.
 4. Once you have crypto in your account in an exchange, you can send it to your wallet. Make sure to send the right kind of crytpo to the correct wallet. Send Ether to a wallet that can hold Ether. Send Tezos to a wallet that can hold Tezos. You get the idea.
 5. Provision a bit more money for transaction fees. They call this gas fees.
 
@@ -33,7 +33,7 @@ MetaMask supports the Ethereum blockchain out the box. If you want to transact i
 1. Get some AVAX on Coinbase.
 2. Send it to your AVAX-compatible wallet. Metamask, on the Avalanche network will do.
 3. Log in to [the Kalao marketplace](https://marketplace.kalao.io/) using your wallet.
-4. Check out [the collection.](https://ttkb.me/doodleverse-kalao)
+4. Check out [the collection.](https://heyrich.net/doodleverse-kalao)
 5. Bid and buy as you wish.
 
 ### Where Am I Selling My NFTs?
@@ -48,4 +48,4 @@ I’m trying a bunch of marketplaces out. And aim to try a bunch more. As well a
 ### Warning
 This is a simple and mostly practical post. There are tons of scammers out there. Never share your wallet secret phrase. Double and and triple-check before buying an NFT—especially if it looks too good to be true. FOMO is a real thing. Don’t be swayed too much by it.
 
-Got questions? Reach out to me on [Twitter](https://ttkb.me/twitter-rich) and [Instagram.](https://ttkb.me/ig-rich)
+Got questions? Reach out to me on [Twitter](https://heyrich.net/twitter-rich) and [Instagram.](https://heyrich.net/ig-rich)
