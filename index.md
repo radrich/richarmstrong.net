@@ -1,9 +1,9 @@
 ---
 layout: home
 recent:
+  - /learn/stupidly-simple-system-to-beat-procrastination
   - /learn/unleash-your-creativity
   - /learn/texture-in-procreate
-  - /learn/gradient-maps-in-adobe-photoshop
 start_here:
   - /pages/art
   - /pages/learn
