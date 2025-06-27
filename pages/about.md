@@ -16,9 +16,9 @@ related:
 
 {% include img.liquid img="img/rich/rich-about.jpg" img_mobile="img/rich/rich-about-mobile.jpg" %}
 
-I’m an multi-hyphenate artist, writer, and creative un-sticker living in Amsterdam. Now, I haven’t always called myself an artist. Over the years, I’ve written code, animated things, designed stuff, and taught online. All creative. All for money.
+I’m an multi-hyphenate artist, writer, and creative coach living in Amsterdam. Now, I haven’t always called myself an artist. Over the years, I’ve written code, animated things, designed stuff, and taught online. All creative. All for money.
 
-Now, I make bold, playful art and help other creatives get out of their own way (it’s more common than you think). I use every version of my past self to do what I do now—better, weirder, and with more heart.
+Now, I make bold, playful art and help other creatives get unstuck, get out of their own way, and get moving. I use every version of my past self to do what I do now—better, weirder, and with more heart.
 
 ## My art
 

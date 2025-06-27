@@ -1,12 +1,14 @@
-<div class="notice {% if include.hidden %}hidden{% endif %}" id="{{ include.id }}">
-    <div class="notice-icon"><p>
-        {% if include.img %}
-            <img src="{{ include.img | relative_url }}"/>
-        {% else %}
-            <img src="/assets/idea.png"/>
-        {% endif %}
-    </p></div>
-    <div class="notice-content">
-        {{ include.notice | markdownify }}
+<div class="notice-wrapper">
+    <div class="notice {% if include.hidden %}hidden{% endif %}" id="{{ include.id }}">
+        <div class="notice-icon"><p>
+            {% if include.img %}
+                <img src="{{ include.img | relative_url }}"/>
+            {% else %}
+                <img src="/assets/idea.png"/>
+            {% endif %}
+        </p></div>
+        <div class="notice-content">
+            {{ include.notice | markdownify }}
+        </div>
     </div>
 </div>
