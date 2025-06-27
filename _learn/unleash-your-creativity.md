@@ -5,7 +5,7 @@ description: This 60 page book will transform your grey squishy thing into a cre
 external_url: https://heyrich.net/unleash
 date: 2016-02-24
 updated: 2025-04-30
-image: "img/unleash-your-creativity-thumb.jpg"
+image: "img/unleash-your-creativity-thumb.jpg?v=1"
 background_color: "#fea9e2"
 categories: ['Creativity']
 tags: ['Creative exercises']
