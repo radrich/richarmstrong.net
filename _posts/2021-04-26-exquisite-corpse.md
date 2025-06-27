@@ -13,7 +13,7 @@ related:
   - /learn/5-minute-creative-workouts
 ---
 
-{% include img.html img="img/exquisite-corpse.jpg" %}
+{% include img.liquid img="img/exquisite-corpse.jpg" %}
 
 In April 2021 I sent out an open invite to my Newsletter Subscribers and Skillshare followers to collaborate on a super long Exqusite Corpse.
 

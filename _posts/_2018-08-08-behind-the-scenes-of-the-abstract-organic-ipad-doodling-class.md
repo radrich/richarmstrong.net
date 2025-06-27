@@ -19,7 +19,7 @@ The iPad is such a powerful creation tool. But there’s a tendency, especially 
 ## An experimental class
 So I made the class – but it was also an experiment. I always try *something new* in a class I'm creating, but this one had several new aspects. I really have no idea how it’s going to be received, but it's something I love doing, it's something I believe in – and I wanted to share that.
 
-{% include img.html img="img/abstract-organic-ipad-doodling-preview.jpg" alt='Abstract & Organic iPad Doodling' %}
+{% include img.liquid img="img/abstract-organic-ipad-doodling-preview.jpg" alt='Abstract & Organic iPad Doodling' %}
 
 I had never used lighting before and never recorded myself doodling or drawing (seeing only my hands in the videos is super weird). So I spent some money on basic lights and another desk-clamp thingy to make the overhead recording possible and started experimenting with iPad timelapse recordings. I wanted to show the hand gestures, the Pencil tilt, and where my hands were at all times – so I opted for an overhead shot instead of recording the iPad's screen (which would've made the color better). I also tried including laptops and plants to make it trendy. But at the end I thought less clutter and more focus on what I was doing was a better idea.
 

@@ -23,4 +23,4 @@ signup_tag: Learning
 ### The Right Paper
 I've printed a few pieces through [The Print Space.](https://www.theprintspace.co.uk/) They're amazing. My favourite, by far though, has been the piece below. I printed it on Hahnemühle Bamboo Giclée paper. It's amazeballs! Have a look at a few more photos [on Instagram.](https://www.instagram.com/p/Bvv2pp2FMgT/) I'd suggest choosing a paper that's right for you kind of work. The Print Space has a lot of information on choosing the right paper. Have fun here!
 
-{% include img.html img="img/marbling-print.jpg" alt='Marbling print' caption="Here's a closeup of the printed 'Vermicelli' on Hahnemühle Bamboo Giclée paper." %}
+{% include img.liquid img="img/marbling-print.jpg" alt='Marbling print' caption="Here's a closeup of the printed 'Vermicelli' on Hahnemühle Bamboo Giclée paper." %}

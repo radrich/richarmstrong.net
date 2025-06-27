@@ -21,7 +21,7 @@ slider_images:
   - "img/doodlepantz/named-trunks.png"
 signup_tag: Art
 ---
-{% include img.html img="img/doodlepantz/banner.jpg" %}
+{% include img.liquid img="img/doodlepantz/banner.jpg" %}
 
 Doodle Pantz is a *collaborative* and *experimental* NFT collection. The NFTs in most collections cannot be changed—their image, description, title, and attributes are immutable. Fixed. Set-in-stone. But with Doodle Pantz, the image and the attributes are customisable. Which means owner and artist can collaboarte to design a sweet pair of $Pantz. Each $Pantz token can be customised only once. Once you’ve got your regular $Pantz and you’re ready to customise it, send it over and we can begin the process! The size of the collection will only be 36 items.
 

@@ -13,7 +13,7 @@ related:
   - /posts/ugly-sketchbooks
 ---
 
-{% include img.html img="img/take-a-small-step/banner.jpg" %}
+{% include img.liquid img="img/take-a-small-step/banner.jpg" %}
 
 I often have a seed of an idea. It inspires me. I’m excited. So I think about it—a lot. I spend more time thinking about it than working on it. I don’t play with it. I don’t explore it. In fact, I hardly *do* anything at all. I think about it—a lot. Of how it could be more—bigger, better, awesome-er. I make it such a big thing that it becomes impossible to start. Because when I start it won’t be like what I see in my mind. When I start it will be wrong. When I start it will suck. When I start I won’t be anywhere near completing it, or achieving what I saw in my mind. When I start it may lead to something different and unexpected. When I start people will judge me. When I start I will judge myself. When I start I’ll need to commit. When I start I’ll need to say no to other things. When I start, this will be my thing. How will it fit into what I’m currently doing? How will it fit into my brand? My strategy? What will people think? Will I have time for it? What if it gets really big?
 

@@ -31,7 +31,7 @@ It’s where you do something ‘creative’ for 100 days. ‘Creative’ doesn�
 - What if I develop imposter syndrome?
 - and tons more!
 
-{% include img.html img="img/100dp/book-cover-1.jpg" caption="The physical book is waaay better imo" %}
+{% include img.liquid img="img/100dp/book-cover-1.jpg" caption="The physical book is waaay better imo" %}
 
 ### Links!
 - Order The Perfect 100 Day Project eBook or print edition [on Amazon.](https://heyrich.net/100dpbook-amazon)

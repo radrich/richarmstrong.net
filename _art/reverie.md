@@ -14,13 +14,13 @@ related:
   - /posts/dreamheadz
 signup_tag: Art
 ---
-{% include img.html img="img/reverie/banner.jpg" %}
+{% include img.liquid img="img/reverie/banner.jpg" %}
 
 The veil between *The Realm of Dreams* and reality is wafer-thin. Dreams are not *just* bubbling into deamers’ minds, but daydreamers’ too! Creatures, cosmic submarines, and all kinds of imagined beings, are frenzying themselves about the realm of reality.
 
 Soon, the thin veil will fall.
 
-{% include img.html img="img/reverie/grid.jpg" caption="All the Reverie pieces" %}
+{% include img.liquid img="img/reverie/grid.jpg" caption="All the Reverie pieces" %}
 
 *Reverie* a collection of 25 unique pieces, including an animation, and they’re minted as NFTs on the Avalanche blockchain. You can view the collection [on Salvor](https://salvor.io/collections/0xe68e14c8fe982d432277643315b2d97fdd90b78a) where you can pick up pieces for sale.
 

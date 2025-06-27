@@ -7,6 +7,6 @@ index: true
 subscribe: false
 layout: single-center
 ---
-{% include img.html default_size="true" img="img/rich/celebration-5.gif?v=1" caption="Now it’s party time—be in touch soon" %}
+{% include img.liquid default_size="true" img="img/rich/celebration-5.gif?v=1" caption="Now it’s party time—be in touch soon" %}
 
 

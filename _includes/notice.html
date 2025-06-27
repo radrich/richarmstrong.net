@@ -1,4 +1,4 @@
-<div class="notice">
+<div class="notice {% if include.hidden %}hidden{% endif %}" id="{{ include.id }}">
     <div class="notice-icon"><p>
         {% if include.img %}
             <img src="{{ include.img | relative_url }}"/>

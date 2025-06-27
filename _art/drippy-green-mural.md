@@ -14,7 +14,7 @@ related:
   - /posts/spro-mural
 signup_tag: Art
 ---
-{% include img.html img="img/drippy-green-mural/feature.jpg" caption="This green was epic to work with" %}
+{% include img.liquid img="img/drippy-green-mural/feature.jpg" caption="This green was epic to work with" %}
 
 I have friends who like this colour green. The same friends have a kid who loves my doodles. So guess who got a super rad mural birthday gift?
 
@@ -22,13 +22,13 @@ I managed to find the exact right paint colour. I did some rough planning and sk
 
 It was fun to paint in such a tight space, and in a pre-planned way.
 
-{% include img.html img="img/drippy-green-mural/overview.jpg" %}
+{% include img.liquid img="img/drippy-green-mural/overview.jpg" %}
 
-{% include img.html img="img/drippy-green-mural/closeups.jpg" caption="Some closeups" %}
+{% include img.liquid img="img/drippy-green-mural/closeups.jpg" caption="Some closeups" %}
 
-{% include img.html img="img/drippy-green-mural/kid.jpg" caption="Had to give the kid a go!" %}
+{% include img.liquid img="img/drippy-green-mural/kid.jpg" caption="Had to give the kid a go!" %}
 
-{% include img.html img="img/drippy-green-mural/wip.jpg?v=1" caption="Some work in progress shots" %}
+{% include img.liquid img="img/drippy-green-mural/wip.jpg?v=1" caption="Some work in progress shots" %}
 
 
 ### Links

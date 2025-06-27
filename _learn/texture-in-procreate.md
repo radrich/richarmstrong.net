@@ -23,7 +23,7 @@ You know how you want to take your digital artwork to the next level, but not su
 
 So that’s what this class is all about—processes and techniques that add texture to your artwork. Whether its client-focused illustration work, art that goes on walls, or graphic design artwork, learning how to add texture to your work will make it warmer, richer, and full of personality.
 
-{% include img.html img="img/texture-in-procreate-examples.jpg" caption="Start to finish examples I create during the class" %}
+{% include img.liquid img="img/texture-in-procreate-examples.jpg" caption="Start to finish examples I create during the class" %}
 
 ### What do you need?
 

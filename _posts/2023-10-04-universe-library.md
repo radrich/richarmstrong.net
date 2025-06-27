@@ -15,15 +15,15 @@ signup_tag: Art
 ---
 The Universe Library will become a collection of common elements I use in my artwork—submarines, clouds, suns, birds, jewels, jellyfish, mushrooms—mostly those kind of things. But I could, in theory, add any kind of elements to the library.
 
-{% include img.html img="img/ttkb-library/3-up.jpg" caption="Just 3 scenes generated with code" %}
+{% include img.liquid img="img/ttkb-library/3-up.jpg" caption="Just 3 scenes generated with code" %}
 
 For example, I’ve created the first 2 groups in the library—blue birds and plain white birds. This is my prototype. Each group has 10 birds with 25 variations—different types of eye combined with different types of beak. Each bird is a mini-generative piece of art with traits and attributes. That means, for the group of blue birds, there are 250 unique items that could be added to the canvas. When you add rotation, position, and volume of birds into the mix, the variety of scenes and compositions I can create (pretty quickly) racks up. The idea of a library is perfect for my work, which has a recurring theme of dreams in it. And, in dreams, there are recurring elements and themes.
 
-{% include img.html img="img/ttkb-library/generative.jpg" caption="8 of 25 possible variations for a single body. Subtle variations, but variations nonetheless" %}
+{% include img.liquid img="img/ttkb-library/generative.jpg" caption="8 of 25 possible variations for a single body. Subtle variations, but variations nonetheless" %}
 
 I’ve been wanting to begin this library since the early days of [The Doodleverse collection.](/doodleverse) But it always felt overwhelming. Parts of creating it are incredibly tedious. I’m ADHD. It’s always been quicker to create a piece from scratch than create and use elements from my hypothetical library—and it’s given me more dopamine. However, the elements in previous pieces can never be reused. Because they aren’t split into layers and often times have other elements on top of them, which means I’ve erased the unseen artwork. If I wanted to nudge an element a few pixels up, or to the right, or try it elsewhere in the composition, I’d need to redraw parts of it. I’ve often been too lazy to do this. Going forward, I’d like to draw all elements as their own individual element and add it to the library—possibly with some attributes that give it variety. It will take longer to create pieces in the beginning, but I’m hoping it will pay off. The kind of art it’ll lead to will be different, layered, and more complex. It feels like I’ve developed enough patience and discipline to tackle this project now.
 
-{% include img.html img="img/doodleverse/9-ritual.jpg" caption="You can see how the birds overlap each other, and the mountain, here" %}
+{% include img.liquid img="img/doodleverse/9-ritual.jpg" caption="You can see how the birds overlap each other, and the mountain, here" %}
 
 So, is the library just a bunch of elements you can add to pieces? No. In conjunction to creating the separate elements, I’m creating a code base that will allow me to do a few different things:
 

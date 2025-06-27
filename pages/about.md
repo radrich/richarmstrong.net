@@ -14,7 +14,7 @@ related:
   - /pages/art
 ---
 
-{% include img.html img="img/rich/rich-about.jpg" img_mobile="img/rich/rich-about-mobile.jpg" %}
+{% include img.liquid img="img/rich/rich-about.jpg" img_mobile="img/rich/rich-about-mobile.jpg" %}
 
 I’m an multi-hyphenate artist, writer, and creative un-sticker living in Amsterdam. Now, I haven’t always called myself an artist. Over the years, I’ve written code, animated things, designed stuff, and taught online. All creative. All for money.
 
@@ -26,13 +26,13 @@ My work is vibrant, emotional, and full of strange creatures and characters. Som
 
 **My mission is simple:** make art that reminds you what it felt like to be a kid. I want you to dream again, believe anything is possible, and delve into your imagination. I want you to feel a little more human.
 
-{% include img.html img="img/doodleverse-specials/sign-post.jpg" caption="My Doodleverse style" %}
+{% include img.liquid img="img/doodleverse-specials/sign-post.jpg" caption="My Doodleverse style" %}
 
 ## Helping creatives unstick themselves
 
 When I’m not making art, I’m helping other creatives finish what they start. And sometimes just start. 250k+ people have read my books and taken my courses. They’ve learned new skills, beat procrastination, made plans, found creative flow, and done difficult things.
 
-{% include img.html img="img/filming.jpg" caption="Rich in action at the old studio" %}
+{% include img.liquid img="img/filming.jpg" caption="Rich in action at the old studio" %}
 
 ## A few extra things:
 

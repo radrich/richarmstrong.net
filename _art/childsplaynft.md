@@ -25,7 +25,7 @@ slider_images:
   - "img/childsplay/10.jpg"
 signup_tag: Art
 ---
-{% include img.html img="img/childsplay-banner.jpg" %}
+{% include img.liquid img="img/childsplay-banner.jpg" %}
 
 Child’s Play is an abstract NFT collection made by *my daughter* when she was around 18 months old. There are 101 pieces that she created both on iPad and on paper. This is a special [collection](https://campfire.exchange/collections/0x063d76a8d094fafad03e7539a8c88bc3fc049423) that I gifted to my collectors in October 2022.
 

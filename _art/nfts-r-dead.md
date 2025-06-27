@@ -19,7 +19,7 @@ slider_images:
   - "img/rdead/4.jpg"
 signup_tag: Art
 ---
-{% include img.html img="img/rdead/banner.jpg" %}
+{% include img.liquid img="img/rdead/banner.jpg" %}
 
 People keep telling me “NFTs R deAd.” Or they ask “R NFTs DeAd?” They’re not. They’re forever. They’re culture. They’re change. They’re the future.
 
@@ -39,4 +39,4 @@ To celebrate Halloween, and the “death of NFTS”, I created [4 mixed-media pi
 
 {% include glider.html imgs=page.slider_images %}
 
-{% include img.html img="img/rdead/1.jpg" caption="R DeAd #1" %}
+{% include img.liquid img="img/rdead/1.jpg" caption="R DeAd #1" %}

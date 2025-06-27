@@ -36,7 +36,7 @@ Each of the seven pieces is a 1/1 ERC-721. Auction winners will receive a framed
 
 These pieces are the biggest pieces I’ve created. They’re 5X bigger than my pieces in my [Doodleverse collection](/doodleverse), and 3X bigger than pieces in my [For Love collection.](/for-love)
 
-{% include img.html caption="Oak frames with anti-reflective art glass" img="img/limina/frames.jpg" %}
+{% include img.liquid caption="Oak frames with anti-reflective art glass" img="img/limina/frames.jpg" %}
 
 ### Collection details
 - **Artist:** Rich Armstrong.

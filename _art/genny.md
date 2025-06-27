@@ -14,7 +14,7 @@ related:
   - /art/for-love
 signup_tag: Art
 ---
-{% include img.html img="img/genny/genny.png" %}
+{% include img.liquid img="img/genny/genny.png" %}
 
 *Genny* is a new and different kind of magic to [The Doodleverse.](/doodleverse) The collection’s made up of an ever increasing amount of generative art. Generative art is art that’s made with code. I’m using [Processing](https://processing.org/) and [p5.js](https://p5js.org/) to create the pieces. Each piece is derived from an algorithm I’ve written.
 

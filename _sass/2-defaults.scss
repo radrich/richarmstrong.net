@@ -356,10 +356,11 @@ blockquote{
 .notice{
 	background-color: $black05;
 	position: relative;
-	margin: 0 -20px 20px;
+	margin: 0 auto 20px;
 	box-sizing: border-box;
 	padding: 32px;
-	width: calc(100% + 40px);
+	width: 100%;
+	max-width: $desktopMin;
 	border-radius: 8px;
 	overflow: hidden;
 	display: flex;
@@ -393,6 +394,10 @@ blockquote{
 	}
 	p:last-child{
 		margin-bottom: 0;
+	}
+	
+	&.hidden{
+		display: none;
 	}
 	
 	@media (max-width: $tabletMax) {

@@ -14,7 +14,7 @@ related:
   - /learn/hand-code-your-first-website
 ---
 
-{% include img.html img="img/nft-banner.png" %}
+{% include img.liquid img="img/nft-banner.png" %}
 
 An NFT is a non-fungible token. Big deal. The explanation for that TLA doesn’t help anyone. An NFT is a unique token that can be traded. Think a baseball card, or Pokémon card. But also think of your home and your phone. Everyone has one (almost) but they’re not the same. They’re not interchangeable (fungible). They’re worth different amounts to different people. NFTs are all about value, and the ability to transfer that value, really easily. And yes, it’s all stored on the blockchain which means it’s transparent and verifiable.
 

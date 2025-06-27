@@ -24,6 +24,15 @@ document.getElementById('menuBtn').addEventListener('click', function (e) {
 	return false;
 });
 
+/** fromTapTapKaboom */
+// Remove 'hidden' class from #fromTapTapKaboom if ?from=taptapkaboom is in the URL
+if (window.location.search.includes('from=taptapkaboom')) {
+  var el = document.getElementById('fromTapTapKaboom');
+  if (el) {
+    el.classList.remove('hidden');
+  }
+}
+
 /** filter box */
 
 var filterBtnsToggle = document.getElementById('filterBtnsToggle');

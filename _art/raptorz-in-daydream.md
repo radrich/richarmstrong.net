@@ -13,7 +13,7 @@ related:
   - /posts/happy-sun
 signup_tag: Art
 ---
-{% include img.html img="img/raptorz-collab-banner.jpg" %}
+{% include img.liquid img="img/raptorz-collab-banner.jpg" %}
 
 *It really was a funny thing. Raptorz began appearing in The Doodleverse. Who was dreaming of them? How many were there to be? And all of a sudden the dreams stopped. Only five of them. It could only mean one thing: day dreaming. Of Raptorz.*
 
@@ -23,8 +23,8 @@ signup_tag: Art
 - The collection on [Kalao.](https://heyrich.net/raptz)
 - View the project on [Bēhance.](https://www.behance.net/gallery/163469079/Raptorz-in-Daydream)
 
-{% include img.html img="img/raptorz-collab-1.jpg" %}
-{% include img.html img="img/raptorz-collab-2.jpg" %}
-{% include img.html img="img/raptorz-collab-3.jpg" %}
-{% include img.html img="img/raptorz-collab-4.jpg" %}
-{% include img.html img="img/raptorz-collab-5.jpg" %}
+{% include img.liquid img="img/raptorz-collab-1.jpg" %}
+{% include img.liquid img="img/raptorz-collab-2.jpg" %}
+{% include img.liquid img="img/raptorz-collab-3.jpg" %}
+{% include img.liquid img="img/raptorz-collab-4.jpg" %}
+{% include img.liquid img="img/raptorz-collab-5.jpg" %}

@@ -14,7 +14,7 @@ related:
   - /learn/the-perfect-100-day-project-book
 ---
 
-{% include img.html img="img/get-inspired-explore-your-city-pins1.jpg" caption="Some inspiration from Amsterdam." %}
+{% include img.liquid img="img/get-inspired-explore-your-city-pins1.jpg" caption="Some inspiration from Amsterdam." %}
 
 **We all want to produce better work.** We want to create something meaningful that makes a difference. And we want to do it in our way and in our style. For this we need creativity. And for that we need inspiration. And good quality inspiration. But too often we go after convenient inspiration, rather than effective inspiration.
 
@@ -35,8 +35,8 @@ Exploring a city is a combination of being outside, people, movement, exercise, 
 
 I love this quote. Because getting outside, exploring my city, and absorbing inspiration is what sharpening my axe looks like to me. And I’m pretty sure it will have the same effect on you.
 
-{% include img.html img="img/get-inspired-explore-your-city-pins2.jpg" %}
-{% include img.html img="img/get-inspired-explore-your-city-pins3.jpg" caption="Tried sardines for the first time. Much preferred the tin to the taste." %}
+{% include img.liquid img="img/get-inspired-explore-your-city-pins2.jpg" %}
+{% include img.liquid img="img/get-inspired-explore-your-city-pins3.jpg" caption="Tried sardines for the first time. Much preferred the tin to the taste." %}
 
 You may be convinced that it’s time explore your city. To absorb inspiration. To refuel your creative well. To relax. That’s the point of this post. If you want a guide on how to best make that happen, then take my online class [Get Inspired: Explore Your City.](/get-inspired-explore-your-city) 
 

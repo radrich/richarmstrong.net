@@ -20,18 +20,18 @@ coloring_grid_images:
   - "img/avalanche9000/coloring2.jpg"
   - "img/avalanche9000/coloring1.jpg"
 ---
-{% include img.html img="img/avalanche9000/main.jpg" caption="All aboard? Can everyone please buckle in. We’re going to the moon." %}
+{% include img.liquid img="img/avalanche9000/main.jpg" caption="All aboard? Can everyone please buckle in. We’re going to the moon." %}
 
 The idea behind the Avalanche 9000? A spaceship with many compartments—some that even hold whole other universes. The main spaceship is like an ark. And each pod is attached to the main spaceship. As the mothership hyperjumps through space and time, so do all the pods. That’s kind of what Avalanche 9000 is. Explore more of what it really is [here.](https://www.avalanche9000.com/)
 
 I’ve been secretly wanting to make this epic spaceship for ages. I wanted to call the project *Intergalactic Space Boats*, and riff off of 
 IPFS (interplanetary filesystem). It didn’t take me long to connect the brief with my spaceship idea.
 
-{% include img.html img="img/avalanche9000/notebook.jpg" caption="Connecting ideas to briefs." %}
+{% include img.liquid img="img/avalanche9000/notebook.jpg" caption="Connecting ideas to briefs." %}
 
 With the idea plucked from the past and connected to a present project, I took an afternoon to sketch the idea in Procreate. I’ve illustrated rockets, spaceships, and mechanical things before, but nothing at this size and detail. It ended up being bigger than A2.
 
-{% include img.html img="img/avalanche9000/sketch.jpg" caption="The original Sketch in Procreate." %}
+{% include img.liquid img="img/avalanche9000/sketch.jpg" caption="The original Sketch in Procreate." %}
 
 One of the biggest decisions I needed to make was to include the 2 Happy Suns in a realm above, or to include a big one at the bottom.
 

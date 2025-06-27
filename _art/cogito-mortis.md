@@ -14,7 +14,7 @@ related:
   - /posts/happy-sun
 signup_tag: Art
 ---
-{% include img.html img="img/cogito-mortis-banner.jpg" %}
+{% include img.liquid img="img/cogito-mortis-banner.jpg" %}
 
 *Remember those who walked before.  
 Death welcomes all.  
@@ -30,5 +30,5 @@ Cogito Mortis is the poem above and 52 generative art pieces interpreting it. Th
 - The collection on [Joepegs.](https://joepegs.com/collections/avalanche/cogito-mortis)
 - View it on [Bēhance.](https://www.behance.net/gallery/162897369/Cogito-MortisI-Think-of-Death)
 
-{% include img.html img="img/cogito-mortis-grid-1.jpg" %}
-{% include img.html img="img/cogito-mortis-grid-2.jpg" %}
+{% include img.liquid img="img/cogito-mortis-grid-1.jpg" %}
+{% include img.liquid img="img/cogito-mortis-grid-2.jpg" %}

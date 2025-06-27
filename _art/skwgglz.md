@@ -25,7 +25,7 @@ slider_images:
   - "img/skwgglz/10.png"
 signup_tag: Art
 ---
-{% include img.html img="img/skwgglz-banner.png" %}
+{% include img.liquid img="img/skwgglz-banner.png" %}
 
 The Skwgglz, a carefree bunch of doodles, sprung to life while the artist that made them dozed and drooled at his desk. **Skwgglz** was a free mint for all of Rich’s NFT holders on 31 Oct 2022. The 52 items “sold out” quickly.
 

@@ -46,15 +46,15 @@ I’ve put a lot of love and time into making this book. I even became a yellow-
 ## What does the book look like?
 Below are a few mockups of what the book looks like inside. You’ll see the hand-drawn stories and big colourful character illustrations.
 
-{% include img.html img="img/cover3.jpg" %}
-{% include img.html img="img/cover2.jpg" %}
-{% include img.html img="img/cover4.jpg" %}
+{% include img.liquid img="img/cover3.jpg" %}
+{% include img.liquid img="img/cover2.jpg" %}
+{% include img.liquid img="img/cover4.jpg" %}
 
 In the EPUB version of the book, 15 of the characters are animated. See below for a few examples.
 
-{% include img.html img="img/62.gif" %}
-{% include img.html img="img/64.gif" %}
-{% include img.html img="img/15.gif" %}
+{% include img.liquid img="img/62.gif" %}
+{% include img.liquid img="img/64.gif" %}
+{% include img.liquid img="img/15.gif" %}
 
 I recorded and exported most of the time lapse videos. At some stage I felt a certain pressure to be illustrating “properly”, and not making so many mistakes and changing my mind, so I stopped caring about the time lapses. But I found a lot of them at the end of the project again.
 

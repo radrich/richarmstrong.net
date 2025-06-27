@@ -30,7 +30,7 @@ slider_images:
   - "img/dreamheadz/15.jpg"
 signup_tag: Art
 ---
-{% include img.html img="img/dreamheadz/banner.jpg" %}
+{% include img.liquid img="img/dreamheadz/banner.jpg" %}
 
 _With blinding clouds wrapped around their heads, Dreamheadz have lost more than their sight. Their friends call them crazy. The authorities believe they’re addicts. But it’s worth it. They’re navigating dreams and building new worlds using their imaginations alone._
 
@@ -44,19 +44,19 @@ The collection comprises of 19 pieces made by 14 other artists; 13 legendary pie
 
 The [13 legendary Dreamheadz](https://joepegs.com/collections/avalanche/0x05e5DFF8b358cf748F3C51fe652288497a6eEa58?attributes=%255B%257B%2522traitType%2522%253A%2522Category%2522%252C%2522values%2522%253A%255B%2522Legendary%2522%255D%257D%255D) include characters like King Cloud, Peachy, Prince of Cool, Poof, Benny Squareface, and Captain Octo. They each come with a story and unique set of attributes, making them super rare in the collection.
 
-{% include img.html img="img/dreamheadz/legends-1.jpg" caption="A few legendary Dreamheadz" %}
+{% include img.liquid img="img/dreamheadz/legends-1.jpg" caption="A few legendary Dreamheadz" %}
 
 ### Named Items
 
 Each of the [33 named Dreamheadz](https://joepegs.com/collections/avalanche/0x05e5DFF8b358cf748F3C51fe652288497a6eEa58?attributes=%255B%257B%2522traitType%2522%253A%2522Category%2522%252C%2522values%2522%253A%255B%2522Named%2522%255D%257D%255D) comes with a story, and their attributes were hand-picked. They’re good-looking and often rarer than most. There’s Bluey, Dazey and Doc Robocloud. There’s Blaze, Spacey, and Princess Peggy Purple. And of course there’s Golden Boy, Naked Nick, and Jimmy Secrets.
 
-{% include img.html img="img/dreamheadz/named-1.jpg" caption="Some of the named Dreamheadz" %}
+{% include img.liquid img="img/dreamheadz/named-1.jpg" caption="Some of the named Dreamheadz" %}
 
 ### Artist Custom Items
 
 I love collaborating with artists. And with Dreamheadz, 14 artists created their [custom Dreamheadz.](https://joepegs.com/collections/avalanche/dreamheadz?attributes=%255B%257B%2522traitType%2522%253A%2522Category%2522%252C%2522values%2522%253A%255B%2522Artist+Custom%2522%255D%257D%255D) These are the ultimate rare pieces in the collection.
 
-{% include img.html img="img/dreamheadz/customs-1.jpg" caption="Some of the artist customs" %}
+{% include img.liquid img="img/dreamheadz/customs-1.jpg" caption="Some of the artist customs" %}
 
 ### The Process
 

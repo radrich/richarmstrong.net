@@ -19,5 +19,5 @@ layout: single-center
 
 Download your FREE guide, and subscribe to the my mailing list.
 
-{% include img.html img="img/boost-your-creativity-free/banner.jpg" contained="true" %}
+{% include img.liquid img="img/boost-your-creativity-free/banner.jpg" contained="true" %}
 {% include mailing-list.html btn="Subscribe &amp; Send" %}

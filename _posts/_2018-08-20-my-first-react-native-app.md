@@ -39,11 +39,11 @@ Now that you know all that, let me talk about my experience.
 
 Initially, I did some thinking and ideating. And then wire-framing. And then thinking of what I could *actually* achieve with my current skillset. I did some initial user interface designs and some branding/doodling. Then I set off, trying to make a simple version of the app – just trying to get things working. I didn’t care how things looked. I just wanted things to work. I think this is how most developers think—it’s not about the experience, but about making things work. Once I had things working I had to shift my brain into *experience mode.* I had to think about colors, buttons, states, transitions, animations. I had to think about positioning, component structure, and hierarchy. When you’re coding for the experience it’s different to coding to make things work – it feels like they’re 2 totally different things. You really need 2 different brains.
 
-{% include img.html img="img/rwd-wireframes.jpg" alt='Random Word Doodle app wireframes' caption="Some initial wireframes. You’ll see that some things got chopped (or left for a further release)." %}
+{% include img.liquid img="img/rwd-wireframes.jpg" alt='Random Word Doodle app wireframes' caption="Some initial wireframes. You’ll see that some things got chopped (or left for a further release)." %}
 
 Creating the assets and finishing the app was the toughest part for me (not the longest). Normally I design stuff and hand it over to developers, or I design something first and then develop it, or design while I’m developing in the browser. But this time, because everything was of hand-doodled nature, I had to create assets, export them, and try them out in the app. It was like the worst case of procrastination. But I beat it.
 
-{% include img.html img="img/rwd-app-progress.jpg" alt='Random Word Doodle app progress' caption="You can see some of the progression here." %}
+{% include img.liquid img="img/rwd-app-progress.jpg" alt='Random Word Doodle app progress' caption="You can see some of the progression here." %}
 
 ## From start to finish
 
@@ -62,7 +62,7 @@ Let me start by saying that Expo makes it really easy to develop! With Expo, you
 - The included libraries are pretty sweet and fill in most of the gaps that React Native itself doesn’t address.
 - You can get it to reload when you save a file. In fact, you can get it to reload just the component you’re working in.
 
-{% include img.html img="img/rwd-expo.jpg" alt='Expo' caption="This is the simplicity of Expo. It’s super sweet." %}
+{% include img.liquid img="img/rwd-expo.jpg" alt='Expo' caption="This is the simplicity of Expo. It’s super sweet." %}
 
 That’s not to say Expo doesn’t have its issues, but it worked really well most of the time. What the Expo app didn’t do was publish or build apps. I had to use the Expo command line tool for that. It was pretty easy and much better than going into Xcode or Android Studio.
 
@@ -103,7 +103,7 @@ I initially published only the iOS version. I didn’t have a look at the app lo
 - An oversized splash image
 - Expo includes a bunch of stuff like calendar, contacts and location service permissions. It’s not ideal, but I think that it pros outweigh the cons.
 
-{% include img.html img="img/rwd-android-permissions.jpg" alt='Expo' caption="Expo people, if you read this, please take note!" %}
+{% include img.liquid img="img/rwd-android-permissions.jpg" alt='Expo' caption="Expo people, if you read this, please take note!" %}
 
 Although I did it prior to starting this project, I have to mention it. Setting up [Android Studio](https://developer.android.com/studio/) and getting the Android simulators working wasn’t fun. I spent a lot of time on Google trying to figure out how to do it (maybe that’s their ploy). I cannot recount the things I had to do to make it work. I may only have one kidney now. But I got it to work! And I got [Genymotion](https://www.genymotion.com/) working too! But they still don’t compare to a real Android device. I don’t have one of those. Anyone willing to donate one?
 
