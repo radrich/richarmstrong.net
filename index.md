@@ -100,4 +100,4 @@ portfolio:
 
 ## Hey! I’m Rich
 
-I’m an artist, writer, and creative coach living in Amsterdam. <br class="hide-when-mobile">I make bold, playful art and help other creatives get unstuck. **Pumped&nbsp;you’re&nbsp;here.**
+I’m a multi-hyphenate artist, writer, and creative coach living in Amsterdam. <br class="hide-when-mobile">I make bold, playful art and help other creatives get unstuck. **Pumped&nbsp;you’re&nbsp;here.**
