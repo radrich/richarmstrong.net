@@ -161,6 +161,21 @@ a.cta{
 		background-color: $accentColor4;
 	}
 	
+	&.primary{
+		background-color: $accentColor1;
+		font-size: 20px;
+		padding: 16px 24px;
+		color: white;
+		border-radius: 26px;
+		
+		&:hover, &:active{
+			background-color: mix(black, $accentColor1, 10%);
+		}
+		 &:active{
+			transform: translateY(2px);
+		 }
+	}
+	
 	&.bg-light{
 		color: white;
 		background-color: transparentize(white, .8);
@@ -179,19 +194,19 @@ a.cta{
 		}
 	}
 	
-	&.show-mobile-max{
-		display: none;
+	// &.show-mobile-max{
+	// 	display: none;
 		
-		@media (max-width: $mobileMax){
-			display: flex;
-			width: 50%;
-			margin: 0 auto;
-		}
-		@media (max-width: $mobileMin){
-			display: flex;
-			width: 100%;
-		}
-	}
+	// 	@media (max-width: $mobileMax){
+	// 		display: flex;
+	// 		width: 50%;
+	// 		margin: 0 auto;
+	// 	}
+	// 	@media (max-width: $mobileMin){
+	// 		display: flex;
+	// 		width: 100%;
+	// 	}
+	// }
 }
 
 button, input[type="submit"]{
