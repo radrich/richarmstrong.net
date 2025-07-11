@@ -1,12 +1,12 @@
 ---
 title: "Unleash Your Creativity"
-subtitle: "in Just 10 Days"
-description: This 60 page book will transform your grey squishy thing into a creativity powerhouse through a fun and simple method called "The Random Word Doodle."
+subtitle: "Train Your Brain To Be More Creative in Just 10 Days"
+description: Rewire your brain for creative action, ideas, and problem-solving with a fun, daily 5-minute-a-day habit.
 external_url: https://heyrich.net/unleash
 date: 2016-02-24
-updated: 2025-04-30
-image: "img/unleash-your-creativity-thumb.jpg?v=1"
-background_color: "#fea9e2"
+updated: 2025-07-11
+image: "img/unleash-your-creativity/thumb.jpg?v=1"
+background_color: "#0041a4"
 categories: ['Creativity']
 tags: ['Creative exercises']
 type: ['Book']
