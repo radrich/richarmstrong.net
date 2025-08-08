@@ -23,7 +23,7 @@ grid_images:
 
 {% include img.liquid img="img/phone-covers/yellow-banner.jpg" caption="Using every opprtunity to spread happy vibes" %}
 
-My previous phone cover snapped.
+My [previous phone cover](/phone-cover-are-you-ugly) snapped.
 
 Damn? Nah.
 
