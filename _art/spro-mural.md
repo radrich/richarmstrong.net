@@ -26,6 +26,8 @@ grid_images:
 **Brighton in November?**  
 Cold and rainy.
 
+Great for doing a massive mural with acrylic paint markers.
+
 I crouched, stood on ladders, and painted upside down for 3 days (respect Michelangelo). With help from my 3-year-old daughter on the “sweet genius” pink splodges.
 
 Because I’d designed and illustrated the SPRO collateral materials (takeaway cups, loyalty cards, greaseproof paper, and posters) the style and characters had mostly been pre-approved. The rest was freestyle doodling, with minor input from the SPRO team—like the poopy man saying “This coffee is the sh*t”.
