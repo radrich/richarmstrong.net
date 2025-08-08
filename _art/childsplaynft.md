@@ -9,9 +9,9 @@ tags: ['NFT', 'Kids']
 background_color: "white"
 color: "black"
 related:
-  - /posts/doodleverse
-  - /posts/happy-sun
-  - /posts/nft
+  - /art/doodleverse
+  - /art/happy-sun
+  - /art/nft
 slider_images:
   - "img/childsplay/1.jpg"
   - "img/childsplay/2.jpg"

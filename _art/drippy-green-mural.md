@@ -1,6 +1,6 @@
 ---
 title: A Drippy Green Mural
-subtitle: For a Kid’s Bedroom
+subtitle: For a kid’s bedroom
 date: 2024-02-23
 image: 'img/drippy-green-mural/thumb.jpg'
 description: ""
@@ -9,9 +9,9 @@ tags: ['Client Work', 'Mural', 'IRL']
 background_color: "black"
 color: "white"
 related:
-  - /posts/bloom-avalanche-summit-mural
-  - /posts/esomar-congress-2023
-  - /posts/spro-mural
+  - /art/bloom-avalanche-summit-mural
+  - /art/esomar-congress-2023
+  - /art/spro-mural
 signup_tag: Art
 ---
 {% include img.liquid img="img/drippy-green-mural/feature.jpg" caption="This green was epic to work with" %}

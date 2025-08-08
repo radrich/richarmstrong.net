@@ -9,9 +9,9 @@ background_color: "#dda595"
 color: "black"
 date: 2024-11-29
 related:
-  - /posts/drippy-green-mural
-  - /posts/bloom-avalanche-summit-mural
-  - /posts/esomar-congress-2023
+  - /art/drippy-green-mural
+  - /art/bloom-avalanche-summit-mural
+  - /art/esomar-congress-2023
 grid_images:
   - "img/spro/mural-2.jpg"
   - "img/spro/mural-3.jpg"
@@ -31,8 +31,6 @@ grid_images:
   - "img/spro/mural-17.jpg"
   - "img/spro/mural-18.jpg"
   - "img/spro/mural-20.jpg"
-  
-signup_tag: Art
 ---
 In cold and rainy November 2024, I flew my family from Amsterdam over to Brighton for a few days to do a mural at SPRO Coffee Co—and to explore the city. I crouched, painted upside down, stood on ladders for hours, and even got my 3-year-old daughter painting some of the “sweet genius” pink splodges.
 

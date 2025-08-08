@@ -9,9 +9,9 @@ tags: ['NFT', 'Doodleverse', 'Happy Sun']
 background_color: "black"
 color: "white"
 related:
-  - /posts/doodleverse
-  - /posts/happy-sun
-  - /posts/nft
+  - /art/doodleverse
+  - /art/happy-sun
+  - /art/nft
 signup_tag: Art
 ---
 {% include img.liquid img="img/for-love/grid.jpg" %}

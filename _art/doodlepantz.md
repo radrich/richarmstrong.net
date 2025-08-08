@@ -9,9 +9,9 @@ color: white
 categories: ['Projects', 'Illustration']
 tags: ['NFT', 'For Sale']
 related:
-  - /posts/doodleverse
-  - /posts/spacer-on-that-ass
-  - /posts/happy-sun
+  - /art/doodleverse
+  - /art/spacer-on-that-ass
+  - /art/happy-sun
 slider_images:
   - "img/doodlepantz/named-briefs.png"
   - "img/doodlepantz/named-bikini.png"

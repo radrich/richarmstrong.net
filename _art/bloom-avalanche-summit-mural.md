@@ -9,9 +9,9 @@ tags: ['Client Work', 'Mural', 'IRL']
 background_color: "black"
 color: "white"
 related:
-  - /posts/essential-glasses-coral-reef
-  - /posts/esomar-congress-2023
-  - /posts/doodleverse
+  - /art/essential-glasses-coral-reef
+  - /art/esomar-congress-2023
+  - /art/doodleverse
 signup_tag: Art
 ---
 {% include img.liquid img="img/avalanche-ii-mural/crop1.jpg" %}

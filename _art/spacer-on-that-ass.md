@@ -9,9 +9,9 @@ tags: ['Client Work', 'Pattern Design']
 background_color: "black"
 color: "white"
 related:
-  - /posts/bloom-avalanche-summit-mural
-  - /posts/doodleverse
-  - /posts/for-love
+  - /art/bloom-avalanche-summit-mural
+  - /art/doodleverse
+  - /art/for-love
 slider_images:
   - "img/on-that-ass/1.jpg"
   - "img/on-that-ass/5.jpg"

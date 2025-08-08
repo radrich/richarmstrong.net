@@ -76,6 +76,9 @@ portfolio:
       img: ../img/leopard-queens/10.jpg
       alt: ""
   col2:
+    - url: /phone-cover-happy-yellow
+      img: ../img/phone-covers/yellow-1.jpg
+      alt: ""
     - url: /limina
       img: ../img/limina/1.jpg
       alt: ""

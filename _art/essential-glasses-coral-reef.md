@@ -9,9 +9,9 @@ tags: ['Client Work', 'Mural', 'IRL', 'Vector']
 background_color: "black"
 color: "white"
 related:
-  - /posts/bloom-avalanche-summit-mural
-  - /posts/esomar-congress-2023
-  - /posts/for-love
+  - /art/bloom-avalanche-summit-mural
+  - /art/esomar-congress-2023
+  - /art/for-love
 signup_tag: Art
 ---
 {% include img.liquid img="img/essential-glasses-coral-reef/banner.jpg" %}

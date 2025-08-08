@@ -9,9 +9,9 @@ tags: ['Client Work']
 background_color: "black"
 color: "white"
 related:
-  - /posts/doodleverse
-  - /posts/for-love
-  - /posts/happy-sun
+  - /art/doodleverse
+  - /art/for-love
+  - /art/happy-sun
 signup_tag: Art
 grid_images:
   - "img/avalanche9000/choice1.jpg"

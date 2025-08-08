@@ -9,9 +9,9 @@ tags: ['NFT', 'For Sale']
 background_color: "black"
 color: "white"
 related:
-  - /posts/doodleverse
-  - /posts/for-love
-  - /posts/reverie
+  - /art/doodleverse
+  - /art/for-love
+  - /art/reverie
 slider_images:
   - "img/rdead/1.jpg"
   - "img/rdead/2.jpg"

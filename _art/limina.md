@@ -11,7 +11,7 @@ color: "white"
 related:
   - /art/doodleverse
   - /art/for-love
-  - /posts/universe-library
+  - /art/universe-library
 slider_images:
   - "img/limina/0.jpg"
   - "img/limina/1.jpg"

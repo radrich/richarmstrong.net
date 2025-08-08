@@ -9,9 +9,9 @@ tags: ['NFT', 'PFP', 'Doodleverse', 'For Sale']
 background_color: "black"
 color: "white"
 related:
-  - /posts/doodleverse
-  - /posts/for-love
-  - /posts/happy-sun
+  - /art/doodleverse
+  - /art/for-love
+  - /art/happy-sun
 slider_images:
   - "img/dreamheadz/1.jpg"
   - "img/dreamheadz/2.jpg"

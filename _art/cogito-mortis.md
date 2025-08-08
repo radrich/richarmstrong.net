@@ -9,9 +9,9 @@ tags: ['NFT', 'Death', 'Skulls', 'Poetry', 'Doodleverse', 'For Sale']
 background_color: "black"
 color: "white"
 related:
-  - /posts/nft
-  - /posts/doodleverse
-  - /posts/happy-sun
+  - /art/nft
+  - /art/doodleverse
+  - /art/happy-sun
 signup_tag: Art
 ---
 {% include img.liquid img="img/cogito-mortis-banner.jpg" %}

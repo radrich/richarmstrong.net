@@ -8,9 +8,9 @@ tags: ['NFT', 'Raptorz', 'Collabs', 'Doodleverse', 'For Sale']
 background_color: "#1371fd"
 color: "white"
 related:
-  - /posts/nft
-  - /posts/doodleverse
-  - /posts/happy-sun
+  - /art/nft
+  - /art/doodleverse
+  - /art/happy-sun
 signup_tag: Art
 ---
 {% include img.liquid img="img/raptorz-collab-banner.jpg" %}

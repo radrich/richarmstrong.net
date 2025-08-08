@@ -9,9 +9,9 @@ tags: ['Client Work', 'Mural', 'IRL']
 background_color: "black"
 color: "white"
 related:
-  - /posts/bloom-avalanche-summit-mural
-  - /posts/essential-glasses-coral-reef
-  - /posts/happy-sun
+  - /art/bloom-avalanche-summit-mural
+  - /art/essential-glasses-coral-reef
+  - /art/happy-sun
 free_art_images:
   - "img/esomar-congress-2023/free-art-1.jpg"
   - "img/esomar-congress-2023/free-art-2.jpg"

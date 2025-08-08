@@ -9,9 +9,9 @@ tags: ['NFT', 'Animation', 'Doodleverse', 'For Sale']
 background_color: "black"
 color: "white"
 related:
-  - /posts/doodleverse
-  - /posts/for-love
-  - /posts/dreamheadz
+  - /art/doodleverse
+  - /art/for-love
+  - /art/dreamheadz
 signup_tag: Art
 ---
 {% include img.liquid img="img/reverie/banner.jpg" %}

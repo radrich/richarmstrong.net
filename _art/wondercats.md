@@ -9,9 +9,9 @@ tags: ['NFT', 'Cats', 'Collabs', 'For Sale']
 background_color: "white"
 color: "black"
 related:
-  - /posts/nft
-  - /posts/doodleverse
-  - /posts/happy-sun
+  - /art/nft
+  - /art/doodleverse
+  - /art/happy-sun
 signup_tag: Art
 ---
 {% include img.liquid img="img/wondercats-banner.jpg" %}
