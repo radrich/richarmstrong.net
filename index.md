@@ -41,6 +41,9 @@ portfolio:
       img: ../img/doodleverse/6-cataglottism.png
       alt: ""
   col2:
+    - url: /phone-cover-happy-yellow
+      img: ../img/phone-covers/yellow-1.jpg
+      alt: ""
     - url: /limina
       img: ../img/limina/1.jpg
       alt: ""
@@ -64,9 +67,6 @@ portfolio:
       alt: ""
     - url: 
       img: ../img/turres/3-2-day.jpg
-      alt: ""
-    - url: /dreamheadz
-      img: ../img/dreamheadz/1.jpg
       alt: ""
   col3:
     - url: /avalanche9000
@@ -98,6 +98,6 @@ portfolio:
       alt: ""
 ---
 
-## Hey! I’m Rich
+# Hey! I’m Rich
 
-I’m a multi-hyphenate artist, writer, and creative coach living in Amsterdam. <br class="hide-when-mobile">I make bold, playful art and help other creatives get unstuck. **Pumped&nbsp;you’re&nbsp;here.**
+An artist, writer, and creative coach living in Amsterdam. <br class="hide-when-mobile">I make bold, playful art and help other creatives get unstuck. **Pumped&nbsp;you’re&nbsp;here.**

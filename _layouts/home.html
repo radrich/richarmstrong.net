@@ -7,8 +7,6 @@ layout: default
 
 <div class="content">
 	
-		{% include signup-callout.html class="full-width" %}
-	
 	{% comment %}{% include notice.html notice="Check this out" %}{% endcomment %}
 
 	<div class="center">
@@ -17,6 +15,8 @@ layout: default
 	
 	{% include related-items.html title=include.title items=page.start_here %}
 	
+	{% include signup-callout.html class="full-width" %}
+	
 	<h2><span>Recent</span><a href="/learn" class="cta">Show All</a></h2>
 	{% include related-items.html title=include.title items=page.recent %}
 	
@@ -24,7 +24,7 @@ layout: default
 	{%- assign items = site.learn | sort: 'popular' | reverse | slice: 0, 6 -%}
 	{%- include grid.html items=items -%}
 	
-	<h2><span>A few fav artworks</span><a href="/art" class="cta">Show More</a></h2>
+	<h2><span>A few fav artworks</span><a href="/art-all" class="cta">Show More</a></h2>
 	<div class="portfolio in-content">
 		{% for col in page.portfolio %}
 			<ul class="col">
