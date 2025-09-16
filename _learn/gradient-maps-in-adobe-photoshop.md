@@ -10,5 +10,5 @@ categories: ['Illustration', 'Graphic Design']
 tags: ['Photoshop', 'Gradient maps']
 type: ['Course']
 sitemap: true
-priority: 98
+priority: 50
 ---
