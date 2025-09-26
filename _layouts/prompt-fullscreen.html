@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body ontouchstart="">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8QZ2DBQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <div class="wrapper-fullscreen promptTimer">
+      {{ content }}
+      
+      <div class="prompt-timer">
+        <div class="timer-bar timerBar"></div>
+      </div>
+    </div>
+
+    {%- include footer-scripts.liquid -%}
+
+  </body>
+
+</html>
