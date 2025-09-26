@@ -18,11 +18,14 @@ for (var i=0; i < links.length; i++) {
   })
 }
 
-document.getElementById('menuBtn').addEventListener('click', function (e) {
-	document.getElementById('nav').classList.toggle('open');
-	document.body.classList.toggle('open');
-	return false;
-});
+var menuBtn = document.getElementById('menuBtn');
+if (menuBtn) {
+  menuBtn.addEventListener('click', function (e) {
+    document.getElementById('nav').classList.toggle('open');
+    document.body.classList.toggle('open');
+    return false;
+  });
+}
 
 /** fromTapTapKaboom */
 // Remove 'hidden' class from #fromTapTapKaboom if ?from=taptapkaboom is in the URL
@@ -401,6 +404,45 @@ var loadRandomItemsData = function (callback) {
     });
 };
 
+const TIMER_DURATION_SECONDS = 60;
+
+function startTimerAnimation() {
+  const bar = document.querySelector('.promptTimer .timerBar');
+  if (!bar) return;
+  
+  // load new words
+  loadRandomItemsData(function () {
+    replaceRandomItemsWithData();
+  });
+
+  // Reset the bar
+  bar.style.transition = 'none';
+  bar.style.width = '0%';
+
+  // Force reflow so transition applies correctly
+  bar.offsetWidth; // trigger reflow
+
+  // Animate the bar over the timer duration
+  bar.style.transition = `width ${TIMER_DURATION_SECONDS}s linear`;
+  bar.style.width = '100%';
+}
+
+// Run logic when .promptTimer exists
+function setupTimer() {
+  const timerEl = document.querySelector('.promptTimer');
+  if (!timerEl) return;
+
+  startTimerAnimation();
+
+  setInterval(() => {
+    startTimerAnimation();
+  }, TIMER_DURATION_SECONDS * 1000);
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  setupTimer();
+});
+
 /*
 $mobileMin: 499px;
 $mobileMax: 767px;
@@ -455,9 +497,3 @@ window.addEventListener('load', function(){
   	  })
   }
 })
-
-document.addEventListener('DOMContentLoaded', function () {
-    loadRandomItemsData(function () {
-        replaceRandomItemsWithData();
-    });
-});
