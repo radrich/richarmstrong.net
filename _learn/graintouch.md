@@ -46,6 +46,6 @@ Ready to rediscover the joy of digital art?
 Take the course and start creating print-inspired digital art today.
 
 ### Find the course on:
-- [Gumroad](https://heyrich.net/graintouch-gumraod)
+- [Gumroad](https://heyrich.net/graintouch-gum)
 - [Skillshare](https://heyrich.net/graintouch-sk)
 - [Udemy](https://heyrich.net/graintouch-udemy)
