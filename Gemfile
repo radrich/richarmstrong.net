@@ -23,6 +23,7 @@ group :jekyll_plugins do
   gem "csv"
   gem "logger"
   gem "base64"
+  gem "bigdecimal"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
