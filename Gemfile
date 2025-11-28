@@ -20,6 +20,8 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-dotenv"
   gem "jekyll-sitemap"
+  gem "csv"
+  gem "logger"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
