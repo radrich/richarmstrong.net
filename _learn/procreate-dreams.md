@@ -2,24 +2,27 @@
 title: "Procreate Dreams"
 subtitle: "Create Fun Animations on Your iPad"
 description: "Learn how to animate on your iPad with ease with Procreate’s new animation app: Procreate Dreams."
-date: 2026-01-16
+date: 2026-01-15
 image: "img/procreate-dreams/thumb.jpg"
 background_color: "#172367"
 color: "white"
 categories: ['Animation']
 tags: ['iPad', 'Procreate', 'Procreate Dreams']
-priority: 70
+priority: 99
 related:
   - /learn/procreate-animation
   - /learn/digital-marbling
-  - /learn/looom-class
+  - /learn/intro-to-looom
 type: ['Course']
 sitemap: true
 ---
 
-{% include video.html type="youtube" id='PwPKpOJ8dyE' caption="The introduction to **Procreate Dreams: Create Fun Animations on Your iPad**" %}
+<div class="center">
+  <p>In this class you’ll learn how to use Procreate Dreams to create fun animations on your iPad. Specifically, we’ll learn how to create frame by frame animations using Flipbooks and how to streamline our animation process using Keyframe and Performing modes inside of Procreate Dreams. Take the course <a href="https://heyrich.net/procreate-dreams">on Skillshare.</a></p>
+  <a href="https://heyrich.net/procreate-dreams" class="cta primary">Take the course</a>
+</div>
 
-In this class you’ll learn how to use Procreate Dreams to create fun animations on your iPad. Specifically, we’ll learn how to create frame by frame animations using Flipbooks and how to streamline our animation process using Keyframe and Performing modes inside of Procreate Dreams.
+{% include video.html type="youtube" id='PwPKpOJ8dyE' caption="The intro to the Procreate Dreams class." %}
 
 ### During the class you’ll learn how to:
 
@@ -50,7 +53,7 @@ I’ve been animating since 2006. I’ve used all kinds of apps to animate with:
 
 ### Is this class for you?
 
-I made this class for beginners. So that you could jump right in and start animating. I don’t proved too much instruction or theory. You’ll learn by following along.
+I made this class for beginners. So that you could jump right in and start animating. I don’t provide too much instruction or theory. You’ll learn by following along.
 
 ### What do you need?
 
@@ -58,7 +61,7 @@ I made this class for beginners. So that you could jump right in and start anima
 - Having the Procreate drawing app is optional. The class covers how to work with Procreate and Procreate Dreams.
 - Having an Apple Pencil is optional.
 
-**Are you ready to animate in Procreate Dreams?
+**Are you ready to animate in Procreate Dreams?  
 Let’s make things move.**
 
-**Find the class on [Skillshare](https://heyrich.net/procreate-dreams).**
+Find the class on [Skillshare](https://heyrich.net/procreate-dreams).
