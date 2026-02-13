@@ -11,7 +11,7 @@ date: 2024-11-29
 related:
   - /art/drippy-green-mural
   - /art/esomar-congress-2023
-  - /art/phone-cover-are-you-ugly
+  - /art/spro-takeaway-cups
 grid_images:
   - "img/spro/mural-1.jpg?v=1"
   - "img/spro/mural-2.jpg?v=1"
