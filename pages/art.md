@@ -140,6 +140,9 @@ portfolio:
     - url: /avalanche9000
       img: ../img/avalanche9000/main.jpg
       alt: ""
+    - url: /spro-takeaway-cups
+      img: ../img/spro/cup-still-1.jpg
+      alt: "SPRO takeaway cups"
     - url: /happy-sun
       img: ../img/hs/65.png
       alt: ""
