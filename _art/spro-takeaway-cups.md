@@ -33,7 +33,7 @@ The takeaway cups needed a distinct vibe—and to match [the muraled walls.](/sp
 With this style, mural painting and vector drawing are really similar.  
 These cups, along with a bunch of other collateral, are the bedrock of the SPRO vibe.
 
-<!-- Check out the reel [on Instagram.](https://www.instagram.com/p/DC9ODziipWp/) -->
+Check out the reel [on Instagram.](https://www.instagram.com/p/DUs1c2cjTlz/)
 
 {% include grid-images.html imgs=page.grid_images_1 %}
 {% include img.liquid img="img/spro/cup-landscape-3.jpg?v=1" %}
@@ -43,6 +43,6 @@ These cups, along with a bunch of other collateral, are the bedrock of the SPRO 
 {% include img.liquid img="img/spro/cup-landscape-2.jpg?v=1" %}
 
 ### Find the cups
-<!-- - On [Bēhance.](https://www.behance.net/gallery/213645133/SPRO-Doodle-Mural) -->
-<!-- - On [Instagram.](https://www.instagram.com/p/DC9ODziipWp/) -->
+- On [Bēhance.](https://www.behance.net/gallery/244085415/SPRO-Takeaway-Cups)
+- On [Instagram.](https://www.instagram.com/p/DUs1c2cjTlz/)
 - [IRL in Brighton & Hove.](https://maps.app.goo.gl/KnA7WeyhRmcquzkN8)
