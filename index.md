@@ -1,9 +1,9 @@
 ---
 layout: home
 recent:
+  - /learn/procreate-dreams
+  - /learn/28dp
   - /learn/unleash-your-creativity
-  - /learn/texture-in-procreate
-  - /learn/graintouch
 start_here:
   - /pages/art
   - /pages/learn
