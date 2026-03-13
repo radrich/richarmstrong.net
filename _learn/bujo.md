@@ -15,10 +15,11 @@ related:
   - /learn/productivity-with-purpose
   - /learn/just-start
 ---
+<div class="center">
+  <p>There’s a better way to be productive. A better way to combat overwhelm and anxiety. A better way to manage the ideas and thoughts and ideas and tasks and experiences and feelings running through your head.</p>
+	<a href="https://heyrich.net/bujo-class" class="cta primary">Take the class</a>
+</div>
 {% include video.html type="youtube" id='vOxOWCh39VY' caption="The intro to Bullet Journaling: Get Productive With Your Notebook" %}
-
-<script src="https://gumroad.com/js/gumroad.js"></script>
-<a class="gumroad-button" href="https://richarmstrong.gumroad.com/l/bujo-class" data-gumroad-overlay-checkout="true">Buy on</a>
 
 ## There’s got to be a better way
 Do you feel like there’s a better way to be productive than using a combination of apps, calendars, websites, paper lists, and post-it notes?
@@ -42,8 +43,8 @@ Rich has been using it since 2021. It’s been life-changing for him. He doesn�
 ​Over time he’s begun to work on, and accomplish, what matters most in his life.
 
 ### Where Can I Take the Class? {#options}
-You can purchase it from our Gumroad store.  
-<a class="gumroad-button" href="https://richarmstrong.gumroad.com/l/bujo-class" data-gumroad-overlay-checkout="true">€19 on</a>
+- On my [Gumroad store.](https://heyrich.net/bujo-class)
+- On [Skillshare.](https://heyrich.net/bujo-class-sk)
 
 ## ​What’s covered in this class?
 
@@ -65,7 +66,7 @@ You can purchase it from our Gumroad store.
 	img='img/bujo/banner2.png?v=2'
 	background_color='#fff7eb'
 	type='cover'
-	cta='Get The class'
+	cta='Take the class'
 	url='https://heyrich.net/bujo-class'
 	btn_text_color='inherit'
 	align='middle-right'
