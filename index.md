@@ -1,7 +1,7 @@
 ---
 layout: home
 recent:
-  - /learn/procreate-dreams
+  - /learn/creative-sailboat-reset
   - /learn/28dp
   - /learn/unleash-your-creativity
 start_here:

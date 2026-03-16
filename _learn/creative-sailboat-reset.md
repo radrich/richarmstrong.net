@@ -1,6 +1,6 @@
 ---
 title: "Creative Sailboat Reset"
-subtitle: "The 5-Step Method To Get Creating Again"
+subtitle: "Get Creating Again in 5 Steps"
 description: "Create beautiful gritty grainy printy looking art on your iPad"
 date: 2026-03-11
 image: "img/creative-sailboat-reset/thumb.jpg?v=2"
@@ -40,8 +40,6 @@ Whether you're a photographer, illustrator, writer, designer, musician, maker, o
 
 By the end of the Creative Sailboat Reset, you won't just feel inspired. You'll have a clear, personal plan for getting back to creating.
 
-**Here's what shifts:**
-
 **You'll stop drifting and start sailing.** Instead of being pulled in every direction by every shiny idea, you'll have one clear creative direction that's genuinely yours.
 
 **You'll ditch the guilt.** This course meets you exactly where you are. No judgement, no comparison, no pressure to be who you were or who someone else is.
@@ -56,29 +54,33 @@ By the end of the Creative Sailboat Reset, you won't just feel inspired. You'll 
 
 The Creative Sailboat Reset is built around five sailboat exercises, each one building on the last.
 
-**Here's what to expect:**
-
-**Precursor Exercise: Where Are You?** Finding Your Starting Point
+**Precursor Exercise: Where Are You?**  
+Finding Your Starting Point
 
 Before you can sail, you need to know where you're anchored. This opening lesson helps you acknowledge where you are right now—honestly and without judgement. It's an important step most people skip.
 
-**1. The Wind.** Identifying What Motivates You
+**1. The Wind.**  
+Identifying What Motivates You
 
 Motivation is gusty, inconsistent, and unpredictable—just like the wind. In this exercise, you'll capture what's genuinely exciting you right now (not what used to excite you, or what excites someone else) and learn how to use it.
 
-**2. Your Hull.** Energy and Capacity
+**2. Your Hull.**  
+Energy and Capacity
 
 A boat with a leak can't sail far. This lesson is about plugging the holes—sleep, mental load, digital overload, energy drains—so you can create without running on empty. Sometimes the most creative thing you can do is take care of yourself first.
 
-**3. Your Mast.** Your Creative Identity
+**3. Your Mast.**  
+Your Creative Identity
 
 Who do you want to be this season? Not forever—just for the next few weeks. Choosing a single creative identity (student, shipper, scientist, maker) gives you a mast to hang your sails from. This exercise alone can unlock huge clarity.
 
-**4. Your Rudder.** Choosing a Direction
+**4. Your Rudder.**  
+Choosing a Direction
 
 With a heading in mind, everything simplifies. You know what to say yes to and what to leave behind. In this exercise you'll choose one creative direction or destination for this season, and feel the relief that comes with it.
 
-**5. Your Sails.** Building Your One Habit
+**5. Your Sails.**  
+Building Your One Habit
 
 This is where momentum begins. You'll design one tiny, sustainable creative habit—anchored to a specific time and place—that catches your motivational wind and keeps you moving, even on low-energy days.
 
