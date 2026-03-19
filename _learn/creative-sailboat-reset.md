@@ -21,7 +21,7 @@ related:
   <p>Feel like you've lost your creative spark? Like you're drifting, stuck going in circles, or dragging your feet through every project? You're not broken. You're not lazy. You just need a reset.</p>
   
   <p>The Creative Sailboat Reset is a short, practical course for creatives who want to start making things again. Without the guilt, the pressure, or the overwhelm. Using a simple sailboat metaphor, it walks you through five powerful exercises that help you understand where you are, who you want to be, and how to move forward in a way that actually fits your life right now. Learn to find your wind and sail with it.</p>
-  <a href="https://heyrich.net/creative-reset-sk" class="cta primary">Take the course</a>
+  <a href="https://heyrich.net/creative-reset-gumraod" class="cta primary">Take the course</a>
 </div>
 
 {% include video.html type="youtube" id='9B0WItJ2kpU' caption="The intro to The Creative Sailboat Reset course." %}
@@ -102,3 +102,4 @@ Enrol in the Creative Sailboat Reset and start creating again—today.
 
 ### Find the course on:
 - [Skillshare](https://heyrich.net/creative-reset-sk)
+- [Gumroad](https://heyrich.net/creative-reset-gumroad)
